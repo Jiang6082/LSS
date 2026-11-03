@@ -2,7 +2,7 @@
 // Python-friendly title, US location, pay.
 
 const INTERN_RE = /\b(intern|interns|internship|internships|co-?op|summer (?:analyst|scholar|program|technology|engineer|developer|student|202\d)|student (?:researcher|program|analyst|engineer|developer|associate)|extern(?:ship)?|off[- ]?cycle|winternship|placement student|summer 202\d)\b/i;
-const NOT_INTERN_RE = /\b(new grad|new graduate|entry[- ]level|full[- ]time (?:analyst|associate|engineer|role|position|hire)|apprentice(?:ship)?|postdoc|post-doc|residency)\b/i;
+const NOT_INTERN_RE = /\b(new grad|new graduate|entry[- ]level|full[- ]time (?:analyst|associate|engineer|role|position|hire)|apprentice(?:ship)?|postdoc|post-doc|residency|high[- ]school|micro[- ]?internship|bootcamp|boot camp|insight (?:day|days|week|program|series)|discovery (?:day|program)|spring week|open house|early insight)\b/i;
 const SENIOR_RE = /\b(senior|sr\.?|staff|principal|lead|director|head of|vp|vice president)\b/i;
 const DEGREE_RE = /\b(ph\.?\s?d|phd|doctoral|doctorate|mba|m\.b\.a|j\.?d\.?\b|law school|legal|summer associate|medical|pharm\.?d|nursing|clinical|postgraduate)\b/i;
 const MASTERS_RE = /\b(master'?s|masters|ms\/phd|m\.s\.|graduate student|grad student)\b/i;
