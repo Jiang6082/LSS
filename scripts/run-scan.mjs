@@ -97,6 +97,8 @@ log.boards = { firmsWithLiveBoards: boardAudit.filter((b) => b.live.length).leng
 // 3. Title / company / location / term pre-screen
 const reject = {};
 const bump = (reason) => { reject[reason] = (reject[reason] || 0) + 1; };
+const payRejected = [];
+const notePay = (row, pay) => { if (payRejected.length < 400) payRejected.push({ company: row.Firm || row.Company, title: row.Title, pay: pay.text, hourly: pay.min, url: row.URL }); };
 const unlisted = new Map();
 const prefiltered = [];
 for (const row of [...agg.rows, ...boardRows]) {
@@ -120,7 +122,7 @@ for (const row of [...agg.rows, ...boardRows]) {
     continue;
   }
   const pay = parsePay(row.Pay);
-  if (pay && pay.min < minPay) { bump(`pay below $${minPay}/hr`); continue; }
+  if (pay && pay.min < minPay) { bump(`pay below $${minPay}/hr`); notePay({ ...row, Firm: firm.name }, pay); continue; }
   prefiltered.push({ ...row, Firm: firm.name, FirmCategory: firm.category, FirmTier: firm.tier, Track: role.track, US: loc });
 }
 step(`pre-screen: ${prefiltered.length} candidate postings`);
@@ -161,7 +163,7 @@ for (const row of enriched) {
   if (UNPAID_RE.test(row.Content || "")) { bump("unpaid"); continue; }
   if (advancedDegreeOnly(row.Content)) { bump("PhD/MBA required (description)"); continue; }
   const pay = parsePay(row.Pay) || parsePay(row.Content);
-  if (pay && pay.min < minPay) { bump(`pay below $${minPay}/hr`); continue; }
+  if (pay && pay.min < minPay) { bump(`pay below $${minPay}/hr`); notePay(row, pay); continue; }
   const verdict = classifyDates(row, config.window);
   const lang = languageFlags(row.Content);
   const out = {
@@ -240,7 +242,7 @@ log.rejected = Object.fromEntries(Object.entries(reject).sort((a, b) => b[1] - a
 log.durationSec = Math.round((Date.now() - started) / 1000);
 
 await writeReports({
-  out: OUT, config, log, roles: final, dateExcluded, gone, firstRun, boardAudit,
+  out: OUT, config, log, roles: final, dateExcluded, gone, firstRun, boardAudit, payRejected,
   unlisted: [...unlisted.values()].sort((a, b) => b.count - a.count).slice(0, 120),
   history,
 });
