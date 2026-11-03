@@ -1,74 +1,78 @@
-[0s] known firms: 1103; window 2027-07-13 -> 2027-09-30; min pay $30/hr
+[0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr
 [0s] aggregators: speedyapply_ai=780, speedyapply_swe=830, vanshb03=2012, simplify=5157
-[1s] ATS: scanning 742 firms (220 seeded; PTS seeds loaded 233 firms)
-ATS firms 50/742
-ATS firms 100/742
-ATS firms 150/742
-ATS firms 200/742
-ATS firms 250/742
-ATS firms 300/742
-ATS firms 350/742
-ATS firms 400/742
-ATS firms 450/742
-ATS firms 500/742
-ATS firms 550/742
-ATS firms 600/742
-ATS firms 650/742
-ATS firms 700/742
-[237s] ATS: 416 firms with live boards, 698 postings
-[237s] pre-screen: 3024 candidate postings
-[237s] detail fetch: 2569 unique postings
-details 50/2569
-details 100/2569
-details 150/2569
-details 200/2569
-details 250/2569
-details 300/2569
-details 350/2569
-details 400/2569
-details 450/2569
-details 500/2569
-details 550/2569
-details 600/2569
-details 650/2569
-details 700/2569
-details 750/2569
-details 800/2569
-details 850/2569
-details 900/2569
-details 950/2569
-details 1000/2569
-details 1050/2569
-details 1100/2569
-details 1150/2569
-details 1200/2569
-details 1250/2569
-details 1300/2569
-details 1350/2569
-details 1400/2569
-details 1450/2569
-details 1500/2569
-details 1550/2569
-details 1600/2569
-details 1650/2569
-details 1700/2569
-details 1750/2569
-details 1800/2569
-details 1850/2569
-details 1900/2569
-details 1950/2569
-details 2000/2569
-details 2050/2569
-details 2100/2569
-details 2150/2569
-details 2200/2569
-details 2250/2569
-details 2300/2569
-details 2350/2569
-details 2400/2569
-details 2450/2569
-details 2500/2569
-details 2550/2569
-[390s] detail results: html=637, error=35, greenhouse=364, workday=1033, lever=27, oracle=90, jsonld=257, ashby=79, smartrecruiters=21, closed=26
-[391s] classified: 1357 kept, 420 excluded by dates, 26 closed
-[391s] done: 0 fit, 13 flexible, 945 ask-about-dates
+[0s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)
+ATS firms 50/743
+ATS firms 100/743
+ATS firms 150/743
+ATS firms 200/743
+ATS firms 250/743
+ATS firms 300/743
+ATS firms 350/743
+ATS firms 400/743
+ATS firms 450/743
+ATS firms 500/743
+ATS firms 550/743
+ATS firms 600/743
+ATS firms 650/743
+ATS firms 700/743
+[162s] ATS: 419 firms with live boards, 739 postings
+[163s] pre-screen: 3239 candidate postings
+[163s] detail fetch: 2761 unique postings
+details 50/2761
+details 100/2761
+details 150/2761
+details 200/2761
+details 250/2761
+details 300/2761
+details 350/2761
+details 400/2761
+details 450/2761
+details 500/2761
+details 550/2761
+details 600/2761
+details 650/2761
+details 700/2761
+details 750/2761
+details 800/2761
+details 850/2761
+details 900/2761
+details 950/2761
+details 1000/2761
+details 1050/2761
+details 1100/2761
+details 1150/2761
+details 1200/2761
+details 1250/2761
+details 1300/2761
+details 1350/2761
+details 1400/2761
+details 1450/2761
+details 1500/2761
+details 1550/2761
+details 1600/2761
+details 1650/2761
+details 1700/2761
+details 1750/2761
+details 1800/2761
+details 1850/2761
+details 1900/2761
+details 1950/2761
+details 2000/2761
+details 2050/2761
+details 2100/2761
+details 2150/2761
+details 2200/2761
+details 2250/2761
+details 2300/2761
+details 2350/2761
+details 2400/2761
+details 2450/2761
+details 2500/2761
+details 2550/2761
+details 2600/2761
+details 2650/2761
+details 2700/2761
+details 2750/2761
+[338s] detail results: html=663, error=36, greenhouse=378, workday=1104, lever=54, oracle=103, jsonld=278, ashby=79, smartrecruiters=40, closed=26
+[339s] classified: 1471 kept, 459 excluded by dates, 26 closed
+[339s] done: 0 fit, 13 flexible, 1030 ask-about-dates

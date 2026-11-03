@@ -1,15 +1,15 @@
 {
-  "scannedAt": "2026-11-03T17:03:00.030Z",
+  "scannedAt": "2026-11-03T17:21:15.491Z",
   "steps": [
-    "[0s] known firms: 1103; window 2027-07-13 -> 2027-09-30; min pay $30/hr",
+    "[0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr",
     "[0s] aggregators: speedyapply_ai=780, speedyapply_swe=830, vanshb03=2012, simplify=5157",
-    "[1s] ATS: scanning 742 firms (220 seeded; PTS seeds loaded 233 firms)",
-    "[237s] ATS: 416 firms with live boards, 698 postings",
-    "[237s] pre-screen: 3024 candidate postings",
-    "[237s] detail fetch: 2569 unique postings",
-    "[390s] detail results: html=637, error=35, greenhouse=364, workday=1033, lever=27, oracle=90, jsonld=257, ashby=79, smartrecruiters=21, closed=26",
-    "[391s] classified: 1357 kept, 420 excluded by dates, 26 closed",
-    "[391s] done: 0 fit, 13 flexible, 945 ask-about-dates"
+    "[0s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)",
+    "[162s] ATS: 419 firms with live boards, 739 postings",
+    "[163s] pre-screen: 3239 candidate postings",
+    "[163s] detail fetch: 2761 unique postings",
+    "[338s] detail results: html=663, error=36, greenhouse=378, workday=1104, lever=54, oracle=103, jsonld=278, ashby=79, smartrecruiters=40, closed=26",
+    "[339s] classified: 1471 kept, 459 excluded by dates, 26 closed",
+    "[339s] done: 0 fit, 13 flexible, 1030 ask-about-dates"
   ],
   "errors": [],
   "sources": {
@@ -26,7 +26,7 @@
     "vanshb03": {
       "ok": true,
       "rows": 2012,
-      "bytes": 1409578
+      "bytes": 1410585
     },
     "simplify": {
       "ok": true,
@@ -36,11 +36,9 @@
   },
   "ptsSeeds": "loaded 233 firms",
   "boards": {
-    "firmsWithLiveBoards": 416,
-    "postings": 698,
+    "firmsWithLiveBoards": 419,
+    "postings": 739,
     "failedSeeds": [
-      "Palantir lever:palantir",
-      "Mistral AI lever:mistral",
       "Anysphere ashby:anysphere",
       "Tempus greenhouse:tempus",
       "Chainalysis greenhouse:chainalysis",
@@ -50,37 +48,37 @@
     ]
   },
   "detailStats": {
-    "html": 637,
-    "error": 35,
-    "greenhouse": 364,
-    "workday": 1033,
-    "lever": 27,
-    "oracle": 90,
-    "jsonld": 257,
+    "html": 663,
+    "error": 36,
+    "greenhouse": 378,
+    "workday": 1104,
+    "lever": 54,
+    "oracle": 103,
+    "jsonld": 278,
     "ashby": 79,
-    "smartrecruiters": 21,
+    "smartrecruiters": 40,
     "closed": 26
   },
   "funnel": {
     "aggregatorRows": 8779,
-    "boardRows": 698,
-    "prefiltered": 3024,
-    "uniqueUrls": 2569,
-    "enriched": 2569,
+    "boardRows": 739,
+    "prefiltered": 3239,
+    "uniqueUrls": 2761,
+    "enriched": 2761,
     "closed": 26,
-    "kept": 1357,
-    "roles": 958,
-    "dateExcluded": 420
+    "kept": 1471,
+    "roles": 1043,
+    "dateExcluded": 459
   },
   "rejected": {
-    "not on known-firm list": 2042,
+    "not on known-firm list": 1868,
     "hardware": 841,
     "outside US": 763,
     "term: term year ####": 761,
     "outside SWE/PM/data/finance": 707,
-    "pay below $30/hr": 506,
+    "pay below $30/hr": 545,
+    "dates: posted dates conflict": 392,
     "PhD / MBA / law / medical": 359,
-    "dates: posted dates conflict": 357,
     "term: winter term": 272,
     "term: spring term": 238,
     "PhD/MBA required (description)": 235,
@@ -93,7 +91,7 @@
     "senior / manager title": 31,
     "closed (verified)": 26,
     "outside US (detail)": 26,
-    "dates: co-op with no dates (usually 4-6 months)": 17,
+    "dates: co-op with no dates (usually 4-6 months)": 21,
     "new grad / full-time": 7,
     "outside US (title)": 6,
     "dates: 26-week assignment": 5,
@@ -106,5 +104,5 @@
     "unpaid": 1,
     "dates: 22-week assignment": 1
   },
-  "durationSec": 391
+  "durationSec": 339
 }
