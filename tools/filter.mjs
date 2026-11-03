@@ -108,14 +108,16 @@ function toNumber(raw, k) {
   return k ? n * 1000 : n;
 }
 
-function toHourly(value, unit) {
+const NOT_WAGE_RE = /stipend|bonus|relocation|housing|reimburs|allowance|credit|401|benefit|tuition|sign(?:ing|-on)|gift|equity|stock|budget|scholarship|award|prize|donat|raised|fund/i;
+
+function toHourly(value, unit, ctx = "") {
   const u = (unit || "").toLowerCase();
   if (/^h/.test(u)) return value;
   if (/^w/.test(u)) return value / 40;
   if (/^mo/.test(u)) return value / 173;
   if (/^(y|an)/.test(u)) return value / 2080;
   if (value >= 15 && value < 300) return value;
-  if (value >= 2000 && value < 20000) return value / 173;
+  if (value >= 2000 && value < 20000) return /month|monthly|\/mo\b/i.test(ctx) ? value / 173 : null;
   if (value >= 20000) return value / 2080;
   return null;
 }
@@ -126,11 +128,16 @@ export function parsePay(text = "") {
   const found = [];
   for (const m of s.matchAll(PAY_RE)) {
     const ctx = s.slice(Math.max(0, m.index - 80), m.index + m[0].length + 30);
+    // Same-sentence neighbourhood only, so a stipend in the previous sentence doesn't veto real pay.
+    const pre = s.slice(Math.max(0, m.index - 50), m.index);
+    const post = s.slice(m.index + m[0].length, m.index + m[0].length + 40);
+    const near = `${pre.slice(pre.search(/[^.;]*$/))} ${m[0]} ${post.split(/[.;]/)[0]}`;
     if (!m[5] && !PAY_CONTEXT_RE.test(ctx)) continue;
+    if (NOT_WAGE_RE.test(near)) continue; // "$2,500 housing stipend", "$5,000 signing bonus"
     if (/million|billion|\bm\b|\bbn\b|revenue|funding|raised|valuation|aum|assets under/i.test(s.slice(m.index, m.index + m[0].length + 15))) continue;
     const lo = toNumber(m[1], m[2]);
     const hi = m[3] ? toNumber(m[3], m[4]) : lo;
-    const hLo = toHourly(lo, m[5]); const hHi = toHourly(hi, m[5]);
+    const hLo = toHourly(lo, m[5], ctx); const hHi = toHourly(hi, m[5], ctx);
     if (hLo == null || hLo < 10 || hLo > 250) continue;
     found.push({ min: Math.round(hLo), max: Math.round(hHi ?? hLo), text: m[0].trim() });
   }
