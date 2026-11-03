@@ -1,0 +1,107 @@
+{
+  "scannedAt": "2026-11-03T16:30:27.061Z",
+  "steps": [
+    "[0s] known firms: 1103; window 2027-07-13 -> 2027-09-30; min pay $30/hr",
+    "[0s] aggregators: speedyapply_ai=780, speedyapply_swe=830, vanshb03=2012, simplify=5157",
+    "[1s] ATS: scanning 742 firms (220 seeded; PTS seeds loaded 233 firms)",
+    "[188s] ATS: 417 firms with live boards, 743 postings",
+    "[188s] pre-screen: 3078 candidate postings",
+    "[188s] detail fetch: 2620 unique postings",
+    "[334s] detail results: html=633, greenhouse=367, workday=1055, lever=58, oracle=90, jsonld=254, error=39, ashby=79, smartrecruiters=21, closed=24",
+    "[335s] classified: 1701 kept, 354 excluded by dates, 24 closed",
+    "[335s] done: 50 fit, 87 flexible, 1083 ask-about-dates"
+  ],
+  "errors": [],
+  "sources": {
+    "speedyapply_ai": {
+      "ok": true,
+      "rows": 780,
+      "bytes": 258845
+    },
+    "speedyapply_swe": {
+      "ok": true,
+      "rows": 830,
+      "bytes": 273045
+    },
+    "vanshb03": {
+      "ok": true,
+      "rows": 2012,
+      "bytes": 1409578
+    },
+    "simplify": {
+      "ok": true,
+      "rows": 5157,
+      "bytes": 13162934
+    }
+  },
+  "ptsSeeds": "loaded 233 firms",
+  "boards": {
+    "firmsWithLiveBoards": 417,
+    "postings": 743,
+    "failedSeeds": [
+      "Netflix eightfold:explore.jobs.netflix.net/netflix.com",
+      "Anysphere ashby:anysphere",
+      "Tempus greenhouse:tempus",
+      "Chainalysis greenhouse:chainalysis",
+      "Retool greenhouse:retool",
+      "HashiCorp greenhouse:hashicorp",
+      "dbt Labs greenhouse:dbtlabsinc"
+    ]
+  },
+  "detailStats": {
+    "html": 633,
+    "greenhouse": 367,
+    "workday": 1055,
+    "lever": 58,
+    "oracle": 90,
+    "jsonld": 254,
+    "error": 39,
+    "ashby": 79,
+    "smartrecruiters": 21,
+    "closed": 24
+  },
+  "funnel": {
+    "aggregatorRows": 8779,
+    "boardRows": 743,
+    "prefiltered": 3078,
+    "uniqueUrls": 2620,
+    "enriched": 2620,
+    "closed": 24,
+    "kept": 1701,
+    "roles": 1220,
+    "dateExcluded": 354
+  },
+  "rejected": {
+    "not on known-firm list": 2043,
+    "hardware": 841,
+    "term: term year ####": 767,
+    "outside US": 765,
+    "outside SWE/PM/data/finance": 707,
+    "pay below $30/hr": 513,
+    "PhD / MBA / law / medical": 359,
+    "dates: posted dates conflict": 289,
+    "term: winter term": 272,
+    "term: spring term": 238,
+    "non-Python stack in title": 131,
+    "not an internship": 118,
+    "no matching track": 73,
+    "dates: fall-only term (usually runs past Oct 1)": 40,
+    "term: winter/spring term": 39,
+    "master's only": 38,
+    "senior / manager title": 31,
+    "outside US (detail)": 29,
+    "closed (verified)": 24,
+    "dates: co-op with no dates (usually 4-6 months)": 17,
+    "new grad / full-time": 7,
+    "dates: 26-week assignment": 6,
+    "term: 35-week assignment": 4,
+    "term: posted dates Jan - Aug": 4,
+    "term: 26-week assignment": 3,
+    "term: spring/winter term": 1,
+    "term: posted dates Jun - Aug": 1,
+    "unpaid": 1,
+    "dates: 22-week assignment": 1,
+    "dates: 52-week assignment": 1
+  },
+  "durationSec": 335
+}

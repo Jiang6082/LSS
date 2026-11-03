@@ -1,0 +1,5 @@
+
+> lss@0.1.0 test
+> node tools/selftest.mjs
+
+selftest: all 101 checks passed
