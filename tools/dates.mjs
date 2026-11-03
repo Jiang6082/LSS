@@ -54,7 +54,7 @@ const START_WINDOW_RE = /start dates|start dates? (?:are |is )?(?:available|offe
 const CONNECTOR_RE = /^\s*(?:-|–|—|~|to|through|thru|until|till|into)\s*$/i;
 const AND_CONNECTOR_RE = /^\s*and\s*$/i;
 
-export const FLEX_RE = new RegExp([
+export const FLEX_RE = new RegExp(`\\b(?:${[
   String.raw`flexible (?:start|starting|internship (?:start|dates)|dates|summer (?:dates|start))`,
   String.raw`start(?:ing)? dates? (?:is |are |can be |will be )?(?:flexible|negotiable|discussed|determined|tbd|to be (?:discussed|determined))`,
   String.raw`flexib(?:le|ility) (?:in|on|with|around|regarding|for) (?:your |the |our )?(?:start|dates|timing|internship dates)`,
@@ -63,9 +63,9 @@ export const FLEX_RE = new RegExp([
   String.raw`off[- ]?cycle`, String.raw`choose (?:your|a|their) (?:own )?start date`,
   String.raw`(?:start|dates?) (?:can|may) vary`,
   String.raw`length (?:and|&) (?:start|timing) (?:are |is )?flexible`, String.raw`(?:duration|length) (?:is |are )?flexible`,
-].join("|"), "i");
+].join("|")})`, "i");
 // Weak signals (a Summer/Fall option exists) do not override dates the posting states.
-export const WEAK_FLEX_RE = /summer\s*(?:\/|or|&|and)\s*fall|late[- ]summer/i;
+export const WEAK_FLEX_RE = /\b(?:summer\s*(?:\/|or|&|and)\s*fall|late[- ]summer)\b/i;
 
 const DURATION_RE = /\b(\d{1,2}|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen)(?:\s*(?:-|–|to|or)\s*(\d{1,2}|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen))?[\s-]*(weeks?|wks?|months?)(?![a-z])/gi;
 const DURATION_CONTEXT_RE = /intern|program|internship|duration|long|summer|term|session|assignment|placement|co-?op|rotation|full[- ]time for/i;
@@ -111,12 +111,16 @@ function tokenTime(tok, role, year) {
 // Extracts date ranges, start dates, end dates, durations and flexibility signals.
 export function extractDateFacts(text = "", { year = 2027 } = {}) {
   const facts = { ranges: [], starts: [], ends: [], startWindows: [], weeks: [], flexible: false, flexEvidence: "", evidence: [] };
-  const flexMatch = String(text).match(FLEX_RE);
-  if (flexMatch) { facts.flexible = true; facts.flexEvidence = flexMatch[0]; }
-  const weakMatch = String(text).match(WEAK_FLEX_RE);
-  if (weakMatch) { facts.weakFlexible = true; facts.weakFlexEvidence = weakMatch[0]; }
   for (const sentence of splitSentences(text)) {
     const skip = SKIP_RE.test(sentence) && !OVERRIDE_RE.test(sentence);
+    if (!skip && !facts.flexible) {
+      const m = sentence.match(FLEX_RE);
+      if (m) { facts.flexible = true; facts.flexEvidence = m[0]; facts.flexSentence = sentence; }
+    }
+    if (!skip && !facts.weakFlexible) {
+      const m = sentence.match(WEAK_FLEX_RE);
+      if (m) { facts.weakFlexible = true; facts.weakFlexEvidence = m[0]; facts.weakFlexSentence = sentence; }
+    }
     if (DURATION_CONTEXT_RE.test(sentence) && !/vacation|pto|paid time off|holiday|notice|parental|leave|per year|within/i.test(sentence)) {
       for (const d of sentence.matchAll(DURATION_RE)) {
         const a = numOf(d[1]); const b = numOf(d[2]);
@@ -268,13 +272,12 @@ export function classifyDates(job, window = DEFAULT_WINDOW) {
   const flex = pick("flex");
   if (flex) return result("flex", flex.note || "near your window", { dates: flex.dates, evidence: flex.evidence });
   const conflict = pick("conflict");
-  if (conflict && facts.flexible) return result("flex", `listed ${conflict.dates}, but posting says "${facts.flexEvidence}"`, { dates: conflict.dates, evidence: `${conflict.evidence} … ${splitSentences(text).find((x) => FLEX_RE.test(x)) || ""}` });
+  if (conflict && facts.flexible) return result("flex", `listed ${conflict.dates}, but posting says "${facts.flexEvidence}"`, { dates: conflict.dates, evidence: `${conflict.evidence} … ${facts.flexSentence || ""}` });
   if (conflict) return result("exclude", `posted dates ${conflict.dates}`, { dates: conflict.dates, evidence: conflict.evidence });
 
   // 3. No usable dates in the posting.
-  const sentenceWith = (re) => splitSentences(text).find((x) => re.test(x)) || "";
-  if (facts.flexible || terms.offCycle) return result("flex", `posting says "${facts.flexEvidence || "off-cycle"}"`, { dates: "flexible", evidence: sentenceWith(facts.flexible ? FLEX_RE : /off[- ]?cycle/i) });
-  if (facts.weakFlexible) return result("flex", `posting mentions "${facts.weakFlexEvidence}"`, { dates: "", evidence: sentenceWith(WEAK_FLEX_RE) });
+  if (facts.flexible || terms.offCycle) return result("flex", `posting says "${facts.flexEvidence || "off-cycle"}"`, { dates: "flexible", evidence: facts.flexSentence || job.Title || "" });
+  if (facts.weakFlexible) return result("flex", `posting mentions "${facts.weakFlexEvidence}"`, { dates: "", evidence: facts.weakFlexSentence || "" });
   if (fallOnly) return result("exclude", "fall-only term (usually runs past Oct 1)");
   if (terms.coop && !seasons.has("summer")) return result("exclude", "co-op with no dates (usually 4-6 months)");
   if (weeks && weeks >= 20) return result("exclude", `${weeks}-week assignment`);
