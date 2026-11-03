@@ -25,7 +25,11 @@ export function jsonLdJobPosting(html = "") {
     const unit = String(v.unitText || item.baseSalary?.unitText || "").toLowerCase();
     const pay = v.minValue || v.value ? `$${v.minValue ?? v.value}${v.maxValue ? ` - $${v.maxValue}` : ""} per ${unit || "?"} pay` : "";
     const validThrough = item.validThrough ? Date.parse(item.validThrough) : NaN;
-    return { content: stripHtml(item.description || ""), location, pay, expired: Number.isFinite(validThrough) && validThrough < Date.now() - 2 * 86400000 };
+    // Qualifications often live outside "description" (e.g. "Currently pursuing a PhD").
+    const extra = ["responsibilities", "qualifications", "educationRequirements", "experienceRequirements", "skills"]
+      .map((k) => item[k]).flat().filter(Boolean)
+      .map((v) => (typeof v === "string" ? v : v.credentialCategory || v.description || v.name || "")).join(" . ");
+    return { content: stripHtml(`${item.description || ""} . ${extra}`), location, pay, expired: Number.isFinite(validThrough) && validThrough < Date.now() - 2 * 86400000 };
   }
   return null;
 }
