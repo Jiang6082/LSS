@@ -15,64 +15,64 @@ ATS firms 550/743
 ATS firms 600/743
 ATS firms 650/743
 ATS firms 700/743
-[162s] ATS: 419 firms with live boards, 739 postings
-[163s] pre-screen: 3239 candidate postings
-[163s] detail fetch: 2761 unique postings
-details 50/2761
-details 100/2761
-details 150/2761
-details 200/2761
-details 250/2761
-details 300/2761
-details 350/2761
-details 400/2761
-details 450/2761
-details 500/2761
-details 550/2761
-details 600/2761
-details 650/2761
-details 700/2761
-details 750/2761
-details 800/2761
-details 850/2761
-details 900/2761
-details 950/2761
-details 1000/2761
-details 1050/2761
-details 1100/2761
-details 1150/2761
-details 1200/2761
-details 1250/2761
-details 1300/2761
-details 1350/2761
-details 1400/2761
-details 1450/2761
-details 1500/2761
-details 1550/2761
-details 1600/2761
-details 1650/2761
-details 1700/2761
-details 1750/2761
-details 1800/2761
-details 1850/2761
-details 1900/2761
-details 1950/2761
-details 2000/2761
-details 2050/2761
-details 2100/2761
-details 2150/2761
-details 2200/2761
-details 2250/2761
-details 2300/2761
-details 2350/2761
-details 2400/2761
-details 2450/2761
-details 2500/2761
-details 2550/2761
-details 2600/2761
-details 2650/2761
-details 2700/2761
-details 2750/2761
-[338s] detail results: html=663, error=36, greenhouse=378, workday=1104, lever=54, oracle=103, jsonld=278, ashby=79, smartrecruiters=40, closed=26
-[339s] classified: 1471 kept, 459 excluded by dates, 26 closed
-[339s] done: 0 fit, 13 flexible, 1030 ask-about-dates
+[171s] ATS: 419 firms with live boards, 738 postings
+[171s] pre-screen: 3240 candidate postings
+[171s] detail fetch: 2763 unique postings
+details 50/2763
+details 100/2763
+details 150/2763
+details 200/2763
+details 250/2763
+details 300/2763
+details 350/2763
+details 400/2763
+details 450/2763
+details 500/2763
+details 550/2763
+details 600/2763
+details 650/2763
+details 700/2763
+details 750/2763
+details 800/2763
+details 850/2763
+details 900/2763
+details 950/2763
+details 1000/2763
+details 1050/2763
+details 1100/2763
+details 1150/2763
+details 1200/2763
+details 1250/2763
+details 1300/2763
+details 1350/2763
+details 1400/2763
+details 1450/2763
+details 1500/2763
+details 1550/2763
+details 1600/2763
+details 1650/2763
+details 1700/2763
+details 1750/2763
+details 1800/2763
+details 1850/2763
+details 1900/2763
+details 1950/2763
+details 2000/2763
+details 2050/2763
+details 2100/2763
+details 2150/2763
+details 2200/2763
+details 2250/2763
+details 2300/2763
+details 2350/2763
+details 2400/2763
+details 2450/2763
+details 2500/2763
+details 2550/2763
+details 2600/2763
+details 2650/2763
+details 2700/2763
+details 2750/2763
+[334s] detail results: html=667, error=35, greenhouse=377, workday=1103, lever=55, oracle=104, jsonld=276, ashby=81, smartrecruiters=40, closed=25
+[335s] classified: 1616 kept, 532 excluded by dates, 25 closed
+[335s] done: 0 fit, 19 flexible, 1132 ask-about-dates

@@ -1,6 +1,6 @@
 # Scan audit
 
-Scan: 2026-11-03T17:21:15.491Z · 339s
+Scan: 2026-11-03T17:32:11.027Z · 335s
 
 ## Sources
 
@@ -10,34 +10,34 @@ Scan: 2026-11-03T17:21:15.491Z · 339s
 | speedyapply_swe | ok | 830 |
 | vanshb03 | ok | 2012 |
 | simplify | ok | 5157 |
-| Official ATS boards | 419 firms live | 739 |
+| Official ATS boards | 419 firms live | 738 |
 
 PTS seed sharing: loaded 233 firms
 
 ## Funnel
 
 - aggregatorRows: 8779
-- boardRows: 739
-- prefiltered: 3239
-- uniqueUrls: 2761
-- enriched: 2761
-- closed: 26
-- kept: 1471
-- roles: 1043
-- dateExcluded: 459
+- boardRows: 738
+- prefiltered: 3240
+- uniqueUrls: 2763
+- enriched: 2763
+- closed: 25
+- kept: 1616
+- roles: 1151
+- dateExcluded: 532
 
 ## Detail fetch results
 
-- html: 663
-- error: 36
-- greenhouse: 378
-- workday: 1104
-- lever: 54
-- oracle: 103
-- jsonld: 278
-- ashby: 79
+- html: 667
+- error: 35
+- greenhouse: 377
+- workday: 1103
+- lever: 55
+- oracle: 104
+- jsonld: 276
+- ashby: 81
 - smartrecruiters: 40
-- closed: 26
+- closed: 25
 
 ## Rejections by reason
 
@@ -46,25 +46,25 @@ PTS seed sharing: loaded 233 firms
 - outside US: 763
 - term: term year ####: 761
 - outside SWE/PM/data/finance: 707
-- pay below $30/hr: 545
-- dates: posted dates conflict: 392
+- dates: posted dates conflict: 457
 - PhD / MBA / law / medical: 359
+- pay below $30/hr: 328
 - term: winter term: 272
 - term: spring term: 238
 - PhD/MBA required (description): 235
 - non-Python stack in title: 142
 - not an internship: 118
 - no matching track: 73
-- dates: fall-only term (usually runs past Oct 1): 40
+- dates: fall-only term (usually runs past Oct 1): 41
 - term: winter/spring term: 39
 - master's only: 38
 - senior / manager title: 31
-- closed (verified): 26
+- dates: co-op with no dates (usually 4-6 months): 27
 - outside US (detail): 26
-- dates: co-op with no dates (usually 4-6 months): 21
+- closed (verified): 25
 - new grad / full-time: 7
 - outside US (title): 6
-- dates: 26-week assignment: 5
+- dates: 26-week assignment: 6
 - term: 35-week assignment: 4
 - term: posted dates Jan - Aug: 4
 - term: 26-week assignment: 3
@@ -201,19 +201,13 @@ Add any you recognise to `inputs/known_firms.json`.
 | Arcesium | 4 | [Product Management Intern](https://job-boards.greenhouse.io/arcesiumllc/jobs/5257266007) |
 | Bracebridge Capital | 4 | [Software Engineer: Business Intelligence Co-op](https://job-boards.greenhouse.io/bracebridgecapital/jobs/4744999005) |
 
-## Dropped for pay below $30/hr (400+)
+## Dropped for pay below $30/hr (328)
 
 The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json to keep these.
 
 | Company | Role | Pay text | ≈ $/hr |
 |---|---|---|---|
-| Shield AI | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/shieldai/661d7ac4-51df-454d-82c8-2a0d94852036) | $25 – $75 per hour | 25 |
-| Shield AI | [Software Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/shield/661d7ac4-51df-454d-82c8-2a0d94852036) | $25 – $75 per hour | 25 |
-| Rockwell Automation | [Embedded Software Engineer Co-op](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473) | $22 - $32 | 22 |
 | McKesson | [Technology Intern](https://mckesson.wd3.myworkdayjobs.com/sourcer_on_req/job/USA-OH-Columbus/CMM-Technology-Intern---Summer-2027_JR0151979) | $16.50 - $27.50 | 17 |
-| LPL Financial | [Software Engineer Intern](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921) | $25.00-$30.00 per hour | 25 |
-| LPL Financial | [Product Intern - Product](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918) | $25.00-$30.00 per hour | 25 |
-| LPL Financial | [Data Engineer Intern - Data](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914) | $25.00-$30.00 per hour | 25 |
 | TikTok | [Product Operations Intern - TikTok Shop Apps and API](https://lifeattiktok.com/search/7669705525866383621) | $28.5- $28.5 | 29 |
 | GE | [Aerospace Engineering Engines Co-op - Computer or Software Engineering](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Engines-Engineering-Co-op---Computer-or-Software-Engineering---US---Fall-2027_R5029637-1) | $20/hour | 20 |
 | GE | [Project Engineer Intern - Summer 2027](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050023-1) | $21.00/hr | 21 |
@@ -223,8 +217,6 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | BNY | [Data Science Intern - Engineering](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81238) | $52,000 an | 25 |
 | BNY | [Data Science Intern - Engineering](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81240) | $52,000 an | 25 |
 | BNY | [Software Developer Intern - Engineering](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81253) | $52,000 an | 25 |
-| Procter & Gamble | [Data & AI Engineering Intern](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Data---AI-Engineering-Internship_R000157499) | $29.00 - $50.00 / hour | 29 |
-| Procter & Gamble | [Data Scientist Intern](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Data-Scientist--Master-s-Degree--Internship_R000157504) | $29.00 - $50.00 / hour | 29 |
 | TikTok | [Client Solutions Intern - Global Business Solutions](https://lifeattiktok.com/search/7677467375486765317) | $25- $25 | 25 |
 | TikTok | [Client Solutions Intern - Global Business Solutions](https://lifeattiktok.com/search/7677467375487486213) | $23.75- $23.75 | 24 |
 | TikTok | [Client Solutions Intern](https://lifeattiktok.com/search/7677467052537776437) | $25- $25 | 25 |
@@ -246,9 +238,6 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Stryker | [Software Engineering Intern - Multiple Teams](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631) | $ 20 | 20 |
 | Stryker | [Software Engineering Intern - Software Engineering](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1) | $ 20 | 20 |
 | Stryker | [Software Engineering Intern - Multiple Teams](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624) | $ 20 | 20 |
-| CACI | [Software Engineer Co-op - Summer & Fall 2027](https://caci.wd1.myworkdayjobs.com/external/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354) | $45,900 - $91,900 | 22 |
-| Travelers | [Business Insights & Analytics Intern - BI&A LDP](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Business-Insights---Analytics-Leadership-Development-Program--BI-A-LDP--Intern_R-52304) | $28.00 - $30.00 | 28 |
-| Trane Technologies | [AI & Analytics Intern](https://careers.tranetechnologies.com/global/en/job/JR-7591) | $22.50 - $30.00 | 23 |
 | Booz Allen Hamilton | [Systems Engineer Intern](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/University---2027-Summer-Games-Systems-Engineer-Intern---San-Diego--CA_R0248365) | $52,900 | 25 |
 | Booz Allen Hamilton | [Systems Engineer Intern - Summer Games](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Systems-Engineer-Intern---Honolulu--HI_R0248370) | $52,900 | 25 |
 | Booz Allen Hamilton | [Systems Engineer Intern - University](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University---2027-Summer-Games-Systems-Engineer-Intern---Charleston--SC_R0248369) | $52,900 | 25 |
@@ -274,26 +263,16 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Johns Hopkins Applied Physics Laboratory | [Acoustic Algorithm Development Engineer Intern](https://careers.jhuapl.edu/jobs/59784?icims=1) | $22.60 Hour | 23 |
 | GE | [Engines Engineering Intern - Computer or Software Engineering](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Engines-Engineering-Intern---Computer-or-Software-Engineering---US---Summer-2027_R5029622-1) | $20/hour | 20 |
 | SurveyMonkey | [Data Science Intern - Enterprise Reporting & Analytics](https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Enterprise-Reporting---Analytics---Data-Science_R9807-1) | $22.00 - $26.00 | 22 |
-| Caterpillar | [Corporate Intern - Autonomy & Intelligent Systems Engineering](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Mossville-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Autonomy---Intelligent-Systems-Engineering_R0000392394) | $25.00 - $43.00 | 25 |
-| Procter & Gamble | [IT Engineering Internship - Software, Platform, Network](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering-Internship--Software--Platform----Network-_R000157503) | $29.00 - $50.00 / hour | 29 |
 | GE | [Project Engineer Intern - Summer 2027](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050026-1) | $21.00/hr | 21 |
 | GE | [Project Engineer Intern - Summer 2027](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050026-2) | $21.00/hr | 21 |
-| Merck | [Co-op](https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Workplace---Enterprise-Services-Global-Real-Estate--GRES--Co-op_R415296) | $39,908 - $111,111 | 19 |
 | Rocket Lab | [Flight Software Intern](https://job-boards.greenhouse.io/rocketlab/jobs/7989722003) | $27 - $27 | 27 |
 | Rocket Lab | [Flight Software Intern](https://job-boards.greenhouse.io/rocketlab/jobs/7989724003) | $27 - $27 | 27 |
-| Walmart | [Data Science Intern 3](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/Summer-2027-Intern---Data-Science-III_R-2630030) | $23.00 - $45.00 | 23 |
 | Danaher | [Data Analytics Intern](https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Logan-Utah-United-States/Data-Analytics-Intern-Summer-2027_R1317525) | $25.00 | 25 |
 | Booz Allen Hamilton | [Systems Engineer Intern - Summer Games](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Systems-Engineer-Intern---Huntsville--AL_R0249188) | $52,900 | 25 |
 | Emerson | [Software Engineer Co-op](https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26010738) | $24-$28 | 24 |
-| Walmart | [Software Engineer 2 Intern](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-ISD-Office---DGTC-AR-BENTONVILLE-Home-Office/Summer-2027-Intern---Software-Engineer-II_R-2630029-1) | $21.00 - $40.00 | 21 |
 | Citizens | [Business Insights Intern - Multiple Teams](https://hcgn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/49279) | $27 per hour | 27 |
 | Veeam | [Data Analytics & Programs Intern](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4955300101) | $20 - $25 USD | 20 |
 | Veeam | [AI & Automation Engineering Intern - Summer 2027](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4955296101) | $20 - $25 USD | 20 |
-| Guardian Life | [Data Engineering Intern - Digital & Technology](https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Data-Engineering_R000110202) | $20.00 - $35.00 | 20 |
-| Guardian Life | [Application Development Intern - Digital & Technology](https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Application-Development_R000110209) | $20.00 - $35.00 | 20 |
-| Guardian Life | [Summer Intern - Digital & Technology - AI & Machine Learning](https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---AI---Machine-Learning_R000110205) | $20.00 - $35.00 | 20 |
-| CACI | [Software Engineer Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/external/job/437-DENVER-CO/Cleared-Software-Engineer-Intern---Summer-2027_331999) | $39,900-$79,900 | 19 |
-| Lawrence Livermore National Laboratory | [Data Science Undergraduate Student Intern - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990015289136) | $23.26 - $31.62 Hour | 23 |
 | Honeywell | [Software Engineer Co-op](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158088) | $20/hr | 20 |
 | Stryker | [Data Analytics Intern](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Data-Engineering-Intern_R572901) | $20 | 20 |
 | General Dynamics | [Software Development Intern](https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship_RQ228931-2) | $19.55 - $26.45 | 20 |
@@ -301,79 +280,36 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | General Dynamics | [Generative AI Software Development Intern](https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Generative-AI-Software-Development-Internship_RQ228933-1) | $19.55 - $26.45 | 20 |
 | Tradeweb | [Market Data Product Management Intern](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301932) | $22-$25 hour | 22 |
 | Johns Hopkins Applied Physics Laboratory | [Space Exploration Software Engineer Intern - Embedded Applications](https://careers.jhuapl.edu/jobs/60223?icims=1) | $22.60 Hour | 23 |
-| Rockwell Automation | [AI Software Engineer Intern](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern--AI-Software-Engineering--June-August-2027-_R26-6980) | $20-32 | 20 |
 | Pacific Life | [Software Engineering Intern](https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Software-Engineering-Internship_R17826) | $25.00 per hour | 25 |
 | Pacific Life | [Data Engineering Intern](https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Data-Engineering-Internship_R17828) | $25.00 per hour | 25 |
-| Rockwell Automation | [AI Software Engineer Intern](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--AI-Software-Engineering--June-August-2027-_R26-6980-1) | $20-32 | 20 |
-| CACI | [Software Engineer Intern](https://caci.wd1.myworkdayjobs.com/external/job/Omaha-NE-US/Software-Engineer-Intern---Summer-2027_332776) | $39,400 - $75,900 | 19 |
 | Honeywell | [Software Engineering Co-op](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158957) | $25.50/hr | 26 |
-| Principal | [Quantitative Analyst Intern - Quantitative Research](https://careers.principal.com/jobs/52721?icims=1) | $29 - $40 / hour | 29 |
-| Federal Reserve | [Computer Science and Software Engineering Intern](https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Chicago-IL/Summer-2027-Intern-Computer-Science-and-Software-Engineering_R-0000033637) | $20 to $33 | 20 |
-| Federal Reserve | [Data Science and Business Analytics Intern](https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Chicago-IL/Summer-2027-Intern-Data-Science-and-Business-Analytics_R-0000033609) | $20 to $33 | 20 |
-| Federal Reserve | [Data Science Intern](https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Chicago-IL/Summer-2027-Intern--PhD-Data-Science-or-Computer-Science_R-0000033634) | $20 to $33 | 20 |
-| CACI | [AI Prompt Engineer Intern](https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/AI-Prompt-Engineer-High-School-Intern---Summer-2027_332816-1) | $39,400 - $75,900 | 19 |
-| CACI | [Software Development Intern](https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051) | $45,900 - $91,900 | 22 |
-| Koch Industries | [Product Management Intern](https://koch.avature.net/en_US/careers/JobDetail/195099) | $26-$30 per hour | 26 |
 | TikTok | [Client Solutions Intern](https://lifeattiktok.com/search/7684622182248548661) | $25- $25 | 25 |
-| CACI | [Software Development Intern](https://caci.wd1.myworkdayjobs.com/external/job/Oklahoma-City-OK-US/Software-Development-Intern---Summer-2027_333085) | $39,400 - $71,800 | 19 |
-| John Deere | [Software Engineer Part-Time Student Intern](https://johndeere.eightfold.ai/careers/job/137483700527) | $15 - $40 hour | 15 |
 | Tradeweb | [Data Management Intern](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301946) | $22-$25 hour | 22 |
-| KLA | [PLM Business Intelligence & Analytics Intern](https://kla.wd1.myworkdayjobs.com/search/job/Ann-Arbor-MI/Intern---PLM-BI---Analytics_2641568-2) | $24.00 - $32.00 Per Hour | 24 |
-| KLA | [PLM Business Intelligence & Analytics Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Intern---PLM-BI---Analytics_2641568) | $24.00 - $32.00 Per Hour | 24 |
-| GE | [Systems Architecture Intern](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Greenville/GE-Vernova-Systems-Architecture-Intern---2027_R5054433-2) | $1,000-$2,000 USD week | 25 |
 | McKesson | [Software Engineer Intern](https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-TX-Irving/Software-Engineering-Intern---Summer-2027_JR0155382) | $17.33 - $28.88 | 17 |
-| Bose | [Embedded Software Engineer Co-op - Audio Tech](https://boseallaboutme.wd503.myworkdayjobs.com/Bose_Careers/job/US-MA---Framingham/Embedded-Software-Engineer-Co-op----Audio-Tech_R29278) | $29.00-$37.25 per hour | 29 |
 | Dow Jones | [Data Analyst Intern](https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Data-Analyst-Intern_Job_Req_55893) | $28.00 - $28.00 | 28 |
 | Apple | [IT Data Intern - Analytics, & Automation](https://applebank.wd5.myworkdayjobs.com/applebankcareers/job/New-York-NY/XMLNAME-2027-Summer-Intern--IT-Data--Analytics----Automation_2026-1414) | $24/hr | 24 |
 | Dow Jones | [Research Analyst Intern](https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/Houston-TX---OPIS/Summer-2027-Internship-Program---Research-Analyst-Intern_Job_Req_55872) | $28.00 - $28.00 | 28 |
 | Dow Jones | [Research Analyst Intern](https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/Houston-TX---OPIS/Summer-2027-Internship-Program---Research-Analyst-Intern_Job_Req_55873) | $28.00 - $28.00 | 28 |
 | Dow Jones | [Software Engineer Intern](https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Software-Engineering-Intern_Job_Req_55891) | $28.00 - $28.00 | 28 |
-| GE | [SCS Commercial Strategy & Growth Intern](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Longmont/SCS-Commercial-Strategy---Growth-Internship-Summer-2027_R5055048-1) | $1,000-2,000 week | 25 |
-| GE | [SCS Commercial Intern - : AI Data Mining Agent](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/SCS-Commercial-Intern------AI-Data-Mining-Agent_R5055036-1) | $1,000-2,000 week | 25 |
-| GE | [SCS Commercial Strategy & Growth Intern](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Longmont/SCS-Commercial-Strategy---Growth-Internship-Summer-2027_R5055048-2) | $1,000-2,000 week | 25 |
-| GE | [SCS Commercial Intern - : AI Data Mining Agent](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Atlanta/SCS-Commercial-Intern------AI-Data-Mining-Agent_R5055036-2) | $1,000-2,000 week | 25 |
 | Dell | [Undergraduate Data Science Intern](https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299978) | $18.00 hour | 18 |
 | Leidos | [Systems Integration and Software Engineer Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00194152) | $48,100 | 23 |
-| Merck | [International Pricing Analytics Intern - International Pricing Analytics](https://msd.wd5.myworkdayjobs.com/searchjobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---International-Pricing-Analytics---Intern_R420041) | $39,908 - $111,111 USD | 19 |
 | Johns Hopkins Applied Physics Laboratory | [Analyst/Researcher Intern - Analyst/Researcher](https://careers.jhuapl.edu/jobs/60433?icims=1) | $22.60 Hour | 23 |
 | Johnson & Johnson | [Strategic Insight and Analytics Co-op](https://jj.wd5.myworkdayjobs.com/JJ/job/Horsham-Pennsylvania-United-States-of-America/Strategic-Insight-and-Analytics-Co-Op-Off-Cycle--March---August-_R-103640) | $26.00/hr | 26 |
-| Danaher | [Software Engineer Intern](https://danaher.wd1.myworkdayjobs.com/DanaherJobs/job/Vista-California-United-States/Software-Engineering-Intern_R1315719) | $25 - $35 | 25 |
 | Johnson & Johnson | [IDAR Summer Intern - C&SP](https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--C-SP-_R-103534) | $23.50 per hour | 24 |
 | Johnson & Johnson | [IDAR Summer Intern - Ease](https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/IDAR-Summer-Intern--EASE-_R-102328) | $23.50 per hour | 24 |
-| KLA | [AI/ML Software Engineer Intern](https://kla.wd1.myworkdayjobs.com/search/job/Ann-Arbor-MI/AI-ML-Software-Engineer---Intern_2641701-1) | $24.00 - $32.00 Per Hour | 24 |
-| KLA | [AI/ML Software Engineer Intern](https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/AI-ML-Software-Engineer---Intern_2641701) | $24.00 - $32.00 Per Hour | 24 |
-| Rockwell Automation | [Information Technology Intern](https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Intern--Information-Technology_R26-5374-2) | $20-32/hour | 20 |
-| Rockwell Automation | [Information Technology Intern](https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Milwaukee-Wisconsin-United-States/Intern--Information-Technology_R26-5374-1) | $20-32/hour | 20 |
-| LSEG | [Finance Engineer Intern](https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/New-York-City-United-States/Intern---Finance-Engineer_R0124268) | $55,500 - $92,500 | 27 |
-| LSEG | [Software Engineer Intern](https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/New-York-City-United-States/Intern---Software-Engineer_R0124266-1) | $55,500 - $92,500 | 27 |
-| LSEG | [Quantitative Services Intern](https://lseg.wd3.myworkdayjobs.com/Graduate_Careers/job/Boston-Massachusetts/Intern---Quantitative-Services_R0124310-2) | $44,500 - $74,100 | 21 |
-| Humana | [Technology Intern - Society of Women Engineers Conference](https://humana.wd5.myworkdayjobs.com/humana_external_career_site/job/Louisville-KY/Humana-Technology-Internship---Summer-2027---Society-of-Women-Engineers-Conference-2026_R-433228) | $37,440 - $96,800 per year | 18 |
 | Leidos | [Performance Enablement AI/ML Intern](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Performance-Enablement-AI-ML-Intern_R-00194656) | $48,100 | 23 |
-| Lawrence Livermore National Laboratory | [Critical Infrastructure Analysis Intern](https://jobs.smartrecruiters.com/LLNL/3743990016165496) | $23.26 - $31.62 Hour | 23 |
 | Ticketmaster | [Venue Analytics Intern](https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Chicago-IL-USA/Venue-Analytics-Intern_JR-93773-2) | $17.60 USD - $22.00 USD Hour | 18 |
 | Veeam | [Data & Analytics Engineering Intern](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4996533101) | $20 - $25 USD | 20 |
-| Northrop Grumman | [Software Engineer Intern](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256259) | $24.25 to $30.50 per hour | 24 |
-| John Deere | [Process Automation Student Intern - Process Automation - Data and Analytics](https://johndeere.eightfold.ai/careers/job/137483907415) | $15 - $40 hour | 15 |
 | Dominion Energy | [Electric Transmission Asset Analyst Intern - Digital Solutions Team](https://careers.dominionenergy.com/job/GLEN-ALLEN-Intern-ET-Asset-Analyst-(Digital-Solutions-Team)-VA-23060/1441549200/?ats=successfactors) | $21.00 - $28.00 | 21 |
-| General Dynamics | [Software Developer Intern](https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643) | $22.95 - $31.05 | 23 |
 | L3Harris | [Software Engineer Intern](https://jobs.l3harris.com/job/Clifton-Software-Engineering-Intern-NJ-07014/1413358200/?ats=successfactors) | $29/hr | 29 |
-| Zebra Technologies | [Supplies & Sensors Product Manager Intern - US](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----Supplies---Sensors-Product-Manager_JR103640) | $25.50-$32.00/hour | 26 |
-| John Deere | [Software Engineer Student Intern - Product Engineering](https://johndeere.eightfold.ai/careers/job/137483990019) | $15 - $40 hour | 15 |
 | Aon | [IT / AI Engineer Intern](https://jobs.aon.com/jobs/110099?icims=1) | $20.00 - $22.00 per hour | 20 |
-| ABB | [Power BI Intern](https://abb.wd3.myworkdayjobs.com/external_career_page/job/USA-NC-Cary/Power-BI-Intern--Summer-2027_JR00047437) | $20 - $34 per hour | 20 |
-| General Dynamics | [Financial Data Analyst Intern](https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-VA-Falls-Church/Financial-Data-Analyst-Intern--Seasonal-_RQ230761) | $27.43 - $37.11 | 27 |
 | CVS Health | [Medicaid Data Analytics Intern](https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers/job/CT---Hartford/Medicaid-Data-Analytics-Corporate-Internship---Summer-2027--Undergraduate-_R1052342) | $26/hr | 26 |
 | TikTok | [Methodology Product Operations Project Intern](https://lifeattiktok.com/search/7642122220927584565) | $23.75- $23.75 | 24 |
-| Caterpillar | [Corporate Intern - Digital and Analytics](https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Peoria-Illinois/XMLNAME-2027-Summer-Corporate-Intern---Digital-and-Analytics_R0000392335) | $25.00 - $43.00 | 25 |
 | Tradeweb | [Emerging Markets Internship](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301926) | $22-$25 hour | 22 |
 | TransUnion | [Financial Services Argus Advisory Intern](https://transunion.wd5.myworkdayjobs.com/en-US/TransUnion/job/White-Plains-New-York/Financial-Services---Argus-Advisory-Internship---Summer-2027_19042627) | $19.00 - $22.00 per hour | 19 |
-| Synchrony | [Digital Technology Center Intern](https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Hub/UConn-Stamford-Digital-Technology-Center-Intern---Summer-2027_2602661) | $24.00 - $33.50/hr | 24 |
 | Tradeweb | [Digital Assets Intern](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301930) | $22-$25 hour | 22 |
-| John Deere | [Software Engineer Intern - Product Engineering](https://johndeere.eightfold.ai/careers/job/137483990265) | $15 - $40 hour | 15 |
-| Siemens | [Python Backend Developer Intern - Energy Flexibility Platform](https://siemens.avature.net/en_US/externaljobs/JobDetail/526984) | $28-$48 per hour | 28 |
 | Huntington | [Enterprise Payments Intern](https://huntington.wd12.myworkdayjobs.com/HNBcareers/job/Columbus-OH/Summer-2027-Enterprise-Payments-Internship_R0077171) | $21.00-$25.00 Hour | 21 |
 | Leidos | [Business Systems AI Intern](https://leidos.wd5.myworkdayjobs.com/External/job/6314-RemoteTeleworker-US/Business-Systems-AI-Intern_R-00193327) | $48,100 | 23 |
-| Zebra Technologies | [Product Management Intern](https://zebra.wd501.myworkdayjobs.com/Zebra_careers/job/Lincolnshire-Illinois/XMLNAME-2027-Summer-Internship--US----Product-Management_JR103652) | $25.50 - $32.00/hour | 26 |
 | PACCAR | [Product Planning Intern](https://jobs.paccar.com/job/Kirkland-Summer-2027-Product-Planning-Intern-WA-98033/1451437033/?ats=successfactors) | $25 an hour | 25 |
 | Booz Allen Hamilton | [Summer Games Software Developer Intern](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Detroit-MI/University---2027-Summer-Games-Software-Developer-Intern---Royal-Oaks--MI_R0252340) | $52,900 | 25 |
 | Booz Allen Hamilton | [Software Developer Intern](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274) | $52,900 | 25 |
@@ -382,39 +318,25 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Booz Allen Hamilton | [Systems Engineer Intern](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/University---2027-Summer-Games--Systems-Engineer-Intern---Dayton--OH_R0252342) | $52,900 | 25 |
 | Booz Allen Hamilton | [Systems Engineer Intern - Summer Games](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Detroit-MI/University---2027-Summer-Games--Systems-Engineer-Intern---Royal-Oaks--MI_R0252341) | $52,900 | 25 |
 | Booz Allen Hamilton | [Software Developer Intern](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Albuquerque-NM/University---2027-Summer-Games-Software-Developer-Intern---Albuquerque--NM_R0252335) | $52,900 | 25 |
-| Lawrence Livermore National Laboratory | [Defense Science and Technology Intern](https://jobs.smartrecruiters.com/LLNL/3743990015740565) | $23.26 - $31.62 Hour | 23 |
-| Northrop Grumman | [Software Engineer Intern](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803) | $24.25 to $30.50 per hour | 24 |
 | ASML | [Frontend Developer Intern](https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852) | $18.00/hr | 18 |
 | PACCAR | [Data Engineer Intern](https://jobs.paccar.com/job/Kirkland-Summer-2027-Data-Engineer-Intern-(OH)-WA-98033/1451916833/?ats=successfactors) | $25 an hour | 25 |
-| CACI | [Software Engineer Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/external/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618) | $39,400 - $75,900 | 19 |
 | PACCAR | [Application Developer Intern](https://jobs.paccar.com/job/Kirkland-Summer-2027-Application-Developer-Intern-(OH)-WA-98033/1451927133/?ats=successfactors) | $25 an hour | 25 |
-| Samsung | [Power-Thermal Simulation Software Engineer Intern](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046795003) | $28 - $68 | 28 |
-| Shield AI | [Software Engineer Intern](https://jobs.ashbyhq.com/f7d8749a-72d6-407c-bf98-292ea630c73a/661d7ac4-51df-454d-82c8-2a0d94852036/application?embed=true) | $25 – $75 per hour | 25 |
 | Schonfeld | [DMFI Intern](https://job-boards.greenhouse.io/schonfeld/jobs/8324611) | $50,000 an | 24 |
 | Leidos | [Data Engineer Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576) | $41,600 | 20 |
 | T-Mobile | [Software Engineer Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441) | $27/hour | 27 |
 | T-Mobile | [Associate AI Engineer Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380492) | $27/hour | 27 |
 | T-Mobile | [Associate Technical Product Manager Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Frisco-Texas/Summer-2027-Associate-Technical-Product-Manager-Internship_REQ380499) | $27/hour | 27 |
-| L3Harris | [Software Engineer Intern](https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-(Carlsbad,-CA)-CA-92009/1444689600/?ats=successfactors) | $29.00 - $35.00 | 29 |
-| Regeneron | [Data Analytics Intern - Dashboards & Business Process Automation](https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Data-Analytics--Dashboards---Business-Process-Automation_R52559-1) | $17.90-$50.90 per hour | 18 |
-| Regeneron | [AI/ML & Data Engineering Intern](https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-AI-ML---Data-Engineering_R52560-1) | $17.90-$50.90 per hour | 18 |
-| Flow Traders | [Trading Operations Engineer Co-op](https://job-boards.greenhouse.io/ftsp27co-ops/jobs/8176219) | $29-$33 per hour | 29 |
 | Boston Scientific | [R&D Software Design Intern](https://bostonscientific.eightfold.ai/careers/job/563602813862687) | $ 43368 | 21 |
 | General Dynamics | [AI/ML Software Development and Engineering Intern](https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-ML-Software-Development-and-Engineering-Internship_RQ228939) | $19.55 - $26.45 | 20 |
 | Boston Scientific | [AI Solutions Engineering Intern](https://bostonscientific.eightfold.ai/careers/job/563602813547675) | $ 43368 | 21 |
 | Philips | [AI & Analytics Analyst Intern](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Nashville-Tennessee-United-States/Intern---AI---Analytics-Analyst---Nashville--TN---Spring-2027_593012) | $26.00 to $29.00 | 26 |
-| CACI | [Software Engineering Co-op Intern](https://caci.wd1.myworkdayjobs.com/external/job/Rochester-NY-US/Software-Engineering-Co-op-Intern---Spring-2027_334160) | $39,900-$79,900 | 19 |
 | T-Mobile | [Associate Product Manager Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Assoc-Product-Manager-Internship_REQ380746) | $27/hour | 27 |
 | T-Mobile | [Associate AI Engineer Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484) | $27/hour | 27 |
-| Samsung | [Systems Software Engineer Intern](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046887003) | $28 - $68 | 28 |
-| Walmart | [Corporate Intern: Data & Tech Transformation Intern](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Always-AR-Bentonville-Home-Office/XMLNAME--USA--Summer-2027-Corporate-Intern---Data---Tech-Transformation-intern_R-2690457-1) | $21.00 - $40.00 | 21 |
 | Dow Jones | [Research Analyst Intern](https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/Houston-TX---OPIS/Summer-2027-Internship-Program---Research-Analyst-Intern_Job_Req_55874) | $28.00 - $28.00 | 28 |
 | Dow Jones | [Data Analyst Intern](https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Data-Analyst-Intern_Job_Req_55894) | $28.00 - $28.00 | 28 |
 | Dow Jones | [Research Analyst Intern](https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/Houston-TX---OPIS/Summer-2027-Internship-Program---Research-Analyst-Intern_Job_Req_55875) | $28.00 - $28.00 | 28 |
 | Dow Jones | [Software Engineer Intern](https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Software-Engineering-Intern_Job_Req_55892) | $28.00 - $28.00 | 28 |
 | Dow Jones | [Subscription Experimentation Intern](https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Subscription-Experimentation-Intern_Job_Req_55879) | $28.00 - $28.00 | 28 |
-| Microsoft | [Explore Program Engineering Intern](https://apply.careers.microsoft.com/careers/job/1970393556925823) | $25.96 - $47.77 per hour | 26 |
-| KLA | [Software Engineer Intern - AI/ML](https://kla.wd1.myworkdayjobs.com/search/job/Austin-TX/Software-Engineer--AI-ML--Intern_2642125-1) | $22.10 - $42.50 per hour | 22 |
 | Leidos | [Software Engineer Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Software-Engineering-Intern_R-00195980) | $48,100 | 23 |
 | Leidos | [Data Science Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Arlington-VA/Data-Science-Intern_R-00196049) | $57,850 | 28 |
 | LexisNexis | [Product Manager Intern - Government](https://relx.wd3.myworkdayjobs.com/en-US/RiskSolutions/job/Alpharetta-GA-Alderman/Product-Management-Intern--Government_R118611) | $20/hour | 20 |
@@ -423,102 +345,56 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | T-Mobile | [Software Engineer Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886) | $27/hour | 27 |
 | T-Mobile | [Product Operations Manager Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Bellevue-Washington/Summer-2027-Product-Operations-Manager-Internship_REQ380888) | $27/hour | 27 |
 | T-Mobile | [Software Engineer Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882) | $27/hour | 27 |
-| KLA | [Software Engineer Intern - AI/ML](https://kla.wd1.myworkdayjobs.com/UR/job/Austin-TX/Software-Engineer--AI-ML--Intern_2642125) | $22.10 - $42.50 per hour | 22 |
 | Marriott | [Corporate Information Technology Intern](https://mymvw.wd5.myworkdayjobs.com/mvw/job/MVW-Headquarters/Corporate-Intern-Information-Technology_JR95562) | $18.50 | 19 |
-| Samsung | [AI Application Engineer Intern](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003) | $28 - $68 | 28 |
 | Costco | [CDS Intern - Innovation](https://phf.tbe.taleo.net/phf02/ats/careers/v2/viewRequisition?org=COSTCO&cws=41&rid=10998) | $21.00/hr | 21 |
-| Northrop Grumman | [Engineering Software and Analysis Intern](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Sunnyvale/Engineering-Software-and-Analysis-Intern_R10258772) | $21.50 to $39.00 per hour | 22 |
-| Northrop Grumman | [Engineering Intern - Multiple Teams](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Arizona-Chandler/XMLNAME-2027-Engineering-Intern--Software-Mission-Assurance-Quality----Chandler-AZ_R10258848) | $18.50 to $33.50 per hour | 19 |
-| Crowe | [Data Analytics Developer Intern](https://go.vansh.nyc/7n) | $27.00 - $42.00 per hour | 27 |
-| KLA | [AI/ML Software Engineer Intern](https://go.vansh.nyc/8g) | $24.00 - $32.00 Per Hour | 24 |
-| Cboe | [Data Pipeline Engineer Intern](https://go.vansh.nyc/94) | $22.00 - $42.00 per hour | 22 |
-| Lawrence Livermore National Laboratory | [Cybersecurity Intern, Cyber and Critical Infrastructure Summer Institute](https://go.vansh.nyc/al) | $23.26 - $31.62 Hour | 23 |
-| Lawrence Livermore National Laboratory | [Critical Infrastructure Analysis Intern, Cyber and Critical Infrastructure Summer Institute](https://go.vansh.nyc/am) | $23.26 - $31.62 Hour | 23 |
 | Veeam | [Data & Analytics Engineering Intern](https://go.vansh.nyc/ar) | $20 - $25 USD | 20 |
 | Dominion Energy | [Electric Transmission Asset Analyst Intern - Digital Solutions Team](https://go.vansh.nyc/cc) | $21.00 - $28.00 | 21 |
 | Aon | [IT/AI Engineer Intern](https://go.vansh.nyc/dU) | $20.00 - $22.00 per hour | 20 |
-| John Deere | [Software Engineer Student Intern, Product Engineering](https://go.vansh.nyc/dW) | $15 - $40 hour | 15 |
 | General Dynamics | [Software Engineer Intern](https://go.vansh.nyc/eO) | $21.50 | 22 |
 | M&T Bank | [Technology Intern, Software Engineering, Enterprise API Services Development Team](https://go.vansh.nyc/eR) | $18.00 - $28.00 per hour | 18 |
 | CVS Health | [Medicaid Data Analytics Intern](https://go.vansh.nyc/fh) | $26/hr | 26 |
-| Lawrence Livermore National Laboratory | [Power Systems Undergraduate Intern, Cyber and Critical Infrastructure](https://go.vansh.nyc/gj) | $23.26 - $31.62 Hour | 23 |
-| Mastercard | [Platform Engineering Intern](https://go.vansh.nyc/gm) | $25-30/hr | 25 |
 | ASML | [Software Engineer In Test Intern, MOD](https://go.vansh.nyc/gM) | $18.00/hr | 18 |
 | MITRE | [Autonomous Systems Intern](https://go.vansh.nyc/gU) | $46,500 - $58,000 | 22 |
-| Siemens | [Python Backend Developer Intern, Energy Flexibility Platform](https://go.vansh.nyc/hM) | $28-$48 per hour | 28 |
 | Leidos | [Performance Enablement AI/ML Intern](https://go.vansh.nyc/CC) | $48,100 | 23 |
 | L3Harris | [Software Engineer Intern](https://go.vansh.nyc/DP) | $29/hr | 29 |
-| Principal | [Quantitative Analyst Intern, Quantitative Research](https://go.vansh.nyc/Ei) | $29 - $40 / hour | 29 |
 | Tradeweb | [Data Management Intern](https://go.vansh.nyc/Fy) | $22-$25 hour | 22 |
 | McKesson | [Software Engineer Intern](https://go.vansh.nyc/FI) | $17.33 - $28.88 | 17 |
-| Danaher | [Software Engineer Intern](https://go.vansh.nyc/Gk) | $25 - $35 | 25 |
 | Stryker | [Data Analytics Intern](https://go.vansh.nyc/J8) | $20 | 20 |
-| Rockwell Automation | [AI Software Engineer Intern](https://go.vansh.nyc/JA) | $20-32 | 20 |
 | Pacific Life | [Software Engineering Intern](https://go.vansh.nyc/JB) | $25.00 per hour | 25 |
 | Pacific Life | [Data Engineering Intern](https://go.vansh.nyc/JC) | $25.00 per hour | 25 |
 | Johns Hopkins Applied Physics Laboratory | [Space Exploration Software Engineer Intern, Embedded Applications](https://go.vansh.nyc/JE) | $22.60 Hour | 23 |
-| Rockwell Automation | [Information Technology Intern](https://go.vansh.nyc/LC) | $20-32/hour | 20 |
 | Johns Hopkins Applied Physics Laboratory | [Engineer/SW Developer/Analyst Intern, Maritime Force Engagement Control](https://go.vansh.nyc/LU) | $22.60 Hour | 23 |
 | Johns Hopkins Applied Physics Laboratory | [Software Developer Intern, Tactical System Prototyping and Deployment](https://go.vansh.nyc/LV) | $22.60 Hour | 23 |
 | McKesson | [Software Engineer Intern](https://go.vansh.nyc/LZ) | $17.33 - $28.88 | 17 |
-| Caterpillar | [Corporate Intern, Autonomy & Intelligent Systems Engineering](https://go.vansh.nyc/M2) | $25.00 - $43.00 | 25 |
-| Caterpillar | [Corporate Intern, Digital and Analytics](https://go.vansh.nyc/M5) | $25.00 - $43.00 | 25 |
 | Emerson | [Software Engineer Co-op](https://go.vansh.nyc/MM) | $24-$28 | 24 |
-| CACI | [Software Engineer Intern](https://go.vansh.nyc/MU) | $39,900-$79,900 | 19 |
-| Activision Blizzard | [Software Engineering Intern](https://go.vansh.nyc/N6) | $20.00 - $50.00 Hour | 20 |
 | DV Trading | [Futures & Options Trading Analyst Intern](https://go.vansh.nyc/Ow) | $18.75/hr | 19 |
-| CACI | [Software Engineer Co-op](https://go.vansh.nyc/OE) | $45,900 - $91,900 | 22 |
-| Procter & Gamble | [IT Security Intern](https://go.vansh.nyc/OT) | $29.00 - $50.00 / hour | 29 |
 | General Dynamics | [EE/Computer Engineer Intern](https://go.vansh.nyc/PZ) | $27.50 /Hr | 28 |
-| Analog Devices | [Information Technology Intern](https://go.vansh.nyc/Q2) | $22 to $41 | 22 |
 | Ginkgo Bioworks | [Software Intern, Autonomous Lab](https://go.vansh.nyc/Qz) | $37,700-$53,500 | 18 |
-| LPL Financial | [Cybersecurity Analyst Intern](https://go.vansh.nyc/QQ) | $25.00-$30.00 per hour | 25 |
-| LPL Financial | [Platform Engineer Intern](https://go.vansh.nyc/QR) | $25.00-$30.00 per hour | 25 |
-| Seagate | [Software and Data Analytics Development Intern, AFM](https://go.vansh.nyc/Sq) | $27.00-37.00/hr | 27 |
-| Seagate | [Machine Learning for Corporate Strategy Intern](https://go.vansh.nyc/Sr) | $27.00-45.00/hr | 27 |
 | Seagate | [Embedded Software Engineer Intern](https://go.vansh.nyc/Ss) | $22.00-29.00/hr | 22 |
-| Crowe | [Cybersecurity Intern](https://go.vansh.nyc/SD) | $27.00 - $42.00 per hour | 27 |
 | General Dynamics | [Software Test Engineer Intern](https://go.vansh.nyc/T5) | $29.00 | 29 |
 | Lockheed Martin | [Software Engineer Intern](https://go.vansh.nyc/UC) | $20.14 - $28.15 A | 20 |
-| CACI | [Software Engineering Intern](https://go.vansh.nyc/VM) | $39,400 - $75,900 | 19 |
 | Apple | [Information Security Intern](https://go.vansh.nyc/VV) | $24/hr | 24 |
-| Cboe | [Linux Engineer Intern](https://go.vansh.nyc/W4) | $22.00 - $42.00 per hour | 22 |
 | ASML | [Frontend Developer Intern](https://go.vansh.nyc/Wr) | $18.00/hr | 18 |
+| PACCAR | [Data Engineer Intern](https://go.vansh.nyc/WP) | $25 an hour | 25 |
 | PACCAR | [Application Developer Intern](https://go.vansh.nyc/WV) | $25 an hour | 25 |
-| Lockheed Martin | [Software Engineer Intern](https://go.vansh.nyc/Xr) | $25.18 - $35.19 A | 25 |
-| Lockheed Martin | [Software Engineer Intern](https://go.vansh.nyc/XV) | $22.66 - $31.67 A | 23 |
-| Broadridge | [Technology Intern](https://go.vansh.nyc/Y0) | $25-$40 per hour | 25 |
 | Leidos | [Data Engineer Intern](https://go.vansh.nyc/Y4) | $41,600 | 20 |
 | T-Mobile | [Software Engineer Intern](https://go.vansh.nyc/Ye) | $27/hour | 27 |
 | T-Mobile | [Associate AI Engineer Intern](https://go.vansh.nyc/Yf) | $27/hour | 27 |
 | T-Mobile | [Associate Technical Product Manager Intern](https://go.vansh.nyc/Yg) | $27/hour | 27 |
-| Regeneron | [Data Analytics Intern, Dashboards & Business Process Automation](https://go.vansh.nyc/Yr) | $17.90-$50.90 per hour | 18 |
-| Regeneron | [AI/ML & Data Engineering Intern](https://go.vansh.nyc/Ys) | $17.90-$50.90 per hour | 18 |
-| L3Harris | [Software Engineer Intern](https://go.vansh.nyc/Yw) | $29.00 - $35.00 | 29 |
 | Boston Scientific | [R&D Software Design Intern](https://go.vansh.nyc/YD) | $ 43368 | 21 |
-| L3Harris | [Software Engineering Intern](https://go.vansh.nyc/YO) | $29.00 - $35.00 | 29 |
 | Boston Scientific | [AI Solutions Engineering Intern](https://go.vansh.nyc/YR) | $ 43368 | 21 |
 | Boston Scientific | [Software & Systems Testing Engineering Intern](https://go.vansh.nyc/YX) | $ 43368 | 21 |
-| Regeneron | [IT, Digital Enablement & Information Security Intern](https://go.vansh.nyc/Zk) | $17.90-$50.90 per hour | 18 |
 | T-Mobile | [Associate Product Manager Intern](https://go.vansh.nyc/Zz) | $27/hour | 27 |
-| Walmart | [Data & Tech Transformation Intern](https://go.vansh.nyc/ZW) | $21.00 - $40.00 | 21 |
-| MITRE | [Trustworthy AI Intern](https://go.vansh.nyc/10r) | $51,000 - $64,000 | 25 |
 | MITRE | [Critical Infrastructure Protection Intern](https://go.vansh.nyc/10s) | $46,500 - $58,000 | 22 |
 | MITRE | [Data Science and Engineering Intern](https://go.vansh.nyc/10t) | $46,500 - $58,000 | 22 |
 | Dow Jones | [Software Engineering Intern](https://go.vansh.nyc/10X) | $28.00 - $28.00 | 28 |
 | PACCAR | [Data Engineer Intern](https://go.vansh.nyc/11R) | $25 an hour | 25 |
-| Chubb | [Technology Intern](https://go.vansh.nyc/12G) | $27 to $35 per hour | 27 |
 | MITRE | [AI Solutions Architect Intern](https://go.vansh.nyc/13Y) | $46,500 - $58,000 | 22 |
 | FedEx | [Data Science Intern](https://go.vansh.nyc/13Z) | $25/hour | 25 |
 | TikTok | [Production System Engineer Project Intern, Server DevOps](https://go.vansh.nyc/14e) | $25- $25 | 25 |
 | TikTok | [Production System Engineer Project Intern, Server DevOps](https://go.vansh.nyc/14j) | $25- $25 | 25 |
-| Samsung | [Systems Software Engineering Intern](https://go.vansh.nyc/17G) | $28 - $68 | 28 |
-| Microsoft | [First-Year Explore Program Engineering Intern](https://go.vansh.nyc/199) | $25.96 - $47.77 per hour | 26 |
 | T-Mobile | [Software Engineering Intern](https://go.vansh.nyc/19q) | $27/hour | 27 |
 | T-Mobile | [Software Engineering Intern](https://go.vansh.nyc/19r) | $27/hour | 27 |
-| Northrop Grumman | [Engineering Software and Analysis Intern](https://go.vansh.nyc/19x) | $21.50 to $39.00 per hour | 22 |
-| Northrop Grumman | [Engineering Intern, Software, Mission Assurance, Quality](https://go.vansh.nyc/19N) | $18.50 to $33.50 per hour | 19 |
-| Samsung | [AI Application Engineer Intern](https://go.vansh.nyc/19X) | $28 - $68 | 28 |
 | Leidos | [Software Engineer Intern](https://go.vansh.nyc/1bc) | $48,100 | 23 |
 | Leidos | [Data Science Intern](https://go.vansh.nyc/1bf) | $57,850 | 28 |
 | Marriott | [Corporate Information Technology Intern](https://go.vansh.nyc/1bh) | $18.50 | 19 |
@@ -529,45 +405,22 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Johnson & Johnson | [Software Engineering Co-op](https://go.vansh.nyc/1cA) | $23.50/hr | 24 |
 | Johnson & Johnson | [Data Science Co-op](https://go.vansh.nyc/1cB) | $23.50/hr | 24 |
 | SurveyMonkey | [Data Science Intern, Enterprise Reporting & Analytics](https://go.vansh.nyc/1cF) | $22.00 - $26.00 | 22 |
-| Guardian Life | [Data Engineering Intern, Digital & Technology](https://go.vansh.nyc/1cV) | $20.00 - $35.00 | 20 |
-| Guardian Life | [AI & Machine Learning Intern, Digital & Technology](https://go.vansh.nyc/1cW) | $20.00 - $35.00 | 20 |
-| Guardian Life | [Application Development Intern, Digital & Technology](https://go.vansh.nyc/1cX) | $20.00 - $35.00 | 20 |
-| Guardian Life | [Cloud & DevOps Intern, Digital & Technology](https://go.vansh.nyc/1cY) | $20.00 - $35.00 | 20 |
-| Guardian Life | [Cybersecurity Intern, Digital & Technology](https://go.vansh.nyc/1cZ) | $20.00 - $35.00 | 20 |
-| KLA | [PLM BI & Analytics Intern](https://go.vansh.nyc/1dm) | $24.00 - $32.00 Per Hour | 24 |
-| KLA | [Digital Twin Eng Apps Intern](https://go.vansh.nyc/1dw) | $24.00 - $32.00 Per Hour | 24 |
-| Northrop Grumman | [Cyber Systems Engineer Intern](https://go.vansh.nyc/1dD) | $18.50 to $33.50 per hour | 19 |
 | Northrop Grumman | [2027 Software Test Engineering Intern- Roy UT](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern--Roy-UT_R10258276-1) | $23.00 to $29.00 per hour | 23 |
 | T-Mobile | [Summer 2027 Software Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380441) | $27/hour | 27 |
 | ASML | [Internship - Frontend Developer](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852) | $18.00/hr | 18 |
-| CACI | [Software Engineering Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618) | $39,400 - $75,900 | 19 |
 | General Dynamics | [Software Engineer - Intern](https://careers-gdms.icims.com/jobs/75626/software-engineer---intern/job) | $29.00 /Hr | 29 |
-| Northrop Grumman | [2027 Software Engineering Intern - Colorado Springs](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803) | $24.25 to $30.50 per hour | 24 |
-| Rockwell Automation | [Co-op - Embedded Software Engineer](https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Milwaukee-Wisconsin-United-States/Spring-2027-Co-op--Embedded-Software-Engineer--January-2027---August-2027-_R26-3473) | $22 - $32 | 22 |
-| Analog Devices | [DevOps Co-Op](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-MA-Boston/DevOps-Co-Op_R267690) | $22 to $41 | 22 |
 | Booz Allen Hamilton | [University - 2027 Summer Games Software Developer Intern - Albuquerque - NM](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Albuquerque-NM/University---2027-Summer-Games-Software-Developer-Intern---Albuquerque--NM_R0252335) | $52,900 | 25 |
 | Booz Allen Hamilton | [University - 2027 Summer Games Software Developer Intern - Royal Oaks - MI](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Detroit-MI/University---2027-Summer-Games-Software-Developer-Intern---Royal-Oaks--MI_R0252340) | $52,900 | 25 |
 | Booz Allen Hamilton | [University - 2027 Summer Games Software Developer Intern - Lexington - MA](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274) | $52,900 | 25 |
 | General Dynamics | [Software Intern Engineer](https://careers-gdms.icims.com/jobs/75752/software-intern-engineer/job) | $29.00 /Hr | 29 |
-| ASML | [Internship - Software Quality Assurance](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Quality-Assurance_J-00354562) | $18.00 - $56.00 | 18 |
 | ASML | [Internship - Software Engineer In Test - MOD](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Engineer-In-Test--MOD-_J-00354568) | $18.00/hr | 18 |
-| CACI | [Cleared Software Engineer Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Denver-CO-US/Cleared-Software-Engineer-Intern---Summer-2027_331999) | $39,900-$79,900 | 19 |
 | Coinbase | [Software Engineer Intern](https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873) | $25 - $25 | 25 |
-| CACI | [Software Engineering Co-op - Summer & Fall 2027](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Danbury-CT-US/Software-Engineering-Co-op---Summer---Fall-2027_331354) | $45,900 - $91,900 | 22 |
-| Danaher | [Software Engineering Intern](https://danaher.wd1.myworkdayjobs.com/en-US/danaherjobs/job/Vista-California-United-States/Software-Engineering-Intern_R1315719) | $25 - $35 | 25 |
 | Leidos | [Systems - Integration and Software Engineer Intern](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00194152) | $48,100 | 23 |
-| Bose | [Embedded Software Engineer Co-op - Audio Tech](https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Embedded-Software-Engineer-Co-op----Audio-Tech_R29278) | $29.00-$37.25 per hour | 29 |
 | McKesson | [Software Engineering Intern - Summer 2027](https://mckesson.wd3.myworkdayjobs.com/en-US/external_careers/job/USA-TX-Irving/Software-Engineering-Intern---Summer-2027_JR0155382) | $17.33 - $28.88 | 17 |
-| Federal Reserve | [Summer 2027 Intern-Computer Science and Software Engineering](https://rb.wd5.myworkdayjobs.com/en-US/frs/job/Chicago-IL/Summer-2027-Intern-Computer-Science-and-Software-Engineering_R-0000033637) | $20 to $33 | 20 |
-| Federal Reserve | [Summer 2027 Intern-Cloud Engineering](https://rb.wd5.myworkdayjobs.com/en-US/frs/job/Chicago-IL/Summer-2027-Intern-Cloud-Engineering_R-0000033614) | $20 to $33 | 20 |
 | Pacific Life | [Summer 2027 Software Engineering Internship](https://pacificlife.wd1.myworkdayjobs.com/en-US/pacificlifecareers/job/Newport-Beach-CA-700/Summer-2027-Software-Engineering-Internship_R17826) | $25.00 per hour | 25 |
 | Johnson & Johnson | [Software Engineering Co-Op](https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277) | $23.50/hr | 24 |
 | Johnson & Johnson | [Software Test Engineering Co-op - RLM](https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Danvers-Massachusetts-United-States-of-America/Software-Test-Engineering-Co-op--RLM-_R-098669) | $23.50/hr | 24 |
 | Johnson & Johnson | [Heart Recovery Software R&D Co-Op](https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Halethorpe-Maryland-United-States-of-America/Heart-Recovery-Software-R-D-Co-Op_R-101393) | $23.50/hr | 24 |
-| Lawrence Livermore National Laboratory | [Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027](https://jobs.smartrecruiters.com/LLNL/3743990015408206-computing-undergraduate-student-intern-devops-internship-program-summer-2027?oga=true) | $23.26 - $31.62 Hour | 23 |
-| Analog Devices | [Embedded Software Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/en-US/external/job/US-MA-Wilmington/Embedded-Software-Engineer-Intern_R266132) | $22 to $41 | 22 |
-| Siemens | [Software Engineering Co-op - Hoffman Estates - IL](https://onehealthineers.wd3.myworkdayjobs.com/en-US/shsjb/job/HES/Software-Engineering-Co-op---Hoffman-Estates--IL_R-30649) | $54,912 - $80,538 | 26 |
-| Cboe | [Software Engineer Intern](https://cboe.wd1.myworkdayjobs.com/en-US/external_career_cboe/job/Chicago-IL/Software-Engineer-Intern_R-4654) | $22.00 - $42.00 per hour | 22 |
 | McKesson | [Software Engineer Intern - Summer 2027](https://mckesson.wd3.myworkdayjobs.com/en-US/external_careers/job/USA-GA-Atlanta/Software-Engineer-Intern---Summer-2027_JR0153235) | $16.50 - $27.50 | 17 |
 | McKesson | [Software Development Intern - Summer 2027](https://mckesson.wd3.myworkdayjobs.com/en-US/external_careers/job/USA-TX-Irving/Software-Development-Intern---Summer-2027_JR0152635) | $17.33 - $28.88 | 17 |
 | McKesson | [Software Engineer Intern - Summer 2027](https://mckesson.wd3.myworkdayjobs.com/en-US/external_careers/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152742) | $17.33 - $28.88 | 17 |
@@ -579,34 +432,109 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Stryker | [Summer 2027 Internship - Software Engineering - California](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624) | $ 20 | 20 |
 | Stryker | [Summer 2027 Internship - Software Engineering - Florida](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1) | $ 20 | 20 |
 | Stryker | [Summer 2027 Internship - Software Engineering - Michigan](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1) | $ 20 | 20 |
-| Medtronic | [Engineering Intern Summer 2027- Candidates Attending 2026 SWE National Conference](https://medtronic.wd1.myworkdayjobs.com/en-US/medtroniccareers/job/Mounds-View-Minnesota-United-States-of-America/Engineering-Intern-Summer-2027--Candidates-Attending-2026-SWE-National-Conference-_R76021-1) | $28.00 to $48.00 per hour | 28 |
-| Medtronic | [Engineering Intern Summer 2027- Candidates Attending 2026 SWE National Conference](https://medtronic.wd1.myworkdayjobs.com/en-US/redeploymentmedtroniccareers/job/Mounds-View-Minnesota-United-States-of-America/Engineering-Intern-Summer-2027--Candidates-Attending-2026-SWE-National-Conference-_R76021) | $28.00 to $48.00 per hour | 28 |
-| Procter & Gamble | [IT Engineering Internship - Software - Platform - & Network](https://pg.wd5.myworkdayjobs.com/en-US/1000/job/CINCINNATI-GENERAL-OFFICES/IT-Engineering-Internship--Software--Platform----Network-_R000157503) | $29.00 - $50.00 / hour | 29 |
-| Crowe | [Data Analytics Developer Intern](https://crowe.wd12.myworkdayjobs.com/en-US/external_careers/job/Chicago-IL-USA/Data-Analytics-Developer-Intern_R-71041) | $27.00 - $42.00 per hour | 27 |
-| LPL Financial | [Intern 2027- Software Engineer](https://lplfinancial.wd1.myworkdayjobs.com/en-US/university/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921) | $25.00-$30.00 per hour | 25 |
-| Chevron | [2026-2027 Information Technology - Software Engineer - Intern](https://chevron.wd5.myworkdayjobs.com/en-US/university/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Information-Technology---Software-Engineer---Intern_R000072398-1) | $23.65 - $37.50 | 24 |
-| Trane Technologies | [2027 AI & Analytics Intern](https://tranetechnologies.wd12.myworkdayjobs.com/en-US/trane_technologies_careers/job/Davidson-North-Carolina/XMLNAME-2027-AI---Analytics-Intern_JR-7591-1) | $22.50 - $30.00 | 23 |
-| Philips | [Co-op - Data Engineer - Biocompatibility - Murrysville - PA - January to June 2027](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Murrysville-Pennsylvania-United-States/Co-op---Data-Engineer--Biocompatibility----Murrysville--PA---January-to-June-2027_591730) | $26.00 to $36.00 an hour | 26 |
 | T-Mobile | [Summer 2027 Assoc AI Engineer Internship](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380484) | $27/hour | 27 |
 | Leidos | [Data Engineer Intern](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576) | $41,600 | 20 |
-| Regeneron | [2027 Summer Intern AI/ML & Data Engineering](https://regeneron.wd1.myworkdayjobs.com/en-US/careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-AI-ML---Data-Engineering_R52560-1) | $17.90-$50.90 per hour | 18 |
-| Regeneron | [2027 Summer Intern Data Analytics - Dashboards & Business Process Automation](https://regeneron.wd1.myworkdayjobs.com/en-US/careers/job/TARRYTOWN/XMLNAME-2027-Summer-Intern-Data-Analytics--Dashboards---Business-Process-Automation_R52559-1) | $17.90-$50.90 per hour | 18 |
-| Samsung | [Intern - Thermal Modeling & Simulation Engineer - AI Memory / HBM](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8046859003) | $28 - $68 | 28 |
 | T-Mobile | [Summer 2027 Assoc AI Engineer Internship](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Assoc-AI-Engineer-Internship_REQ380492) | $27/hour | 27 |
 | CVS Health | [Medicaid Data Analytics Corporate Internship - Summer 2027 - Undergraduate](https://cvshealth.wd1.myworkdayjobs.com/en-US/cvs_health_careers/job/CT---Hartford/Medicaid-Data-Analytics-Corporate-Internship---Summer-2027--Undergraduate-_R1052342) | $26/hr | 26 |
 | Trimble | [People Development AI & Digital Learning Intern](https://trimble.wd1.myworkdayjobs.com/en-US/trimblecareers/job/US---CO-Westminster/People-Development-AI---Digital-Learning-Intern_R57819) | $19.62–$29.47 | 20 |
 | Carrier | [Data Analytics Intern - Summer](https://carrier.wd5.myworkdayjobs.com/en-US/jobs/job/CAI23-Carrier-Indianapolis-7310-West-Morris-Street-Indianapolis-IN-46231-USA/Data-Analytics-Intern---Summer_30220000) | $43,500 | 21 |
-| KLA | [Research Scientist Intern - Coating Characterization](https://kla.wd1.myworkdayjobs.com/en-US/search/job/Ann-Arbor-MI/Research-Scientist-Intern---Coating-Characterization_2642033-2) | $27.00 - $48.00 per hour | 27 |
-| Bose | [Data Analytics Engineer Co-op](https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Data-Analytics-Engineer-Co-op_R29271) | $29.00-$37.25 per hour | 29 |
-| GE | [SCS Commercial Intern - : AI Data Mining Agent](https://gevernova.wd5.myworkdayjobs.com/en-US/only_confidential_executive_recruiting/job/Atlanta/SCS-Commercial-Intern------AI-Data-Mining-Agent_R5055036-1) | $1,000-2,000 week | 25 |
-| GE | [SCS Commercial Intern - : AI Data Mining Agent](https://gevernova.wd5.myworkdayjobs.com/en-US/vernova_externalsite/job/Atlanta/SCS-Commercial-Intern------AI-Data-Mining-Agent_R5055036-2) | $1,000-2,000 week | 25 |
-| Cboe | [Quant & Data Analytics Intern](https://cboe.wd1.myworkdayjobs.com/en-US/external_career_cboe/job/Chicago-IL/Quant---Data-Analytics-Intern_R-4708) | $22.00 - $42.00 per hour | 22 |
-| CACI | [AI Prompt Engineer High School Intern - Summer 2027](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Ashburn-VA-US/AI-Prompt-Engineer-High-School-Intern---Summer-2027_332816-1) | $39,400 - $75,900 | 19 |
-| Federal Reserve | [Summer 2027 Intern-Data Science and Business Analytics](https://rb.wd5.myworkdayjobs.com/en-US/frs/job/Chicago-IL/Summer-2027-Intern-Data-Science-and-Business-Analytics_R-0000033609) | $20 to $33 | 20 |
 | Booz Allen Hamilton | [AI RAN Telecommunications Engineer Intern](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869) | $53,000 | 25 |
-| Moderna | [Co-Op - Research Engineering and AI Integration](https://modernatx.wd1.myworkdayjobs.com/en-US/m_tx/job/Cambridge-Massachusetts/Co-Op--Research-Engineering-and-AI-Integration_R19893) | $20.00 - $60.00 | 20 |
 | Fox | [Summer 2027 FOX News Media Internship Program - Data Analytics - New York](https://fox.wd1.myworkdayjobs.com/en-US/domestic/job/New-York-New-York-USA/Summer-2027-FOX-News-Media-Internship-Program---Data-Analytics---New-York_R50033981) | $20.00 per hour | 20 |
 | Pacific Life | [Summer 2027 Data Engineering Internship](https://pacificlife.wd1.myworkdayjobs.com/en-US/pacificlifecareers/job/Newport-Beach-CA-700/Summer-2027-Data-Engineering-Internship_R17828) | $25.00 per hour | 25 |
+| Stryker | [Summer 2027 Internship - Data Engineering - Indiana](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Fort-Wayne-Indiana/Data-Engineering-Intern_R572901) | $20 | 20 |
+| Veeam | [People & Culture AI Transformation Intern- Summer 2027](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4971202101) | $20- $25 USD | 20 |
+| Danaher | [Data Analytics Intern Summer 2027](https://danaher.wd1.myworkdayjobs.com/en-US/danaherjobs/job/Logan-Utah-United-States/Data-Analytics-Intern-Summer-2027_R1317525) | $25.00 | 25 |
+| SurveyMonkey | [Summer 2027 Intern - Enterprise Reporting & Analytics - Data Science](https://momentive.wd1.myworkdayjobs.com/en-US/mc/job/US-NY-Niskayuna/Summer-2027-Intern---Enterprise-Reporting---Analytics---Data-Science_R9807-1) | $22.00 - $26.00 | 22 |
+| Johnson & Johnson | [Data Science Co-Op - Summer 2027](https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Cincinnati-Ohio-United-States-of-America/Data-Science-Co-Op--Summer-2027_R-096746) | $23.50/hr | 24 |
+| Stryker | [Summer 2027 Internship - Data Analytics - Michigan](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Portage-Michigan/Summer-2027-Internship---Data-Analytics---Michigan_R572601) | $20 | 20 |
+| Ecolab | [Digital & AI Technology Intern](https://ecolab.wd1.myworkdayjobs.com/en-US/ecolab_external/job/USA---Minnesota---Saint-Paul/Digital---AI-Technology-Intern_R00303249) | $23 - $25 / hour | 23 |
+| SpaceX | [Summer 2027 Engineering Internship/Co-op](https://boards.greenhouse.io/spacex/jobs/8621740002?gh_jid=8621740002) | $28.00/hour | 28 |
+| Optiver | [Institutional Trader Intern (2027 Start - Chicago)](https://job-boards.greenhouse.io/optiverprivate/jobs/8402208002) | $45000 - $50000 | 22 |
+| Raymond James | [2027 Investment Banking Summer Analyst Diversified Industrials McLean, VA](https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers/job/Mc-Lean-Virginia---United-States/XMLNAME-2027-Investment-Banking-Summer-Analyst-Diversified-Industrials-McLean--VA_R-0012139) | $35,568 | 17 |
+| KeyBank | [2027 Summer Commercial Bank Internship - Atlanta (Credit)](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Atlanta-GA/XMLNAME-2027-Summer-Commercial-Bank-Internship---Atlanta--Credit-_R-42557) | $27 per hour | 27 |
+| KeyBank | [2027 Summer Commercial Bank Internship - Cleveland (Credit)](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/XMLNAME-2027-Summer-Commercial-Bank-Internship---Cleveland--Credit-_R-41396) | $23 per hour | 23 |
+| KeyBank | [2027 Summer Internship - Structured Finance - Superior, CO](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Superior-CO/XMLNAME-2027-Summer-Internship---Structured-Finance---Superior--CO_R-42950) | $27 per hour | 27 |
+| KeyBank | [2027 Summer Key Equipment Finance Capital Markets Buy-Sell Intern - New York City](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/New-York-NY/XMLNAME-2027-Summer-Key-Equipment-Finance-Capital-Markets-Buy-Sell-Intern---New-York-City_R-42915) | $27 per hour | 27 |
+| KeyBank | [Summer 2027 Key Investment Services Internship (Certified Financial Planner Track) - Bellingham, WA](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Bellingham-WA/Summer-2027-Key-Investment-Services-Internship--Certified-Financial-Planner-Track----Bellingham--WA_R-41216) | $23 per hour | 23 |
+| KeyBank | [Summer 2027 Key Investment Services Internship (Certified Financial Planner Track) - Albany, OR](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Albany-OR/Summer-2027-Key-Investment-Services-Internship--Certified-Financial-Planner-Track----Albany--OR_R-41217) | $23 per hour | 23 |
+| KeyBank | [Summer 2027 Key Investment Services Internship (Certified Financial Planner Track) - Goshen, IN](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Goshen-IN/Summer-2027-Key-Investment-Services-Internship--Certified-Financial-Planner-Track----Goshen--IN_R-41215) | $23 per hour | 23 |
+| KeyBank | [Summer 2027 Key Investment Services Internship (Certified Financial Planner Track) - Erie, PA](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Erie-PA/Summer-2027-Key-Investment-Services-Internship--Certified-Financial-Planner-Track----Erie--PA_R-41223) | $23 per hour | 23 |
+| KeyBank | [Summer 2027 Key Investment Services Internship (Certified Financial Planner Track) - Boise, ID](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Boise-ID/Summer-2027-Key-Investment-Services-Internship--Certified-Financial-Planner-Track----Boise--ID_R-41218) | $23 per hour | 23 |
+| KeyBank | [Summer 2027 Key Investment Services Internship (Certified Financial Planner Track) - Toledo, OH](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Toledo-OH/Summer-2027-Key-Investment-Services-Internship--Certified-Financial-Planner-Track----Toledo--OH_R-41225) | $23 per hour | 23 |
+| KeyBank | [2027 Summer Commercial Bank Internship - Salt Lake City (Credit)](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Salt-Lake-City-UT/XMLNAME-2027-Summer-Commercial-Bank-Internship---Salt-Lake-City--Credit-_R-42654) | $25 per hour | 25 |
+| KeyBank | [2027 Summer Commercial Bank Internship - Denver (Credit)](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Denver-CO/XMLNAME-2027-Summer-Commercial-Bank-Internship---Denver--Credit-_R-41397) | $27 per hour | 27 |
+| M&T Bank | [Technology Intern - Software Engineering (Enterprise API Services Development Team)](https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/Technology-Intern---Software-Engineering--Enterprise-API-Services-Development-Team-_R90812) | $18.00 - $28.00 per hour | 18 |
+| M&T Bank | [2027 Corporate Summer Internship Program- Banking Services: Mortgage Payoffs](https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/XMLNAME-2027-Corporate-Summer-Internship-Program--Banking-Services--Mortgage-Payoffs_R90349) | $18.00 - $28.00 per hour | 18 |
+| Federal Reserve | [Undergraduate Intern – Research Focus](https://rb.wd5.myworkdayjobs.com/FRS/job/Minneapolis-MN/Undergraduate-Intern---Research-Focus_R-0000033978-1) | $23.00/hour | 23 |
+| Federal Reserve | [Undergraduate Intern – Technology Focus](https://rb.wd5.myworkdayjobs.com/FRS/job/Minneapolis-MN/Undergraduate-Intern---Technology-Focus_R-0000033975-1) | $23.00/hour | 23 |
+| Federal Reserve | [Federal Reserve Summer Technical 2027 Internship](https://rb.wd5.myworkdayjobs.com/FRS/job/Richmond-VA/Federal-Reserve-Summer-2027-Technical-Internship_R-0000033194) | $23.50/hour | 24 |
+| Federal Reserve | [Federal Reserve Summer 2027 Economics Writing and Analysis Internship](https://rb.wd5.myworkdayjobs.com/FRS/job/Richmond-VA/Federal-Reserve-Summer-2027-Economics-Writing-and-Analysis-Internship_R-0000033220) | $23.50/hour | 24 |
+| Federal Reserve | [Federal Reserve Summer 2027 Research Business Survey Internship](https://rb.wd5.myworkdayjobs.com/FRS/job/Richmond-VA/Federal-Reserve-Summer-2027-Research-Business-Survey-Internship_R-0000033218) | $23.50/hour | 24 |
+| CME Group | [Year-Long Technology Internship (Summer 2027-Spring 2028)](https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Chicago---20-S-Wacker/Year-Long-Technology-Internship--Summer-2027-Spring-2028-_34831) | $21.68 | 22 |
+| Northwestern Mutual | [Investment Strategy Analyst Intern, Summer 2027](https://northwesternmutual.wd5.myworkdayjobs.com/CORPORATE-CAREERS/job/Milwaukee-WI-Corporate/Investment-Strategy-Analyst-Intern--Summer-2027_JR-46324) | $16.50 | 17 |
+| Northwestern Mutual | [Life Underwriting Intern, Year-round](https://northwesternmutual.wd5.myworkdayjobs.com/CORPORATE-CAREERS/job/Milwaukee-WI-Corporate/Life-Underwriting-Intern--Year-round_JR-46302) | $16.50 | 17 |
+| Northwestern Mutual | [Investment Operations Internship](https://northwesternmutual.wd5.myworkdayjobs.com/CORPORATE-CAREERS/job/Milwaukee-WI-Corporate/Investment-Operations-Internship_JR-46300) | $16.50 | 17 |
+| Travelers | [Risk Control Intern](https://travelers.wd5.myworkdayjobs.com/External/job/NC---Charlotte/Risk-Control-Intern_R-53501) | $25.00 - $26.00 | 25 |
+| Travelers | [Risk Control Intern](https://travelers.wd5.myworkdayjobs.com/External/job/TX---Richardson/Risk-Control-Intern_R-53499-1) | $25.00 - $26.00 | 25 |
+| Travelers | [Risk Control Intern](https://travelers.wd5.myworkdayjobs.com/External/job/MN---St-Paul/Risk-Control-Intern_R-53498) | $25.00 - $26.00 | 25 |
+| Travelers | [Risk Control Intern](https://travelers.wd5.myworkdayjobs.com/External/job/KS---Overland-Park/Risk-Control-Intern_R-53505) | $25.00 - $26.00 | 25 |
+| Travelers | [Risk Control Intern](https://travelers.wd5.myworkdayjobs.com/External/job/CA---Irvine/Risk-Control-Intern_R-53503) | $25.00 - $26.00 | 25 |
+| Travelers | [Risk Control Intern](https://travelers.wd5.myworkdayjobs.com/External/job/IL---Chicago/Risk-Control-Intern_R-53502) | $25.00 - $26.00 | 25 |
+| Travelers | [Product Management Development Program (PMDP) Intern](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Product-Management-Development-Program--PMDP--Intern_R-52317) | $26.00 - $28.00 | 26 |
+| Travelers | [Business Insurance Underwriting Professional Development Program Internship (BI UPDP Intern)](https://travelers.wd5.myworkdayjobs.com/External/job/CA---Diamond-Bar/Business-Insurance-Underwriting-Professional-Development-Program-Internship--BI-UPDP-Intern-_R-53094) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program Internship (BI UPDP Intern)](https://travelers.wd5.myworkdayjobs.com/External/job/WA---Spokane-Valley/Business-Insurance-Underwriting-Professional-Development-Program-Internship--BI-UPDP-Intern-_R-53096) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program Internship (BI UPDP Intern)](https://travelers.wd5.myworkdayjobs.com/External/job/CO---Centennial/Business-Insurance-Underwriting-Professional-Development-Program-Internship--BI-UPDP-Intern-_R-53097) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program Internship (BI UPDP Intern)](https://travelers.wd5.myworkdayjobs.com/External/job/CA---Glendale/Business-Insurance-Underwriting-Professional-Development-Program-Internship--BI-UPDP-Intern-_R-53095) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Intern: Underwriting Professional Development Program (UPDP)](https://travelers.wd5.myworkdayjobs.com/External/job/WI---Brookfield/Business-Insurance-Intern--Underwriting-Professional-Development-Program--UPDP-_R-53088) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Intern: Underwriting Professional Development Program (UPDP)](https://travelers.wd5.myworkdayjobs.com/External/job/IL---Downers-Grove/Business-Insurance-Intern--Underwriting-Professional-Development-Program--UPDP-_R-53086) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Intern: Underwriting Professional Development Program (UPDP)](https://travelers.wd5.myworkdayjobs.com/External/job/KS---Overland-Park/Business-Insurance-Intern--Underwriting-Professional-Development-Program--UPDP-_R-53089) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-52980) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/MA---Braintree/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-52979) | $25.00 - $26.00 | 25 |
+| Travelers | [Bond & Specialty Underwriting Professional Development Program (BSI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/MA---Braintree/Bond---Specialty-Underwriting-Professional-Development-Program--BSI-UPDP--Internship_R-52879) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/GA---Alpharetta/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-53001) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/GA---Alpharetta/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-53000) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/GA---Alpharetta/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-53002) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/GA---Alpharetta/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-53017) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/PA---Blue-Bell/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-52988) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/TN---Franklin/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-52995) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/NY---Melville/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-52991) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/NC---Charlotte/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-52989) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-52993) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/TN---Franklin/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-52994) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/VA---Richmond/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-52990) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/TX---Richardson/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-53146) | $25.00 - $26.00 | 25 |
+| Travelers | [Business Insurance Underwriting Professional Development Program (BI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/TX---Houston/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-53494) | $25.00 - $26.00 | 25 |
+| Travelers | [Bond & Specialty Insurance Underwriting Professional Development Program (BSI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/MS---Flowood/Bond---Specialty-Insurance-Underwriting-Professional-Development-Program--BSI-UPDP--Internship_R-52881) | $25.00 - $26.00 | 25 |
+| Travelers | [Bond & Specialty Insurance Underwriting Professional Development Program (BSI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Bond---Specialty-Insurance-Underwriting-Professional-Development-Program--BSI-UPDP--Internship_R-52882) | $25.00 - $26.00 | 25 |
+| Travelers | [Bond & Specialty Insurance Underwriting Professional Development Program (BSI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Bond---Specialty-Insurance-Underwriting-Professional-Development-Program--BSI-UPDP--Internship_R-52883) | $25.00 - $26.00 | 25 |
+| Travelers | [Bond & Specialty Insurance Underwriting Professional Development Program (BSI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/NJ---Edison/Bond---Specialty-Insurance-Underwriting-Professional-Development-Program--BSI-UPDP--Internship_R-52880) | $25.00 - $26.00 | 25 |
+| The Hartford | [Intern, Enterprise Risk Management](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Intern--Enterprise-Risk-Management_R2626403-1) | $25 - $26 | 25 |
+| The Hartford | [2027 Summer Intern - Finance](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Finance_R2627497) | $20.00 - $25.00 | 20 |
+| The Hartford | [2027 Summer Intern - Investment Consulting Group](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Investment-Consulting-Group_R2627498) | $20.00 - $25.00 | 20 |
+| Pacific Life | [Summer 2027 Actuarial Intern (Omaha)](https://pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers/job/Omaha-NE-6750/Summer-2027-Actuarial-Intern--Omaha-_R17461) | $26.00 per hour | 26 |
+| Pacific Life | [Summer 2027 Actuarial Intern (Charlotte)](https://pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers/job/Charlotte---NC/Summer-2027-Actuarial-Intern--Charlotte-_R17462) | $26.00 per hour | 26 |
+| Pacific Life | [Summer 2027 Actuarial Intern (Newport Beach)](https://pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Actuarial-Intern--Newport-Beach-_R17460) | $26.00 per hour | 26 |
+| Pacific Life | [Summer 2027 Software Engineering Internship](https://pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Software-Engineering-Internship_R17826) | $25.00 per hour | 25 |
+| Pacific Life | [Summer 2027 Data Engineering Internship](https://pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Data-Engineering-Internship_R17828) | $25.00 per hour | 25 |
+| Nuveen | [2027 Intern, Energy Infrastructure Credit](https://tiaa.wd1.myworkdayjobs.com/Search/job/New-York-NY---730-Third-Avenue/XMLNAME-2027-Intern--Energy-Infrastructure-Credit_R261000336-1) | $22.00/hr | 22 |
+| TPG | [Y Analytics, Responsible Investing, Summer Research Assistant, Internship](https://job-boards.greenhouse.io/tpgcareers/jobs/8036208003) | $22.5/hour | 23 |
+| Rocket Lab | [Avionics Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7989733003) | $28 - $28 | 28 |
+| Rocket Lab | [Fluid Systems Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986794003) | $28 - $28 | 28 |
+| Rocket Lab | [Ground Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/8042092003) | $25 - $25 | 25 |
+| Rocket Lab | [HITL Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990268003) | $28 - $28 | 28 |
+| Rocket Lab | [R&D Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7996576003) | $20.00 USD Hour | 20 |
+| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986963003) | $22 - $22 | 22 |
+| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986961003) | $22 - $22 | 22 |
+| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986874003) | $18.00 USD Hour | 18 |
+| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986956003) | $25 - $25 | 25 |
+| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990272003) | $25.00 USD Hour | 25 |
+| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990138003) | $28 - $28 | 28 |
+| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990270003) | $25.00 USD Hour | 25 |
+| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7987046003) | $28 - $28 | 28 |
+| Rocket Lab | [Test Engineering Intern - Avionics Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7987159003) | $28 - $28 | 28 |
+| Rocket Lab | [Test Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990350003) | $25.00 USD Hour | 25 |
+| Ginkgo Bioworks | [Software Intern, Autonomous Lab](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) | $37,700-$53,500 | 18 |
+| Uber Freight | [Solutions Analyst Intern - Summer 2027](https://job-boards.greenhouse.io/uberfreight/jobs/5444153008) | $17 | 17 |
 
 ## Live ATS boards
 
@@ -614,9 +542,9 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Microsoft** (Big Tech): eightfold:apply.careers.microsoft.com/microsoft.com [local] 20
 - **Netflix** (Big Tech): eightfold:explore.jobs.netflix.net/netflix.com [pts] 6
 - **NVIDIA** (Big Tech): workday:nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite [pts] 1017
-- **Salesforce** (Big Tech): workday:salesforce.wd12.myworkdayjobs.com/External_Career_Site [pts] 766
+- **Salesforce** (Big Tech): workday:salesforce.wd12.myworkdayjobs.com/External_Career_Site [pts] 767
 - **Adobe** (Big Tech): workday:adobe.wd5.myworkdayjobs.com/external_experienced [pts] 124
-- **Intel** (Big Tech): workday:intel.wd1.myworkdayjobs.com/External [pts] 516
+- **Intel** (Big Tech): workday:intel.wd1.myworkdayjobs.com/External [pts] 517
 - **Lyft** (Big Tech): greenhouse:lyft [pts] 171
 - **Airbnb** (Big Tech): greenhouse:airbnb [pts] 210
 - **Pinterest** (Big Tech): greenhouse:pinterest [pts] 168
@@ -624,7 +552,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Spotify** (Big Tech): lever:spotify [pts] 84
 - **SpaceX** (Big Tech): greenhouse:spacex [guessed] 2875
 - **Waymo** (Big Tech): greenhouse:waymo [local] 373
-- **Stripe** (Big Tech): greenhouse:stripe [pts] 738
+- **Stripe** (Big Tech): greenhouse:stripe [pts] 739
 - **Workday** (Big Tech): workday:workday.wd5.myworkdayjobs.com/Workday [pts] 187
 - **PayPal** (Big Tech): workday:paypal.wd1.myworkdayjobs.com/jobs [pts] 190
 - **Dropbox** (Big Tech): greenhouse:dropbox [pts] 28
@@ -640,7 +568,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Riot Games** (Big Tech): greenhouse:riotgames [guessed] 184
 - **Nintendo** (Big Tech): greenhouse:nintendo [guessed] 73
 - **OpenAI** (AI & ML): ashby:openai [pts] 805
-- **Anthropic** (AI & ML): greenhouse:anthropic [pts] 675
+- **Anthropic** (AI & ML): greenhouse:anthropic [pts] 674
 - **Scale AI** (AI & ML): greenhouse:scaleai [pts] 166
 - **Perplexity** (AI & ML): ashby:perplexity [pts] 136
 - **Cohere** (AI & ML): ashby:cohere [pts] 119
@@ -658,9 +586,9 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **CoreWeave** (AI & ML): greenhouse:coreweave [pts] 305
 - **Snorkel AI** (AI & ML): greenhouse:snorkelai [pts] 43
 - **Figure** (AI & ML): greenhouse:figure [guessed] 18
-- **Nuro** (AI & ML): greenhouse:nuro [guessed] 93
-- **Anduril** (AI & ML): greenhouse:andurilindustries [pts] 2574
-- **Shield AI** (AI & ML): lever:shieldai [guessed] 656, ashby:shieldai [guessed] 684, greenhouse:shield [guessed] 1, ashby:shield [guessed] 684
+- **Nuro** (AI & ML): greenhouse:nuro [guessed] 92
+- **Anduril** (AI & ML): greenhouse:andurilindustries [pts] 2571
+- **Shield AI** (AI & ML): lever:shieldai [guessed] 655, ashby:shieldai [guessed] 684, greenhouse:shield [guessed] 1, ashby:shield [guessed] 684
 - **Skydio** (AI & ML): ashby:skydio [guessed] 194
 - **Abridge** (AI & ML): ashby:abridge [guessed] 37
 - **Mercor** (AI & ML): ashby:mercor [pts] 105
@@ -669,7 +597,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Modal** (AI & ML): ashby:modal [pts] 42
 - **Pinecone** (AI & ML): ashby:pinecone [guessed] 6
 - **Replit** (AI & ML): ashby:replit [pts] 34
-- **Vercel** (AI & ML): greenhouse:vercel [pts] 90
+- **Vercel** (AI & ML): greenhouse:vercel [pts] 89
 - **Dataiku** (AI & ML): greenhouse:dataiku [guessed] 16
 - **Physical Intelligence** (AI & ML): ashby:physicalintelligence [guessed] 44
 - **Reflection AI** (AI & ML): ashby:reflectionai [guessed] 49
@@ -682,7 +610,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Luma AI** (AI & ML): ashby:lumaai [guessed] 28
 - **Black Forest Labs** (AI & ML): ashby:black-forest-labs [guessed] 15
 - **Fireworks AI** (AI & ML): ashby:fireworks [guessed] 90
-- **Baseten** (AI & ML): ashby:baseten [guessed] 103
+- **Baseten** (AI & ML): ashby:baseten [guessed] 104
 - **Anyscale** (AI & ML): ashby:anyscale [guessed] 22
 - **Weaviate** (AI & ML): ashby:weaviate [guessed] 2
 - **LangChain** (AI & ML): ashby:langchain [guessed] 102
@@ -691,7 +619,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Jane Street** (Quant & Trading): greenhouse:janestreet [pts] 217, ashby:jane [pts] 26
 - **Hudson River Trading** (Quant & Trading): greenhouse:wehrtyou [pts] 84
 - **Jump Trading** (Quant & Trading): greenhouse:jumptrading [pts] 97, ashby:jump [pts] 3
-- **DRW** (Quant & Trading): greenhouse:drweng [pts] 164, greenhouse:drwfr [pts] 8
+- **DRW** (Quant & Trading): greenhouse:drweng [pts] 163, greenhouse:drwfr [pts] 8
 - **Optiver** (Quant & Trading): greenhouse:optiverprivate [pts] 8, greenhouse:optiverus [pts] 158, greenhouse:optiver [guessed] 0
 - **IMC Trading** (Quant & Trading): greenhouse:imc [pts] 158
 - **Virtu Financial** (Quant & Trading): greenhouse:virtu [pts] 47
@@ -746,9 +674,9 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Morgan Stanley** (Investment Banks): eightfold:morganstanley.eightfold.ai/morganstanley.com [local] 20
 - **JPMorgan Chase** (Investment Banks): oracle:jpmc.fa.oraclecloud.com/CX_1001 [pts] 1000
 - **Bank of America** (Investment Banks): workday:ghr.wd1.myworkdayjobs.com/Lateral-US [pts] 909
-- **Wells Fargo** (Investment Banks): workday:wf.wd1.myworkdayjobs.com/wellsfargojobs [pts] 101
+- **Wells Fargo** (Investment Banks): workday:wf.wd1.myworkdayjobs.com/wellsfargojobs [pts] 674
 - **Barclays** (Investment Banks): workday:barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays [pts] 585
-- **Deutsche Bank** (Investment Banks): workday:db.wd3.myworkdayjobs.com/DBWebsite [pts] 598
+- **Deutsche Bank** (Investment Banks): workday:db.wd3.myworkdayjobs.com/DBWebsite [pts] 597
 - **BMO** (Investment Banks): workday:bmo.wd3.myworkdayjobs.com/External [pts] 532
 - **William Blair** (Investment Banks): greenhouse:williamblair [guessed] 50
 - **Lincoln International** (Investment Banks): greenhouse:lincolninternational [guessed] 42
@@ -761,16 +689,16 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **U.S. Bank** (Banks & Financial Services): workday:usbank.wd1.myworkdayjobs.com/US_Bank_Careers [pts] 1004
 - **Fifth Third** (Banks & Financial Services): workday:fifththird.wd5.myworkdayjobs.com/53careers [pts] 325
 - **KeyBank** (Banks & Financial Services): workday:keybank.wd5.myworkdayjobs.com/External_Career_Site [pts] 401, workday:keybank.wd5.myworkdayjobs.com/Scout [pts] 3
-- **M&T Bank** (Banks & Financial Services): workday:mtb.wd5.myworkdayjobs.com/MTB [pts] 695, workday:mtb.wd5.myworkdayjobs.com/Campus [pts] 39
+- **M&T Bank** (Banks & Financial Services): workday:mtb.wd5.myworkdayjobs.com/MTB [pts] 694, workday:mtb.wd5.myworkdayjobs.com/Campus [pts] 39
 - **State Street** (Banks & Financial Services): workday:statestreet.wd1.myworkdayjobs.com/Global [pts] 704
-- **Northern Trust** (Banks & Financial Services): workday:ntrs.wd1.myworkdayjobs.com/northerntrust [pts] 358
+- **Northern Trust** (Banks & Financial Services): workday:ntrs.wd1.myworkdayjobs.com/northerntrust [pts] 357
 - **Federal Reserve** (Banks & Financial Services): workday:rb.wd5.myworkdayjobs.com/FRS [pts] 146
 - **Nasdaq** (Banks & Financial Services): workday:nasdaq.wd1.myworkdayjobs.com/Global_External_Site [pts] 91
 - **CME Group** (Banks & Financial Services): workday:cmegroup.wd1.myworkdayjobs.com/cme_careers [pts] 58
-- **S&P Global** (Banks & Financial Services): workday:spgi.wd5.myworkdayjobs.com/SPGI_Careers [pts] 359
+- **S&P Global** (Banks & Financial Services): workday:spgi.wd5.myworkdayjobs.com/SPGI_Careers [pts] 360
 - **FactSet** (Banks & Financial Services): workday:factset.wd108.myworkdayjobs.com/FactSetCareers [pts] 64
 - **Morningstar** (Banks & Financial Services): workday:morningstar.wd5.myworkdayjobs.com/morningstar [pts] 85, workday:morningstar.wd5.myworkdayjobs.com/Americas [pts] 8, workday:morningstar.wd5.myworkdayjobs.com/MorningstarDBRS [pts] 17
-- **Fidelity National Information Services** (Banks & Financial Services): workday:fis.wd5.myworkdayjobs.com/SearchJobs [pts] 314
+- **Fidelity National Information Services** (Banks & Financial Services): workday:fis.wd5.myworkdayjobs.com/SearchJobs [pts] 315
 - **Fiserv** (Banks & Financial Services): workday:fiserv.wd5.myworkdayjobs.com/EXT [pts] 226
 - **Global Payments** (Banks & Financial Services): workday:tsys.wd1.myworkdayjobs.com/TSYS [pts] 210
 - **LPL Financial** (Banks & Financial Services): workday:lplfinancial.wd1.myworkdayjobs.com/External [pts] 153
@@ -778,15 +706,15 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **MassMutual** (Banks & Financial Services): workday:massmutual.wd1.myworkdayjobs.com/MMINDCareersite [pts] 6, workday:massmutual.wd1.myworkdayjobs.com/MMAscendCareers [pts] 1
 - **Guardian Life** (Banks & Financial Services): workday:guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers [pts] 115
 - **Nationwide** (Banks & Financial Services): workday:nationwide.wd1.myworkdayjobs.com/Nationwide_Career [pts] 102
-- **Allstate** (Banks & Financial Services): workday:allstate.wd5.myworkdayjobs.com/allstate_careers [pts] 362
+- **Allstate** (Banks & Financial Services): workday:allstate.wd5.myworkdayjobs.com/allstate_careers [pts] 361
 - **Travelers** (Banks & Financial Services): workday:travelers.wd5.myworkdayjobs.com/External [pts] 385
 - **The Hartford** (Banks & Financial Services): workday:thehartford.wd5.myworkdayjobs.com/Careers_External [pts] 132
 - **Pacific Life** (Banks & Financial Services): workday:pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers [pts] 70
-- **BlackRock** (Asset Management): workday:blackrock.wd1.myworkdayjobs.com/BlackRock_Professional [pts] 136
+- **BlackRock** (Asset Management): workday:blackrock.wd1.myworkdayjobs.com/BlackRock_Professional [pts] 137
 - **Vanguard** (Asset Management): workday:vanguard.wd5.myworkdayjobs.com/vanguard_external [pts] 182
-- **Fidelity** (Asset Management): workday:fil.wd3.myworkdayjobs.com/001 [pts] 51, workday:fmr.wd1.myworkdayjobs.com/fidelitycareers [pts] 499
+- **Fidelity** (Asset Management): workday:fil.wd3.myworkdayjobs.com/001 [pts] 51, workday:fmr.wd1.myworkdayjobs.com/fidelitycareers [pts] 289
 - **T. Rowe Price** (Asset Management): workday:troweprice.wd5.myworkdayjobs.com/TRowePrice [pts] 65, workday:troweprice.wd5.myworkdayjobs.com/TRowePriceInternational [pts] 17
-- **Invesco** (Asset Management): workday:invesco.wd1.myworkdayjobs.com/IVZ [pts] 139
+- **Invesco** (Asset Management): workday:invesco.wd1.myworkdayjobs.com/IVZ [pts] 138
 - **Franklin Templeton** (Asset Management): workday:franklintempleton.wd5.myworkdayjobs.com/Primary-External-1 [pts] 0, workday:franklintempleton.wd5.myworkdayjobs.com/Jobs-WAM [pts] 0
 - **PIMCO** (Asset Management): workday:pimco.wd1.myworkdayjobs.com/pimco-careers [pts] 152
 - **PGIM** (Asset Management): workday:pru.wd5.myworkdayjobs.com/PGIM_Careers [pts] 77, workday:pru.wd5.myworkdayjobs.com/Careers [pts] 111
@@ -794,7 +722,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **AllianceBernstein** (Asset Management): workday:abglobal.wd1.myworkdayjobs.com/alliancebernsteincareers [pts] 46
 - **Capital Group** (Asset Management): workday:capgroup.wd1.myworkdayjobs.com/capitalgroupcareers [pts] 85
 - **Dimensional** (Asset Management): workday:dimensional.wd5.myworkdayjobs.com/DFA_Careers [pts] 52, ashby:dimensional [guessed] 12
-- **Wellington Management** (Asset Management): workday:wellington.wd5.myworkdayjobs.com/External [pts] 83
+- **Wellington Management** (Asset Management): workday:wellington.wd5.myworkdayjobs.com/External [pts] 84
 - **Neuberger Berman** (Asset Management): workday:nb.wd1.myworkdayjobs.com/NBCareers [pts] 54, workday:nb.wd1.myworkdayjobs.com/PWM [pts] 6
 - **MFS** (Asset Management): workday:mfs.wd1.myworkdayjobs.com/MFS-Careers [pts] 25
 - **Russell Investments** (Asset Management): workday:russell.wd5.myworkdayjobs.com/russellinvestments [pts] 28
@@ -829,23 +757,23 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Y Combinator** (Private Equity & VC): ashby:ycombinator [guessed] 10
 - **Point72 Ventures** (Private Equity & VC): greenhouse:point72 [guessed] 196
 - **Visa** (Fintech & Payments): workday:visa.wd5.myworkdayjobs.com/Visa [pts] 496, workday:visa.wd5.myworkdayjobs.com/Visa_Early_Careers [pts] 55
-- **Mastercard** (Fintech & Payments): workday:mastercard.wd1.myworkdayjobs.com/CorporateCareers [pts] 654, workday:mastercard.wd1.myworkdayjobs.com/Campus [pts] 29
+- **Mastercard** (Fintech & Payments): workday:mastercard.wd1.myworkdayjobs.com/CorporateCareers [pts] 653, workday:mastercard.wd1.myworkdayjobs.com/Campus [pts] 29
 - **Plaid** (Fintech & Payments): ashby:plaid [pts] 138
 - **Chime** (Fintech & Payments): greenhouse:chime [pts] 74
 - **Robinhood** (Fintech & Payments): greenhouse:robinhood [pts] 160
 - **Coinbase** (Fintech & Payments): greenhouse:coinbase [pts] 264
 - **Affirm** (Fintech & Payments): greenhouse:affirm [pts] 240
 - **SoFi** (Fintech & Payments): greenhouse:sofi [local] 60
-- **Brex** (Fintech & Payments): greenhouse:brex [pts] 267
+- **Brex** (Fintech & Payments): greenhouse:brex [pts] 270
 - **Ramp** (Fintech & Payments): ashby:ramp [pts] 169
 - **Mercury** (Fintech & Payments): ashby:mercury [pts] 0
 - **Wealthfront** (Fintech & Payments): lever:wealthfront [pts] 22
 - **Betterment** (Fintech & Payments): greenhouse:betterment [pts] 27
 - **Addepar** (Fintech & Payments): greenhouse:addepar1 [pts] 108
 - **Carta** (Fintech & Payments): greenhouse:carta [guessed] 78
-- **Toast** (Fintech & Payments): greenhouse:toast [pts] 349
+- **Toast** (Fintech & Payments): greenhouse:toast [pts] 347
 - **Nubank** (Fintech & Payments): greenhouse:nubank [pts] 0, ashby:nubank [guessed] 98
-- **Kraken** (Fintech & Payments): ashby:kraken.com [pts] 86
+- **Kraken** (Fintech & Payments): ashby:kraken.com [pts] 88
 - **Gemini** (Fintech & Payments): greenhouse:gemini [pts] 29
 - **Ripple** (Fintech & Payments): greenhouse:ripple [pts] 112
 - **Paxos** (Fintech & Payments): ashby:paxos [pts] 23
@@ -916,7 +844,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **MongoDB** (High-Growth Tech): greenhouse:mongodb [pts] 358
 - **Datadog** (High-Growth Tech): greenhouse:datadog [pts] 400
 - **Cloudflare** (High-Growth Tech): greenhouse:cloudflare [pts] 465
-- **Zscaler** (High-Growth Tech): greenhouse:zscaler [guessed] 364
+- **Zscaler** (High-Growth Tech): greenhouse:zscaler [guessed] 362
 - **Okta** (High-Growth Tech): greenhouse:okta [local] 391
 - **Duolingo** (High-Growth Tech): greenhouse:duolingo [pts] 55
 - **Coursera** (High-Growth Tech): greenhouse:coursera [pts] 30
@@ -927,7 +855,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Strava** (High-Growth Tech): ashby:strava [guessed] 26
 - **Calm** (High-Growth Tech): greenhouse:calm [guessed] 1
 - **Zocdoc** (High-Growth Tech): greenhouse:zocdoc [guessed] 62
-- **Hims & Hers** (High-Growth Tech): ashby:hims-and-hers [guessed] 151
+- **Hims & Hers** (High-Growth Tech): ashby:hims-and-hers [guessed] 152
 - **Flatiron Health** (High-Growth Tech): greenhouse:flatironhealth [guessed] 26
 - **Vanta** (High-Growth Tech): ashby:vanta [guessed] 83
 - **Drata** (High-Growth Tech): ashby:drata [guessed] 27
