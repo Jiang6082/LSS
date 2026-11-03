@@ -9,7 +9,7 @@ import { ashby, collectorTasks, greenhouse, lever, seedKey } from "../tools/coll
 import { canonicalUrl, fetchJson, mapLimit, parseCsv } from "../tools/common.mjs";
 import { classifyDates } from "../tools/dates.mjs";
 import { enrichRow } from "../tools/enrich.mjs";
-import { languageFlags, parsePay, screenRole, UNPAID_RE, usStatus } from "../tools/filter.mjs";
+import { advancedDegreeOnly, languageFlags, parsePay, screenRole, UNPAID_RE, usStatus } from "../tools/filter.mjs";
 import { generatedTokens, loadKnownFirms, loadSeeds, normalizeCompany } from "../tools/firms.mjs";
 import { writeReports } from "./build-reports.mjs";
 
@@ -105,6 +105,7 @@ for (const row of [...agg.rows, ...boardRows]) {
   if (!role.ok) { bump(role.reason); continue; }
   const loc = usStatus(row.Location);
   if (loc === "non-us") { bump("outside US"); continue; }
+  if (loc !== "us" && usStatus(row.Title) === "non-us") { bump("outside US (title)"); continue; }
   if (loc === "unknown" && config.includeUnknownLocation === false) { bump("location unknown"); continue; }
   const term = classifyDates({ Title: row.Title, Terms: row.Terms, Content: "" }, config.window);
   // Fall-only and undated co-ops still get a detail fetch: their posted dates decide.
@@ -158,6 +159,7 @@ for (const row of enriched) {
   const loc = usStatus(row.Location);
   if (loc === "non-us") { bump("outside US (detail)"); continue; }
   if (UNPAID_RE.test(row.Content || "")) { bump("unpaid"); continue; }
+  if (advancedDegreeOnly(row.Content)) { bump("PhD/MBA required (description)"); continue; }
   const pay = parsePay(row.Pay) || parsePay(row.Content);
   if (pay && pay.min < minPay) { bump(`pay below $${minPay}/hr`); continue; }
   const verdict = classifyDates(row, config.window);
