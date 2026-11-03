@@ -122,7 +122,7 @@ for (const row of [...agg.rows, ...boardRows]) {
     continue;
   }
   const pay = parsePay(row.Pay);
-  if (pay && pay.min < minPay) { bump(`pay below $${minPay}/hr`); notePay({ ...row, Firm: firm.name }, pay); continue; }
+  if (pay && (pay.max ?? pay.min) < minPay) { bump(`pay below $${minPay}/hr`); notePay({ ...row, Firm: firm.name }, pay); continue; }
   prefiltered.push({ ...row, Firm: firm.name, FirmCategory: firm.category, FirmTier: firm.tier, Track: role.track, US: loc });
 }
 step(`pre-screen: ${prefiltered.length} candidate postings`);
@@ -163,7 +163,8 @@ for (const row of enriched) {
   if (UNPAID_RE.test(row.Content || "")) { bump("unpaid"); continue; }
   if (advancedDegreeOnly(row.Content)) { bump("PhD/MBA required (description)"); continue; }
   const pay = parsePay(row.Pay) || parsePay(row.Content);
-  if (pay && pay.min < minPay) { bump(`pay below $${minPay}/hr`); notePay(row, pay); continue; }
+  // Drop only when even the top of the stated range is below the minimum ("$25 - $75/hr" stays).
+  if (pay && (pay.max ?? pay.min) < minPay) { bump(`pay below $${minPay}/hr`); notePay(row, pay); continue; }
   const verdict = classifyDates(row, config.window);
   const lang = languageFlags(row.Content);
   const out = {
