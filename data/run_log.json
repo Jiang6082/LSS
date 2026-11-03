@@ -1,27 +1,27 @@
 {
-  "scannedAt": "2026-11-03T16:30:27.061Z",
+  "scannedAt": "2026-11-03T16:51:22.317Z",
   "steps": [
     "[0s] known firms: 1103; window 2027-07-13 -> 2027-09-30; min pay $30/hr",
-    "[0s] aggregators: speedyapply_ai=780, speedyapply_swe=830, vanshb03=2012, simplify=5157",
+    "[0s] aggregators: speedyapply_swe=830, speedyapply_ai=780, vanshb03=2012, simplify=5157",
     "[1s] ATS: scanning 742 firms (220 seeded; PTS seeds loaded 233 firms)",
-    "[188s] ATS: 417 firms with live boards, 743 postings",
-    "[188s] pre-screen: 3078 candidate postings",
-    "[188s] detail fetch: 2620 unique postings",
-    "[334s] detail results: html=633, greenhouse=367, workday=1055, lever=58, oracle=90, jsonld=254, error=39, ashby=79, smartrecruiters=21, closed=24",
-    "[335s] classified: 1701 kept, 354 excluded by dates, 24 closed",
-    "[335s] done: 50 fit, 87 flexible, 1083 ask-about-dates"
+    "[151s] ATS: 417 firms with live boards, 719 postings",
+    "[151s] pre-screen: 3045 candidate postings",
+    "[151s] detail fetch: 2594 unique postings",
+    "[308s] detail results: html=635, greenhouse=365, workday=1038, lever=55, oracle=90, jsonld=257, error=30, ashby=79, smartrecruiters=21, closed=24",
+    "[309s] classified: 1419 kept, 421 excluded by dates, 24 closed",
+    "[309s] done: 0 fit, 54 flexible, 950 ask-about-dates"
   ],
   "errors": [],
   "sources": {
-    "speedyapply_ai": {
-      "ok": true,
-      "rows": 780,
-      "bytes": 258845
-    },
     "speedyapply_swe": {
       "ok": true,
       "rows": 830,
       "bytes": 273045
+    },
+    "speedyapply_ai": {
+      "ok": true,
+      "rows": 780,
+      "bytes": 258845
     },
     "vanshb03": {
       "ok": true,
@@ -37,9 +37,9 @@
   "ptsSeeds": "loaded 233 firms",
   "boards": {
     "firmsWithLiveBoards": 417,
-    "postings": 743,
+    "postings": 719,
     "failedSeeds": [
-      "Netflix eightfold:explore.jobs.netflix.net/netflix.com",
+      "Microsoft eightfold:apply.careers.microsoft.com/microsoft.com",
       "Anysphere ashby:anysphere",
       "Tempus greenhouse:tempus",
       "Chainalysis greenhouse:chainalysis",
@@ -49,59 +49,61 @@
     ]
   },
   "detailStats": {
-    "html": 633,
-    "greenhouse": 367,
-    "workday": 1055,
-    "lever": 58,
+    "html": 635,
+    "greenhouse": 365,
+    "workday": 1038,
+    "lever": 55,
     "oracle": 90,
-    "jsonld": 254,
-    "error": 39,
+    "jsonld": 257,
+    "error": 30,
     "ashby": 79,
     "smartrecruiters": 21,
     "closed": 24
   },
   "funnel": {
     "aggregatorRows": 8779,
-    "boardRows": 743,
-    "prefiltered": 3078,
-    "uniqueUrls": 2620,
-    "enriched": 2620,
+    "boardRows": 719,
+    "prefiltered": 3045,
+    "uniqueUrls": 2594,
+    "enriched": 2594,
     "closed": 24,
-    "kept": 1701,
-    "roles": 1220,
-    "dateExcluded": 354
+    "kept": 1419,
+    "roles": 1004,
+    "dateExcluded": 421
   },
   "rejected": {
-    "not on known-firm list": 2043,
+    "not on known-firm list": 2042,
     "hardware": 841,
-    "term: term year ####": 767,
-    "outside US": 765,
+    "outside US": 763,
+    "term: term year ####": 761,
     "outside SWE/PM/data/finance": 707,
-    "pay below $30/hr": 513,
+    "pay below $30/hr": 506,
     "PhD / MBA / law / medical": 359,
-    "dates: posted dates conflict": 289,
+    "dates: posted dates conflict": 358,
     "term: winter term": 272,
     "term: spring term": 238,
-    "non-Python stack in title": 131,
+    "PhD/MBA required (description)": 199,
+    "non-Python stack in title": 142,
     "not an internship": 118,
     "no matching track": 73,
     "dates: fall-only term (usually runs past Oct 1)": 40,
     "term: winter/spring term": 39,
     "master's only": 38,
     "senior / manager title": 31,
-    "outside US (detail)": 29,
+    "outside US (detail)": 26,
     "closed (verified)": 24,
     "dates: co-op with no dates (usually 4-6 months)": 17,
     "new grad / full-time": 7,
-    "dates: 26-week assignment": 6,
+    "outside US (title)": 6,
+    "dates: 26-week assignment": 5,
     "term: 35-week assignment": 4,
     "term: posted dates Jan - Aug": 4,
     "term: 26-week assignment": 3,
     "term: spring/winter term": 1,
     "term: posted dates Jun - Aug": 1,
+    "term: posted dates starts Jun": 1,
     "unpaid": 1,
-    "dates: 22-week assignment": 1,
-    "dates: 52-week assignment": 1
+    "dates: 22-week assignment": 1
   },
-  "durationSec": 335
+  "durationSec": 309
 }
