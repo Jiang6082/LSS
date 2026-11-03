@@ -9,7 +9,7 @@ import { pathToFileURL } from "node:url";
 import { rowsFromListingsJson, rowsFromSpeedyReadme } from "./aggregators.mjs";
 import { canonicalUrl } from "./common.mjs";
 import { classifyDates } from "./dates.mjs";
-import { parsePay, screenRole, usStatus } from "./filter.mjs";
+import { advancedDegreeOnly, parsePay, screenRole, usStatus } from "./filter.mjs";
 import { loadKnownFirms } from "./firms.mjs";
 
 let passed = 0;
@@ -48,6 +48,23 @@ const dateCases = [
   ["'we offer' sentence still read", { Title: "SWE Intern", Terms: S, Content: "We offer a 10-week program from June 15 through August 21, 2027." }, "exclude"],
   ["'expected to start' read", { Title: "SWE Intern", Terms: S, Content: "Interns are expected to start on June 1, 2027." }, "exclude"],
   ["late May or early June", { Title: "SWE Intern", Terms: S, Content: "Interns typically begin in late May or early June." }, "exclude"],
+  // Regressions from the first live scan (2026-11-03)
+  ["May/June-Aug/Sep (HP)", { Title: "Software Engineer Intern", Terms: S, Content: "2027 Internship Program Dates: May/June–August/September 2027." }, "exclude"],
+  ["May/June to Aug/Sep (Databricks)", { Title: "Software Engineer Intern", Terms: S, Content: "Please confirm that you are only interested in a Summer internship from May/June to August/September of 2027." }, "exclude"],
+  ["starting May/June ending Aug/Sep (Amazon)", { Title: "SDE Intern", Terms: S, Content: "All intern roles require in-person work and are 12 weeks in duration, starting in May/June and ending in August/September. Fall (Starts August/September 2027)" }, "exclude"],
+  ["May or June, 12 weeks (MongoDB)", { Title: "SWE Intern", Terms: S, Content: "MongoDB internships are full-time (40 hours/week) for 12 consecutive weeks beginning in May or June and ending in August or September." }, "exclude"],
+  ["begin June, last until Aug (Gelber)", { Title: "Trading Intern", Terms: S, Content: "This internship will begin in June 2027 and last until the first week of August 2027." }, "exclude"],
+  ["start June 7, end Aug 13 (Lazard)", { Title: "Quant Intern", Terms: S, Content: "Ability to start an internship June 7, 2027, and end August 13, 2027" }, "exclude"],
+  ["begin May 17, through Jul 23 (Lincoln)", { Title: "Summer Analyst", Terms: S, Content: "We are expecting this role to begin on May 17, 2027, and continue through July 23, 2027." }, "exclude"],
+  ["late May/early June to mid-Aug (Travelers)", { Title: "Intern", Terms: S, Content: "Positions last approximately 10-12 weeks beginning in late May/early June and ending in mid-August." }, "exclude"],
+  ["early June, wrap mid-Aug (Battery)", { Title: "Investment Intern", Terms: S, Content: "The program will start in early June and will wrap up in mid-August." }, "exclude"],
+  ["May-Aug or Jun-Sep (Patreon)", { Title: "SWE Intern", Terms: S, Content: "Our summer internship is a 12-week program running May–August or June–September 2027" }, "exclude"],
+  ["summer shutdown is not the program", { Title: "AI Intern", Terms: S, Content: "July 6 - July 9, 2027: Intern Optional Summer Shutdown" }, "ask"],
+  ["cohort timeline is not the program", { Title: "SWE Intern", Terms: S, Content: "We're reviewing applications on a rolling basis, and we expect to finalize our cohort by late November/early December." }, "ask"],
+  ["Summer/Fall option does not beat posted dates (AMD)", { Title: "SWE Intern/Co-op", Terms: S, Content: "Spring/Summer Co-op : January 25, 2027 - August 13, 2027. Summer/Fall Co-op : May 17, 2027 - December 10, 2027." }, "exclude"],
+  ["May/June start dates (Scale)", { Title: "SWE Intern", Terms: S, Content: "Available for a Summer 2027 internship (May/June start dates) in San Francisco" }, "exclude"],
+  ["August start", { Title: "SWE Intern", Terms: S, Content: "We are hiring for an August start; this is an 8-week internship." }, "fit"],
+  ["May-Sep window, 10 weeks", { Title: "PM Intern", Terms: S, Content: "Summer (May - September 2027). This is a 10-week internship." }, "flex"],
 ];
 for (const [name, job, want] of dateCases) check(`dates: ${name}`, () => assert.equal(classifyDates(job).bucket, want, JSON.stringify(classifyDates(job))));
 
@@ -59,7 +76,7 @@ const roleCases = [
   ["Software Engineering Intern (BS/MS)", "Software"], ["Risk Analytics Intern", "Data"], ["Corporate Finance Intern", "Finance"],
   ["Software Engineer Intern (C++)", null], ["iOS Engineer Intern", null], ["Hardware Engineering Intern", null], ["Marketing Intern", null],
   ["PhD Research Intern", null], ["Software Engineer New Grad", null], ["Senior Software Engineer", null], ["Software Engineering Intern (Masters)", null],
-  ["Product Design Intern", null], ["IT Support Intern", null], ["MBA Summer Associate", null],
+  ["Product Design Intern", null], ["IT Support Intern", null], ["MBA Summer Associate", null], ["Engine Programmer Intern", null], ["Tech Art Intern", null],
 ];
 for (const [title, want] of roleCases) check(`role: ${title}`, () => { const r = screenRole({ Title: title }); assert.equal(r.ok ? r.track : null, want, JSON.stringify(r)); });
 
@@ -70,6 +87,10 @@ check("pay hourly range", () => assert.equal(parsePay("The pay range is $45 - $5
 check("pay monthly", () => assert.equal(parsePay("Salary: $8,000/month").min, 46));
 check("pay annual k", () => assert.equal(parsePay("Base pay $110k-$130k annualized").min, 53));
 check("pay ignores funding", () => assert.equal(parsePay("We raised $50 million"), null));
+check("PhD-only description", () => assert.ok(advancedDegreeOnly("Currently has, or is in the process of obtaining, a PhD degree in Computer Science or a related field.")));
+check("BS/MS/PhD is not PhD-only", () => assert.equal(advancedDegreeOnly("Currently pursuing a Bachelor's, Master's or PhD in Computer Science."), ""));
+check("PhD preferred is not PhD-only", () => assert.equal(advancedDegreeOnly("Currently pursuing a PhD is preferred."), ""));
+check("title city: Lisbon", () => assert.equal(usStatus("Product Manager Intern (2027) - Lisbon, PT"), "non-us"));
 
 // ---- Firm matching ----------------------------------------------------------------------------
 const known = await loadKnownFirms("inputs/known_firms.json");

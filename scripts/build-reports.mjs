@@ -66,6 +66,18 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
     byTrack(ask, (t, list) => `## ${TRACK_LABEL[t]} (${list.length})\n\n${table(list)}`),
   ].join("\n"), "utf8");
 
+  // ---- Why each ✅ / 🟡 role is there ---------------------------------------------------------
+  await fs.writeFile(dir("reports/date_evidence.md"), [
+    "# Date evidence for ✅ and 🟡 roles",
+    "",
+    `Scan: ${date} · the sentence the date classifier used for each role, so you can check it before applying.`,
+    "",
+    "| Bucket | Company | Role | Dates | Note | Evidence | Link |",
+    "|---|---|---|---|---|---|---|",
+    ...[...fit, ...flex].map((r) => `| ${r.Bucket === "fit" ? "✅" : "🟡"} | ${esc(r.Company)} | ${esc(r.Title)} | ${esc(r.Dates)} | ${esc(r.DateNote)} | ${esc(r.Evidence).slice(0, 200)} | [link](${r.URL}) |`),
+    "",
+  ].join("\n"), "utf8");
+
   // ---- Excluded-by-dates report (near misses + sanity check of the date parser) -------------
   await fs.writeFile(dir("reports/excluded_by_dates.md"), [
     "# Excluded because the posted dates conflict with the window",
@@ -198,6 +210,7 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
     "|---|---|",
     "| [reports/roles.csv](reports/roles.csv) | Every kept role with bucket, dates, pay, sources |",
     "| [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md) | Full ⚪ list |",
+    "| [reports/date_evidence.md](reports/date_evidence.md) | The sentence behind every ✅ / 🟡 verdict |",
     "| [reports/excluded_by_dates.md](reports/excluded_by_dates.md) | Roles dropped for conflicting dates, with evidence |",
     "| [reports/scan_audit.md](reports/scan_audit.md) | Source health, funnel, rejection reasons, unlisted firms, ATS boards |",
     "| [data/roles.json](data/roles.json) · [data/history.json](data/history.json) | Machine-readable results and first-seen history |",
