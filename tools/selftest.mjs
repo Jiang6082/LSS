@@ -80,7 +80,7 @@ const roleCases = [
   ["Software Engineering Intern (BS/MS)", "Software"], ["Risk Analytics Intern", "Data"], ["Corporate Finance Intern", "Finance"],
   ["Software Engineer Intern (C++)", null], ["iOS Engineer Intern", null], ["Hardware Engineering Intern", null], ["Marketing Intern", null],
   ["PhD Research Intern", null], ["Software Engineer New Grad", null], ["Senior Software Engineer", null], ["Software Engineering Intern (Masters)", null],
-  ["Product Design Intern", null], ["IT Support Intern", null], ["MBA Summer Associate", null], ["Engine Programmer Intern", null], ["Tech Art Intern", null],
+  ["Product Design Intern", null], ["IT Support Intern", null], ["MBA Summer Associate", null], ["Engine Programmer Intern", null], ["Tech Art Intern", null], ["AI Prompt Engineer High School Intern - Summer 2027", null], ["Trading Bootcamp Micro-Internship - Summer 2027", null],
 ];
 for (const [title, want] of roleCases) check(`role: ${title}`, () => { const r = screenRole({ Title: title }); assert.equal(r.ok ? r.track : null, want, JSON.stringify(r)); });
 
