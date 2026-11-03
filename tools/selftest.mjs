@@ -64,6 +64,10 @@ const dateCases = [
   ["Summer/Fall option does not beat posted dates (AMD)", { Title: "SWE Intern/Co-op", Terms: S, Content: "Spring/Summer Co-op : January 25, 2027 - August 13, 2027. Summer/Fall Co-op : May 17, 2027 - December 10, 2027." }, "exclude"],
   ["May/June start dates (Scale)", { Title: "SWE Intern", Terms: S, Content: "Available for a Summer 2027 internship (May/June start dates) in San Francisco" }, "exclude"],
   ["August start", { Title: "SWE Intern", Terms: S, Content: "We are hiring for an August start; this is an 8-week internship." }, "fit"],
+  ["'candidate may vary' is not 'dates may vary' (Point72)", { Title: "SWE Intern", Terms: S, Content: "Actual compensation offered to the successful candidate may vary from posted hiring range." }, "ask"],
+  ["graduation 'Summer/Fall' is not flexibility (Samsara)", { Title: "SWE Intern", Terms: S, Content: "Currently a junior-year student on track to complete a Bachelor's degree between Spring/Summer/Fall 2028 or Winter 2029" }, "ask"],
+  ["flexible start date (Epic)", { Title: "Data Science Intern", Terms: S, Content: "This internship has a flexible start date in 2027." }, "flex"],
+  ["various start dates (Meta)", { Title: "Research Intern", Terms: S, Content: "Our internships are twelve (12) to twenty-four (24) weeks long and we have various start dates throughout the year." }, "flex"],
   ["May-Sep window, 10 weeks", { Title: "PM Intern", Terms: S, Content: "Summer (May - September 2027). This is a 10-week internship." }, "flex"],
 ];
 for (const [name, job, want] of dateCases) check(`dates: ${name}`, () => assert.equal(classifyDates(job).bucket, want, JSON.stringify(classifyDates(job))));
