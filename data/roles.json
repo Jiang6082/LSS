@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-03T16:51:22.317Z",
+ "scannedAt": "2026-11-03T17:03:00.030Z",
  "window": {
   "year": 2027,
   "earliestStart": "2027-07-13",
@@ -107,7 +107,8 @@
     "San Jose, CA"
    ],
    "URLs": [
-    "https://jobs.bytedance.com/en/position/7623551375612627253/detail"
+    "https://jobs.bytedance.com/en/position/7623551375612627253/detail",
+    "https://jobs.bytedance.com/en/position/7623550540616108293/detail"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -372,8 +373,7 @@
    "URL": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2/apply",
    "CanonicalURL": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
    "Sources": [
-    "Simplify",
-    "ATS Lever:palantir"
+    "Simplify"
    ],
    "PostedAt": "2026-06-29T14:04:49.000Z",
    "Terms": "Winter 2027, Spring 2027, Summer 2027, Fall 2027, Winter 2028, Spring 2028",
@@ -398,19 +398,18 @@
    "Title": "Privacy and Civil Liberties Software Engineer Intern",
    "Location": "NYC",
    "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"dates may vary\"",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated",
    "Weeks": "",
-   "Evidence": "The skills and background of successful candidates may vary highly, but curiosity, grit, and a drive to run toward hard socio-technical problems are critical for our team.",
+   "Evidence": "",
    "Pay": "$36/hr",
    "PayMin": 36,
    "Python": "yes",
    "URL": "https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply",
    "CanonicalURL": "https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b",
    "Sources": [
-    "Simplify",
-    "ATS Lever:palantir"
+    "Simplify"
    ],
    "PostedAt": "2026-06-29T22:04:51.000Z",
    "Terms": "Winter 2027, Spring 2027, Summer 2027, Fall 2027",
@@ -1914,6 +1913,7 @@
    "CanonicalURL": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
    "Sources": [
     "Simplify",
+    "ATS Eightfold:apply.careers.microsoft.com",
     "vanshb03"
    ],
    "PostedAt": "2026-08-03T09:12:02.000Z",
@@ -10536,7 +10536,7 @@
     "Simplify",
     "speedyapply AI"
    ],
-   "PostedAt": "2026-08-29T16:51:22.532Z",
+   "PostedAt": "2026-08-29T17:03:00.185Z",
    "Terms": "N/A",
    "DetailStatus": "html",
    "Key": "west monroe|data analytics consulting intern",
@@ -10960,7 +10960,7 @@
    "Evidence": "",
    "Pay": "$50/hr",
    "PayMin": 50,
-   "Python": "",
+   "Python": "yes",
    "URL": "https://www.metacareers.com/jobs/1952991802037374",
    "CanonicalURL": "https://metacareers.com/jobs/1952991802037374",
    "Sources": [
@@ -10995,7 +10995,7 @@
    "Evidence": "",
    "Pay": "$50/hr",
    "PayMin": 50,
-   "Python": "",
+   "Python": "yes",
    "URL": "https://www.metacareers.com/jobs/1633096478817942",
    "CanonicalURL": "https://metacareers.com/jobs/1633096478817942",
    "Sources": [
@@ -11484,40 +11484,6 @@
    "New": false
   },
   {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Audio - Machine Learning and Computer Vision",
-   "Location": "Burlingame, CA; Redmond, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to twenty four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/2211974449401350",
-   "CanonicalURL": "https://metacareers.com/jobs/2211974449401350",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-09T14:14:00.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern audio machine learning and computer vision",
-   "Locations": [
-    "Burlingame, CA; Redmond, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/2211974449401350"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "TikTok",
    "Category": "Big Tech",
    "Tier": 0,
@@ -11547,40 +11513,6 @@
    ],
    "URLs": [
     "https://lifeattiktok.com/search/7693727532178229509"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Spatial Audio Capture and Reproduction",
-   "Location": "Redmond, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1674394627579563",
-   "CanonicalURL": "https://metacareers.com/jobs/1674394627579563",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-09T22:16:02.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern spatial audio capture and reproduction",
-   "Locations": [
-    "Redmond, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1674394627579563"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -12042,40 +11974,6 @@
    "New": false
   },
   {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Language and Agents",
-   "Location": "Menlo Park, CA; Bellevue, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to sixteen (16), or twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/2168438160696161",
-   "CanonicalURL": "https://metacareers.com/jobs/2168438160696161",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-13T01:10:25.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern language and agents",
-   "Locations": [
-    "Menlo Park, CA; Bellevue, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/2168438160696161"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "Boston Consulting Group",
    "Category": "Consulting",
    "Tier": 11,
@@ -12333,7 +12231,7 @@
    "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long and we have flexible start dates.",
    "Pay": "",
    "PayMin": "",
-   "Python": "",
+   "Python": "yes",
    "URL": "https://www.metacareers.com/jobs/2988199118196184",
    "CanonicalURL": "https://metacareers.com/jobs/2988199118196184",
    "Sources": [
@@ -12348,74 +12246,6 @@
    ],
    "URLs": [
     "https://www.metacareers.com/jobs/2988199118196184"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Egocentric Vision-Language Models",
-   "Location": "Redmond, WA; Sunnyvale, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Your research project may cover or relate to the following topics: -Advancing multi-modal understanding and reasoning in AI systems -Developing adaptive intelligent models -Mining temporal patterns in complex data -Desig",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/2067000203934229",
-   "CanonicalURL": "https://metacareers.com/jobs/2067000203934229",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-13T22:06:56.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern egocentric vision language models",
-   "Locations": [
-    "Redmond, WA; Sunnyvale, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/2067000203934229"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - AI & Compute Foundation",
-   "Location": "Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our team at Meta AI offers twelve (12) to twenty-four (24) weeks long internships and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1866761794487684",
-   "CanonicalURL": "https://metacareers.com/jobs/1866761794487684",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-13T22:06:53.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern ai compute foundation",
-   "Locations": [
-    "Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1866761794487684"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -12606,11 +12436,11 @@
    "Title": "Software Engineer Intern",
    "Location": "NYC; New York, NY",
    "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"date may vary\"",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated",
    "Weeks": "",
-   "Evidence": "Actual compensation offered to the successful candidate may vary from posted hiring based upon geographic location, work experience, education, and/or skill level, among other things. .",
+   "Evidence": "",
    "Pay": "$63/hr",
    "PayMin": 63,
    "Python": "yes",
@@ -12643,11 +12473,11 @@
    "Title": "Data Scientist Intern",
    "Location": "NYC",
    "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"date may vary\"",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated; 10-week program",
    "Weeks": "10 wks",
-   "Evidence": "Actual compensation offered to the successful candidate may vary from posted hiring based upon geographic location, work experience, education, and/or skill level, among other things. .",
+   "Evidence": "",
    "Pay": "$63-84/hr",
    "PayMin": 63,
    "Python": "yes",
@@ -13466,7 +13296,7 @@
    "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long and we have various start dates throughout the year.",
    "Pay": "",
    "PayMin": "",
-   "Python": "",
+   "Python": "yes",
    "URL": "https://www.metacareers.com/jobs/1141752241867684",
    "CanonicalURL": "https://metacareers.com/jobs/1141752241867684",
    "Sources": [
@@ -13630,74 +13460,6 @@
    "New": false
   },
   {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Smart Glasses in Wearables AI",
-   "Location": "Burlingame, CA; Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1584033410435097",
-   "CanonicalURL": "https://metacareers.com/jobs/1584033410435097",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-19T22:33:06.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern smart glasses in wearables ai",
-   "Locations": [
-    "Burlingame, CA; Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1584033410435097"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - On-Device AI Model Optimization",
-   "Location": "Burlingame, CA; Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"start dates throughout the year\"",
-   "Weeks": "",
-   "Evidence": "Our internships range from twelve (12) to twenty-four (24) weeks, with start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/4455569504707135",
-   "CanonicalURL": "https://metacareers.com/jobs/4455569504707135",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-19T22:33:05.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern on device ai model optimization",
-   "Locations": [
-    "Burlingame, CA; Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/4455569504707135"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "Palantir",
    "Category": "Big Tech",
    "Tier": 0,
@@ -13718,7 +13480,6 @@
    "Sources": [
     "Simplify",
     "speedyapply SWE",
-    "ATS Lever:palantir",
     "vanshb03"
    ],
    "PostedAt": "2026-10-20T01:30:30.000Z",
@@ -13731,7 +13492,7 @@
    ],
    "URLs": [
     "https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13/apply",
-    "https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13"
+    "https://go.vansh.nyc/bJ"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -13751,7 +13512,7 @@
    "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long, and we have various start dates throughout the year.",
    "Pay": "",
    "PayMin": "",
-   "Python": "",
+   "Python": "yes",
    "URL": "https://www.metacareers.com/jobs/1436615821934863",
    "CanonicalURL": "https://metacareers.com/jobs/1436615821934863",
    "Sources": [
@@ -13896,6 +13657,7 @@
    "CanonicalURL": "https://jobs.smartrecruiters.com/LinkedIn3/744000156616169",
    "Sources": [
     "Simplify",
+    "ATS Eightfold:apply.careers.microsoft.com",
     "vanshb03"
    ],
    "PostedAt": "2026-10-21T01:26:46.000Z",
@@ -13910,41 +13672,6 @@
    "URLs": [
     "https://jobs.smartrecruiters.com/LinkedIn3/744000156616169",
     "https://apply.careers.microsoft.com/careers/job/1970393557044764"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern",
-   "Location": "Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1510576574212840",
-   "CanonicalURL": "https://metacareers.com/jobs/1510576574212840",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-21T01:23:08.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern",
-   "Locations": [
-    "Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1510576574212840",
-    "https://www.metacareers.com/jobs/1136354555738164"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -14097,75 +13824,6 @@
    "New": false
   },
   {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Low-Power Scene Reconstruction for AR/VR",
-   "Location": "Burlingame, CA; Redmond, WA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$50/hr",
-   "PayMin": 50,
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1075160338670575",
-   "CanonicalURL": "https://metacareers.com/jobs/1075160338670575",
-   "Sources": [
-    "Simplify",
-    "speedyapply AI"
-   ],
-   "PostedAt": "2026-10-21T22:08:03.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern low power scene reconstruction for ar vr",
-   "Locations": [
-    "Burlingame, CA; Redmond, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1075160338670575"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Robot Foundation Models",
-   "Location": "Redmond, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/27730225806654441",
-   "CanonicalURL": "https://metacareers.com/jobs/27730225806654441",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-21T22:08:03.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern robot foundation models",
-   "Locations": [
-    "Redmond, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/27730225806654441"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "Keysight",
    "Category": "Enterprise & Consumer Tech",
    "Tier": 10,
@@ -14308,40 +13966,6 @@
    "New": false
   },
   {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Central Applied Science",
-   "Location": "Menlo Park, CA; NYC",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1582569213186235",
-   "CanonicalURL": "https://metacareers.com/jobs/1582569213186235",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-22T14:28:24.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern central applied science",
-   "Locations": [
-    "Menlo Park, CA; NYC"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1582569213186235"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "Skydio",
    "Category": "AI & ML",
    "Tier": 1,
@@ -14409,177 +14033,6 @@
    ],
    "URLs": [
     "https://job-boards.greenhouse.io/twitch/jobs/8886605002"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Feed Recommendations",
-   "Location": "Bellevue, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to sixteen (16), or twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/29044546168568671",
-   "CanonicalURL": "https://metacareers.com/jobs/29044546168568671",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-22T22:10:10.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern feed recommendations",
-   "Locations": [
-    "Bellevue, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/29044546168568671"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - FAIR - Multimodal Foundations",
-   "Location": "Boston, MA; SF; Menlo Park, CA; NYC; Bellevue, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "internships and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/2322361288548512",
-   "CanonicalURL": "https://metacareers.com/jobs/2322361288548512",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-22T22:10:10.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern fair multimodal foundations",
-   "Locations": [
-    "Boston, MA; SF; Menlo Park, CA; NYC; Bellevue, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/2322361288548512"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Multi-Agent Systems and Memory",
-   "Location": "Seattle, WA; NYC; Bellevue, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "planning, tool use, reinforcement learning, and automated scientific research Our team at Meta AI offers twelve (12) to twenty-four (24) weeks long internships and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/2615214025585454",
-   "CanonicalURL": "https://metacareers.com/jobs/2615214025585454",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-22T22:10:11.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern multi agent systems and memory",
-   "Locations": [
-    "Seattle, WA; NYC; Bellevue, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/2615214025585454"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Physical Engineering AI",
-   "Location": "Seattle, WA; NYC",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "mechanical, aerospace, civil, and other engineering domains Our team at Meta AI offers twelve (12) to twenty-four (24) weeks long internships and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1081255008061721",
-   "CanonicalURL": "https://metacareers.com/jobs/1081255008061721",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-22T22:10:10.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern physical engineering ai",
-   "Locations": [
-    "Seattle, WA; NYC"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1081255008061721"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - AI Alignment",
-   "Location": "Boston, MA; Seattle, WA; SF; Menlo Park, CA; NYC",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to twenty four (24) weeks long, and we have various start dates throughout the year.",
-   "Pay": "$50/hr",
-   "PayMin": 50,
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/2356892281747003",
-   "CanonicalURL": "https://metacareers.com/jobs/2356892281747003",
-   "Sources": [
-    "Simplify",
-    "speedyapply AI"
-   ],
-   "PostedAt": "2026-10-22T22:10:13.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern ai alignment",
-   "Locations": [
-    "Boston, MA; Seattle, WA; SF; Menlo Park, CA; NYC"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/2356892281747003"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -14707,7 +14160,6 @@
    "Sources": [
     "Simplify",
     "speedyapply SWE",
-    "ATS Lever:palantir",
     "vanshb03"
    ],
    "PostedAt": "2026-10-22T22:36:50.000Z",
@@ -15240,74 +14692,6 @@
    "New": false
   },
   {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - AI Core Machine Learning",
-   "Location": "Seattle, WA; Bellevue, WA; Sunnyvale, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to sixteen (16), or twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1648122343381284",
-   "CanonicalURL": "https://metacareers.com/jobs/1648122343381284",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-23T22:05:30.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern ai core machine learning",
-   "Locations": [
-    "Seattle, WA; Bellevue, WA; Sunnyvale, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1648122343381284"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Meta Recommendation Systems - Core ML",
-   "Location": "Seattle, WA; Menlo Park, CA; Bellevue, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our team offers twelve (12) to twenty-four (24) weeks long internships and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1023154190171838",
-   "CanonicalURL": "https://metacareers.com/jobs/1023154190171838",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-23T22:05:15.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern meta recommendation systems core ml",
-   "Locations": [
-    "Seattle, WA; Menlo Park, CA; Bellevue, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1023154190171838"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "Brookfield",
    "Category": "Private Equity & VC",
    "Tier": 7,
@@ -15703,74 +15087,6 @@
    "New": false
   },
   {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Generative Recommendation Systems",
-   "Location": "Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our team offers twelve (12) to twenty-four (24) weeks long internships and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/3265378000517806",
-   "CanonicalURL": "https://metacareers.com/jobs/3265378000517806",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-26T22:15:47.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern generative recommendation systems",
-   "Locations": [
-    "Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/3265378000517806"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Audio AI",
-   "Location": "Menlo Park, CA; Bellevue, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to sixteen (16), or twenty-four (24) weeks long, with various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1160814043168431",
-   "CanonicalURL": "https://metacareers.com/jobs/1160814043168431",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-26T22:15:45.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern audio ai",
-   "Locations": [
-    "Menlo Park, CA; Bellevue, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1160814043168431"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "Booz Allen Hamilton",
    "Category": "Consulting",
    "Tier": 11,
@@ -15870,74 +15186,6 @@
    ],
    "URLs": [
     "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Santa-Clara-CA---USA-Office/Software-Engineering-Intern--Summer-2027-_R04791-2"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Search",
-   "Location": "Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to sixteen (16), or twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/2171476533578976",
-   "CanonicalURL": "https://metacareers.com/jobs/2171476533578976",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-27T01:18:00.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern search",
-   "Locations": [
-    "Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/2171476533578976"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Foundation Model Optimization",
-   "Location": "Burlingame, CA; Menlo Park, CA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1435245618154892",
-   "CanonicalURL": "https://metacareers.com/jobs/1435245618154892",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-27T01:18:01.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern foundation model optimization",
-   "Locations": [
-    "Burlingame, CA; Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1435245618154892"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -16218,143 +15466,6 @@
    ],
    "URLs": [
     "https://careers.dominionenergy.com/job/GLEN-ALLEN-Intern-Power-Systems-Time-Series-Analytics-VA-23060/1444045200/?ats=successfactors"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - User Modeling and Reinforcement Learning",
-   "Location": "Menlo Park, CA; Bellevue, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to sixteen (16), or twenty-four (24) weeks long, with various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1751935042548465",
-   "CanonicalURL": "https://metacareers.com/jobs/1751935042548465",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-27T22:24:25.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern user modeling and reinforcement learning",
-   "Locations": [
-    "Menlo Park, CA; Bellevue, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1751935042548465"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Ranking & Recommendations",
-   "Location": "Menlo Park, CA; NYC; Bellevue, WA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1625515955324134",
-   "CanonicalURL": "https://metacareers.com/jobs/1625515955324134",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-27T22:24:28.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern ranking recommendations",
-   "Locations": [
-    "Menlo Park, CA; NYC; Bellevue, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1625515955324134"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Neural Representations Compression",
-   "Location": "Redmond, WA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$50/hr",
-   "PayMin": 50,
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/2368433610564528",
-   "CanonicalURL": "https://metacareers.com/jobs/2368433610564528",
-   "Sources": [
-    "Simplify",
-    "speedyapply AI"
-   ],
-   "PostedAt": "2026-10-27T22:24:24.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern neural representations compression",
-   "Locations": [
-    "Redmond, WA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/2368433610564528"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - AI Research - Speech & Audio",
-   "Location": "Menlo Park, CA; NYC",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our teams at Meta AI offer twelve (12) to twenty-four (24) weeks long internships and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1567168005156007",
-   "CanonicalURL": "https://metacareers.com/jobs/1567168005156007",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-27T22:24:30.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern ai research speech audio",
-   "Locations": [
-    "Menlo Park, CA; NYC"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1567168005156007"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -16675,40 +15786,6 @@
    "New": false
   },
   {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Ads Recommendations",
-   "Location": "Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to sixteen (16), or twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1691709792593561",
-   "CanonicalURL": "https://metacareers.com/jobs/1691709792593561",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-28T01:22:03.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern ads recommendations",
-   "Locations": [
-    "Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1691709792593561"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "Mercor",
    "Category": "AI & ML",
    "Tier": 1,
@@ -16777,41 +15854,6 @@
    "URLs": [
     "https://jobs.ashbyhq.com/mercor/2b1a4fd9-300d-4ae9-b5c8-eacba99bf4ae/application?embed=true",
     "https://jobs.ashbyhq.com/mercor/2b1a4fd9-300d-4ae9-b5c8-eacba99bf4ae"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Workday",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Analytics Engineer Intern",
-   "Location": "Pleasanton, CA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October",
-   "Weeks": "12 wks",
-   "Evidence": "",
-   "Pay": "$74/hr",
-   "PayMin": 74,
-   "Python": "yes",
-   "URL": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200",
-   "CanonicalURL": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200",
-   "Sources": [
-    "Simplify",
-    "vanshb03"
-   ],
-   "PostedAt": "2026-10-28T00:00:00.000Z",
-   "Terms": "Summer 2027",
-   "DetailStatus": "workday",
-   "Key": "workday|analytics engineer intern",
-   "Locations": [
-    "Pleasanton, CA"
-   ],
-   "URLs": [
-    "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Analytics-Engineer-Intern_JR-0111200"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -17353,110 +16395,6 @@
    "New": false
   },
   {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Scam and Trust",
-   "Location": "Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to sixteen (16), or twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/2355649268510104",
-   "CanonicalURL": "https://metacareers.com/jobs/2355649268510104",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-29T22:17:41.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern scam and trust",
-   "Locations": [
-    "Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/2355649268510104"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Multiple Teams",
-   "Location": "Seattle, WA; Bellevue, WA; Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long, and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1155292783739299",
-   "CanonicalURL": "https://metacareers.com/jobs/1105933535765181",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-29T22:17:40.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern multiple teams",
-   "Locations": [
-    "Seattle, WA; Bellevue, WA",
-    "Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1105933535765181",
-    "https://www.metacareers.com/jobs/1155292783739299"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - AI Infra",
-   "Location": "Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/4603165899971826",
-   "CanonicalURL": "https://metacareers.com/jobs/4603165899971826",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-29T22:17:40.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern ai infra",
-   "Locations": [
-    "Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/4603165899971826"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "Danaher",
    "Category": "Fortune 500",
    "Tier": 12,
@@ -17572,12 +16510,12 @@
    "US": "us",
    "Bucket": "ask",
    "Dates": "",
-   "DateNote": "term dates not stated; 12+ weeks, so a late-July start would run into October",
-   "Weeks": "12 wks",
+   "DateNote": "term dates not stated",
+   "Weeks": "",
    "Evidence": "",
-   "Pay": "$65/hr",
-   "PayMin": 65,
-   "Python": "yes",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "",
    "URL": "https://jobs.lever.co/tri/e67d9f3e-f731-4f66-ab87-bdc45fe45d88/apply",
    "CanonicalURL": "https://jobs.lever.co/tri/e67d9f3e-f731-4f66-ab87-bdc45fe45d88",
    "Sources": [
@@ -17585,7 +16523,7 @@
    ],
    "PostedAt": "2026-10-29T22:51:53.000Z",
    "Terms": "N/A",
-   "DetailStatus": "lever",
+   "DetailStatus": "html",
    "Key": "toyota research institute|human interactive driving research intern learning based control for safe autonomous driving",
    "Locations": [
     "Los Altos, CA"
@@ -17766,40 +16704,6 @@
    ],
    "URLs": [
     "https://job-boards.greenhouse.io/c3ascend/jobs/8738917002"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - Photorealistic Telepresence",
-   "Location": "Redmond, WA; Pittsburgh, PA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1358944629494375",
-   "CanonicalURL": "https://metacareers.com/jobs/1358944629494375",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-30T14:34:47.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern photorealistic telepresence",
-   "Locations": [
-    "Redmond, WA; Pittsburgh, PA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1358944629494375"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -18879,43 +17783,6 @@
    "New": false
   },
   {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - PAR Safety Evals and Red Teaming",
-   "Location": "Menlo Park, CA; NYC; Menlo Park, CA; NYC",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "16 wks",
-   "Evidence": "Our internships are 16 weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1272664685039241",
-   "CanonicalURL": "https://metacareers.com/jobs/1272664685039241",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-11-02T23:49:25.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern par safety evals and red teaming",
-   "Locations": [
-    "Menlo Park, CA; NYC",
-    "Menlo Park, CA",
-    "NYC"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1272664685039241",
-    "https://www.metacareers.com/jobs/1903232531024141"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "Applied Materials",
    "Category": "Enterprise & Consumer Tech",
    "Tier": 10,
@@ -19048,40 +17915,6 @@
    ],
    "URLs": [
     "https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Software-Developer-TX-76205-7864/1453615433/?ats=successfactors"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Meta",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Research Scientist Intern - FM Quality ML",
-   "Location": "Menlo Park, CA",
-   "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"various start dates\"",
-   "Weeks": "",
-   "Evidence": "Our internships are twelve (12) to sixteen (16), or twenty-four (24) weeks long and we have various start dates throughout the year.",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://www.metacareers.com/jobs/1125383989877928",
-   "CanonicalURL": "https://metacareers.com/jobs/1125383989877928",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-11-03T15:08:36.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "jsonld",
-   "Key": "meta|research scientist intern fm quality ml",
-   "Locations": [
-    "Menlo Park, CA"
-   ],
-   "URLs": [
-    "https://www.metacareers.com/jobs/1125383989877928"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -19257,6 +18090,40 @@
    "New": false
   },
   {
+   "Company": "Tower Research Capital",
+   "Category": "Quant & Trading",
+   "Tier": 2,
+   "Track": "Software",
+   "Title": "Quantitative Developer Intern",
+   "Location": "Chicago, IL; New York, NY",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "",
+   "URL": "http://tower-research.com/open-positions/",
+   "CanonicalURL": "https://go.vansh.nyc/38",
+   "Sources": [
+    "vanshb03"
+   ],
+   "PostedAt": "2026-07-07T12:01:09.000Z",
+   "Terms": "Summer",
+   "DetailStatus": "html",
+   "Key": "tower research capital|quantitative developer intern",
+   "Locations": [
+    "Chicago, IL; New York, NY"
+   ],
+   "URLs": [
+    "http://tower-research.com/open-positions/"
+   ],
+   "FirstSeen": "2026-11-03",
+   "New": true
+  },
+  {
    "Company": "Citadel",
    "Category": "Quant & Trading",
    "Tier": 2,
@@ -19415,7 +18282,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:jumptrading"
    ],
-   "PostedAt": "2026-07-09T16:51:22.466Z",
+   "PostedAt": "2026-07-09T17:03:00.232Z",
    "Terms": "Summer",
    "DetailStatus": "greenhouse",
    "Key": "jump trading|campus ui software engineer intern",
@@ -19834,7 +18701,7 @@
     "speedyapply AI",
     "ATS Greenhouse:drweng"
    ],
-   "PostedAt": "2026-07-14T16:51:22.532Z",
+   "PostedAt": "2026-07-14T17:03:00.185Z",
    "Terms": "Summer",
    "DetailStatus": "html",
    "Key": "drw|quantitative research intern",
@@ -19872,7 +18739,7 @@
     "speedyapply AI",
     "ATS Greenhouse:drweng"
    ],
-   "PostedAt": "2026-07-14T16:51:22.532Z",
+   "PostedAt": "2026-07-14T17:03:00.185Z",
    "Terms": "Summer",
    "DetailStatus": "html",
    "Key": "drw|quantitative trading analyst intern",
@@ -19909,7 +18776,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:drweng"
    ],
-   "PostedAt": "2026-07-14T16:51:22.466Z",
+   "PostedAt": "2026-07-14T17:03:00.232Z",
    "Terms": "Summer",
    "DetailStatus": "html",
    "Key": "drw|software developer intern",
@@ -20105,11 +18972,11 @@
    "Title": "Software Engineering Intern",
    "Location": "San Francisco, CA",
    "US": "us",
-   "Bucket": "flex",
+   "Bucket": "ask",
    "Dates": "",
-   "DateNote": "posting mentions \"Summer/Fall\"",
+   "DateNote": "Summer 2027 dates not stated",
    "Weeks": "",
-   "Evidence": "Currently a junior-year student on track to complete a Bachelor’s degree in Computer Science, Mathematics, Software Engineering, Physics, or Data Science between Spring/Summer/Fall 2028 or Winter 2029.",
+   "Evidence": "",
    "Pay": "$62/hr",
    "PayMin": 62,
    "Python": "no (go)",
@@ -20735,7 +19602,7 @@
    ],
    "PostedAt": "2026-08-17T02:43:14.000Z",
    "Terms": "Summer",
-   "DetailStatus": "lever",
+   "DetailStatus": "jsonld",
    "Key": "belvedere trading|quantitative trading intern",
    "Locations": [
     "Chicago, IL"
@@ -21196,11 +20063,11 @@
    "Title": "Fundamental Researcher Intern, Canvas",
    "Location": "New York, NY",
    "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"date may vary\"",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated; 10-week program",
    "Weeks": "10 wks",
-   "Evidence": "Actual compensation offered to the successful candidate may vary from posted hiring based upon geographic location, work experience, education, and/or skill level, among other things. .",
+   "Evidence": "",
    "Pay": "$43/hr",
    "PayMin": 43,
    "Python": "",
@@ -24125,7 +22992,7 @@
     "vanshb03",
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-09-30T16:51:22.466Z",
+   "PostedAt": "2026-09-30T17:03:00.232Z",
    "Terms": "Summer",
    "DetailStatus": "ashby",
    "Key": "clay|software engineering intern",
@@ -24298,7 +23165,7 @@
     "vanshb03",
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-09-24T16:51:22.466Z",
+   "PostedAt": "2026-09-24T17:03:00.232Z",
    "Terms": "Summer",
    "DetailStatus": "greenhouse",
    "Key": "ziprecruiter|software engineer intern",
@@ -26354,7 +25221,7 @@
    "Evidence": "",
    "Pay": "",
    "PayMin": "",
-   "Python": "yes",
+   "Python": "",
    "URL": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-G--400-Main-St--BLDG-G/Summer-2027-Software-Engineering-Intern--Onsite-_01873645",
    "CanonicalURL": "https://go.vansh.nyc/1cS",
    "Sources": [
@@ -26362,7 +25229,7 @@
    ],
    "PostedAt": "2026-11-03T06:06:18.000Z",
    "Terms": "Summer",
-   "DetailStatus": "workday",
+   "DetailStatus": "html",
    "Key": "rtx|software engineering intern",
    "Locations": [
     "East Hartford, CT"
@@ -26564,7 +25431,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-02T16:51:22.466Z",
+   "PostedAt": "2026-11-02T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "jsonld",
    "Key": "microsoft|software engineer security identity intern opportunities for university students redmond",
@@ -26598,7 +25465,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-30T16:51:22.466Z",
+   "PostedAt": "2026-10-30T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nvidia|ai systems software engineering intern summer",
@@ -26632,7 +25499,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-24T16:51:22.466Z",
+   "PostedAt": "2026-10-24T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "rivian|software engineering intern applications summer",
@@ -26666,7 +25533,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-24T16:51:22.466Z",
+   "PostedAt": "2026-10-24T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "rivian|software engineering intern vehicle controls summer",
@@ -26700,7 +25567,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-24T16:51:22.466Z",
+   "PostedAt": "2026-10-24T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "rivian|software engineering intern embedded platforms summer",
@@ -26734,7 +25601,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-24T16:51:22.466Z",
+   "PostedAt": "2026-10-24T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "rivian|software engineering intern connected systems summer",
@@ -26766,9 +25633,10 @@
    "URL": "https://apply.careers.microsoft.com/careers/job/1970393557044765",
    "CanonicalURL": "https://apply.careers.microsoft.com/careers/job/1970393557044765",
    "Sources": [
-    "speedyapply SWE"
+    "speedyapply SWE",
+    "ATS Eightfold:apply.careers.microsoft.com"
    ],
-   "PostedAt": "2026-10-23T16:51:22.466Z",
+   "PostedAt": "2026-10-23T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "jsonld",
    "Key": "microsoft|software engineer security identity intern opportunities for university students cambridge",
@@ -26802,7 +25670,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-20T16:51:22.466Z",
+   "PostedAt": "2026-10-20T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "salesforce|summer intern software engineer security government",
@@ -26837,7 +25705,7 @@
     "speedyapply SWE",
     "ATS Ashby:ramp"
    ],
-   "PostedAt": "2026-09-25T16:51:22.466Z",
+   "PostedAt": "2026-09-25T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "ramp|software engineering intern frontend",
@@ -26872,7 +25740,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:figma"
    ],
-   "PostedAt": "2026-09-15T16:51:22.466Z",
+   "PostedAt": "2026-09-15T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "figma|software engineer intern summer",
@@ -26906,7 +25774,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-09-12T16:51:22.466Z",
+   "PostedAt": "2026-09-12T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "jsonld",
    "Key": "microsoft|software engineering intern ctj ts",
@@ -26942,7 +25810,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-08-29T16:51:22.466Z",
+   "PostedAt": "2026-08-29T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "salesforce|summer intern software engineer",
@@ -26976,7 +25844,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-08-20T16:51:22.466Z",
+   "PostedAt": "2026-08-20T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nvidia|nvidia internships software engineering",
@@ -27011,7 +25879,7 @@
     "speedyapply SWE",
     "ATS Workday:nvidia/NVIDIAExternalCareerSite"
    ],
-   "PostedAt": "2026-08-20T16:51:22.466Z",
+   "PostedAt": "2026-08-20T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nvidia|nvidia internships systems software engineering",
@@ -27047,7 +25915,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-08-07T16:51:22.466Z",
+   "PostedAt": "2026-08-07T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "tiktok|site reliability engineer intern global sre summer",
@@ -27081,7 +25949,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-08-02T16:51:22.466Z",
+   "PostedAt": "2026-08-02T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "tiktok|software development engineer intern global e commerce quality platform ai test automation summer",
@@ -27117,7 +25985,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-07-30T16:51:22.466Z",
+   "PostedAt": "2026-07-30T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "tiktok|software development engineer in test intern tiktok testing summer",
@@ -27151,7 +26019,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-07-16T16:51:22.466Z",
+   "PostedAt": "2026-07-16T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "error: HTTP 403",
    "Key": "citadel|software engineer intern us",
@@ -27185,7 +26053,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-07-16T16:51:22.466Z",
+   "PostedAt": "2026-07-16T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "error: HTTP 403",
    "Key": "citadel securities|software engineer intern us",
@@ -27220,7 +26088,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:jumptrading"
    ],
-   "PostedAt": "2026-07-09T16:51:22.466Z",
+   "PostedAt": "2026-07-09T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "jump trading|campus software engineer intern",
@@ -27254,7 +26122,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-31T16:51:22.466Z",
+   "PostedAt": "2026-10-31T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "applied materials|summer intern software engineer bachelors degree santa clara",
@@ -27288,7 +26156,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-31T16:51:22.466Z",
+   "PostedAt": "2026-10-31T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "northrop grumman|software engineer intern linthicum maryland",
@@ -27322,7 +26190,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-30T16:51:22.466Z",
+   "PostedAt": "2026-10-30T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "danaher|intern application integration developer",
@@ -27356,7 +26224,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-28T16:51:22.466Z",
+   "PostedAt": "2026-10-28T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "rtx|software engineering intern summer",
@@ -27392,7 +26260,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-29T16:51:22.466Z",
+   "PostedAt": "2026-10-29T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "sonos|software engineering intern seattle",
@@ -27426,7 +26294,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-28T16:51:22.466Z",
+   "PostedAt": "2026-10-28T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "micron|intern product yield software engineer",
@@ -27460,7 +26328,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-28T16:51:22.466Z",
+   "PostedAt": "2026-10-28T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "northrop grumman|software engineering intern boulder co",
@@ -27494,7 +26362,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-28T16:51:22.466Z",
+   "PostedAt": "2026-10-28T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "visa|software engineer intern ashburn va",
@@ -27528,7 +26396,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-28T16:51:22.466Z",
+   "PostedAt": "2026-10-28T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "visa|sophomore internship program software engineer intern bellevue",
@@ -27562,7 +26430,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-28T16:51:22.466Z",
+   "PostedAt": "2026-10-28T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "visa|software engineer intern foster city",
@@ -27596,7 +26464,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-28T16:51:22.466Z",
+   "PostedAt": "2026-10-28T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "visa|sophomore internship program software engineer intern ashburn",
@@ -27630,7 +26498,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-28T16:51:22.466Z",
+   "PostedAt": "2026-10-28T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "visa|sophomore internship program software engineer intern highlands ranch",
@@ -27664,7 +26532,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-27T16:51:22.466Z",
+   "PostedAt": "2026-10-27T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "booz allen hamilton|university summer games software developer intern dayton oh",
@@ -27698,7 +26566,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-27T16:51:22.466Z",
+   "PostedAt": "2026-10-27T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "cohesity|software engineering intern summer",
@@ -27732,7 +26600,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-21T16:51:22.466Z",
+   "PostedAt": "2026-10-21T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "hewlett packard enterprise|embedded software engineering intern",
@@ -27766,7 +26634,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-21T16:51:22.466Z",
+   "PostedAt": "2026-10-21T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "micron|intern it software engineer",
@@ -27800,7 +26668,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-20T16:51:22.466Z",
+   "PostedAt": "2026-10-20T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "trimble|hardware software testing intern",
@@ -27834,7 +26702,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-20T16:51:22.466Z",
+   "PostedAt": "2026-10-20T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "trimble|software engineering intern",
@@ -27855,11 +26723,11 @@
    "Title": "2027 Summer Internship - Software Engineer",
    "Location": "New York City, NY",
    "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"date may vary\"",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated",
    "Weeks": "",
-   "Evidence": "Actual compensation offered to the successful candidate may vary from posted hiring based upon geographic location, work experience, education, and/or skill level, among other things. .",
+   "Evidence": "",
    "Pay": "$63/hr",
    "PayMin": 63,
    "Python": "yes",
@@ -27869,7 +26737,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:point72"
    ],
-   "PostedAt": "2026-10-15T16:51:22.466Z",
+   "PostedAt": "2026-10-15T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "point72|summer internship software engineer",
@@ -27903,7 +26771,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-14T16:51:22.466Z",
+   "PostedAt": "2026-10-14T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "smartrecruiters",
    "Key": "servicenow|ai engineering assoc software engineer internships summer bachelors",
@@ -27937,7 +26805,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-09T16:51:22.466Z",
+   "PostedAt": "2026-10-09T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "general motors|summer intern autonomous driving software engineer bachelor s master s",
@@ -27971,7 +26839,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-06T16:51:22.466Z",
+   "PostedAt": "2026-10-06T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "expedia|software development engineering intern austin san jose seattle",
@@ -28005,7 +26873,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-06T16:51:22.466Z",
+   "PostedAt": "2026-10-06T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "general motors|summer intern adas software engineer adpt",
@@ -28039,7 +26907,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-09-29T16:51:22.466Z",
+   "PostedAt": "2026-09-29T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "danaher|software engineering intern",
@@ -28074,7 +26942,7 @@
     "speedyapply SWE",
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-09-26T16:51:22.466Z",
+   "PostedAt": "2026-09-26T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|software engineer intern summer",
@@ -28111,7 +26979,7 @@
     "speedyapply SWE",
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-09-25T16:51:22.466Z",
+   "PostedAt": "2026-09-25T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|software engineering intern summer",
@@ -28148,7 +27016,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-09-24T16:51:22.466Z",
+   "PostedAt": "2026-09-24T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "error: HTTP 403",
    "Key": "seatgeek|software engineer internship",
@@ -28183,7 +27051,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:genevatrading"
    ],
-   "PostedAt": "2026-09-23T16:51:22.466Z",
+   "PostedAt": "2026-09-23T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "geneva trading|python developer intern",
@@ -28218,7 +27086,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:cloudflare"
    ],
-   "PostedAt": "2026-09-18T16:51:22.466Z",
+   "PostedAt": "2026-09-18T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "cloudflare|software engineer intern austin tx",
@@ -28253,7 +27121,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:singlestore"
    ],
-   "PostedAt": "2026-09-17T16:51:22.466Z",
+   "PostedAt": "2026-09-17T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "singlestore|software engineer intern helios",
@@ -28287,7 +27155,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-09-16T16:51:22.466Z",
+   "PostedAt": "2026-09-16T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "palo alto networks|intern software engineer bachelors eg",
@@ -28322,7 +27190,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:singlestore"
    ],
-   "PostedAt": "2026-09-15T16:51:22.466Z",
+   "PostedAt": "2026-09-15T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "singlestore|software engineer intern engine",
@@ -28357,7 +27225,7 @@
     "speedyapply SWE",
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-09-12T16:51:22.466Z",
+   "PostedAt": "2026-09-12T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|dsp digital signal processing software engineering intern summer",
@@ -28393,7 +27261,7 @@
     "speedyapply SWE",
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-09-12T16:51:22.466Z",
+   "PostedAt": "2026-09-12T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|software engineering summer internship",
@@ -28428,7 +27296,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-09-11T16:51:22.466Z",
+   "PostedAt": "2026-09-11T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "alliancebernstein|software development summer intern",
@@ -28463,7 +27331,7 @@
     "speedyapply SWE",
     "ATS Workday:brevanhoward/BH_ExternalCareers"
    ],
-   "PostedAt": "2026-09-11T16:51:22.466Z",
+   "PostedAt": "2026-09-11T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "brevan howard|summer internship program systematic trading technology software engineer new york",
@@ -28500,7 +27368,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:dvtrading"
    ],
-   "PostedAt": "2026-09-10T16:51:22.466Z",
+   "PostedAt": "2026-09-10T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "dv trading|devops engineer intern summer",
@@ -28535,7 +27403,7 @@
     "speedyapply SWE",
     "ATS Workday:dimensional/DFA_Careers"
    ],
-   "PostedAt": "2026-09-09T16:51:22.466Z",
+   "PostedAt": "2026-09-09T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "dimensional|internship in technology software engineer",
@@ -28572,7 +27440,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:vercel"
    ],
-   "PostedAt": "2026-09-09T16:51:22.466Z",
+   "PostedAt": "2026-09-09T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "vercel|software engineering intern summer 27",
@@ -28606,7 +27474,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-09-02T16:51:22.466Z",
+   "PostedAt": "2026-09-02T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "draftkings|software engineer intern referral summer",
@@ -28640,7 +27508,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-09-02T16:51:22.466Z",
+   "PostedAt": "2026-09-02T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "ge healthcare|edison engineering development program intern software",
@@ -28675,7 +27543,7 @@
     "speedyapply SWE",
     "ATS Ashby:sierra"
    ],
-   "PostedAt": "2026-09-02T16:51:22.466Z",
+   "PostedAt": "2026-09-02T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "sierra|software engineer intern agent summer",
@@ -28709,7 +27577,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-08-29T16:51:22.466Z",
+   "PostedAt": "2026-08-29T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "west monroe|cybersecurity cloud and infrastructure consulting intern",
@@ -28743,7 +27611,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-08-13T16:51:22.466Z",
+   "PostedAt": "2026-08-13T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "smartrecruiters",
    "Key": "western digital|summer intern software engineering",
@@ -28764,11 +27632,11 @@
    "Title": "Software Engineering Internship - San Francisco",
    "Location": "San Francisco, CA",
    "US": "us",
-   "Bucket": "flex",
+   "Bucket": "ask",
    "Dates": "",
-   "DateNote": "posting mentions \"Summer/Fall\"",
+   "DateNote": "term dates not stated",
    "Weeks": "",
-   "Evidence": "Currently a junior-year student on track to complete a Bachelor’s degree in Computer Science, Mathematics, Software Engineering, Physics, or Data Science between Spring/Summer/Fall 2028 or Winter 2029.",
+   "Evidence": "",
    "Pay": "$62/hr",
    "PayMin": 62,
    "Python": "no (go)",
@@ -28778,7 +27646,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:samsara"
    ],
-   "PostedAt": "2026-08-04T16:51:22.466Z",
+   "PostedAt": "2026-08-04T17:03:00.232Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "samsara|software engineering internship san francisco",
@@ -28810,9 +27678,10 @@
    "URL": "https://apply.careers.microsoft.com/careers/job/1970393557045963",
    "CanonicalURL": "https://apply.careers.microsoft.com/careers/job/1970393557045963",
    "Sources": [
-    "speedyapply AI"
+    "speedyapply AI",
+    "ATS Eightfold:apply.careers.microsoft.com"
    ],
-   "PostedAt": "2026-10-24T16:51:22.532Z",
+   "PostedAt": "2026-10-24T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "jsonld",
    "Key": "microsoft|research intern algorithms group theory",
@@ -28846,7 +27715,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-24T16:51:22.532Z",
+   "PostedAt": "2026-10-24T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "rivian|data engineering intern ai analytics summer",
@@ -28880,7 +27749,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-21T16:51:22.532Z",
+   "PostedAt": "2026-10-21T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "salesforce|summer intern ai research",
@@ -28914,7 +27783,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-20T16:51:22.532Z",
+   "PostedAt": "2026-10-20T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "adobe|intern ai architecture",
@@ -28948,7 +27817,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-20T16:51:22.532Z",
+   "PostedAt": "2026-10-20T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "adobe|intern data ai innovation",
@@ -28982,7 +27851,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-17T16:51:22.532Z",
+   "PostedAt": "2026-10-17T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "jsonld",
    "Key": "microsoft|research intern machine learning at msr nyc",
@@ -29016,7 +27885,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-06T16:51:22.532Z",
+   "PostedAt": "2026-10-06T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "adobe|intern applied and research scientist engineer",
@@ -29051,7 +27920,7 @@
     "speedyapply AI",
     "ATS Greenhouse:stripe"
    ],
-   "PostedAt": "2026-10-02T16:51:22.532Z",
+   "PostedAt": "2026-10-02T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "stripe|data analyst intern",
@@ -29086,7 +27955,7 @@
     "speedyapply AI",
     "ATS Greenhouse:figma"
    ],
-   "PostedAt": "2026-09-24T16:51:22.532Z",
+   "PostedAt": "2026-09-24T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "figma|data engineer intern",
@@ -29121,7 +27990,7 @@
     "speedyapply AI",
     "ATS Ashby:ramp"
    ],
-   "PostedAt": "2026-09-16T16:51:22.532Z",
+   "PostedAt": "2026-09-16T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "ramp|applied scientist intern",
@@ -29155,7 +28024,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-05T16:51:22.532Z",
+   "PostedAt": "2026-09-05T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "tiktok|data engineer intern data platfrom tiktok bp summer",
@@ -29189,7 +28058,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-08-22T16:51:22.532Z",
+   "PostedAt": "2026-08-22T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "tiktok|data engineer intern e commerce summer",
@@ -29223,7 +28092,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-08-20T16:51:22.532Z",
+   "PostedAt": "2026-08-20T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nvidia|nvidia internships deep learning computer architecture",
@@ -29258,7 +28127,7 @@
     "speedyapply AI",
     "ATS Workday:nvidia/NVIDIAExternalCareerSite"
    ],
-   "PostedAt": "2026-08-20T16:51:22.532Z",
+   "PostedAt": "2026-08-20T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nvidia|nvidia internships deep learning",
@@ -29288,13 +28157,13 @@
    "Evidence": "",
    "Pay": "$50/hr",
    "PayMin": 50,
-   "Python": "",
+   "Python": "yes",
    "URL": "https://www.metacareers.com/jobs/1373603594867455",
    "CanonicalURL": "https://metacareers.com/jobs/1373603594867455",
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-08-01T16:51:22.532Z",
+   "PostedAt": "2026-08-01T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "jsonld",
    "Key": "meta|data engineer intern product analytics summer",
@@ -29328,7 +28197,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-07-16T16:51:22.532Z",
+   "PostedAt": "2026-07-16T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "error: HTTP 403",
    "Key": "citadel|quantitative trader equity quantitative research intern us",
@@ -29362,7 +28231,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-07-16T16:51:22.532Z",
+   "PostedAt": "2026-07-16T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "error: HTTP 403",
    "Key": "citadel|quantitative research analyst intern us",
@@ -29396,7 +28265,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-07-16T16:51:22.532Z",
+   "PostedAt": "2026-07-16T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "error: HTTP 403",
    "Key": "citadel securities|quantitative trader intern us trading and research",
@@ -29431,7 +28300,7 @@
     "speedyapply AI",
     "ATS Greenhouse:jumptrading"
    ],
-   "PostedAt": "2026-07-10T16:51:22.532Z",
+   "PostedAt": "2026-07-10T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "jump trading|campus quantitative trader intern",
@@ -29466,7 +28335,7 @@
     "speedyapply AI",
     "ATS Greenhouse:jumptrading"
    ],
-   "PostedAt": "2026-07-10T16:51:22.532Z",
+   "PostedAt": "2026-07-10T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "jump trading|campus data engineer intern",
@@ -29501,7 +28370,7 @@
     "speedyapply AI",
     "ATS Greenhouse:jumptrading"
    ],
-   "PostedAt": "2026-07-10T16:51:22.532Z",
+   "PostedAt": "2026-07-10T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "jump trading|campus ai research engineer intern",
@@ -29536,7 +28405,7 @@
     "speedyapply AI",
     "ATS Greenhouse:jumptrading"
    ],
-   "PostedAt": "2026-07-10T16:51:22.532Z",
+   "PostedAt": "2026-07-10T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "jump trading|campus ai research engineer deep learning intern",
@@ -29571,7 +28440,7 @@
     "speedyapply AI",
     "ATS Greenhouse:jumptrading"
    ],
-   "PostedAt": "2026-07-10T16:51:22.532Z",
+   "PostedAt": "2026-07-10T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "jump trading|campus ai research engineer research automation intern",
@@ -29606,7 +28475,7 @@
     "speedyapply AI",
     "ATS Greenhouse:jumptrading"
    ],
-   "PostedAt": "2026-07-10T16:51:22.532Z",
+   "PostedAt": "2026-07-10T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "jump trading|campus quantitative researcher ug ms intern",
@@ -29640,7 +28509,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-31T16:51:22.532Z",
+   "PostedAt": "2026-10-31T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "barclays|chief client office client data engineering group summer internship program new york city",
@@ -29674,7 +28543,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-31T16:51:22.532Z",
+   "PostedAt": "2026-10-31T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "boeing|boeing summer internship program paid data analytics intern",
@@ -29708,7 +28577,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-31T16:51:22.532Z",
+   "PostedAt": "2026-10-31T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "cisco|data analyst i intern united states",
@@ -29742,7 +28611,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-30T16:51:22.532Z",
+   "PostedAt": "2026-10-30T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "fidelity|quantitative research intern equity quantitative research team",
@@ -29776,7 +28645,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-30T16:51:22.532Z",
+   "PostedAt": "2026-10-30T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "fidelity|quantitative research intern fixed income team",
@@ -29810,7 +28679,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-30T16:51:22.532Z",
+   "PostedAt": "2026-10-30T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "general motors|summer intern ai ml engineer autonomous vehicles",
@@ -29844,7 +28713,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-29T16:51:22.532Z",
+   "PostedAt": "2026-10-29T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "applied materials|summer data science intern bachelor s master s santa clara ca",
@@ -29878,7 +28747,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-29T16:51:22.532Z",
+   "PostedAt": "2026-10-29T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "applied materials|summer data scientist intern bachelor s austin tx",
@@ -29912,7 +28781,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-29T16:51:22.532Z",
+   "PostedAt": "2026-10-29T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "booz allen hamilton|university summer games data scientist intern colorado springs co",
@@ -29946,7 +28815,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-29T16:51:22.532Z",
+   "PostedAt": "2026-10-29T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "micron|intern data science",
@@ -29980,7 +28849,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-28T16:51:22.532Z",
+   "PostedAt": "2026-10-28T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "micron|intern hbm data scientist",
@@ -30016,7 +28885,7 @@
     "ATS Workday:visa/Visa",
     "ATS Workday:visa/Visa_Early_Careers"
    ],
-   "PostedAt": "2026-10-28T16:51:22.532Z",
+   "PostedAt": "2026-10-28T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "visa|business strategy intern data and ai team summer",
@@ -30054,7 +28923,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-28T16:51:22.532Z",
+   "PostedAt": "2026-10-28T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "visa|data science intern data and ai team summer",
@@ -30089,7 +28958,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-28T16:51:22.532Z",
+   "PostedAt": "2026-10-28T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "visa|product management intern data and ai team summer",
@@ -30123,7 +28992,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-27T16:51:22.532Z",
+   "PostedAt": "2026-10-27T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "booz allen hamilton|university summer games data scientist intern lexington ma",
@@ -30158,7 +29027,7 @@
     "speedyapply AI",
     "ATS Ashby:skydio"
    ],
-   "PostedAt": "2026-10-27T16:51:22.532Z",
+   "PostedAt": "2026-10-27T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "skydio|autonomy engineer intern autonomy infrastructure systems and tools hq",
@@ -30193,7 +29062,7 @@
     "speedyapply AI",
     "ATS Greenhouse:andurilindustries"
    ],
-   "PostedAt": "2026-10-22T16:51:22.532Z",
+   "PostedAt": "2026-10-22T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "anduril|finance data analyst intern",
@@ -30227,7 +29096,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-21T16:51:22.532Z",
+   "PostedAt": "2026-10-21T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "micron|intern machine learning engineering",
@@ -30261,7 +29130,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-21T16:51:22.532Z",
+   "PostedAt": "2026-10-21T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "micron|intern smai probe ai engineer",
@@ -30296,7 +29165,7 @@
     "speedyapply AI",
     "ATS Workday:invesco/IVZ"
    ],
-   "PostedAt": "2026-10-17T16:51:22.532Z",
+   "PostedAt": "2026-10-17T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "invesco|quantitative strategies research intern",
@@ -30334,7 +29203,7 @@
     "speedyapply AI",
     "ATS Workday:invesco/IVZ"
    ],
-   "PostedAt": "2026-10-17T16:51:22.532Z",
+   "PostedAt": "2026-10-17T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "invesco|quantitative intern portfolio engineering and analytics",
@@ -30371,7 +29240,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-14T16:51:22.532Z",
+   "PostedAt": "2026-10-14T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "unity|machine learning engineer internship",
@@ -30405,7 +29274,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-08T16:51:22.532Z",
+   "PostedAt": "2026-10-08T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "hewlett packard enterprise|ai performance engineering intern",
@@ -30440,7 +29309,7 @@
     "speedyapply AI",
     "ATS Workday:intel/External"
    ],
-   "PostedAt": "2026-10-06T16:51:22.532Z",
+   "PostedAt": "2026-10-06T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "intel|ai solution architect graduate intern",
@@ -30476,7 +29345,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-01T16:51:22.532Z",
+   "PostedAt": "2026-10-01T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "smartrecruiters",
    "Key": "bosch|commercial project management ai innovation intern",
@@ -30510,7 +29379,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-30T16:51:22.532Z",
+   "PostedAt": "2026-09-30T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nike|nike inc ai machine learning innovation graduate internship",
@@ -30544,7 +29413,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-25T16:51:22.532Z",
+   "PostedAt": "2026-09-25T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "jsonld",
    "Key": "susquehanna|machine learning engineering internship summer",
@@ -30578,7 +29447,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-23T16:51:22.532Z",
+   "PostedAt": "2026-09-23T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "danaher|it data analyst intern",
@@ -30613,7 +29482,7 @@
     "speedyapply AI",
     "ATS Greenhouse:upstart"
    ],
-   "PostedAt": "2026-09-19T16:51:22.532Z",
+   "PostedAt": "2026-09-19T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "upstart|applied scientist intern",
@@ -30647,7 +29516,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-18T16:51:22.532Z",
+   "PostedAt": "2026-09-18T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "lever",
    "Key": "toyota research institute|human centered ai research intern causal reasoning models",
@@ -30681,7 +29550,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-17T16:51:22.532Z",
+   "PostedAt": "2026-09-17T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "eqt|data engineering intern",
@@ -30716,7 +29585,7 @@
     "speedyapply AI",
     "ATS Workday:brevanhoward/BH_ExternalCareers"
    ],
-   "PostedAt": "2026-09-15T16:51:22.532Z",
+   "PostedAt": "2026-09-15T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "brevan howard|summer internship program ai quantitative analyst new york",
@@ -30753,7 +29622,7 @@
     "speedyapply AI",
     "ATS Greenhouse:coinbase"
    ],
-   "PostedAt": "2026-09-10T16:51:22.532Z",
+   "PostedAt": "2026-09-10T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "greenhouse",
    "Key": "coinbase|data science intern",
@@ -30787,7 +29656,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-05T16:51:22.532Z",
+   "PostedAt": "2026-09-05T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "eli lilly|ai machine learning engineer intern bs",
@@ -30821,7 +29690,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-05T16:51:22.532Z",
+   "PostedAt": "2026-09-05T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "eli lilly|ai data engineering intern bs",
@@ -30855,7 +29724,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-02T16:51:22.532Z",
+   "PostedAt": "2026-09-02T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "booz allen hamilton|university summer games data scientist intern annapolis junction md",
@@ -30889,7 +29758,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-02T16:51:22.532Z",
+   "PostedAt": "2026-09-02T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "booz allen hamilton|university summer games data scientist intern ft walton beach fl",
@@ -30923,7 +29792,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-09-02T16:51:22.532Z",
+   "PostedAt": "2026-09-02T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "draftkings|data science intern referral summer",
@@ -30957,7 +29826,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-08-25T16:51:22.532Z",
+   "PostedAt": "2026-08-25T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "freddie mac|risk management graduate intern quantitative summer",
@@ -30992,7 +29861,7 @@
     "speedyapply AI",
     "ATS Ashby:mercor"
    ],
-   "PostedAt": "2026-08-20T16:51:22.532Z",
+   "PostedAt": "2026-08-20T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "mercor|data science intern",
@@ -31026,7 +29895,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-08-11T16:51:22.532Z",
+   "PostedAt": "2026-08-11T17:03:00.185Z",
    "Terms": "",
    "DetailStatus": "html",
    "Key": "southern|ai business analytics intern",
@@ -31278,40 +30147,6 @@
    ],
    "URLs": [
     "https://www.amazon.jobs/en/jobs/10501526/automation-engineer-intern-nationwide-summer-2027"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "NVIDIA",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Go-to-Market Strategy Intern, NPN AI Consulting - Summer 2027",
-   "Location": "US, CA, Santa Clara",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642",
-   "CanonicalURL": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642",
-   "Sources": [
-    "ATS Workday:nvidia/NVIDIAExternalCareerSite"
-   ],
-   "PostedAt": "Posted 4 Days Ago",
-   "Terms": "",
-   "DetailStatus": "workday",
-   "Key": "nvidia|go to market strategy intern npn ai consulting summer",
-   "Locations": [
-    "US, CA, Santa Clara"
-   ],
-   "URLs": [
-    "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -31584,440 +30419,6 @@
    ],
    "URLs": [
     "https://databricks.com/company/careers/open-positions/job?gh_jid=6883068002"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Finance",
-   "Title": "Finance Operator Intern",
-   "Location": "New York, NY",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "URL": "https://jobs.lever.co/palantir/bd7766c4-6aea-4b37-8d47-a8864bb9bd69",
-   "CanonicalURL": "https://jobs.lever.co/palantir/bd7766c4-6aea-4b37-8d47-a8864bb9bd69",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2026-10-31T00:15:34.399Z",
-   "Terms": "",
-   "DetailStatus": "lever",
-   "Key": "palantir|finance operator intern",
-   "Locations": [
-    "New York, NY"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/bd7766c4-6aea-4b37-8d47-a8864bb9bd69"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
-   "Location": "Washington, D.C.; Palo Alto, CA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$58/hr",
-   "PayMin": 58,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
-   "CanonicalURL": "https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2026-07-10T22:42:13.024Z",
-   "Terms": "",
-   "DetailStatus": "lever",
-   "Key": "palantir|forward deployed infrastructure engineer internship us government",
-   "Locations": [
-    "Washington, D.C.",
-    "Palo Alto, CA"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
-    "https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Forward Deployed Software Engineer, Internship - France",
-   "Location": "New York, NY",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$58/hr",
-   "PayMin": 58,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f",
-   "CanonicalURL": "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2026-03-10T12:26:55.948Z",
-   "Terms": "",
-   "DetailStatus": "lever",
-   "Key": "palantir|forward deployed software engineer internship france",
-   "Locations": [
-    "New York, NY"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Forward Deployed Software Engineer, Internship - US Government",
-   "Location": "Honolulu, HI; New York, NY; Washington, D.C.",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$58/hr",
-   "PayMin": 58,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e",
-   "CanonicalURL": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2021-07-01T22:12:43.840Z",
-   "Terms": "",
-   "DetailStatus": "jsonld",
-   "Key": "palantir|forward deployed software engineer internship us government",
-   "Locations": [
-    "Honolulu, HI",
-    "New York, NY",
-    "Washington, D.C."
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e",
-    "https://jobs.lever.co/palantir/e0010393-c300-446f-bf67-fa2ef067f16f",
-    "https://jobs.lever.co/palantir/e6ff8bf2-135e-474d-ad37-24f490ae1dd2"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Information Security Engineer, Internship",
-   "Location": "New York, NY",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$61/hr",
-   "PayMin": 61,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb",
-   "CanonicalURL": "https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2022-08-03T19:25:24.044Z",
-   "Terms": "",
-   "DetailStatus": "lever",
-   "Key": "palantir|information security engineer internship",
-   "Locations": [
-    "New York, NY"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Software Engineer, Internship",
-   "Location": "Denver, CO; New York, NY; Washington, D.C.; Palo Alto, CA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$61/hr",
-   "PayMin": 61,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
-   "CanonicalURL": "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2021-07-01T21:52:15.503Z",
-   "Terms": "",
-   "DetailStatus": "lever",
-   "Key": "palantir|software engineer internship",
-   "Locations": [
-    "Denver, CO",
-    "New York, NY",
-    "Washington, D.C.",
-    "Palo Alto, CA"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249",
-    "https://jobs.lever.co/palantir/7d69cf8a-06fd-4f05-bd84-27149db29c4d",
-    "https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0",
-    "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Software Engineer, Internship - Defense Tech",
-   "Location": "New York, NY; Palo Alto, CA; Washington, D.C.",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$61/hr",
-   "PayMin": 61,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e",
-   "CanonicalURL": "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2024-08-05T23:26:16.668Z",
-   "Terms": "",
-   "DetailStatus": "lever",
-   "Key": "palantir|software engineer internship defense tech",
-   "Locations": [
-    "New York, NY",
-    "Palo Alto, CA",
-    "Washington, D.C."
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e",
-    "https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d",
-    "https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Software Engineer, Internship - Infrastructure",
-   "Location": "New York, NY; Palo Alto, CA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$61/hr",
-   "PayMin": 61,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
-   "CanonicalURL": "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2025-06-26T15:01:02.839Z",
-   "Terms": "",
-   "DetailStatus": "lever",
-   "Key": "palantir|software engineer internship infrastructure",
-   "Locations": [
-    "New York, NY",
-    "Palo Alto, CA"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3",
-    "https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Software Engineer, Internship - Production Infrastructure",
-   "Location": "Seattle, WA; New York, NY; Washington, D.C.",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$61/hr",
-   "PayMin": 61,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1",
-   "CanonicalURL": "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2025-06-26T20:04:34.819Z",
-   "Terms": "",
-   "DetailStatus": "lever",
-   "Key": "palantir|software engineer internship production infrastructure",
-   "Locations": [
-    "Seattle, WA",
-    "New York, NY",
-    "Washington, D.C."
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1",
-    "https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116",
-    "https://jobs.lever.co/palantir/3ab9e715-1ea9-4c6c-ad50-7340eac14e86"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Year at Palantir - Forward Deployed Software Engineer, Internship - Commercial",
-   "Location": "Chicago, IL; New York, NY",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$34-61/hr",
-   "PayMin": 34,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
-   "CanonicalURL": "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2026-03-20T19:02:47.514Z",
-   "Terms": "",
-   "DetailStatus": "lever",
-   "Key": "palantir|year at palantir forward deployed software engineer internship commercial",
-   "Locations": [
-    "Chicago, IL",
-    "New York, NY"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/75cc1c09-8ebd-44c8-b3bc-d122cd1fecb3",
-    "https://jobs.lever.co/palantir/e6789b17-62fb-4226-a079-f8c17ff19e2d"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Year at Palantir - Forward Deployed Software Engineer, Internship - USG",
-   "Location": "Washington, D.C.; New York, NY",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$34-61/hr",
-   "PayMin": 34,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019",
-   "CanonicalURL": "https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2026-03-20T19:05:22.216Z",
-   "Terms": "",
-   "DetailStatus": "lever",
-   "Key": "palantir|year at palantir forward deployed software engineer internship usg",
-   "Locations": [
-    "Washington, D.C.",
-    "New York, NY"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/5c4c65c5-77da-4d36-856c-4ade87631019",
-    "https://jobs.lever.co/palantir/5c7bb70c-83ea-43e7-8055-0c8f319f4333"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Palantir",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Year at Palantir - Software Engineer, Internship",
-   "Location": "New York, NY",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$34-61/hr",
-   "PayMin": 34,
-   "Python": "yes",
-   "URL": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329",
-   "CanonicalURL": "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329",
-   "Sources": [
-    "ATS Lever:palantir"
-   ],
-   "PostedAt": "2026-03-20T19:07:35.933Z",
-   "Terms": "",
-   "DetailStatus": "jsonld",
-   "Key": "palantir|year at palantir software engineer internship",
-   "Locations": [
-    "New York, NY"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/palantir/655f9937-a4ce-4e7d-80e2-a6659af07329"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -32608,7 +31009,7 @@
    "Tier": 2,
    "Track": "Software",
    "Title": "Client Platforms Engineer Intern - Summer 2027",
-   "Location": "Chicago; New York",
+   "Location": "New York; Chicago",
    "US": "us",
    "Bucket": "ask",
    "Dates": "",
@@ -32618,8 +31019,8 @@
    "Pay": "$40/hr",
    "PayMin": 40,
    "Python": "",
-   "URL": "https://job-boards.greenhouse.io/dvtrading/jobs/4732683005",
-   "CanonicalURL": "https://job-boards.greenhouse.io/dvtrading/jobs/4732683005",
+   "URL": "https://job-boards.greenhouse.io/dvtrading/jobs/4732697005",
+   "CanonicalURL": "https://job-boards.greenhouse.io/dvtrading/jobs/4732697005",
    "Sources": [
     "ATS Greenhouse:dvtrading"
    ],
@@ -32628,12 +31029,12 @@
    "DetailStatus": "greenhouse",
    "Key": "dv trading|client platforms engineer intern summer",
    "Locations": [
-    "Chicago",
-    "New York"
+    "New York",
+    "Chicago"
    ],
    "URLs": [
-    "https://job-boards.greenhouse.io/dvtrading/jobs/4732683005",
-    "https://job-boards.greenhouse.io/dvtrading/jobs/4732697005"
+    "https://job-boards.greenhouse.io/dvtrading/jobs/4732697005",
+    "https://job-boards.greenhouse.io/dvtrading/jobs/4732683005"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -32884,11 +31285,11 @@
    "Title": "2027 Summer Internship - Fundamental Researcher, Canvas",
    "Location": "New York, NY",
    "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"date may vary\"",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated; 10-week program",
    "Weeks": "10 wks",
-   "Evidence": "Actual compensation offered to the successful candidate may vary from posted hiring based upon geographic location, work experience, education, and/or skill level, among other things. .",
+   "Evidence": "",
    "Pay": "$43/hr",
    "PayMin": 43,
    "Python": "",
@@ -32918,11 +31319,11 @@
    "Title": "2027 Summer Internship - Investment Services",
    "Location": "New York, New York, United States, Stamford, Connecticut, United States",
    "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"date may vary\"",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated; 10-week program",
    "Weeks": "10 wks",
-   "Evidence": "Actual compensation offered to the successful candidate may vary from posted hiring based upon geographic location, work experience, education, and/or skill level, among other things. .",
+   "Evidence": "",
    "Pay": "$43/hr",
    "PayMin": 43,
    "Python": "",
@@ -32952,11 +31353,11 @@
    "Title": "2027 Summer Internship - Sector Analyst, Proprietary Research",
    "Location": "New York, NY",
    "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"date may vary\"",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated; 10-week program",
    "Weeks": "10 wks",
-   "Evidence": "Actual compensation offered to the successful candidate may vary from posted hiring based upon geographic location, work experience, education, and/or skill level, among other things. .",
+   "Evidence": "",
    "Pay": "$48/hr",
    "PayMin": 48,
    "Python": "",
@@ -33020,11 +31421,11 @@
    "Title": "Quantitative Researcher Intern",
    "Location": "New York",
    "US": "us",
-   "Bucket": "flex",
-   "Dates": "flexible",
-   "DateNote": "posting says \"date may vary\"",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "term dates not stated",
    "Weeks": "",
-   "Evidence": "Actual compensation offered to candidate may vary from posted hiring range based upon geographic location, work experience, education, and/or skill level among other things.",
+   "Evidence": "",
    "Pay": "$58-87/hr",
    "PayMin": 58,
    "Python": "yes",

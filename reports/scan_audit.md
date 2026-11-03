@@ -1,43 +1,43 @@
 # Scan audit
 
-Scan: 2026-11-03T16:51:22.317Z · 309s
+Scan: 2026-11-03T17:03:00.030Z · 391s
 
 ## Sources
 
 | Source | Status | Rows |
 |---|---|---|
-| speedyapply_swe | ok | 830 |
 | speedyapply_ai | ok | 780 |
+| speedyapply_swe | ok | 830 |
 | vanshb03 | ok | 2012 |
 | simplify | ok | 5157 |
-| Official ATS boards | 417 firms live | 719 |
+| Official ATS boards | 416 firms live | 698 |
 
 PTS seed sharing: loaded 233 firms
 
 ## Funnel
 
 - aggregatorRows: 8779
-- boardRows: 719
-- prefiltered: 3045
-- uniqueUrls: 2594
-- enriched: 2594
-- closed: 24
-- kept: 1419
-- roles: 1004
-- dateExcluded: 421
+- boardRows: 698
+- prefiltered: 3024
+- uniqueUrls: 2569
+- enriched: 2569
+- closed: 26
+- kept: 1357
+- roles: 958
+- dateExcluded: 420
 
 ## Detail fetch results
 
-- html: 635
-- greenhouse: 365
-- workday: 1038
-- lever: 55
+- html: 637
+- error: 35
+- greenhouse: 364
+- workday: 1033
+- lever: 27
 - oracle: 90
 - jsonld: 257
-- error: 30
 - ashby: 79
 - smartrecruiters: 21
-- closed: 24
+- closed: 26
 
 ## Rejections by reason
 
@@ -48,10 +48,10 @@ PTS seed sharing: loaded 233 firms
 - outside SWE/PM/data/finance: 707
 - pay below $30/hr: 506
 - PhD / MBA / law / medical: 359
-- dates: posted dates conflict: 358
+- dates: posted dates conflict: 357
 - term: winter term: 272
 - term: spring term: 238
-- PhD/MBA required (description): 199
+- PhD/MBA required (description): 235
 - non-Python stack in title: 142
 - not an internship: 118
 - no matching track: 73
@@ -59,8 +59,8 @@ PTS seed sharing: loaded 233 firms
 - term: winter/spring term: 39
 - master's only: 38
 - senior / manager title: 31
+- closed (verified): 26
 - outside US (detail): 26
-- closed (verified): 24
 - dates: co-op with no dates (usually 4-6 months): 17
 - new grad / full-time: 7
 - outside US (title): 6
@@ -204,28 +204,28 @@ Add any you recognise to `inputs/known_firms.json`.
 ## Live ATS boards
 
 - **Amazon** (Big Tech): amazon:intern [local] 94, amazon:internship [local] 1000
+- **Microsoft** (Big Tech): eightfold:apply.careers.microsoft.com/microsoft.com [local] 20
 - **Netflix** (Big Tech): eightfold:explore.jobs.netflix.net/netflix.com [pts] 6
-- **NVIDIA** (Big Tech): workday:nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite [pts] 1017
-- **Salesforce** (Big Tech): workday:salesforce.wd12.myworkdayjobs.com/External_Career_Site [pts] 763
+- **NVIDIA** (Big Tech): workday:nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite [pts] 1016
+- **Salesforce** (Big Tech): workday:salesforce.wd12.myworkdayjobs.com/External_Career_Site [pts] 767
 - **Adobe** (Big Tech): workday:adobe.wd5.myworkdayjobs.com/external_experienced [pts] 124
-- **Intel** (Big Tech): workday:intel.wd1.myworkdayjobs.com/External [pts] 516
+- **Intel** (Big Tech): workday:intel.wd1.myworkdayjobs.com/External [pts] 517
 - **Lyft** (Big Tech): greenhouse:lyft [pts] 171
 - **Airbnb** (Big Tech): greenhouse:airbnb [pts] 210
-- **Pinterest** (Big Tech): greenhouse:pinterest [pts] 167
+- **Pinterest** (Big Tech): greenhouse:pinterest [pts] 168
 - **Reddit** (Big Tech): greenhouse:reddit [pts] 163
-- **Spotify** (Big Tech): lever:spotify [pts] 85
+- **Spotify** (Big Tech): lever:spotify [pts] 84
 - **SpaceX** (Big Tech): greenhouse:spacex [guessed] 2876
 - **Waymo** (Big Tech): greenhouse:waymo [local] 371
-- **Stripe** (Big Tech): greenhouse:stripe [pts] 739
+- **Stripe** (Big Tech): greenhouse:stripe [pts] 738
 - **Workday** (Big Tech): workday:workday.wd5.myworkdayjobs.com/Workday [pts] 186
-- **PayPal** (Big Tech): workday:paypal.wd1.myworkdayjobs.com/jobs [pts] 192
+- **PayPal** (Big Tech): workday:paypal.wd1.myworkdayjobs.com/jobs [pts] 191
 - **Dropbox** (Big Tech): greenhouse:dropbox [pts] 28
 - **DoorDash** (Big Tech): greenhouse:doordashusa [pts] 436
 - **Instacart** (Big Tech): greenhouse:instacart [pts] 94
 - **Roblox** (Big Tech): greenhouse:roblox [pts] 265
 - **Snowflake** (Big Tech): ashby:snowflake [pts] 364
 - **Databricks** (Big Tech): greenhouse:databricks [pts] 911
-- **Palantir** (Big Tech): lever:palantir [pts] 304
 - **Bloomberg** (Big Tech): workday:bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site [pts] 29
 - **Zillow** (Big Tech): workday:zillow.wd5.myworkdayjobs.com/Zillow_Group_External [local] 57
 - **Epic Games** (Big Tech): greenhouse:epicgames [guessed] 138
@@ -235,12 +235,11 @@ Add any you recognise to `inputs/known_firms.json`.
 - **Scale AI** (AI & ML): greenhouse:scaleai [pts] 166
 - **Perplexity** (AI & ML): ashby:perplexity [pts] 136
 - **Cohere** (AI & ML): ashby:cohere [pts] 119
-- **Mistral AI** (AI & ML): lever:mistral [pts] 0
 - **Hugging Face** (AI & ML): workable:huggingface [pts] 6
 - **Character.AI** (AI & ML): ashby:character [guessed] 13
 - **Cognition** (AI & ML): ashby:cognition [pts] 107
 - **Glean** (AI & ML): greenhouse:gleanwork [pts] 127
-- **Harvey** (AI & ML): ashby:harvey [pts] 373
+- **Harvey** (AI & ML): ashby:harvey [pts] 374
 - **Sierra** (AI & ML): ashby:sierra [pts] 218
 - **Decagon** (AI & ML): ashby:decagon [pts] 132
 - **Runway** (AI & ML): ashby:runway [guessed] 3
@@ -250,8 +249,8 @@ Add any you recognise to `inputs/known_firms.json`.
 - **Snorkel AI** (AI & ML): greenhouse:snorkelai [pts] 43
 - **Figure** (AI & ML): greenhouse:figure [guessed] 18
 - **Nuro** (AI & ML): greenhouse:nuro [guessed] 93
-- **Anduril** (AI & ML): greenhouse:andurilindustries [pts] 2563
-- **Shield AI** (AI & ML): lever:shieldai [guessed] 657, ashby:shieldai [guessed] 683, greenhouse:shield [guessed] 1, ashby:shield [guessed] 683
+- **Anduril** (AI & ML): greenhouse:andurilindustries [pts] 2567
+- **Shield AI** (AI & ML): lever:shieldai [guessed] 656, ashby:shieldai [guessed] 683, greenhouse:shield [guessed] 1, ashby:shield [guessed] 683
 - **Skydio** (AI & ML): ashby:skydio [guessed] 194
 - **Abridge** (AI & ML): ashby:abridge [guessed] 37
 - **Mercor** (AI & ML): ashby:mercor [pts] 105
@@ -337,22 +336,22 @@ Add any you recognise to `inputs/known_firms.json`.
 - **Morgan Stanley** (Investment Banks): eightfold:morganstanley.eightfold.ai/morganstanley.com [local] 20
 - **JPMorgan Chase** (Investment Banks): oracle:jpmc.fa.oraclecloud.com/CX_1001 [pts] 1000
 - **Bank of America** (Investment Banks): workday:ghr.wd1.myworkdayjobs.com/Lateral-US [pts] 913
-- **Wells Fargo** (Investment Banks): workday:wf.wd1.myworkdayjobs.com/wellsfargojobs [pts] 674
-- **Barclays** (Investment Banks): workday:barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays [pts] 584
+- **Wells Fargo** (Investment Banks): workday:wf.wd1.myworkdayjobs.com/wellsfargojobs [pts] 676
+- **Barclays** (Investment Banks): workday:barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays [pts] 585
 - **Deutsche Bank** (Investment Banks): workday:db.wd3.myworkdayjobs.com/DBWebsite [pts] 598
-- **BMO** (Investment Banks): workday:bmo.wd3.myworkdayjobs.com/External [pts] 528
+- **BMO** (Investment Banks): workday:bmo.wd3.myworkdayjobs.com/External [pts] 531
 - **William Blair** (Investment Banks): greenhouse:williamblair [guessed] 50
 - **Lincoln International** (Investment Banks): greenhouse:lincolninternational [guessed] 42
 - **Macquarie** (Investment Banks): workday:mq.wd3.myworkdayjobs.com/CareersatMQ [pts] 15
-- **Raymond James** (Investment Banks): workday:raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers [pts] 196, workday:raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers [pts] 7
+- **Raymond James** (Investment Banks): workday:raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers [pts] 197, workday:raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers [pts] 7
 - **LionTree** (Investment Banks): greenhouse:liontree [guessed] 3
 - **Ducera Partners** (Investment Banks): greenhouse:ducerapartners [guessed] 4
 - **Capital One** (Banks & Financial Services): workday:capitalone.wd12.myworkdayjobs.com/Capital_One [pts] 1015
 - **Synchrony** (Banks & Financial Services): workday:synchronyfinancial.wd5.myworkdayjobs.com/careers [pts] 38, workday:synchronyfinancial.wd5.myworkdayjobs.com/University [pts] 25
 - **U.S. Bank** (Banks & Financial Services): workday:usbank.wd1.myworkdayjobs.com/US_Bank_Careers [pts] 1004
-- **Fifth Third** (Banks & Financial Services): workday:fifththird.wd5.myworkdayjobs.com/53careers [pts] 324
+- **Fifth Third** (Banks & Financial Services): workday:fifththird.wd5.myworkdayjobs.com/53careers [pts] 326
 - **KeyBank** (Banks & Financial Services): workday:keybank.wd5.myworkdayjobs.com/External_Career_Site [pts] 401, workday:keybank.wd5.myworkdayjobs.com/Scout [pts] 3
-- **M&T Bank** (Banks & Financial Services): workday:mtb.wd5.myworkdayjobs.com/MTB [pts] 697, workday:mtb.wd5.myworkdayjobs.com/Campus [pts] 39
+- **M&T Bank** (Banks & Financial Services): workday:mtb.wd5.myworkdayjobs.com/MTB [pts] 696, workday:mtb.wd5.myworkdayjobs.com/Campus [pts] 39
 - **State Street** (Banks & Financial Services): workday:statestreet.wd1.myworkdayjobs.com/Global [pts] 705
 - **Northern Trust** (Banks & Financial Services): workday:ntrs.wd1.myworkdayjobs.com/northerntrust [pts] 357
 - **Federal Reserve** (Banks & Financial Services): workday:rb.wd5.myworkdayjobs.com/FRS [pts] 146
@@ -361,38 +360,38 @@ Add any you recognise to `inputs/known_firms.json`.
 - **S&P Global** (Banks & Financial Services): workday:spgi.wd5.myworkdayjobs.com/SPGI_Careers [pts] 360
 - **FactSet** (Banks & Financial Services): workday:factset.wd108.myworkdayjobs.com/FactSetCareers [pts] 64
 - **Morningstar** (Banks & Financial Services): workday:morningstar.wd5.myworkdayjobs.com/morningstar [pts] 85, workday:morningstar.wd5.myworkdayjobs.com/Americas [pts] 8, workday:morningstar.wd5.myworkdayjobs.com/MorningstarDBRS [pts] 17
-- **Fidelity National Information Services** (Banks & Financial Services): workday:fis.wd5.myworkdayjobs.com/SearchJobs [pts] 313
+- **Fidelity National Information Services** (Banks & Financial Services): workday:fis.wd5.myworkdayjobs.com/SearchJobs [pts] 314
 - **Fiserv** (Banks & Financial Services): workday:fiserv.wd5.myworkdayjobs.com/EXT [pts] 226
 - **Global Payments** (Banks & Financial Services): workday:tsys.wd1.myworkdayjobs.com/TSYS [pts] 210
 - **LPL Financial** (Banks & Financial Services): workday:lplfinancial.wd1.myworkdayjobs.com/External [pts] 153
 - **Northwestern Mutual** (Banks & Financial Services): workday:northwesternmutual.wd5.myworkdayjobs.com/CORPORATE-CAREERS [pts] 37
 - **MassMutual** (Banks & Financial Services): workday:massmutual.wd1.myworkdayjobs.com/MMINDCareersite [pts] 6, workday:massmutual.wd1.myworkdayjobs.com/MMAscendCareers [pts] 1
 - **Guardian Life** (Banks & Financial Services): workday:guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers [pts] 114
-- **Nationwide** (Banks & Financial Services): workday:nationwide.wd1.myworkdayjobs.com/Nationwide_Career [pts] 101
-- **Allstate** (Banks & Financial Services): workday:allstate.wd5.myworkdayjobs.com/allstate_careers [pts] 363
-- **Travelers** (Banks & Financial Services): workday:travelers.wd5.myworkdayjobs.com/External [pts] 384
+- **Nationwide** (Banks & Financial Services): workday:nationwide.wd1.myworkdayjobs.com/Nationwide_Career [pts] 102
+- **Allstate** (Banks & Financial Services): workday:allstate.wd5.myworkdayjobs.com/allstate_careers [pts] 362
+- **Travelers** (Banks & Financial Services): workday:travelers.wd5.myworkdayjobs.com/External [pts] 385
 - **The Hartford** (Banks & Financial Services): workday:thehartford.wd5.myworkdayjobs.com/Careers_External [pts] 132
 - **Pacific Life** (Banks & Financial Services): workday:pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers [pts] 70
-- **BlackRock** (Asset Management): workday:blackrock.wd1.myworkdayjobs.com/BlackRock_Professional [pts] 135
-- **Vanguard** (Asset Management): workday:vanguard.wd5.myworkdayjobs.com/vanguard_external [pts] 182
-- **Fidelity** (Asset Management): workday:fil.wd3.myworkdayjobs.com/001 [pts] 51, workday:fmr.wd1.myworkdayjobs.com/fidelitycareers [pts] 497
+- **BlackRock** (Asset Management): workday:blackrock.wd1.myworkdayjobs.com/BlackRock_Professional [pts] 136
+- **Vanguard** (Asset Management): workday:vanguard.wd5.myworkdayjobs.com/vanguard_external [pts] 183
+- **Fidelity** (Asset Management): workday:fil.wd3.myworkdayjobs.com/001 [pts] 51, workday:fmr.wd1.myworkdayjobs.com/fidelitycareers [pts] 500
 - **T. Rowe Price** (Asset Management): workday:troweprice.wd5.myworkdayjobs.com/TRowePrice [pts] 65, workday:troweprice.wd5.myworkdayjobs.com/TRowePriceInternational [pts] 17
-- **Invesco** (Asset Management): workday:invesco.wd1.myworkdayjobs.com/IVZ [pts] 140
+- **Invesco** (Asset Management): workday:invesco.wd1.myworkdayjobs.com/IVZ [pts] 139
 - **Franklin Templeton** (Asset Management): workday:franklintempleton.wd5.myworkdayjobs.com/Primary-External-1 [pts] 0, workday:franklintempleton.wd5.myworkdayjobs.com/Jobs-WAM [pts] 0
 - **PIMCO** (Asset Management): workday:pimco.wd1.myworkdayjobs.com/pimco-careers [pts] 152
-- **PGIM** (Asset Management): workday:pru.wd5.myworkdayjobs.com/PGIM_Careers [pts] 76, workday:pru.wd5.myworkdayjobs.com/Careers [pts] 110
-- **Nuveen** (Asset Management): workday:tiaa.wd1.myworkdayjobs.com/Search [pts] 116
+- **PGIM** (Asset Management): workday:pru.wd5.myworkdayjobs.com/PGIM_Careers [pts] 77, workday:pru.wd5.myworkdayjobs.com/Careers [pts] 111
+- **Nuveen** (Asset Management): workday:tiaa.wd1.myworkdayjobs.com/Search [pts] 117
 - **AllianceBernstein** (Asset Management): workday:abglobal.wd1.myworkdayjobs.com/alliancebernsteincareers [pts] 46
 - **Capital Group** (Asset Management): workday:capgroup.wd1.myworkdayjobs.com/capitalgroupcareers [pts] 84
 - **Dimensional** (Asset Management): workday:dimensional.wd5.myworkdayjobs.com/DFA_Careers [pts] 52, ashby:dimensional [guessed] 12
 - **Wellington Management** (Asset Management): workday:wellington.wd5.myworkdayjobs.com/External [pts] 84
 - **Neuberger Berman** (Asset Management): workday:nb.wd1.myworkdayjobs.com/NBCareers [pts] 54, workday:nb.wd1.myworkdayjobs.com/PWM [pts] 6
-- **MFS** (Asset Management): workday:mfs.wd1.myworkdayjobs.com/MFS-Careers [pts] 22
+- **MFS** (Asset Management): workday:mfs.wd1.myworkdayjobs.com/MFS-Careers [pts] 23
 - **Russell Investments** (Asset Management): workday:russell.wd5.myworkdayjobs.com/russellinvestments [pts] 28
 - **GMO** (Asset Management): lever:gmo [pts] 9
 - **Ariel Investments** (Asset Management): greenhouse:arielinvestments [guessed] 1
 - **Harris Associates** (Asset Management): greenhouse:harrisassociates [guessed] 8
-- **Baillie Gifford** (Asset Management): workday:bailliegifford.wd3.myworkdayjobs.com/BaillieGiffordCareers [pts] 7, workday:bailliegifford.wd3.myworkdayjobs.com/BaillieGiffordEarlyCareers [pts] 3
+- **Baillie Gifford** (Asset Management): workday:bailliegifford.wd3.myworkdayjobs.com/BaillieGiffordCareers [pts] 8, workday:bailliegifford.wd3.myworkdayjobs.com/BaillieGiffordEarlyCareers [pts] 3
 - **Connor Clark & Lunn** (Asset Management): greenhouse:cclfg [pts] 73, greenhouse:cclim [pts] 5
 - **StepStone** (Asset Management): greenhouse:stepstone [guessed] 57
 - **Adams Street Partners** (Asset Management): greenhouse:adamsstreetpartners [guessed] 17
@@ -421,12 +420,12 @@ Add any you recognise to `inputs/known_firms.json`.
 - **Point72 Ventures** (Private Equity & VC): greenhouse:point72 [guessed] 196
 - **Visa** (Fintech & Payments): workday:visa.wd5.myworkdayjobs.com/Visa [pts] 496, workday:visa.wd5.myworkdayjobs.com/Visa_Early_Careers [pts] 55
 - **Mastercard** (Fintech & Payments): workday:mastercard.wd1.myworkdayjobs.com/CorporateCareers [pts] 655, workday:mastercard.wd1.myworkdayjobs.com/Campus [pts] 29
-- **Plaid** (Fintech & Payments): ashby:plaid [pts] 137
+- **Plaid** (Fintech & Payments): ashby:plaid [pts] 138
 - **Chime** (Fintech & Payments): greenhouse:chime [pts] 74
 - **Robinhood** (Fintech & Payments): greenhouse:robinhood [pts] 160
 - **Coinbase** (Fintech & Payments): greenhouse:coinbase [pts] 263
 - **Affirm** (Fintech & Payments): greenhouse:affirm [pts] 240
-- **SoFi** (Fintech & Payments): greenhouse:sofi [local] 61
+- **SoFi** (Fintech & Payments): greenhouse:sofi [local] 60
 - **Brex** (Fintech & Payments): greenhouse:brex [pts] 267
 - **Ramp** (Fintech & Payments): ashby:ramp [pts] 169
 - **Mercury** (Fintech & Payments): ashby:mercury [pts] 0
@@ -497,7 +496,7 @@ Add any you recognise to `inputs/known_firms.json`.
 - **Miro** (High-Growth Tech): ashby:miro [guessed] 19
 - **Webflow** (High-Growth Tech): greenhouse:webflow [guessed] 0, ashby:webflow [guessed] 21
 - **Zapier** (High-Growth Tech): ashby:zapier [pts] 11
-- **Klaviyo** (High-Growth Tech): greenhouse:klaviyo [guessed] 156
+- **Klaviyo** (High-Growth Tech): greenhouse:klaviyo [guessed] 157
 - **Snyk** (High-Growth Tech): ashby:snyk [guessed] 37
 - **1Password** (High-Growth Tech): ashby:1password [guessed] 77
 - **Fivetran** (High-Growth Tech): greenhouse:fivetran [pts] 158
@@ -508,7 +507,7 @@ Add any you recognise to `inputs/known_firms.json`.
 - **Datadog** (High-Growth Tech): greenhouse:datadog [pts] 400
 - **Cloudflare** (High-Growth Tech): greenhouse:cloudflare [pts] 465
 - **Zscaler** (High-Growth Tech): greenhouse:zscaler [guessed] 364
-- **Okta** (High-Growth Tech): greenhouse:okta [local] 394
+- **Okta** (High-Growth Tech): greenhouse:okta [local] 392
 - **Duolingo** (High-Growth Tech): greenhouse:duolingo [pts] 55
 - **Coursera** (High-Growth Tech): greenhouse:coursera [pts] 30
 - **Khan Academy** (High-Growth Tech): greenhouse:khanacademy [pts] 4
@@ -520,7 +519,7 @@ Add any you recognise to `inputs/known_firms.json`.
 - **Zocdoc** (High-Growth Tech): greenhouse:zocdoc [guessed] 63
 - **Hims & Hers** (High-Growth Tech): ashby:hims-and-hers [guessed] 151
 - **Flatiron Health** (High-Growth Tech): greenhouse:flatironhealth [guessed] 26
-- **Vanta** (High-Growth Tech): ashby:vanta [guessed] 82
+- **Vanta** (High-Growth Tech): ashby:vanta [guessed] 83
 - **Drata** (High-Growth Tech): ashby:drata [guessed] 27
 - **Lattice** (High-Growth Tech): greenhouse:lattice [guessed] 8
 - **Outreach** (High-Growth Tech): lever:outreach [guessed] 19
@@ -564,14 +563,14 @@ Add any you recognise to `inputs/known_firms.json`.
 - **Handshake** (High-Growth Tech): ashby:handshake [pts] 84
 - **Rocket Lab** (High-Growth Tech): greenhouse:rocketlab [guessed] 558
 - **Sila** (High-Growth Tech): lever:sila [guessed] 220
-- **Lucid Motors** (High-Growth Tech): greenhouse:lucidmotors [guessed] 442
+- **Lucid Motors** (High-Growth Tech): greenhouse:lucidmotors [guessed] 441
 - **Motional** (High-Growth Tech): greenhouse:motional [guessed] 78
 - **Waabi** (High-Growth Tech): lever:waabi [guessed] 93
 - **Wing** (High-Growth Tech): greenhouse:wing [guessed] 56
 - **LaunchDarkly** (High-Growth Tech): greenhouse:launchdarkly [guessed] 45
 - **CircleCI** (High-Growth Tech): greenhouse:circleci [guessed] 14
 - **JFrog** (High-Growth Tech): greenhouse:jfrog [guessed] 73
-- **Docker** (High-Growth Tech): ashby:docker [guessed] 50
+- **Docker** (High-Growth Tech): ashby:docker [guessed] 49
 - **Kong** (High-Growth Tech): ashby:kong [guessed] 102
 - **Tailscale** (High-Growth Tech): greenhouse:tailscale [guessed] 61
 - **Lyra Health** (High-Growth Tech): lever:lyrahealth [guessed] 478
@@ -618,12 +617,13 @@ Add any you recognise to `inputs/known_firms.json`.
 - **Sleeper** (High-Growth Tech): ashby:sleeper [pts] 7
 - **StockX** (High-Growth Tech): greenhouse:stockx [guessed] 33
 - **Poshmark** (High-Growth Tech): greenhouse:poshmark [guessed] 0, ashby:poshmark [guessed] 24
-- **Motorola Solutions** (Enterprise & Consumer Tech): workday:motorolasolutions.wd5.myworkdayjobs.com/Careers [pts] 488
+- **Motorola Solutions** (Enterprise & Consumer Tech): workday:motorolasolutions.wd5.myworkdayjobs.com/Careers [pts] 487
 - **Groupon** (Enterprise & Consumer Tech): greenhouse:groupon [pts] 26
 
 ## Seeded boards that failed
 
-- Microsoft eightfold:apply.careers.microsoft.com/microsoft.com
+- Palantir lever:palantir
+- Mistral AI lever:mistral
 - Anysphere ashby:anysphere
 - Tempus greenhouse:tempus
 - Chainalysis greenhouse:chainalysis

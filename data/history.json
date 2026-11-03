@@ -82,7 +82,7 @@
  "palantir|privacy and civil liberties software engineer intern": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Palantir",
   "title": "Privacy and Civil Liberties Software Engineer Intern",
   "url": "https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply"
@@ -2826,7 +2826,7 @@
  "point72|software engineer intern": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Point72",
   "title": "Software Engineer Intern",
   "url": "https://boards.greenhouse.io/point72/jobs/8885733002"
@@ -2834,7 +2834,7 @@
  "point72|data scientist intern": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Point72",
   "title": "Data Scientist Intern",
   "url": "https://boards.greenhouse.io/point72/jobs/8885299002"
@@ -4530,7 +4530,7 @@
  "samsara|software engineering intern": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Samsara",
   "title": "Software Engineering Intern",
   "url": "https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091"
@@ -4786,7 +4786,7 @@
  "point72|fundamental researcher intern canvas": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Point72",
   "title": "Fundamental Researcher Intern, Canvas",
   "url": "https://job-boards.greenhouse.io/point72/jobs/8885693002?gh_jid=8885693002"
@@ -6338,7 +6338,7 @@
  "point72|summer internship software engineer": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Point72",
   "title": "2027 Summer Internship - Software Engineer",
   "url": "https://boards.greenhouse.io/point72/jobs/8885733002?gh_jid=8885733002"
@@ -6546,7 +6546,7 @@
  "samsara|software engineering internship san francisco": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Samsara",
   "title": "Software Engineering Internship - San Francisco",
   "url": "https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091"
@@ -7437,7 +7437,7 @@
   "bucket": "ask",
   "company": "DV Trading",
   "title": "Client Platforms Engineer Intern - Summer 2027",
-  "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4732683005"
+  "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4732697005"
  },
  "dv trading|database engineer intern summer": {
   "firstSeen": "2026-11-03",
@@ -7498,7 +7498,7 @@
  "point72|summer internship fundamental researcher canvas": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Point72",
   "title": "2027 Summer Internship - Fundamental Researcher, Canvas",
   "url": "https://boards.greenhouse.io/point72/jobs/8885693002?gh_jid=8885693002"
@@ -7506,7 +7506,7 @@
  "point72|summer internship investment services": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Point72",
   "title": "2027 Summer Internship - Investment Services",
   "url": "https://boards.greenhouse.io/point72/jobs/8811167002?gh_jid=8811167002"
@@ -7514,7 +7514,7 @@
  "point72|summer internship sector analyst proprietary research": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Point72",
   "title": "2027 Summer Internship - Sector Analyst, Proprietary Research",
   "url": "https://boards.greenhouse.io/point72/jobs/8885715002?gh_jid=8885715002"
@@ -7530,7 +7530,7 @@
  "point72|quantitative researcher intern": {
   "firstSeen": "2026-11-03",
   "lastSeen": "2026-11-03",
-  "bucket": "flex",
+  "bucket": "ask",
   "company": "Point72",
   "title": "Quantitative Researcher Intern",
   "url": "https://boards.greenhouse.io/point72/jobs/7586061002?gh_jid=7586061002"
@@ -8030,5 +8030,13 @@
   "company": "Motorola Solutions",
   "title": "Presales Systems Engineer - Summer 2027 Internship",
   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Presales-Systems-Engineer---Summer-2027-Internship_R69875"
+ },
+ "tower research capital|quantitative developer intern": {
+  "firstSeen": "2026-11-03",
+  "lastSeen": "2026-11-03",
+  "bucket": "ask",
+  "company": "Tower Research Capital",
+  "title": "Quantitative Developer Intern",
+  "url": "http://tower-research.com/open-positions/"
  }
 }

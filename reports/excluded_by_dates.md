@@ -1,6 +1,6 @@
 # Excluded because the posted dates conflict with the window
 
-Scan: 2026-11-03 · 421 postings at known firms whose own dates fall outside 2027-07-13 → 2027-09-30 (e.g. a June start or an end in December). Listed so you can spot a misread date; the quoted sentence is what the parser used.
+Scan: 2026-11-03 · 420 postings at known firms whose own dates fall outside 2027-07-13 → 2027-09-30 (e.g. a June start or an end in December). Listed so you can spot a misread date; the quoted sentence is what the parser used.
 
 | Company | Role | Dates read | Why | Evidence | Link |
 |---|---|---|---|---|---|
@@ -56,14 +56,14 @@ Scan: 2026-11-03 · 421 postings at known firms whose own dates fall outside 202
 | Netflix | Software Engineer Intern | May, 12 wks | posted dates May, 12 wks | Internships are paid and are a minimum of 12 weeks, with a choice of a few fixed start dates in May or June 2027 to accommodate varying school calendars. | [link](https://explore.jobs.netflix.net/careers/job/790318904468) |
 | Netflix | Software Engineer Intern | May, 12 wks | posted dates May, 12 wks | Internships are paid and are a minimum of 12 weeks, with a choice of a few fixed start dates in May or June 2027 to accommodate varying school calendars. | [link](https://explore.jobs.netflix.net/careers/job/790318904468) |
 | NVIDIA | Developer and Performance Technology Intern | starts Feb | posted dates starts Feb | Developer and Performance Internship Preferred Start Dates: February 2027 or May 2027 | [link](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499) |
-| Palantir | Forward Deployed Software Engineer Intern |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) |
+| Palantir | Forward Deployed Software Engineer Intern |  | fall-only term (usually runs past Oct 1) |  | [link](https://go.vansh.nyc/4g) |
 | Palantir | Forward Deployed Software Engineer Intern |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) |
-| Palantir | Software Engineer Intern |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) |
+| Palantir | Software Engineer Intern |  | fall-only term (usually runs past Oct 1) |  | [link](https://go.vansh.nyc/4m) |
 | Palantir | Software Engineer Intern, Defense Tech |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7) |
 | Palantir | Software Engineer Intern, Defense Tech |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d) |
 | Palantir | Software Engineer Intern, Defense Tech |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e) |
 | Palantir | Software Engineer Intern, Infrastructure |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/f221738b-e97c-4ce3-a12a-17ada2b855e4) |
-| Palantir | Software Engineer Intern, Production Infrastructure |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/37964982-9b4c-471e-a1d8-fb8f45d7f116) |
+| Palantir | Software Engineer Intern, Production Infrastructure |  | fall-only term (usually runs past Oct 1) |  | [link](https://go.vansh.nyc/4s) |
 | SpaceX | Software Engineering Intern/Co-op | starts May | posted dates starts May | Able to work full time, onsite for a minimum of 12 consecutive weeks beginning in May or June 2027 | [link](https://boards.greenhouse.io/spacex/jobs/8621757002) |
 | SpaceX | Summer 2027 Graduate Engineer Internship/Co-op | starts May | posted dates starts May | Able to work full time, onsite for a minimum of 12 consecutive weeks beginning in May or June 2027 | [link](https://boards.greenhouse.io/spacex/jobs/8621753002?gh_jid=8621753002) |
 | SpaceX | Summer 2027 Software Engineering Internship/Co-op | starts May | posted dates starts May | Able to work full time, onsite for a minimum of 12 consecutive weeks beginning in May or June 2027 | [link](https://boards.greenhouse.io/spacex/jobs/8621757002?gh_jid=8621757002) |
@@ -111,7 +111,6 @@ Scan: 2026-11-03 · 421 postings at known firms whose own dates fall outside 202
 | Chicago Trading Company | Software Engineer Intern | Jun 15 - Aug 5 | posted dates Jun 15 - Aug 5 | You can participate in the full duration of the 8-week program from mid-June to early August 2027 | [link](https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005) |
 | Chicago Trading Company | Software Engineer Intern | Jun 15 - Aug 5 | posted dates Jun 15 - Aug 5 | You can participate in the full duration of the 8-week program from mid-June to early August 2027 | [link](https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005) |
 | Chicago Trading Company | Software Engineering Intern | Jun 15 - Aug 5 | posted dates Jun 15 - Aug 5 | You can participate in the full duration of the 8-week program from mid-June to early August 2027 | [link](https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005) |
-| D. E. Shaw | Software Developer Intern | Jun - Aug | posted dates Jun - Aug | This is a 12-week program that will take place in New York and is expected to run from June to August 2027. | [link](https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894) |
 | IMC Trading | Performance Engineer Intern | starts Jun 7 | posted dates starts Jun 7 | Must be able to start internship on June 7, 2027 | [link](https://job-boards.eu.greenhouse.io/imc/jobs/4842595101) |
 | IMC Trading | Performance Engineer Intern | starts Jun 7 | posted dates starts Jun 7 | Must be able to start internship on June 7, 2027 | [link](https://job-boards.eu.greenhouse.io/imc/jobs/4842595101) |
 | IMC Trading | Software Engineer Intern | Jun 7, 10 wks | posted dates Jun 7, 10 wks | Must be able to start internship on June 7, 2027 | [link](https://job-boards.eu.greenhouse.io/imc/jobs/4823924101) |

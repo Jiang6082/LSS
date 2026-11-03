@@ -4,7 +4,7 @@ Scans for **US internships at well-known firms** in **software engineering, prod
 
 **Filters:** US only (incl. US-remote) · known firms only ([list](inputs/known_firms.json)) · pay ≥ $30/hr when the posting states pay · undergrad roles (PhD / MBA / master's-only excluded) · titles naming C++, Java, iOS/Android, embedded or hardware skipped (Python-friendly) · window 2027-07-13 → 2027-09-30 ([config](inputs/config.json))
 
-> **Last scan:** 2026-11-03 &nbsp;•&nbsp; **0 dates fit** &nbsp;•&nbsp; **54 flexible / near miss** &nbsp;•&nbsp; **950 summer, dates not stated** &nbsp;•&nbsp; **first scan** &nbsp;•&nbsp; 24 closed postings dropped
+> **Last scan:** 2026-11-03 &nbsp;•&nbsp; **0 dates fit** &nbsp;•&nbsp; **13 flexible / near miss** &nbsp;•&nbsp; **945 summer, dates not stated** &nbsp;•&nbsp; **1 new** &nbsp;•&nbsp; 26 closed postings dropped
 
 **Jump to:** [✅ Dates fit](#-dates-fit) · [🟡 Flexible](#-flexible-start--near-miss) · [⚪ Dates not stated](#-summer-2027--dates-not-stated) · [🆕 New](#-new-since-last-scan) · [How it works](#how-it-works) · [How to run](#how-to-run) · [CSV of everything](reports/roles.csv)
 
@@ -26,22 +26,17 @@ _None right now._
 
 ## 🟡 Flexible start / near miss
 
-### 💻 Software Engineering (9)
+### 💻 Software Engineering (4)
 
 <details open>
-<summary>9 roles</summary>
+<summary>4 roles</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | Posted | Link |
 |---|---|---|---|---|---|---|---|
 | **Amazon** | Network Development Engineer Intern, 2027 Summer | Seattle, Washington, USA | starts Aug — end date not stated |  | ✓ | October 27 | [Apply](https://www.amazon.jobs/en/jobs/10590368/network-development-engineer-intern-2027-summer) |
 | **Epic Games** | Frontend Programmer Intern | Cary, NC | flexible — posting says "flexible start" |  |  | 2026-08-31 | [Apply](https://epicgames.com/careers/jobs/6173862004?gh_jid=6173862004) |
-| **Palantir** | Privacy and Civil Liberties Software Engineer Intern | NYC | flexible — posting says "dates may vary" | $36/hr | ✓ | 2026-06-29 | [Apply](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply) |
-| **Point72** | 2027 Summer Internship - Software Engineer | New York City, NY | flexible — posting says "date may vary" | $63/hr | ✓ | 2026-10-15 | [Apply](https://boards.greenhouse.io/point72/jobs/8885733002?gh_jid=8885733002) |
-| **Point72** | Software Engineer Intern | NYC; New York, NY | flexible — posting says "date may vary" | $63/hr | ✓ | 2026-10-14 | [Apply](https://boards.greenhouse.io/point72/jobs/8885733002) |
 | **Cloudflare** | Software Engineer Intern | Austin, TX; In-Office | May - Sep — 12 wks anywhere in May - Sep; ask for a late-July start |  | ✓ | 2026-09-29 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/8199958) |
 | **Cloudflare** | Software Engineer Intern - 2027 - Austin - TX | Austin, TX | May - Sep — 12 wks anywhere in May - Sep; ask for a late-July start |  | ✓ | 2026-09-18 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/8199958?gh_jid=8199958) |
-| **Samsara** | Software Engineering Intern | San Francisco, CA | posting mentions "Summer/Fall" | $62/hr | ✗ go | 2026-08-04 | [Apply](https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091) |
-| **Samsara** | Software Engineering Internship - San Francisco | San Francisco, CA | posting mentions "Summer/Fall" | $62/hr | ✗ go | 2026-08-04 | [Apply](https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091) |
 
 </details>
 
@@ -58,65 +53,29 @@ _None right now._
 
 </details>
 
-### 📊 Data / Analytics / ML (39)
+### 📊 Data / Analytics / ML (5)
 
 <details open>
-<summary>39 roles</summary>
+<summary>5 roles</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | Posted | Link |
 |---|---|---|---|---|---|---|---|
 | **Amazon** | Business Analyst Intern – Summer 2027 | Bellevue, Washington, USA | May - Sep — 12 wks anywhere in May - Sep; ask for a late-July start |  |  | October  9 | [Apply](https://www.amazon.jobs/en/jobs/10575250/business-analyst-intern-summer-2027) |
 | **Epic Games** | Data Science Intern | Cary, NC | flexible — posting says "flexible start" |  | ✓ | 2026-09-22 | [Apply](https://epicgames.com/careers/jobs/6202675004?gh_jid=6202675004) |
-| **Meta** | Research Scientist Intern | Menlo Park, CA | flexible — posting says "various start dates" |  |  | 2026-10-21 | [Apply](https://www.metacareers.com/jobs/1510576574212840) |
-| **Meta** | Research Scientist Intern - Ads Recommendations | Menlo Park, CA | flexible — posting says "various start dates" |  |  | 2026-10-28 | [Apply](https://www.metacareers.com/jobs/1691709792593561) |
-| **Meta** | Research Scientist Intern - AI & Compute Foundation | Menlo Park, CA | flexible — posting says "various start dates" |  |  | 2026-10-13 | [Apply](https://www.metacareers.com/jobs/1866761794487684) |
-| **Meta** | Research Scientist Intern - AI Alignment | Boston, MA; Seattle, WA +3 | flexible — posting says "various start dates" | $50/hr |  | 2026-10-22 | [Apply](https://www.metacareers.com/jobs/2356892281747003) |
-| **Meta** | Research Scientist Intern - AI Core Machine Learning | Seattle, WA; Bellevue, WA +1 | flexible — posting says "various start dates" |  |  | 2026-10-23 | [Apply](https://www.metacareers.com/jobs/1648122343381284) |
-| **Meta** | Research Scientist Intern - AI Infra | Menlo Park, CA | flexible — posting says "various start dates" |  |  | 2026-10-29 | [Apply](https://www.metacareers.com/jobs/4603165899971826) |
-| **Meta** | Research Scientist Intern - AI Research - Speech & Audio | Menlo Park, CA; NYC | flexible — posting says "various start dates" |  |  | 2026-10-27 | [Apply](https://www.metacareers.com/jobs/1567168005156007) |
-| **Meta** | Research Scientist Intern - Artificial Intelligence-Driven Neural Interfaces | Burlingame, CA; Menlo Park, CA +1 | flexible — posting says "various start dates" |  |  | 2026-10-20 | [Apply](https://www.metacareers.com/jobs/1436615821934863) |
-| **Meta** | Research Scientist Intern - Audio - Machine Learning and Computer Vision | Burlingame, CA; Redmond, WA | flexible — posting says "various start dates" |  |  | 2026-10-09 | [Apply](https://www.metacareers.com/jobs/2211974449401350) |
-| **Meta** | Research Scientist Intern - Audio AI | Menlo Park, CA; Bellevue, WA | flexible — posting says "various start dates" |  |  | 2026-10-26 | [Apply](https://www.metacareers.com/jobs/1160814043168431) |
-| **Meta** | Research Scientist Intern - Central Applied Science | Menlo Park, CA; NYC | flexible — posting says "various start dates" |  |  | 2026-10-22 | [Apply](https://www.metacareers.com/jobs/1582569213186235) |
-| **Meta** | Research Scientist Intern - Egocentric Vision-Language Models | Redmond, WA; Sunnyvale, CA | flexible — posting says "various start dates" |  |  | 2026-10-13 | [Apply](https://www.metacareers.com/jobs/2067000203934229) |
-| **Meta** | Research Scientist Intern - FAIR - Multimodal Foundations | Boston, MA; SF +3 | flexible — posting says "various start dates" |  |  | 2026-10-22 | [Apply](https://www.metacareers.com/jobs/2322361288548512) |
-| **Meta** | Research Scientist Intern - Feed Recommendations | Bellevue, WA | flexible — posting says "various start dates" |  |  | 2026-10-22 | [Apply](https://www.metacareers.com/jobs/29044546168568671) |
-| **Meta** | Research Scientist Intern - FM Quality ML | Menlo Park, CA | flexible — posting says "various start dates" |  |  | 2026-11-03 | [Apply](https://www.metacareers.com/jobs/1125383989877928) |
-| **Meta** | Research Scientist Intern - Generative Recommendation Systems | Menlo Park, CA | flexible — posting says "various start dates" |  |  | 2026-10-26 | [Apply](https://www.metacareers.com/jobs/3265378000517806) |
-| **Meta** | Research Scientist Intern - Language and Agents | Menlo Park, CA; Bellevue, WA | flexible — posting says "various start dates" |  |  | 2026-10-13 | [Apply](https://www.metacareers.com/jobs/2168438160696161) |
-| **Meta** | Research Scientist Intern - Meta Recommendation Systems - Core ML | Seattle, WA; Menlo Park, CA +1 | flexible — posting says "various start dates" |  |  | 2026-10-23 | [Apply](https://www.metacareers.com/jobs/1023154190171838) |
-| **Meta** | Research Scientist Intern - Multi-Agent Systems and Memory | Seattle, WA; NYC +1 | flexible — posting says "various start dates" |  |  | 2026-10-22 | [Apply](https://www.metacareers.com/jobs/2615214025585454) |
-| **Meta** | Research Scientist Intern - Multimodal Behavioral Modeling - Hearing Science | Redmond, WA | flexible — posting says "various start dates" |  |  | 2026-10-16 | [Apply](https://www.metacareers.com/jobs/1141752241867684) |
-| **Meta** | Research Scientist Intern - Multiple Teams | Seattle, WA; Bellevue, WA +1 | flexible — posting says "various start dates" |  |  | 2026-10-29 | [Apply](https://www.metacareers.com/jobs/1155292783739299) |
-| **Meta** | Research Scientist Intern - On-Device AI Model Optimization | Burlingame, CA; Menlo Park, CA | flexible — posting says "start dates throughout the year" |  |  | 2026-10-19 | [Apply](https://www.metacareers.com/jobs/4455569504707135) |
-| **Meta** | Research Scientist Intern - PAR Safety Evals and Red Teaming | Menlo Park, CA; NYC +2 | flexible — posting says "various start dates" |  |  | 2026-11-02 | [Apply](https://www.metacareers.com/jobs/1272664685039241) |
-| **Meta** | Research Scientist Intern - Photorealistic Telepresence | Redmond, WA; Pittsburgh, PA | flexible — posting says "various start dates" |  |  | 2026-10-30 | [Apply](https://www.metacareers.com/jobs/1358944629494375) |
-| **Meta** | Research Scientist Intern - Physical Engineering AI | Seattle, WA; NYC | flexible — posting says "various start dates" |  |  | 2026-10-22 | [Apply](https://www.metacareers.com/jobs/1081255008061721) |
-| **Meta** | Research Scientist Intern - Ranking & Recommendations | Menlo Park, CA; NYC +1 | flexible — posting says "various start dates" |  |  | 2026-10-27 | [Apply](https://www.metacareers.com/jobs/1625515955324134) |
-| **Meta** | Research Scientist Intern - Robot Foundation Models | Redmond, WA | flexible — posting says "various start dates" |  |  | 2026-10-21 | [Apply](https://www.metacareers.com/jobs/27730225806654441) |
-| **Meta** | Research Scientist Intern - Scam and Trust | Menlo Park, CA | flexible — posting says "various start dates" |  |  | 2026-10-29 | [Apply](https://www.metacareers.com/jobs/2355649268510104) |
-| **Meta** | Research Scientist Intern - Search | Menlo Park, CA | flexible — posting says "various start dates" |  |  | 2026-10-27 | [Apply](https://www.metacareers.com/jobs/2171476533578976) |
-| **Meta** | Research Scientist Intern - Smart Glasses in Wearables AI | Burlingame, CA; Menlo Park, CA | flexible — posting says "various start dates" |  |  | 2026-10-19 | [Apply](https://www.metacareers.com/jobs/1584033410435097) |
-| **Meta** | Research Scientist Intern - Spatial Audio Capture and Reproduction | Redmond, WA | flexible — posting says "various start dates" |  |  | 2026-10-09 | [Apply](https://www.metacareers.com/jobs/1674394627579563) |
-| **Meta** | Research Scientist Intern - User Modeling and Reinforcement Learning | Menlo Park, CA; Bellevue, WA | flexible — posting says "various start dates" |  |  | 2026-10-27 | [Apply](https://www.metacareers.com/jobs/1751935042548465) |
-| **Meta** | Research Scientist Intern - VLM and Omni Model Post-Training | Sunnyvale, CA | flexible — posting says "flexible start" |  |  | 2026-10-13 | [Apply](https://www.metacareers.com/jobs/2988199118196184) |
-| **Point72** | 2027 Summer Internship - Fundamental Researcher, Canvas | New York, NY | flexible — posting says "date may vary" | $43/hr |  | 2026-10-14 | [Apply](https://boards.greenhouse.io/point72/jobs/8885693002?gh_jid=8885693002) |
-| **Point72** | 2027 Summer Internship - Sector Analyst, Proprietary Research | New York, NY | flexible — posting says "date may vary" | $48/hr |  | 2026-10-14 | [Apply](https://boards.greenhouse.io/point72/jobs/8885715002?gh_jid=8885715002) |
-| **Point72** | Data Scientist Intern | NYC | flexible — posting says "date may vary" | $63-84/hr | ✓ | 2026-10-14 | [Apply](https://boards.greenhouse.io/point72/jobs/8885299002) |
-| **Point72** | Fundamental Researcher Intern, Canvas | New York, NY | flexible — posting says "date may vary" | $43/hr |  | 2026-10-14 | [Apply](https://job-boards.greenhouse.io/point72/jobs/8885693002?gh_jid=8885693002) |
+| **Meta** | Research Scientist Intern - Artificial Intelligence-Driven Neural Interfaces | Burlingame, CA; Menlo Park, CA +1 | flexible — posting says "various start dates" |  | ✓ | 2026-10-20 | [Apply](https://www.metacareers.com/jobs/1436615821934863) |
+| **Meta** | Research Scientist Intern - Multimodal Behavioral Modeling - Hearing Science | Redmond, WA | flexible — posting says "various start dates" |  | ✓ | 2026-10-16 | [Apply](https://www.metacareers.com/jobs/1141752241867684) |
+| **Meta** | Research Scientist Intern - VLM and Omni Model Post-Training | Sunnyvale, CA | flexible — posting says "flexible start" |  | ✓ | 2026-10-13 | [Apply](https://www.metacareers.com/jobs/2988199118196184) |
 
 </details>
 
-### 📈 Finance / Investment / Quant (3)
+### 📈 Finance / Investment / Quant (1)
 
 <details open>
-<summary>3 roles</summary>
+<summary>1 role</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | Posted | Link |
 |---|---|---|---|---|---|---|---|
 | **Amazon** | Risk Specialist Intern – Summer 2027 | Seattle, Washington, USA | May - Sep — 12 wks anywhere in May - Sep; ask for a late-July start |  |  | October  9 | [Apply](https://www.amazon.jobs/en/jobs/10575251/risk-specialist-intern-summer-2027) |
-| **Point72** | 2027 Summer Internship - Investment Services | New York, New York, United States, Stamford, Connecticut, United States | flexible — posting says "date may vary" | $43/hr |  | 2026-09-18 | [Apply](https://boards.greenhouse.io/point72/jobs/8811167002?gh_jid=8811167002) |
-| **Point72** | Quantitative Researcher Intern | New York | flexible — posting says "date may vary" | $58-87/hr | ✓ | 2024-08-15 | [Apply](https://boards.greenhouse.io/point72/jobs/7586061002?gh_jid=7586061002) |
 
 </details>
 
@@ -124,10 +83,10 @@ _None right now._
 
 ## ⚪ Summer 2027 — dates not stated
 
-950 roles. The first 60 per track are below; the full list is in [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md).
+945 roles. The first 60 per track are below; the full list is in [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md).
 
 <details>
-<summary><strong>💻 Software Engineering</strong> (502)</summary>
+<summary><strong>💻 Software Engineering</strong> (497)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | Posted | Link |
 |---|---|---|---|---|---|---|---|
@@ -157,7 +116,7 @@ _None right now._
 | **Intuit** | Software Engineer Intern - Cybersecurity | Mountain View, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $36-82/hr |  | 2026-09-14 | [Apply](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-cybersecurity/27595/100620927616) |
 | **Intuit** | Software Engineering Intern, Full Stack | United States | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $36-79/hr |  | 2026-10-30 | [Apply](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/100620927520) |
 | **Lyft** | Software Engineer Intern - Backend | SF; San Francisco, CA | Summer 2027 dates not stated | $58/hr |  | 2026-09-11 | [Apply](https://app.careerpuck.com/job-board/lyft/job/8767726002?gh_jid=8767726002) |
-| **Meta** | Software Engineer Intern | Seattle, WA; Menlo Park, CA +2 | term dates not stated | $50/hr |  | 2026-10-06 | [Apply](https://www.metacareers.com/jobs/1952991802037374) |
+| **Meta** | Software Engineer Intern | Seattle, WA; Menlo Park, CA +2 | term dates not stated | $50/hr | ✓ | 2026-10-06 | [Apply](https://www.metacareers.com/jobs/1952991802037374) |
 | **Microsoft** | Research Intern - Efficient AI Software Systems | Redmond, WA | term dates not stated | $52/hr |  | 2026-10-16 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557041731) |
 | **Microsoft** | Security Assurance Intern | Redmond, WA | Summer 2027 dates not stated |  |  | 2026-09-11 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556988203) |
 | **Microsoft** | Software Engineer Intern | Mountain View, CA; United States +1 | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $45-55/hr | ✓ | 2026-10-21 | [Apply](https://jobs.smartrecruiters.com/LinkedIn3/744000156616169) |
@@ -183,16 +142,16 @@ _None right now._
 | **NVIDIA** | Sparse Linear Algebra Libraries Intern | Santa Clara, CA | Summer 2027 dates not stated |  | ✓ | 2026-10-13 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Sparse-Linear-Algebra-Libraries-Intern---Summer-2027_JR2027429) |
 | **NVIDIA** | Systems Software Engineering Intern | Santa Clara, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October |  | ✗ c++ | 2026-10-18 | [Apply](https://jobs.nvidia.com/careers/job/893397026201) |
 | **NVIDIA** | Systems Software Intern, Aerial PHY | Santa Clara, CA | Summer 2027 dates not stated |  |  | 2026-10-18 | [Apply](https://jobs.nvidia.com/careers/job/893397883732) |
-| **Palantir** | Forward Deployed Infrastructure Engineer, Internship - US Government | Washington, D.C.; Palo Alto, CA | term dates not stated | $58/hr | ✓ | 2026-07-10 | [Apply](https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9) |
 | **Palantir** | Forward Deployed Software Engineer Intern - Commercial | Chicago, IL; NYC | Summer 2027 dates not stated | $58/hr | ✓ | 2026-06-29 | [Apply](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2/apply) |
 | **Palantir** | Forward Deployed Software Engineer Intern - Warp Speed | NYC; New York, NY | term dates not stated | $58/hr | ✓ | 2026-10-22 | [Apply](https://jobs.lever.co/palantir/b3d81928-6c26-432f-8a0a-36602c2eefcb/apply) |
-| **Palantir** | Forward Deployed Software Engineer, Internship - France | New York, NY | term dates not stated | $58/hr | ✓ | 2026-03-10 | [Apply](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) |
-| **Palantir** | Forward Deployed Software Engineer, Internship - US Government | Honolulu, HI; New York, NY +1 | term dates not stated | $58/hr | ✓ | 2021-07-01 | [Apply](https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e) |
-| **Palantir** | Information Security Engineer, Internship | New York, NY | term dates not stated | $61/hr | ✓ | 2022-08-03 | [Apply](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
+| **Palantir** | Privacy and Civil Liberties Software Engineer Intern | NYC | Summer 2027 dates not stated | $36/hr | ✓ | 2026-06-29 | [Apply](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply) |
 | **Palantir** | Software Engineer Intern | Palo Alto, CA; Washington, D.C. +1 | Summer 2027 dates not stated | $61/hr | ✓ | 2026-07-24 | [Apply](https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c) |
 | **Palantir** | Software Engineer Intern - Query Engines | NYC; New York, NY | term dates not stated | $61/hr | ✓ | 2026-10-20 | [Apply](https://jobs.lever.co/palantir/da774f81-c98c-4dcf-9b9c-949fd7d90a13/apply) |
+| **Palantir** | Software Engineer Intern, Infrastructure | New York, NY | Summer 2027 dates not stated | $61/hr | ✓ | 2026-07-24 | [Apply](https://jobs.lever.co/palantir/b229baac-494b-4a0d-9a13-2e38806e06f3) |
+| **Palantir** | Software Engineer Intern, Production Infrastructure | Seattle, WA | Summer 2027 dates not stated | $61/hr | ✓ | 2026-07-24 | [Apply](https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1) |
+| **Pinterest** | Software Engineer Intern | SF; Remote in USA | Summer 2027 dates not stated | $52/hr | ✓ | 2026-10-01 | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=7838577) |
 
-_+442 more in the full list._
+_+437 more in the full list._
 
 </details>
 
@@ -247,7 +206,7 @@ _+442 more in the full list._
 </details>
 
 <details>
-<summary><strong>📊 Data / Analytics / ML</strong> (306)</summary>
+<summary><strong>📊 Data / Analytics / ML</strong> (305)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | Posted | Link |
 |---|---|---|---|---|---|---|---|
@@ -271,11 +230,8 @@ _+442 more in the full list._
 | **Intuit** | Business Data Analyst Intern - Strategy & Planning | Mountain View, CA | Summer 2027 dates not stated; 17+ weeks, so a late-July start would run into October | $31-62/hr |  | 2026-10-01 | [Apply](https://jobs.intuit.com/job/mountain-view/summer-2027-business-data-analyst-intern-strategy-and-planning/27595/101410847360) |
 | **Intuit** | Finance Transformation & Analytics Intern | Mountain View, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $37-57/hr | ✓ | 2026-10-02 | [Apply](https://jobs.intuit.com/job/mountain-view/summer-2027-finance-transformation-and-analytics-intern/27595/101444103184) |
 | **Lyft** | Data Science Intern - Algorithms | SF; NYC | Summer 2027 dates not stated | $58/hr | ✓ | 2026-09-11 | [Apply](https://app.careerpuck.com/job-board/lyft/job/8767723002?gh_jid=8767723002) |
-| **Meta** | Data Engineer Intern - Product Analytics - Summer 2027 | Menlo Park, CA +2 | Summer 2027 dates not stated | $50/hr |  | 2026-08-01 | [Apply](https://www.metacareers.com/jobs/1373603594867455) |
-| **Meta** | Data Scientist Intern - Product Analytics | Menlo Park, CA; NYC +1 | Summer 2027 dates not stated | $50/hr |  | 2026-10-06 | [Apply](https://www.metacareers.com/jobs/1633096478817942) |
-| **Meta** | Research Scientist Intern - Foundation Model Optimization | Burlingame, CA; Menlo Park, CA | term dates not stated |  |  | 2026-10-27 | [Apply](https://www.metacareers.com/jobs/1435245618154892) |
-| **Meta** | Research Scientist Intern - Low-Power Scene Reconstruction for AR/VR | Burlingame, CA; Redmond, WA | term dates not stated | $50/hr |  | 2026-10-21 | [Apply](https://www.metacareers.com/jobs/1075160338670575) |
-| **Meta** | Research Scientist Intern - Neural Representations Compression | Redmond, WA | term dates not stated | $50/hr |  | 2026-10-27 | [Apply](https://www.metacareers.com/jobs/2368433610564528) |
+| **Meta** | Data Engineer Intern - Product Analytics - Summer 2027 | Menlo Park, CA +2 | Summer 2027 dates not stated | $50/hr | ✓ | 2026-08-01 | [Apply](https://www.metacareers.com/jobs/1373603594867455) |
+| **Meta** | Data Scientist Intern - Product Analytics | Menlo Park, CA; NYC +1 | Summer 2027 dates not stated | $50/hr | ✓ | 2026-10-06 | [Apply](https://www.metacareers.com/jobs/1633096478817942) |
 | **Microsoft** | Applied Scientist Intern | Redmond, WA | term dates not stated | $52/hr |  | 2026-10-07 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557050150) |
 | **Microsoft** | Applied Scientist Intern, Turing | Redmond, WA | Summer 2027 dates not stated |  |  | 2026-10-29 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557050150) |
 | **Microsoft** | Research Intern | Redmond, WA; Mountain View, CA | term dates not stated |  |  | 2026-10-22 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557045445) |
@@ -287,7 +243,6 @@ _+442 more in the full list._
 | **Microsoft** | Security Research Intern | Redmond, WA | Summer 2027 dates not stated |  |  | 2026-10-22 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557044769) |
 | **NVIDIA** | Deep Learning Computer Architecture Intern | Santa Clara, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October |  |  | 2026-08-19 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491) |
 | **NVIDIA** | Deep Learning Intern | Santa Clara, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October |  | ✓ | 2026-10-31 | [Apply](https://jobs.nvidia.com/careers/job/893397026418) |
-| **NVIDIA** | Go-to-Market Strategy Intern, NPN AI Consulting - Summer 2027 | US, CA, Santa Clara | Summer 2027 dates not stated |  |  | Posted 4 D | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Go-to-Market-Strategy-Intern--NPN-AI-Consulting---Summer-2027_JR2028642) |
 | **NVIDIA** | NVIDIA 2027 Internships: Deep Learning | Santa Clara, CA; US, CA, Santa Clara | term dates not stated; 12+ weeks, so a late-July start would run into October | $62/hr | ✓ | 2026-08-20 | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning_JR2023497-1) |
 | **NVIDIA** | NVIDIA 2027 Internships: Deep Learning Computer Architecture | Santa Clara, CA | term dates not stated; 12+ weeks, so a late-July start would run into October | $62/hr |  | 2026-08-20 | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491) |
 | **Salesforce** | AI Research Intern | Palo Alto, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $49-68/hr | ✓ | 2026-10-20 | [Apply](https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111) |
@@ -311,18 +266,21 @@ _+442 more in the full list._
 | **TikTok** | Data Engineer Intern - E-commerce - 2027 Summer | San Jose, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $60/hr |  | 2026-08-22 | [Apply](https://lifeattiktok.com/search/7676250516494436661) |
 | **TikTok** | Data Engineer Intern - Monetization Data | San Jose, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $60/hr | ✓ | 2026-08-10 | [Apply](https://lifeattiktok.com/search/7671232204182276405) |
 | **TikTok** | Data Engineer Intern, Data Platform TikTok BP | San Jose, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $45-60/hr |  | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7681783406632782085) |
+| **TikTok** | Data Engineering Project Intern, Ads Targeting | San Jose, CA | Summer 2027 dates not stated | $45-60/hr | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7668533140146817333) |
+| **TikTok** | Data Lake Infrastructure & Data Analytics Research Engineer Intern - Applied Machine Learning Ark | Seattle, WA | Summer 2027 dates not stated | $43/hr |  | 2026-08-11 | [Apply](https://jobs.bytedance.com/en/position/7672394389001816325/detail) |
+| **TikTok** | Data Lake Infrastructure & Data Analytics Research Engineer Intern, AML-Ark-US | Seattle, WA; San Jose, CA | Summer 2027 dates not stated | $43/hr |  | 2026-11-01 | [Apply](https://joinbytedance.com/search/7672394389001816325) |
+| **TikTok** | Data Lake Infrastructure and Data Analytics Research Engineer Intern - Applied Machine Learning Ark | San Jose, CA | Summer 2027 dates not stated | $45/hr |  | 2026-08-10 | [Apply](https://jobs.bytedance.com/en/position/7671109787509213445/detail) |
 
-_+246 more in the full list._
+_+245 more in the full list._
 
 </details>
 
 <details>
-<summary><strong>📈 Finance / Investment / Quant</strong> (100)</summary>
+<summary><strong>📈 Finance / Investment / Quant</strong> (101)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | Posted | Link |
 |---|---|---|---|---|---|---|---|
 | **Amazon** | Loss Prevention Specialist Intern 2027 | Fort Worth, Texas, USA | term dates not stated; 10-week program |  |  | August 14, | [Apply](https://www.amazon.jobs/en/jobs/10502807/loss-prevention-specialist-intern-2027) |
-| **Palantir** | Finance Operator Intern | New York, NY | term dates not stated |  |  | 2026-10-31 | [Apply](https://jobs.lever.co/palantir/bd7766c4-6aea-4b37-8d47-a8864bb9bd69) |
 | **Akuna Capital** | Quantitative Development & Strategy Intern | Chicago, IL; Chicago | Summer 2027 dates not stated; 10-week program | $75/hr | ✓ | 2026-07-13 | [Apply](https://www.akunacapital.com/careers/job/8021481/?gh_jid=8021481) |
 | **Akuna Capital** | Quantitative Research Intern | Chicago, IL; Chicago | Summer 2027 dates not stated; 10-week program | $75/hr | ✓ | 2026-07-13 | [Apply](https://www.akunacapital.com/careers/job/8036614/?gh_jid=8036614) |
 | **Aquatic Capital Management** | Quantitative Researcher – Intern | London, UK; Chicago, IL | Summer 2027 dates not stated |  | ✓ | 2026-04-01 | [Apply](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002) |
@@ -368,8 +326,10 @@ _+246 more in the full list._
 | **Jain Global** | Quant Modelling Intern | NYC | Summer 2027 dates not stated |  | ✓ | 2026-10-07 | [Apply](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quant-Modelling-Intern_JR100616) |
 | **Jain Global** | Quant Research Intern - Systematic Trading | NYC | Summer 2027 dates not stated | $88/hr | ✓ | 2026-10-05 | [Apply](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quant-Research-Intern--Systematic-Trading_JR100603-1) |
 | **Jain Global** | Quantitative Research Intern - Equity Arbitrage | NYC | term dates not stated | $88/hr | ✓ | 2026-10-19 | [Apply](https://jainglobal.wd5.myworkdayjobs.com/ExternalSite/job/New-York-New-York/Quantitative-Research-Intern---Equity-Arbitrage_JR100617-1) |
+| **Point72** | 2027 Summer Internship - Investment Services | New York, New York, United States, Stamford, Connecticut, United States | Summer 2027 dates not stated; 10-week program | $43/hr |  | 2026-09-18 | [Apply](https://boards.greenhouse.io/point72/jobs/8811167002?gh_jid=8811167002) |
 | **Point72** | Investment Analyst Intern, Point72 Academy | New York, NY; San Francisco, CA +3 | Summer 2027 dates not stated |  |  | 2026-04-19 | [Apply](https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081) |
 | **Point72** | Quantitative Research Intern | New York, Seattle | term dates not stated |  | ✓ | 2024-08-15 | [Apply](https://boards.greenhouse.io/point72/jobs/7297667002?gh_jid=7297667002) |
+| **Point72** | Quantitative Researcher Intern | New York | term dates not stated | $58-87/hr | ✓ | 2024-08-15 | [Apply](https://boards.greenhouse.io/point72/jobs/7586061002?gh_jid=7586061002) |
 | **Barclays** | Private Bank and Wealth Management Summer Internship Programme 2027 Jersey | Jersey, 5-6 Esplanade | Summer 2027 dates not stated |  |  | Posted 12  | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Jersey-5-6-Esplanade/Private-Bank-and-Wealth-Management-Summer-Internship-Programme-2027-Jersey_JR-0000125565) |
 | **Goldman Sachs** | Quantitative Strategist Intern - Americas | Dallas, TX | Summer 2027 dates not stated; 9-week program |  |  | 2026-08-15 | [Apply](https://higher.gs.com/roles/171532?type=students) |
 | **Goldman Sachs** | Quantitative Strategist Intern - Americas - The Core Quantitative Strats | Salt Lake City, UT; Dallas, TX +1 | Summer 2027 dates not stated; 9-week program |  |  | 2026-08-15 | [Apply](https://higher.gs.com/roles/171551?type=students) |
@@ -380,9 +340,8 @@ _+246 more in the full list._
 | **Goldman Sachs** | Summer Analyst Intern - Americas - Investment Banking Quantitative Strats | NYC | Summer 2027 dates not stated; 9-week program |  |  | 2026-08-15 | [Apply](https://higher.gs.com/roles/171547?type=students) |
 | **Goldman Sachs** | Summer Analyst Intern - FICC and Equities - Sales and Trading | West Palm Beach, FL | Summer 2027 dates not stated; 9-week program |  |  | 2026-08-15 | [Apply](https://higher.gs.com/roles/181628?type=students) |
 | **JPMorgan Chase** | 2027 Commercial & Investment Bank Risk Management Summer Analyst Program | New York, NY, United States; Plano, TX, United States +4 | Summer 2027 dates not stated; 9-week program |  |  | 2026-10-26 | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690781) |
-| **JPMorgan Chase** | Quantitative Research Intern - Markets - Analyst | NYC | Summer 2027 dates not stated |  | ✓ | 2026-08-03 | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038) |
 
-_+40 more in the full list._
+_+41 more in the full list._
 
 </details>
 
@@ -390,7 +349,9 @@ _+40 more in the full list._
 
 ## 🆕 New since last scan
 
-_First scan: everything is new. Later scans list only roles that appeared since the previous run._
+| Company | Role | Track | Location | Dates / note | Pay | Py | Posted | Link |
+|---|---|---|---|---|---|---|---|---|
+| **Tower Research Capital** | Quantitative Developer Intern 🆕 | Software | Chicago, IL; New York, NY | Summer 2027 dates not stated |  |  | 2026-07-07 | [Apply](http://tower-research.com/open-positions/) |
 
 
 ---
