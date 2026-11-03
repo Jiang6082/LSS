@@ -1,0 +1,16 @@
+{
+  "name": "lss",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LSS - late-summer (mid-July to Sep 30, 2027) internship scanner (sister project of QJS / PTS / ECS)",
+  "type": "module",
+  "scripts": {
+    "scan": "node scripts/run-scan.mjs",
+    "scan:fast": "node scripts/run-scan.mjs --no-ats",
+    "publish": "node scripts/publish.mjs",
+    "test": "node tools/selftest.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

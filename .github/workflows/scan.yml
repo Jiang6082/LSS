@@ -1,0 +1,46 @@
+name: LSS scan
+
+on:
+  schedule:
+    - cron: "17 12 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - ".github/scan-request"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lss-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Self-test
+        id: test
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          mkdir -p data
+          npm test 2>&1 | tee data/last_test_output.txt
+      - name: Scan
+        if: steps.test.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          node scripts/run-scan.mjs 2>&1 | tee data/last_run_output.txt
+      - name: Publish results
+        if: always()
+        run: |
+          git config user.name "LSS scan bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          node scripts/publish.mjs

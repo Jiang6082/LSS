@@ -1,0 +1,26 @@
+{
+  "note": "Window: a role 'fits' if it starts on/after earliestStart, leaves at least minWeeks before latestEnd, and ends by latestEnd (+endSlackDays). Starts up to earlyStartGraceDays early, or ends up to lateEndGraceDays late, count as 'flexible / near miss'. minHourlyPay drops roles whose stated pay is lower (unstated pay is kept).",
+  "window": {
+    "year": 2027,
+    "earliestStart": "2027-07-13",
+    "latestEnd": "2027-09-30",
+    "minWeeks": 4,
+    "earlyStartGraceDays": 10,
+    "lateEndGraceDays": 21,
+    "endSlackDays": 3
+  },
+  "minHourlyPay": 30,
+  "excludeNonPythonTitles": true,
+  "includeUnknownLocation": true,
+  "maxPostingAgeDays": 240,
+  "maxEnrich": 6000,
+  "atsBoards": true,
+  "guessAtsSlugs": true,
+  "guessAtsCategories": ["Big Tech", "AI & ML", "Quant & Trading", "Hedge Funds", "Investment Banks", "Asset Management", "Private Equity & VC", "Fintech & Payments", "High-Growth Tech"],
+  "sources": {
+    "simplify": "https://raw.githubusercontent.com/SimplifyJobs/Summer2027-Internships/dev/.github/scripts/listings.json",
+    "vanshb03": "https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/dev/.github/scripts/listings.json",
+    "speedyapply_swe": "https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/README.md",
+    "speedyapply_ai": "https://raw.githubusercontent.com/speedyapply/2027-AI-College-Jobs/main/README.md"
+  }
+}

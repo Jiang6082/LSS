@@ -1,0 +1,16 @@
+{
+  "note": "Extra ATS boards for known firms. Merged at run time with PTS's inputs/ats_seeds.json (https://github.com/Jiang6082/PTS); an entry here replaces PTS's entry for that firm. Keys: greenhouse, lever, ashby, workday [{host, site, searchTexts?}], smartrecruiters, workable, icims, oracle [{host, site}], amazon [search queries], eightfold [{host, domain, queries?}]. Seeds that fail are listed in reports/scan_audit.md.",
+  "firms": {
+    "Amazon": {"amazon": ["intern", "internship"]},
+    "Microsoft": {"eightfold": [{"host": "apply.careers.microsoft.com", "domain": "microsoft.com", "queries": ["intern", "internship"]}]},
+    "Morgan Stanley": {"eightfold": [{"host": "morganstanley.eightfold.ai", "domain": "morganstanley.com", "queries": ["intern", "summer analyst"]}]},
+    "Waymo": {"greenhouse": ["waymo"]},
+    "SoFi": {"greenhouse": ["sofi"]},
+    "Gusto": {"greenhouse": ["gusto"]},
+    "Rubrik": {"greenhouse": ["rubrik"]},
+    "Okta": {"greenhouse": ["okta"]},
+    "Squarespace": {"greenhouse": ["squarespace"]},
+    "Akuna Capital": {"greenhouse": ["akunacapital"]},
+    "Zillow": {"workday": [{"host": "zillow.wd5.myworkdayjobs.com", "site": "Zillow_Group_External"}]}
+  }
+}
