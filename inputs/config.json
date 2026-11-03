@@ -6,7 +6,7 @@
     "latestEnd": "2027-09-30",
     "minWeeks": 4,
     "earlyStartGraceDays": 10,
-    "lateEndGraceDays": 21,
+    "lateEndGraceDays": 14,
     "endSlackDays": 3
   },
   "minHourlyPay": 30,
