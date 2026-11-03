@@ -15,7 +15,7 @@ export const DEFAULT_WINDOW = {
   latestEnd: "2027-09-30",
   minWeeks: 4,
   earlyStartGraceDays: 10,
-  lateEndGraceDays: 21,
+  lateEndGraceDays: 14,
   endSlackDays: 3,
 };
 
@@ -40,13 +40,18 @@ const TOKEN_RE = new RegExp(
 );
 
 // Sentences about graduation, deadlines, etc. carry dates that are not the internship dates.
-const SKIP_RE = /graduat|degree|diploma|deadline|apply by|applications? (?:are |will be |must be )?(?:due|close|open|accepted|reviewed|submitted)|submit|posted|posting date|interview|offer (?:deadline|date|letter|decision)|enrol|class of|eligib|visa|birth|cut-?off|priority (?:deadline|date)|review(?:ed)? on a rolling|founded|since \d{4}|established|q[1-4]\b|fiscal|return(?:ing)? to (?:school|campus)|academic year|school year/i;
+const SKIP_RE = /graduat|degree|diploma|deadline|apply by|applications? (?:are |will be |must be )?(?:due|close|open|accepted|reviewed|submitted)|submit|posted|posting date|interview|offer (?:deadline|date|letter|decision)|enrol|class of|eligib|visa|birth|cut-?off|priority (?:deadline|date)|review(?:ed)? on a rolling|founded|since \d{4}|established|q[1-4]\b|fiscal|return(?:ing)? to (?:school|campus)|academic year|school year|rolling basis|finali[sz]e|hear back|notif|decisions?\b|shutdown|holiday|office closure|closed for|recruiting (?:season|timeline)|career fair|info(?:rmation)? session/i;
 const OVERRIDE_RE = /intern(?:ship)?s?\s+(?:will\s+|is\s+|are\s+)?(?:run|runs|start|starts|begin|begins|take place|takes place|last|lasts|dates|period|program|session)|program (?:runs|dates|will run|begins|starts|takes place)|start date|end date|internship dates|dates?:/i;
 const INTERNISH_RE = /intern|program|start|begin|commenc|\bruns?\b|duration|dates?\b|summer|fall|autumn|term|session|cohort|week|month|employment|assignment|position|role|from|through|until|join|onboard|conclud|\bend/i;
-const START_BEFORE_RE = /\b(start|starting|starts|begin|beginning|begins|commenc\w*|kick[- ]?off|onboard\w*|joining|join us|available to start|availability)\b[^.]{0,50}$/i;
-const END_BEFORE_RE = /\b(end|ending|ends|conclud\w*|finish\w*|wrap\w*|until|through|last day)\b[^.]{0,30}$/i;
+const START_WORD_RE = /\b(start|starting|starts|begin|beginning|begins|commenc\w*|kick[- ]?off|onboard\w*|joining|join us|available to start|availability)\b/gi;
+const END_WORD_RE = /\b(end|ending|ends|conclud\w*|finish\w*|wrap\w*|until|through|thru|last day|last until)\b/gi;
+const lastWordIndex = (text, re, maxDistance) => {
+  let idx = -1;
+  for (const m of text.matchAll(re)) idx = m.index + m[0].length;
+  return idx >= 0 && text.length - idx <= maxDistance && !/[.;]/.test(text.slice(idx)) ? idx : -1;
+};
 const START_WINDOW_RE = /start dates|start dates? (?:are |is )?(?:available|offered|range|between|from|throughout)|(?:start|begin)(?:ing)? (?:any ?time|between)|flexible start|choose (?:your|a|their) (?:own )?start/i;
-const CONNECTOR_RE = /^\s*(?:-|–|—|~|to|through|thru|until|till|into|\/)\s*$/i;
+const CONNECTOR_RE = /^\s*(?:-|–|—|~|to|through|thru|until|till|into)\s*$/i;
 const AND_CONNECTOR_RE = /^\s*and\s*$/i;
 
 export const FLEX_RE = new RegExp([
@@ -56,9 +61,11 @@ export const FLEX_RE = new RegExp([
   String.raw`rolling start`, String.raw`multiple start dates`, String.raw`various start dates`, String.raw`staggered start`,
   String.raw`start dates? (?:throughout|across) the (?:year|summer)`, String.raw`start (?:any ?time|year[- ]round)`,
   String.raw`off[- ]?cycle`, String.raw`choose (?:your|a|their) (?:own )?start date`,
-  String.raw`summer\s*(?:\/|or|&|and)\s*fall`, String.raw`late[- ]summer`, String.raw`(?:start|dates?) (?:can|may) vary`,
+  String.raw`(?:start|dates?) (?:can|may) vary`,
   String.raw`length (?:and|&) (?:start|timing) (?:are |is )?flexible`, String.raw`(?:duration|length) (?:is |are )?flexible`,
 ].join("|"), "i");
+// Weak signals (a Summer/Fall option exists) do not override dates the posting states.
+export const WEAK_FLEX_RE = /summer\s*(?:\/|or|&|and)\s*fall|late[- ]summer/i;
 
 const DURATION_RE = /\b(\d{1,2}|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen)(?:\s*(?:-|–|to|or)\s*(\d{1,2}|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen))?[\s-]*(weeks?|wks?|months?)(?![a-z])/gi;
 const DURATION_CONTEXT_RE = /intern|program|internship|duration|long|summer|term|session|assignment|placement|co-?op|rotation|full[- ]time for/i;
@@ -106,6 +113,8 @@ export function extractDateFacts(text = "", { year = 2027 } = {}) {
   const facts = { ranges: [], starts: [], ends: [], startWindows: [], weeks: [], flexible: false, flexEvidence: "", evidence: [] };
   const flexMatch = String(text).match(FLEX_RE);
   if (flexMatch) { facts.flexible = true; facts.flexEvidence = flexMatch[0]; }
+  const weakMatch = String(text).match(WEAK_FLEX_RE);
+  if (weakMatch) { facts.weakFlexible = true; facts.weakFlexEvidence = weakMatch[0]; }
   for (const sentence of splitSentences(text)) {
     const skip = SKIP_RE.test(sentence) && !OVERRIDE_RE.test(sentence);
     if (DURATION_CONTEXT_RE.test(sentence) && !/vacation|pto|paid time off|holiday|notice|parental|leave|per year|within/i.test(sentence)) {
@@ -115,7 +124,7 @@ export function extractDateFacts(text = "", { year = 2027 } = {}) {
         const mult = /^m/i.test(d[3]) ? 4.33 : 1;
         const lo = Math.round(Math.min(a, b ?? a) * mult);
         const hi = Math.round(Math.max(a, b ?? a) * mult);
-        if (lo >= 4 && hi <= 52) facts.weeks.push({ lo, hi, text: d[0] });
+        if (lo >= 4 && hi <= 40) facts.weeks.push({ lo, hi, text: d[0] });
       }
     }
     if (skip) continue;
@@ -131,7 +140,7 @@ export function extractDateFacts(text = "", { year = 2027 } = {}) {
       if (!INTERNISH_RE.test(sentence)) continue;
       const y = b.year || a.year || year;
       const s = tokenTime(a, "start", y); const e = tokenTime(b, "end", y);
-      if (e.t < s.t) continue;
+      if (e.t < s.t || e.t - s.t < 21 * 86400000) continue;
       const item = { start: s.t, end: e.t, startMonthOnly: s.monthOnly, endMonthOnly: e.monthOnly, text: `${a.text}${between}${b.text}`, sentence };
       (isStartWindow ? facts.startWindows : facts.ranges).push(item);
       used.add(i); used.add(i + 1);
@@ -140,10 +149,13 @@ export function extractDateFacts(text = "", { year = 2027 } = {}) {
     toks.forEach((tok, i) => {
       if (used.has(i)) return;
       const before = sentence.slice(0, tok.index);
-      if (START_BEFORE_RE.test(before)) {
+      const startAt = lastWordIndex(before, START_WORD_RE, 55);
+      const endAt = lastWordIndex(before, END_WORD_RE, 40);
+      const startAfter = /^[\s\/a-z,]{0,12}\bstart(?:s|ing|\s+dates?)?\b/i.test(sentence.slice(tok.end, tok.end + 30)); // "June start", "May/June start dates"
+      if ((startAt >= 0 && startAt > endAt) || (startAt < 0 && endAt < 0 && startAfter)) {
         const s = tokenTime(tok, "start", tok.year || year);
         facts.starts.push({ start: s.t, monthOnly: s.monthOnly, text: tok.text, sentence });
-      } else if (END_BEFORE_RE.test(before)) {
+      } else if (endAt >= 0) {
         const e = tokenTime(tok, "end", tok.year || year);
         facts.ends.push({ end: e.t, monthOnly: e.monthOnly, text: tok.text, sentence });
       }
@@ -213,13 +225,15 @@ export function classifyDates(job, window = DEFAULT_WINDOW) {
   const maxWeeks = facts.weeks.length ? Math.max(...facts.weeks.map((x) => x.hi)) : null;
   const minWeeksStated = facts.weeks.length ? Math.min(...facts.weeks.map((x) => x.lo)) : null;
   for (const r of facts.ranges) {
-    const spanWeeks = (r.end - r.start) / (7 * DAY);
+    const spanStart = r.startMonthOnly ? r.start + 14 * DAY : r.start;
+    const spanEnd = r.endMonthOnly ? r.end - 15 * DAY : r.end;
+    const spanWeeks = (spanEnd - spanStart) / (7 * DAY);
     if (maxWeeks && spanWeeks > maxWeeks + 3) {
       // e.g. "10-12 weeks between May and September": a window the internship falls inside.
       const E = parseIso(w.earliestStart);
       const lateStartEnd = Math.max(E, r.start) + (minWeeksStated * 7 - 3) * DAY;
       const ok = lateStartEnd <= Math.min(r.end, parseIso(w.latestEnd)) + w.endSlackDays * DAY;
-      verdicts.push({ verdict: ok ? "flex" : "conflict", note: ok ? `${minWeeksStated}-${maxWeeks} wks somewhere in ${label(r.start, r.end, r)}; ask for a late-July start` : "", dates: label(r.start, r.end, r), evidence: r.sentence });
+      verdicts.push({ verdict: ok ? "flex" : "conflict", note: ok ? `${minWeeksStated === maxWeeks ? minWeeksStated : `${minWeeksStated}-${maxWeeks}`} wks anywhere in ${label(r.start, r.end, r)}; ask for a late-July start` : "", dates: label(r.start, r.end, r), evidence: r.sentence });
       continue;
     }
     const v = judgeRange(r.start, r.end, w, { startMonthOnly: r.startMonthOnly });
@@ -234,7 +248,8 @@ export function classifyDates(job, window = DEFAULT_WINDOW) {
   }
   const weeks = facts.weeks.length ? Math.min(...facts.weeks.map((x) => x.lo)) : null;
   for (const s of facts.starts) {
-    const endFact = facts.ends.find((e) => e.end > s.start);
+    // Only pair a start with an end stated in the same sentence ("begin June 8 and end August 14").
+    const endFact = facts.ends.find((e) => e.sentence === s.sentence && e.end - s.start >= 21 * DAY);
     if (endFact) {
       const v = judgeRange(s.start, endFact.end, w, { startMonthOnly: s.monthOnly });
       verdicts.push({ ...v, dates: label(s.start, endFact.end, { startMonthOnly: s.monthOnly, endMonthOnly: endFact.monthOnly }), evidence: `${s.sentence} ${endFact.sentence}` });
@@ -253,11 +268,13 @@ export function classifyDates(job, window = DEFAULT_WINDOW) {
   const flex = pick("flex");
   if (flex) return result("flex", flex.note || "near your window", { dates: flex.dates, evidence: flex.evidence });
   const conflict = pick("conflict");
-  if (conflict && facts.flexible) return result("flex", `listed ${conflict.dates}, but posting says "${facts.flexEvidence}"`, { dates: conflict.dates, evidence: conflict.evidence });
+  if (conflict && facts.flexible) return result("flex", `listed ${conflict.dates}, but posting says "${facts.flexEvidence}"`, { dates: conflict.dates, evidence: `${conflict.evidence} … ${splitSentences(text).find((x) => FLEX_RE.test(x)) || ""}` });
   if (conflict) return result("exclude", `posted dates ${conflict.dates}`, { dates: conflict.dates, evidence: conflict.evidence });
 
   // 3. No usable dates in the posting.
-  if (facts.flexible || terms.offCycle) return result("flex", `posting says "${facts.flexEvidence || "off-cycle"}"`, { dates: "flexible" });
+  const sentenceWith = (re) => splitSentences(text).find((x) => re.test(x)) || "";
+  if (facts.flexible || terms.offCycle) return result("flex", `posting says "${facts.flexEvidence || "off-cycle"}"`, { dates: "flexible", evidence: sentenceWith(facts.flexible ? FLEX_RE : /off[- ]?cycle/i) });
+  if (facts.weakFlexible) return result("flex", `posting mentions "${facts.weakFlexEvidence}"`, { dates: "", evidence: sentenceWith(WEAK_FLEX_RE) });
   if (fallOnly) return result("exclude", "fall-only term (usually runs past Oct 1)");
   if (terms.coop && !seasons.has("summer")) return result("exclude", "co-op with no dates (usually 4-6 months)");
   if (weeks && weeks >= 20) return result("exclude", `${weeks}-week assignment`);
