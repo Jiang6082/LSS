@@ -91,6 +91,9 @@ check("pay hourly range", () => assert.equal(parsePay("The pay range is $45 - $5
 check("pay monthly", () => assert.equal(parsePay("Salary: $8,000/month").min, 46));
 check("pay annual k", () => assert.equal(parsePay("Base pay $110k-$130k annualized").min, 53));
 check("pay ignores funding", () => assert.equal(parsePay("We raised $50 million"), null));
+check("pay ignores housing stipend", () => assert.equal(parsePay("Interns receive a $2,500 housing stipend. Pay range: $45 - $50 per hour.").min, 45));
+check("pay ignores signing bonus alone", () => assert.equal(parsePay("Compensation includes a $5,000 signing bonus."), null));
+check("pay: unit-less 4,000 is not hourly", () => assert.equal(parsePay("Base pay range $4,000 - $6,000"), null));
 check("PhD-only description", () => assert.ok(advancedDegreeOnly("Currently has, or is in the process of obtaining, a PhD degree in Computer Science or a related field.")));
 check("BS/MS/PhD is not PhD-only", () => assert.equal(advancedDegreeOnly("Currently pursuing a Bachelor's, Master's or PhD in Computer Science."), ""));
 check("PhD preferred is not PhD-only", () => assert.equal(advancedDegreeOnly("Currently pursuing a PhD is preferred."), ""));
@@ -98,7 +101,7 @@ check("title city: Lisbon", () => assert.equal(usStatus("Product Manager Intern 
 
 // ---- Firm matching ----------------------------------------------------------------------------
 const known = await loadKnownFirms("inputs/known_firms.json");
-const firmCases = [["Amazon Web Services", "Amazon"], ["JPMorgan Chase & Co.", "JPMorgan Chase"], ["J.P. Morgan", "JPMorgan Chase"], ["The D. E. Shaw Group", "D. E. Shaw"], ["Goldman Sachs & Co. LLC", "Goldman Sachs"], ["Block", "Block"], ["Blockchain Capital", null], ["Delta Dental", null], ["Citadel Securities", "Citadel Securities"], ["Two Sigma Investments", "Two Sigma"], ["Susquehanna International Group, LLP", "Susquehanna International Group"], ["Bloomberg LP", "Bloomberg"], ["Capital One Financial", "Capital One"], ["Tiny Startup", null]];
+const firmCases = [["Amazon Web Services", "Amazon"], ["JPMorgan Chase & Co.", "JPMorgan Chase"], ["J.P. Morgan", "JPMorgan Chase"], ["The D. E. Shaw Group", "D. E. Shaw"], ["Goldman Sachs & Co. LLC", "Goldman Sachs"], ["Block", "Block"], ["Blockchain Capital", null], ["Delta Dental", null], ["Citadel Securities", "Citadel Securities"], ["Two Sigma Investments", "Two Sigma"], ["Susquehanna International Group, LLP", "Susquehanna International Group"], ["Bloomberg LP", "Bloomberg"], ["Capital One Financial", "Capital One"], ["Tiny Startup", null], ["HP IQ", "HP"], ["Intuitive", "Intuitive Surgical"], ["Intuitive Machines", null], ["GM financial", "General Motors"]];
 for (const [name, want] of firmCases) check(`firm: ${name}`, () => assert.equal(known.match(name)?.name ?? null, want));
 
 // ---- Parsers --------------------------------------------------------------------------------

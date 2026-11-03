@@ -37,7 +37,7 @@ function byTrack(rows, render) {
   }).filter(Boolean).join("\n");
 }
 
-export async function writeReports({ out = ".", config, log, roles, dateExcluded, gone, firstRun, boardAudit, unlisted, history }) {
+export async function writeReports({ out = ".", config, log, roles, dateExcluded, gone, firstRun, boardAudit, unlisted, history, payRejected = [] }) {
   const dir = (p) => path.join(out, p);
   await fs.mkdir(dir("reports"), { recursive: true });
   await fs.mkdir(dir("data"), { recursive: true });
@@ -125,6 +125,14 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
     "| Company | Roles | Example |",
     "|---|---|---|",
     ...unlisted.map((u) => `| ${esc(u.company)} | ${u.count} | [${esc(u.example)}](${u.url}) |`),
+    "",
+    `## Dropped for pay below $${minPay}/hr (${payRejected.length}${payRejected.length >= 400 ? "+" : ""})`,
+    "",
+    "The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json to keep these.",
+    "",
+    "| Company | Role | Pay text | ≈ $/hr |",
+    "|---|---|---|---|",
+    ...payRejected.map((p) => `| ${esc(p.company)} | [${esc(p.title)}](${p.url}) | ${esc(p.pay)} | ${p.hourly} |`),
     "",
     "## Live ATS boards",
     "",
