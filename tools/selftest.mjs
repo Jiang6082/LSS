@@ -81,12 +81,12 @@ const roleCases = [
   ["Software Engineering Intern (BS/MS)", "Software"], ["Risk Analytics Intern", "Data"], ["Corporate Finance Intern", "Finance"],
   ["Software Engineer Intern (C++)", null], ["iOS Engineer Intern", null], ["Hardware Engineering Intern", null], ["Marketing Intern", null],
   ["PhD Research Intern", null], ["Software Engineer New Grad", null], ["Senior Software Engineer", null], ["Software Engineering Intern (Masters)", null],
-  ["Product Design Intern", null], ["IT Support Intern", null], ["MBA Summer Associate", null], ["Engine Programmer Intern", null], ["Tech Art Intern", null], ["AI Prompt Engineer High School Intern - Summer 2027", null], ["Trading Bootcamp Micro-Internship - Summer 2027", null],
+  ["Product Design Intern", null], ["IT Support Intern", null], ["MBA Summer Associate", null], ["Engine Programmer Intern", null], ["Tech Art Intern", null], ["AI Prompt Engineer High School Intern - Summer 2027", null], ["Trading Bootcamp Micro-Internship - Summer 2027", null], ["Get to Know Blackstone - Educational Opportunities for Prospective Summer Analyst Candidates", null],
 ];
 for (const [title, want] of roleCases) check(`role: ${title}`, () => { const r = screenRole({ Title: title }); assert.equal(r.ok ? r.track : null, want, JSON.stringify(r)); });
 
 // ---- Location / pay -------------------------------------------------------------------------
-const locCases = [["New York, NY", "us"], ["Remote - US", "us"], ["Toronto, ON, Canada", "non-us"], ["Bangalore, IN", "non-us"], ["San Francisco, CA; London, UK", "us"], ["London, UK", "non-us"], ["Remote", "unknown"], ["Seattle", "us"], ["Vancouver, BC", "non-us"], ["Mountain View, CA, USA", "us"]];
+const locCases = [["New York, NY", "us"], ["Remote - US", "us"], ["Toronto, ON, Canada", "non-us"], ["Bangalore, IN", "non-us"], ["San Francisco, CA; London, UK", "us"], ["London, UK", "non-us"], ["Remote", "unknown"], ["Seattle", "us"], ["Vancouver, BC", "non-us"], ["Mountain View, CA, USA", "us"], ["Knutsford, Radbroke Hall", "non-us"], ["SK - Bratislava, Slovakia", "non-us"], ["Gift City", "non-us"], ["Northampton, Barclays Campus, Pavilion Drive", "non-us"], ["Northampton, MA", "us"], ["Leeds, AL", "us"], ["Cambridge, MA", "us"], ["Leeds", "non-us"]];
 for (const [loc, want] of locCases) check(`location: ${loc}`, () => assert.equal(usStatus(loc), want));
 check("pay hourly range", () => assert.equal(parsePay("The pay range is $45 - $55 per hour.").min, 45));
 check("pay monthly", () => assert.equal(parsePay("Salary: $8,000/month").min, 46));
@@ -148,6 +148,10 @@ const degreeCases = [
   ["TikTok PhD student researcher", "Student Researcher - (Seed Model - LLM) - 2027 Start (PhD)", false],
   ["graduate students sought (William Blair)", "William Blair is seeking graduate students to join our technology team for a 12-week internship program.", false],
   ["MS or PhD candidate (Salesforce)", "You are a PhD or MS candidate in Computer Science, Artificial Intelligence, Machine Learning, or a related technical field.", false],
+  ["bachelor's is a prerequisite for a PhD", "Bachelor's degree in Computer Science and currently pursuing a PhD in Machine Learning.", false],
+  ["BS done, attending graduate school", "B.S. in Computer Science, currently attending graduate school in a related field.", false],
+  ["undergrad or grad students currently enrolled", "Undergraduate or graduate students currently enrolled in a degree program.", true],
+  ["pursuing bachelor's, PhD preferred", "Currently pursuing a bachelor's degree; currently pursuing a PhD is preferred.", true],
 ];
 for (const [name, text, ok] of degreeCases) check(`degree: ${name}`, () => assert.equal(degreeRequirement(text).ok, ok, JSON.stringify(degreeRequirement(text))));
 const titleDegreeCases = [
@@ -161,6 +165,7 @@ const researchCases = [
   ["Research Scientist Intern - Multiple Teams", true], ["Applied Scientist Intern", true], ["Research Intern - Machine Learning and Optimization", true],
   ["Student Researcher", true], ["AI Research Scientist Intern - 2027 Summer", true], ["Safety Research Scholar Intern", true], ["Generative Media Research Intern", true],
   ["Data Scientist Intern", false], ["Quantitative Research Intern", false], ["Quantitative Researcher Intern", false], ["Equity Research Intern", false],
+  ["Execution Research Intern - Systematic Execution Research", false], ["Economic Research Intern", false],
   ["Research Engineer Intern - Benchmarking", false], ["Campus AI Research Engineer - Intern", false], ["Software Engineer Intern", false], ["Market Research Associate Intern", false],
 ];
 for (const [title, want] of researchCases) check(`research title: ${title}`, () => assert.equal(researchTitle(title), want));
