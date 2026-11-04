@@ -30,6 +30,8 @@ const COMPLETED_UG = /\b(?:completed|complete|hold|holding|have|has|earned|recei
 const UG_FIRST = /\bundergrad\w*|\bunder[- ]graduate\b|\bbachelor['’]?s?\b|\bB\.?S\.?c?(?![A-Za-z])|\bB\.?A\.?(?![A-Za-z])|\bfour[- ]year\b/i;
 const ACTIVE_BEFORE = /\b(?:current|currently|pursuing|pursue|enrolled|working toward|working towards|in the process|completing|graduating|graduation|attending|studying|progressing)\b/i;
 const UG_ACTIVE = /\bundergraduate (?:students?|programs?|candidates?|interns?)\b|\brising\b|\b(?:sophomore|junior|senior)s?\b|pursuing (?:an? |your )?(?:bachelor|undergrad|B\.?S|B\.?A)|graduating with/i;
+// "Bachelor's degree in CS and currently pursuing a PhD": the bachelor's is a prerequisite, not an option.
+const GRAD_ACTIVE = /\b(?:current(?:ly)?|pursuing|enrolled in|enrollment in|enrolment in|working (?:toward|towards)|attending|completing)\s+(?:(?:an?|the|your|full-time|accredited)\s+){0,3}(?:master['’]?s?\b|masters\b|m\.?s\.?(?![a-z])|m\.?eng|ph\.?\s?d|doctoral|doctorate|graduate (?:degree|program|school|studies)|mba|j\.?d\.?(?![a-z])|law school)/i;
 const COLLEAGUE_PHD = /\b(?:our|team of|alongside|colleagues|researchers with|staff of|employees|world-class)\b[^.;]{0,40}\b(?:ph\.?\s?d|doctorates?)/i;
 
 function mentions(sentence) {
@@ -52,7 +54,9 @@ export function degreeRequirement(text = "") {
     if (!m.ug && !m.ms && !m.phd && !m.mba && !m.jd) continue;
     const ugAt = m.s.search(UG_FIRST);
     const activeBefore = ugAt > 0 && ACTIVE_BEFORE.test(m.s.slice(0, ugAt));
-    const ugOnlyCompleted = m.ug && COMPLETED_UG.test(m.s) && !UG_ACTIVE.test(m.s) && !activeBefore;
+    const gradActive = m.s.match(GRAD_ACTIVE);
+    const ugPrereq = m.ug && ugAt >= 0 && !activeBefore && !UG_ACTIVE.test(m.s) && gradActive && ugAt < gradActive.index;
+    const ugOnlyCompleted = m.ug && ((COMPLETED_UG.test(m.s) && !UG_ACTIVE.test(m.s) && !activeBefore) || Boolean(ugPrereq));
     if (m.ug && !ugOnlyCompleted && (PURSUING.test(m.s) || /undergrad/i.test(m.s))) undergrad ??= sentence;
     const gradMention = m.ms || m.phd || m.mba || m.jd;
     if (!gradMention || grad) continue;
@@ -86,6 +90,17 @@ export function titleDegree(title = "") {
 const RESEARCH_TITLE = /\b(?:research scientists?|applied scien(?:ce|tists?)|research interns?(?:hip)?s?|research internships?|student researchers?|research fellow(?:ship)?|research scholars?|scientist interns?|ai research(?!\s+engineer)|ml research(?!\s+engineer)|machine learning research(?!\s+engineer)|research associate interns?)\b/i;
 export function researchTitle(title = "") {
   const t = String(title);
-  if (/\bdata scien|\bquant(?:itative)?\b|\bmarket research\b|\bequity research\b|\bcredit research\b|\binvestment research\b/i.test(t) && !/research scientist|applied scien|student researcher/i.test(t)) return false;
+  if (/\bdata scien|\bquant(?:itative)?\b|\b(?:market|equity|credit|investment|execution|trading|alpha|systematic|fundamental|macro|portfolio|economic|policy) research\b|\bsystematic\b/i.test(t) && !/research scientist|applied scien|student researcher/i.test(t)) return false;
   return RESEARCH_TITLE.test(t);
+}
+
+// First sentence that talks about education, for roles kept with no degree level detected, so the
+// report can show what the posting does say.
+const EDU_HINT = /\b(?:degree|bachelor['’]?s?|master['’]?s|masters|ph\.?\s?d|doctoral|mba|undergrad\w*|graduate students?|enrolled|enrollment|university students?|college students?|class of 20\d\d|graduation|graduating|rising (?:sophomore|junior|senior))\b/i;
+const EDU_BOILERPLATE = /without regard|regardless of|equal (?:employment )?opportunity|discriminat|protected|veteran status|tuition (?:reimbursement|assistance)|student loan/i;
+export function educationHint(text = "") {
+  for (const sentence of splitSentences(text)) {
+    if (EDU_HINT.test(sentence) && !EDU_BOILERPLATE.test(sentence)) return sentence.slice(0, 220);
+  }
+  return "";
 }
