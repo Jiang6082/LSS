@@ -20,7 +20,8 @@ const MS_OFFICE = /\bMS[- ]?(?:Office|Excel|Word|Teams|PowerPoint|Access|Project
 const PHD_RE = /\bph\.?\s?d\.?(?![a-z])|\bdoctoral\b|\bdoctorate\b|\bdoctor of philosophy\b|\bpost-?doc/i;
 const MBA_RE = /\bMBAs?\b|\bM\.B\.A\.?/;
 const JD_WORDS = /\bjuris doctor|\blaw school|\blaw students?\b|\b(?:first|second|third)[- ]year law\b/i;
-const JD_ABBR = /\bJ\.D\.?(?![A-Za-z])|\bJD\b|\b[123]Ls?\b/;
+// Bare "JD" only in degree context ("JD program", "JD/MBA", "pursuing a JD"), so "JD Financial" (John Deere) or "JD Power" don't count.
+const JD_ABBR = /\bJ\.D\.?(?![A-Za-z])|\bJD\b(?=\s*(?:\/|,|\)|or\b|and\b|program|degree|candidate|student|$))|(?:pursuing|enrolled in|toward|towards|an?)\s+JD\b|\b[123]Ls?\b/;
 
 const PURSUING = /\b(?:current|currently|pursuing|pursue|pursuit|enrolled|enrollment|enrolling|candidates?|students?|working (?:toward|towards)|in the process|studying|attending|rising|matriculated|toward|towards|seeking|obtaining|obtain|completing|finishing|in progress|graduating|graduation|progressing|will graduate|graduate (?:in|with|by|between)|expected|expecting|scheduled to)\b/i;
 const REQUIRED = /\b(?:must|required|requires?|requirements?|eligib\w*|minimum|qualifications?|open (?:only )?to|only|need|should be|looking for|for (?:current )?students|designed (?:as|for)|intended for|aimed at|targeting|targeted (?:at|to|toward)|operating at)\b/i;
