@@ -34,6 +34,21 @@ export function jsonLdJobPosting(html = "") {
   return null;
 }
 
+// Eightfold (Microsoft's careers site and others) and some single-page apps embed the posting as
+// JSON inside the page instead of rendering it; pull the description out of that JSON.
+export function embeddedDescription(html = "") {
+  const s = String(html).replace(/&quot;/g, '"');
+  for (const key of ["job_description", "jobDescription", "description_html", "descriptionHtml"]) {
+    const m = s.match(new RegExp(`"${key}"\\s*:\\s*"((?:[^"\\\\]|\\\\.){200,})"`));
+    if (!m) continue;
+    try {
+      const text = stripHtml(JSON.parse(`"${m[1]}"`));
+      if (text.length > 200) return text;
+    } catch { /* not valid JSON string */ }
+  }
+  return "";
+}
+
 const ashbyBoards = new Map();
 function ashbyBoard(token) {
   if (!ashbyBoards.has(token)) ashbyBoards.set(token, fetchJson(`https://api.ashbyhq.com/posting-api/job-board/${token}?includeCompensation=true`, { timeoutMs: 25000 }));
@@ -136,7 +151,9 @@ async function detailFor(row, ghTokens = []) {
   if (!res.ok) return { error: res.error || `HTTP ${res.status}`, finalUrl: res.url || url };
   const ld = jsonLdJobPosting(res.text);
   if (ld) return ld.expired ? closed(res.url || url) : { ...ld, finalUrl: res.url || url, via: "jsonld" };
-  const text = stripHtml(res.text.replace(/<(nav|header|footer)[\s\S]*?<\/\1>/gi, " "));
+  const embedded = embeddedDescription(res.text);
+  if (embedded) return { content: embedded.slice(0, 25000), location: "", pay: "", finalUrl: res.url || url, via: "embedded" };
+  const text = stripHtml(res.text.replace(/<(nav|header|footer|code|template|noscript)[\s\S]*?<\/\1>/gi, " "));
   if (text.length < 3000 && CLOSED_TEXT_RE.test(text)) return closed(res.url || url);
   return { content: text.slice(0, 25000), location: "", pay: "", finalUrl: res.url || url, via: "html" };
 }

@@ -22,10 +22,16 @@ const MBA_RE = /\bMBAs?\b|\bM\.B\.A\.?/;
 const JD_WORDS = /\bjuris doctor|\blaw school|\blaw students?\b|\b(?:first|second|third)[- ]year law\b/i;
 const JD_ABBR = /\bJ\.D\.?(?![A-Za-z])|\bJD\b|\b[123]Ls?\b/;
 
-const PURSUING = /\b(?:current|currently|pursuing|pursue|pursuit|enrolled|enrollment|enrolling|candidates?|students?|working (?:toward|towards)|in the process|studying|attending|rising|matriculated|toward|towards|seeking|obtaining|completing|in progress|graduating|graduation|progressing)\b/i;
-const REQUIRED = /\b(?:must|required|requires?|requirements?|eligib\w*|minimum|qualifications?|open (?:only )?to|only|need|should be|looking for|for (?:current )?students)\b/i;
+const PURSUING = /\b(?:current|currently|pursuing|pursue|pursuit|enrolled|enrollment|enrolling|candidates?|students?|working (?:toward|towards)|in the process|studying|attending|rising|matriculated|toward|towards|seeking|obtaining|obtain|completing|finishing|in progress|graduating|graduation|progressing|will graduate|graduate (?:in|with|by|between)|expected|expecting|scheduled to)\b/i;
+const REQUIRED = /\b(?:must|required|requires?|requirements?|eligib\w*|minimum|qualifications?|open (?:only )?to|only|need|should be|looking for|for (?:current )?students|designed (?:as|for)|intended for|aimed at|targeting|targeted (?:at|to|toward)|operating at)\b/i;
 const PREFERRED = /\b(?:prefer\w*|nice[- ]to[- ]have|bonus|a plus|plus\b|ideally|desir\w*|advantage\w*|helpful|beneficial|stand out)\b/i;
-const INCLUSIVE = /\b(?:also|as well|welcome|encouraged to apply|including|or above|or higher)\b/i;
+const INCLUSIVE = /\b(?:also|as well|welcome|encouraged to apply|all (?:degree |academic )?levels|any (?:degree |academic )?level)\b/i;
+// "PhD (preferred) or Master's": the parenthetical ranks the options, both still graduate degrees.
+const PAREN_PREFERRED = /\((?:strongly |highly )?preferred\)/gi;
+// A qualification bullet that opens with the degree: "PhD degree in Computer Science ...".
+const BARE_GRAD = /^\W*(?:an? )?(?:ph\.?\s?d\.?|doctoral|master['’]?s|masters|m\.?s\.?|mba)(?:\s*(?:\/|or)\s*(?:ph\.?\s?d\.?|master['’]?s|masters|m\.?s\.?))?\s+(?:degree|candidates?|students?|program)\b/i;
+// Program tags in a posting's own heading: "2027 Start (PhD)", "Intern (Master's)".
+const GRAD_TAG = /\b(?:start|intern(?:ship)?)\s*\((?:ph\.?\s?d|master['’]?s|m\.?s)\)/i;
 const COMPLETED_UG = /\b(?:completed|complete|hold|holding|have|has|earned|received|obtained|possess\w*|already)\b[^.;]{0,25}(?:\bundergrad\w*|\bbachelor['’]?s?\b|\bB\.?S\.?\b|\bB\.?A\.?\b)/i;
 const UG_FIRST = /\bundergrad\w*|\bunder[- ]graduate\b|\bbachelor['’]?s?\b|\bB\.?S\.?c?(?![A-Za-z])|\bB\.?A\.?(?![A-Za-z])|\bfour[- ]year\b/i;
 const ACTIVE_BEFORE = /\b(?:current|currently|pursuing|pursue|enrolled|working toward|working towards|in the process|completing|graduating|graduation|attending|studying|progressing)\b/i;
@@ -48,6 +54,7 @@ function mentions(sentence) {
 
 export function degreeRequirement(text = "") {
   let undergrad = null;
+  let ugWeak = null; // "Bachelor's degree in CS" with no pursuing/enrolled wording
   let grad = null;
   for (const sentence of splitSentences(text)) {
     const m = mentions(sentence);
@@ -58,17 +65,21 @@ export function degreeRequirement(text = "") {
     const ugPrereq = m.ug && ugAt >= 0 && !activeBefore && !UG_ACTIVE.test(m.s) && gradActive && ugAt < gradActive.index;
     const ugOnlyCompleted = m.ug && ((COMPLETED_UG.test(m.s) && !UG_ACTIVE.test(m.s) && !activeBefore) || Boolean(ugPrereq));
     if (m.ug && !ugOnlyCompleted && (PURSUING.test(m.s) || /undergrad/i.test(m.s))) undergrad ??= sentence;
+    else if (m.ug && !ugOnlyCompleted) ugWeak ??= sentence;
     const gradMention = m.ms || m.phd || m.mba || m.jd;
     if (!gradMention || grad) continue;
     if (m.ug && !ugOnlyCompleted) continue; // "Bachelor's, Master's or PhD" -> undergrad option in the same sentence
-    if (PREFERRED.test(m.s) && !REQUIRED.test(m.s)) continue; // "PhD preferred"
+    const tagged = GRAD_TAG.test(m.s) || BARE_GRAD.test(m.s);
+    const prefText = m.ms && m.phd ? m.s.replace(PAREN_PREFERRED, " ") : m.s;
+    if (PREFERRED.test(prefText) && !REQUIRED.test(m.s)) continue; // "PhD preferred"
     if (INCLUSIVE.test(m.s) && !/\bonly\b/i.test(m.s)) continue; // "graduate students are also welcome"
-    if (!PURSUING.test(m.s) && !REQUIRED.test(m.s)) continue; // "work alongside PhD researchers"
+    if (!tagged && !PURSUING.test(m.s) && !REQUIRED.test(m.s)) continue; // "work alongside PhD researchers"
     const level = m.jd ? "JD / law school" : m.mba ? "MBA" : m.phd && !m.ms ? "PhD" : "Master's/PhD";
     grad = { level, sentence };
   }
   if (undergrad) return { ok: true, level: "undergrad", evidence: undergrad };
   if (grad) return { ok: false, level: grad.level, evidence: grad.sentence };
+  if (ugWeak) return { ok: true, level: "undergrad", evidence: ugWeak };
   return { ok: true, level: "", evidence: "" };
 }
 
@@ -96,7 +107,7 @@ export function researchTitle(title = "") {
 
 // First sentence that talks about education, for roles kept with no degree level detected, so the
 // report can show what the posting does say.
-const EDU_HINT = /\b(?:degree|bachelor['’]?s?|master['’]?s|masters|ph\.?\s?d|doctoral|mba|undergrad\w*|graduate students?|enrolled|enrollment|university students?|college students?|class of 20\d\d|graduation|graduating|rising (?:sophomore|junior|senior))\b/i;
+const EDU_HINT = /\b(?:degree|bachelor['’]?s?|master['’]?s|masters(?! of)|ph\.?\s?d|doctoral|mba|undergrad\w*|graduate students?|enrolled|enrollment|university students?|college students?|class of 20\d\d|graduation|graduating|rising (?:sophomore|junior|senior))\b/i;
 const EDU_BOILERPLATE = /without regard|regardless of|equal (?:employment )?opportunity|discriminat|protected|veteran status|tuition (?:reimbursement|assistance)|student loan/i;
 export function educationHint(text = "") {
   for (const sentence of splitSentences(text)) {
