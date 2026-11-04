@@ -1,15 +1,15 @@
 {
-  "scannedAt": "2026-11-04T19:45:24.299Z",
+  "scannedAt": "2026-11-04T21:10:26.032Z",
   "steps": [
     "[0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr",
-    "[0s] aggregators: speedyapply_ai=779, speedyapply_swe=826, vanshb03=2113, simplify=5148",
-    "[0s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)",
-    "[206s] ATS: 417 firms with live boards, 693 postings",
-    "[206s] pre-screen: 3164 candidate postings",
-    "[206s] detail fetch: 2702 unique postings",
-    "[353s] detail results: html=646, greenhouse=377, workday=1099, lever=28, oracle=108, jsonld=276, error=32, ashby=80, smartrecruiters=38, closed=18",
-    "[354s] classified: 1479 kept, 480 excluded by dates, 18 closed",
-    "[354s] done: 0 fit, 16 flexible, 1039 ask-about-dates"
+    "[1s] aggregators: speedyapply_ai=779, speedyapply_swe=826, vanshb03=2111, simplify=5148",
+    "[1s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)",
+    "[181s] ATS: 419 firms with live boards, 729 postings",
+    "[181s] pre-screen: 3200 candidate postings",
+    "[181s] detail fetch: 2728 unique postings",
+    "[323s] detail results: html=646, greenhouse=375, workday=1099, lever=60, oracle=108, jsonld=274, error=30, ashby=80, smartrecruiters=38, closed=18",
+    "[325s] classified: 1483 kept, 477 excluded by dates, 18 closed",
+    "[325s] done: 0 fit, 13 flexible, 1035 ask-about-dates"
   ],
   "errors": [],
   "sources": {
@@ -25,8 +25,8 @@
     },
     "vanshb03": {
       "ok": true,
-      "rows": 2113,
-      "bytes": 1493304
+      "rows": 2111,
+      "bytes": 1493821
     },
     "simplify": {
       "ok": true,
@@ -36,11 +36,9 @@
   },
   "ptsSeeds": "loaded 233 firms",
   "boards": {
-    "firmsWithLiveBoards": 417,
-    "postings": 693,
+    "firmsWithLiveBoards": 419,
+    "postings": 729,
     "failedSeeds": [
-      "Microsoft eightfold:apply.careers.microsoft.com/microsoft.com",
-      "Palantir lever:palantir",
       "Anysphere ashby:anysphere",
       "Tempus greenhouse:tempus",
       "Chainalysis greenhouse:chainalysis",
@@ -51,39 +49,39 @@
   },
   "detailStats": {
     "html": 646,
-    "greenhouse": 377,
+    "greenhouse": 375,
     "workday": 1099,
-    "lever": 28,
+    "lever": 60,
     "oracle": 108,
-    "jsonld": 276,
-    "error": 32,
+    "jsonld": 274,
+    "error": 30,
     "ashby": 80,
     "smartrecruiters": 38,
     "closed": 18
   },
   "funnel": {
-    "aggregatorRows": 8866,
-    "boardRows": 693,
-    "prefiltered": 3164,
-    "uniqueUrls": 2702,
-    "enriched": 2702,
+    "aggregatorRows": 8864,
+    "boardRows": 729,
+    "prefiltered": 3200,
+    "uniqueUrls": 2728,
+    "enriched": 2728,
     "closed": 18,
-    "kept": 1479,
-    "roles": 1055,
-    "dateExcluded": 480
+    "kept": 1483,
+    "roles": 1048,
+    "dateExcluded": 477
   },
   "rejected": {
-    "not on known-firm list": 1880,
+    "not on known-firm list": 1878,
     "hardware": 845,
     "outside US": 771,
     "term: term year ####": 747,
     "outside SWE/PM/data/finance": 726,
-    "dates: posted dates conflict": 409,
+    "dates: posted dates conflict": 407,
     "PhD / MBA / law / medical": 360,
-    "pay below $30/hr": 327,
+    "pay below $30/hr": 326,
     "term: winter term": 274,
     "term: spring term": 244,
-    "requires PhD (description)": 199,
+    "requires PhD (description)": 201,
     "requires Master's/PhD (description)": 160,
     "non-Python stack in title": 147,
     "not an internship": 118,
@@ -94,7 +92,8 @@
     "master's only": 37,
     "senior / manager title": 32,
     "outside US (detail)": 25,
-    "dates: co-op with no dates (usually 4-6 months)": 24,
+    "research role, undergrad eligibility not stated": 23,
+    "dates: co-op with no dates (usually 4-6 months)": 23,
     "closed (verified)": 18,
     "requires MBA (description)": 11,
     "new grad / full-time": 10,
@@ -103,12 +102,12 @@
     "term: 35-week assignment": 5,
     "term: posted dates Jan - Aug": 4,
     "term: 26-week assignment": 3,
-    "requires JD / law school (description)": 2,
+    "requires JD / law school (description)": 3,
     "term: spring/winter term": 1,
     "term: posted dates Jun - Aug": 1,
     "term: posted dates starts Jun": 1,
     "unpaid": 1,
     "dates: 22-week assignment": 1
   },
-  "durationSec": 354
+  "durationSec": 325
 }

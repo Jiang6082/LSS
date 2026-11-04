@@ -5503,7 +5503,7 @@
   "bucket": "ask",
   "company": "Amazon",
   "title": "Software Engineer Intern",
-  "url": "https://go.vansh.nyc/ZY"
+  "url": "https://jobs.lever.co/zoox/67982bee-811b-453b-8596-b53c13f7a78d"
  },
  "sanofi|advanced analytics intern": {
   "firstSeen": "2026-11-03",
@@ -10284,5 +10284,21 @@
   "company": "ASML",
   "title": "Internship- Business Systems AI",
   "url": "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Diego-CA-USA/Internship--Business-Systems-AI_J-00355737"
+ },
+ "together ai|hardware security engineer intern": {
+  "firstSeen": "2026-11-04",
+  "lastSeen": "2026-11-04",
+  "bucket": "ask",
+  "company": "Together AI",
+  "title": "Hardware Security Engineer Intern",
+  "url": "https://job-boards.greenhouse.io/togetherai?error=true"
+ },
+ "visa|consulting analytics intern": {
+  "firstSeen": "2026-11-04",
+  "lastSeen": "2026-11-04",
+  "bucket": "ask",
+  "company": "Visa",
+  "title": "Consulting & Analytics Intern",
+  "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/SK---Bratislava-Slovakia/Consulting---Analytics-Intern_REF089754W-1"
  }
 }

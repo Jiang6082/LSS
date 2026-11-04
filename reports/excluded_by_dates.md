@@ -1,6 +1,6 @@
 # Excluded because the posted dates conflict with the window
 
-Scan: 2026-11-04 · 480 postings at known firms whose own dates fall outside 2027-07-13 → 2027-09-30 (e.g. a June start or an end in December). Listed so you can spot a misread date; the quoted sentence is what the parser used.
+Scan: 2026-11-04 · 477 postings at known firms whose own dates fall outside 2027-07-13 → 2027-09-30 (e.g. a June start or an end in December). Listed so you can spot a misread date; the quoted sentence is what the parser used.
 
 | Company | Role | Dates read | Why | Evidence | Link |
 |---|---|---|---|---|---|
@@ -61,7 +61,7 @@ Scan: 2026-11-04 · 480 postings at known firms whose own dates fall outside 202
 | NVIDIA | Developer and Performance Technology Intern | starts Feb | posted dates starts Feb | Developer and Performance Internship Preferred Start Dates: February 2027 or May 2027 | [link](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499) |
 | Palantir | Forward Deployed Software Engineer Intern |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/4d29249a-d7e8-4c39-880d-3b35d7b2f6f6) |
 | Palantir | Forward Deployed Software Engineer Intern |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2) |
-| Palantir | Software Engineer Intern |  | fall-only term (usually runs past Oct 1) |  | [link](https://go.vansh.nyc/4m) |
+| Palantir | Software Engineer Intern |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/373eb939-6f57-4836-8479-be79a5e07249) |
 | Palantir | Software Engineer Intern, Defense Tech |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7) |
 | Palantir | Software Engineer Intern, Defense Tech |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d) |
 | Palantir | Software Engineer Intern, Defense Tech |  | fall-only term (usually runs past Oct 1) |  | [link](https://jobs.lever.co/palantir/8bcf4f33-0a79-4248-bbfd-49ac4be9dd8e) |
@@ -106,8 +106,6 @@ Scan: 2026-11-04 · 480 postings at known firms whose own dates fall outside 202
 | Shield AI | June 2027 Co-op - Reliability Engineering #5953 | starts Jun | posted dates starts Jun | The ideal start date is June 2027, and the end date is flexible. | [link](https://jobs.lever.co/shieldai/bef440ce-0365-4de7-9b1e-b1288cdaf7f3) |
 | Shield AI | June 2027 Co-op - Reliability Engineering #5953 | starts Jun | posted dates starts Jun | . The ideal start date is June 2027, and the end date is flexible. | [link](https://jobs.ashbyhq.com/shieldai/0eb4a172-b6b9-4bda-85e5-fe566b342c0e) |
 | Shield AI | June 2027 Co-op - Reliability Engineering #5953 | starts Jun | posted dates starts Jun | . The ideal start date is June 2027, and the end date is flexible. | [link](https://jobs.ashbyhq.com/shield/0eb4a172-b6b9-4bda-85e5-fe566b342c0e) |
-| Together AI | Hardware Security Engineer Intern | May 18 - Aug 7 | posted dates May 18 - Aug 7 | Our internship dates are May 18th to August 7th or June 15th to September 4th. | [link](https://job-boards.greenhouse.io/togetherai/jobs/5238469007) |
-| Together AI | Hardware Security Engineer Intern (Summer 2027) | May 18 - Aug 7 | posted dates May 18 - Aug 7 | Our internship dates are May 18th to August 7th or June 15th to September 4th. | [link](https://job-boards.greenhouse.io/togetherai/jobs/5238469007) |
 | Together AI | Technical Writer Intern - Developer Experience - Summer 2027 | May 17 - Aug 6 | posted dates May 17 - Aug 6 | This cohort's internship dates span either May 17th to August 6th or June 14th to September 3rd. | [link](https://job-boards.greenhouse.io/togetherai/jobs/5271149007) |
 | Chicago Trading Company | Software Engineer Intern | Jun 15 - Aug 5 | posted dates Jun 15 - Aug 5 | You can participate in the full duration of the 8-week program from mid-June to early August 2027 | [link](https://job-boards.greenhouse.io/chicagotradingcampus/jobs/4716932005) |
 | Chicago Trading Company | Software Engineer Intern | Jun 15 - Aug 5 | posted dates Jun 15 - Aug 5 | You can participate in the full duration of the 8-week program from mid-June to early August 2027 | [link](https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005) |
@@ -378,7 +376,6 @@ Scan: 2026-11-04 · 480 postings at known firms whose own dates fall outside 202
 | Rippling | Data Science Intern - Summer 2027 | May - Aug | posted dates May - Aug | As a Data Science Intern, you will join our Data Science Team in Summer 2027 (May-August) to work shoulder to shoulder with seasoned data scientists and enginee | [link](https://ats.rippling.com/rippling/jobs/f255bf03-9173-4c0a-8a18-7cc43c27ded8) |
 | Klaviyo | Machine Learning Engineer Intern | Jun 1 - Aug 13 | posted dates Jun 1 - Aug 13 | Our Summer Machine Learning Internship Program is an 11-week paid experience [June 1–August 13] at our Palo Alto, CA Tech Innovation Hub. | [link](https://job-boards.greenhouse.io/klaviyocampus/jobs/7999274003) |
 | PrizePicks | Business Intelligence Intern - Summer 2027 | May 24 - Aug 6 | posted dates May 24 - Aug 6 | Summer Program: May 24th - August 6th 2027 | [link](http://prizepicks.com/position?gh_jid=8047188003) |
-| Waabi | Research Internship/Co-op |  | co-op with no dates (usually 4-6 months) |  | [link](https://jobs.lever.co/waabi/0fd4e30b-9bd1-4b53-9043-6088457363cb) |
 | Waabi | Safety Methodologies Intern Co-op | starts May | posted dates starts May | Application Instructions: - To be considered for an internship/co-op, please add your most up to date academic transcripts alongside your resume for further rev | [link](https://jobs.lever.co/waabi/480d9d41-33d0-429a-8883-7f9ec305a30f/apply) |
 | ASML | Data Engineer Co-op Intern |  | co-op with no dates (usually 4-6 months) |  | [link](https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626) |
 | ASML | Internship/Co-Op: Data Engineer |  | co-op with no dates (usually 4-6 months) |  | [link](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Diego-CA-USA/Internship-Co-Op--Data-Engineer_J-00355626) |
