@@ -165,6 +165,8 @@ const degreeCases = [
   ["'2027 Start (BS/MS)' tag stays", "Software Engineer Intern (TikTok Shop) - 2027 Start (BS/MS)", true],
   ["all levels including graduate students", "Open to students at all levels, including graduate students.", true],
   ["'masters of commodities' is not a degree (Belvedere)", "Our traders are the masters of a diverse set of commodities, interest rates and equities.", true],
+  ["'JD Financial' is John Deere, not a law degree", "As a Part-Time Student Software Engineering for JD Financial located in Ames, IA you will build services.", true],
+  ["JD/MBA program", "Currently enrolled in a JD/MBA program.", false],
 ];
 for (const [name, text, ok] of degreeCases) check(`degree: ${name}`, () => assert.equal(degreeRequirement(text).ok, ok, JSON.stringify(degreeRequirement(text))));
 const ugLevelCases = [
