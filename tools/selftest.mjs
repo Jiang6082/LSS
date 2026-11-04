@@ -11,7 +11,7 @@ import { canonicalUrl } from "./common.mjs";
 import { classifyDates } from "./dates.mjs";
 import { advancedDegreeOnly, parsePay, screenRole, usStatus } from "./filter.mjs";
 import { loadKnownFirms } from "./firms.mjs";
-import { degreeRequirement, titleDegree } from "./degree.mjs";
+import { degreeRequirement, researchTitle, titleDegree } from "./degree.mjs";
 
 let passed = 0;
 const failures = [];
@@ -157,6 +157,13 @@ const titleDegreeCases = [
   ["Software Engineer Intern - Bachelor's & Master's", true], ["Software Engineer Intern", true], ["Undergraduate Program Software Engineer Intern", true],
 ];
 for (const [title, ok] of titleDegreeCases) check(`degree title: ${title}`, () => assert.equal(titleDegree(title).ok, ok));
+const researchCases = [
+  ["Research Scientist Intern - Multiple Teams", true], ["Applied Scientist Intern", true], ["Research Intern - Machine Learning and Optimization", true],
+  ["Student Researcher", true], ["AI Research Scientist Intern - 2027 Summer", true], ["Safety Research Scholar Intern", true], ["Generative Media Research Intern", true],
+  ["Data Scientist Intern", false], ["Quantitative Research Intern", false], ["Quantitative Researcher Intern", false], ["Equity Research Intern", false],
+  ["Research Engineer Intern - Benchmarking", false], ["Campus AI Research Engineer - Intern", false], ["Software Engineer Intern", false], ["Market Research Associate Intern", false],
+];
+for (const [title, want] of researchCases) check(`research title: ${title}`, () => assert.equal(researchTitle(title), want));
 
 // ---- Firm matching ----------------------------------------------------------------------------
 const known = await loadKnownFirms("inputs/known_firms.json");
