@@ -8,6 +8,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { rowsFromListingsJson, rowsFromSpeedyReadme } from "./aggregators.mjs";
 import { canonicalUrl } from "./common.mjs";
+import { embeddedDescription } from "./enrich.mjs";
 import { classifyDates } from "./dates.mjs";
 import { advancedDegreeOnly, parsePay, screenRole, usStatus } from "./filter.mjs";
 import { loadKnownFirms } from "./firms.mjs";
@@ -152,8 +153,25 @@ const degreeCases = [
   ["BS done, attending graduate school", "B.S. in Computer Science, currently attending graduate school in a related field.", false],
   ["undergrad or grad students currently enrolled", "Undergraduate or graduate students currently enrolled in a degree program.", true],
   ["pursuing bachelor's, PhD preferred", "Currently pursuing a bachelor's degree; currently pursuing a PhD is preferred.", true],
+  // From the 2026-11-04 audit of kept roles with no degree level detected
+  ["will graduate with a Master's or PhD (Databricks DS)", "You will graduate in fall 2027 or spring 2028 with a Master's or PhD degree in a quantitative field (e.g., Statistics, Math, Computer Science)", false],
+  ["PhD (preferred) or Master's (Samsung)", "Pursuing a PhD (preferred) or Master's degree in Mechanical Engineering, Materials Science, Electrical Engineering, Applied Physics, or a related field.", false],
+  ["Master's (preferred) alone stays", "Currently pursuing a Master's degree (preferred) in Business Analytics, Data Science or a related field.", true],
+  ["post-doctoral level (DataRobot)", "This role is designed as a research-engineering internship for someone operating at post-doctoral level, or very close to it.", false],
+  ["master's or higher (ICE)", "Must be currently pursuing a master's degree or higher in Computer Science, Finance, Engineering, or quantitative fields", false],
+  ["bare PhD bullet (Man Group)", "PhD degree in Computer Science, Statistics, Mathematics, Finance/Economics or related quantitative field", false],
+  ["PhD candidates sought, 'including' later (Schonfeld)", "We are seeking exceptional PhD candidates to join our Quantitative Research teams where they will work on various research projects, including signal research.", false],
+  ["'2027 Start (PhD)' program tag (TikTok)", "Video/Image AI/ML Software Engineer Intern (Multimedia) - 2027 Start (PhD) - Intern (Video and Edge, Multimedia Lab)", false],
+  ["'2027 Start (BS/MS)' tag stays", "Software Engineer Intern (TikTok Shop) - 2027 Start (BS/MS)", true],
+  ["all levels including graduate students", "Open to students at all levels, including graduate students.", true],
+  ["'masters of commodities' is not a degree (Belvedere)", "Our traders are the masters of a diverse set of commodities, interest rates and equities.", true],
 ];
 for (const [name, text, ok] of degreeCases) check(`degree: ${name}`, () => assert.equal(degreeRequirement(text).ok, ok, JSON.stringify(degreeRequirement(text))));
+const ugLevelCases = [
+  ["Bachelor's degree in Computer Science or a related field.", "undergrad"], ["Bachelor’s degree expected between Fall 2027 and Spring 2028", "undergrad"],
+  ["Scheduled to obtain a Bachelor’s degree in a STEM field by Summer 2028", "undergrad"], ["Hold a Bachelor's degree in CS.", ""], ["Build things with Python.", ""],
+];
+for (const [text, level] of ugLevelCases) check(`degree level: ${text.slice(0, 40)}`, () => assert.equal(degreeRequirement(text).level, level));
 const titleDegreeCases = [
   ["Software Engineering - Intern, Graduate", false], ["2027 Summer Intern, MS, Software Engineering", false], ["Quantitative Master’s Internship - Technology", false],
   ["Postdoctoral Researcher Intern", false], ["Machine Learning Intern - PhD", false], ["Graduate Product Management Intern", false],
@@ -184,6 +202,12 @@ check("speedyapply parser", () => {
   const md = "### FAANG+\n| Company | Position | Location | Salary | Posting | Age |\n|---|---|---|---|---|---|\n| <a href=\"https://m.com\"><strong>Meta</strong></a> | SWE Intern | Menlo Park, CA | $55/hr | <a href=\"https://jobs.example/1\"><img/></a> | 3d |\n";
   const rows = rowsFromSpeedyReadme(md);
   assert.equal(rows.length, 1); assert.equal(rows[0].Company, "Meta"); assert.equal(rows[0].Pay, "$55/hr"); assert.equal(rows[0].URL, "https://jobs.example/1"); assert.equal(rows[0].KnownBySource, "FAANG+");
+});
+check("embedded Eightfold description", () => {
+  const desc = "<p>Currently pursuing a Bachelor's, Master's or PhD in Computer Science.</p>" + "<p>Build reliable cloud services with Python and C#.</p>".repeat(6);
+  const html = `<html><body><code id="smartApplyData" style="display:none">${JSON.stringify({ positions: [{ id: 1, job_description: desc }], applyFormConfig: { allowedFileTypes: [".pdf"] } }).replace(/"/g, "&quot;")}</code></body></html>`;
+  const text = embeddedDescription(html);
+  assert.match(text, /Currently pursuing a Bachelor's, Master's or PhD/); assert.doesNotMatch(text, /allowedFileTypes/);
 });
 check("canonical url drops tracking", () => assert.equal(canonicalUrl("https://boards.greenhouse.io/stripe/jobs/111?utm_source=Simplify&ref=Simplify"), "https://boards.greenhouse.io/stripe/jobs/111"));
 
