@@ -4,6 +4,7 @@
 // A 404/410 from the ATS (or an Ashby board that no longer lists the id) marks it Closed.
 import { fetchJson, fetchJsonWithStatus, fetchText, stripHtml } from "./common.mjs";
 import { ashbyPay } from "./collectors.mjs";
+import { generatedTokens } from "./firms.mjs";
 
 const SHORTLINK_HOSTS = /^(go\.vansh\.nyc|bit\.ly|tinyurl\.com|lnkd\.in|t\.co|simplify\.jobs)$/i;
 const FULL_CONTENT_SOURCES = /^(Greenhouse|Lever|Ashby|Amazon)/;
@@ -49,6 +50,17 @@ export function embeddedDescription(html = "") {
   return "";
 }
 
+// Longest description-like string anywhere in an API response (shapes differ between versions).
+function findDescription(value, depth = 0) {
+  if (!value || typeof value !== "object" || depth > 5) return "";
+  let best = "";
+  for (const [k, v] of Object.entries(value)) {
+    const found = typeof v === "string" ? (/^(?:job_?description|description|jobDescription|descriptionHtml)$/i.test(k) ? v : "") : findDescription(v, depth + 1);
+    if (found.length > best.length) best = found;
+  }
+  return best;
+}
+
 const ashbyBoards = new Map();
 function ashbyBoard(token) {
   if (!ashbyBoards.has(token)) ashbyBoards.set(token, fetchJson(`https://api.ashbyhq.com/posting-api/job-board/${token}?includeCompensation=true`, { timeoutMs: 25000 }));
@@ -71,7 +83,9 @@ async function detailFor(row, ghTokens = []) {
   // Greenhouse
   let m = url.match(/(?:job-)?boards(?:\.eu)?\.greenhouse\.io\/([^/?#]+)\/jobs\/(\d+)/i) || url.match(/greenhouse\.io\/embed\/job_app\?(?:.*&)?for=([^&]+)&(?:.*&)?token=(\d+)/i);
   let ghId = m ? null : url.match(/[?&]gh_jid=(\d+)/i)?.[1];
-  const ghCandidates = m ? [[m[1], m[2]]] : ghId ? ghTokens.map((t) => [t, ghId]) : [];
+  // Company sites that embed Greenhouse (careers.nintendo.com/?gh_jid=...): seeded board tokens, else guesses from the name.
+  const tokens = ghTokens.length ? ghTokens : generatedTokens(row.Firm || row.Company || "");
+  const ghCandidates = m ? [[m[1], m[2]]] : ghId ? tokens.map((t) => [t, ghId]) : [];
   for (const [token, id] of ghCandidates) {
     const r = await fetchJsonWithStatus(`https://boards-api.greenhouse.io/v1/boards/${token}/jobs/${id}?pay_transparency=true`, { timeoutMs: 15000 });
     if (r.json) {
@@ -107,15 +121,41 @@ async function detailFor(row, ghTokens = []) {
 
   // Workday (public CXS detail API)
   m = url.match(/^https?:\/\/([a-z0-9-]+\.wd\d+\.myworkdayjobs\.com)\/wday\/cxs\/([^/]+)\/([^/]+)\/(job\/[^?#]+)/i)
-    || url.match(/^https?:\/\/([a-z0-9-]+\.wd\d+\.myworkdayjobs\.com)\/(?:[a-z]{2}-[A-Z]{2}\/)?()([^/]+)\/(job\/[^?#]+)/);
+    || url.match(/^https?:\/\/([a-z0-9-]+\.wd\d+\.myworkdayjobs\.com)\/(?:[a-z]{2}-[A-Z]{2}\/)?()([^/]+)\/((?:job|details)\/[^?#]+)/)
+    || url.match(/^https?:\/\/(wd\d+\.myworkdaysite\.com)\/(?:[a-z]{2}-[A-Z]{2}\/)?recruiting\/([^/]+)\/([^/]+)\/((?:job|details)\/[^?#]+)/i);
   if (m) {
-    const host = m[1]; const tenant = m[2] || host.split(".")[0]; const site = m[3]; const path = m[4];
-    const r = await fetchJsonWithStatus(`https://${host}/wday/cxs/${tenant}/${site}/${path}`, { timeoutMs: 15000 });
-    if (r.status === 404 || r.status === 410) return closed(url);
+    const host = m[1]; const tenant = m[2] || host.split(".")[0]; const site = m[3]; const path = m[4].replace(/^details\//, "job/");
+    const api = `https://${host}/wday/cxs/${tenant}/${site}/${path}`;
+    let r = await fetchJsonWithStatus(api, { timeoutMs: 15000 });
+    if (!r.json && r.status !== 404 && r.status !== 410) r = await fetchJsonWithStatus(api, { timeoutMs: 20000 });
+    // Only trust a 404 for the classic URL shape; the details/ and myworkdaysite mappings are best-effort.
+    const classic = /^job\//.test(m[4]) && /myworkdayjobs\.com$/i.test(host);
+    if ((r.status === 404 || r.status === 410) && classic) return closed(url);
     const info = r.json?.jobPostingInfo;
     if (info) {
       return { content: stripHtml(info.jobDescription || ""), location: [info.location, ...(info.additionalLocations || [])].filter(Boolean).join("; "), pay: "", finalUrl: url, via: "workday", commitment: info.timeType || "" };
     }
+  }
+
+  // Eightfold (Microsoft, NVIDIA, *.eightfold.ai): the page is an app shell, the API has the text.
+  const efHost = url.match(/^https?:\/\/([a-z0-9-]+\.eightfold\.ai|apply\.careers\.microsoft\.com|jobs\.careers\.microsoft\.com|jobs\.nvidia\.com)\//i)?.[1];
+  const efId = url.match(/[?&]pid=(\d+)/)?.[1] || url.match(/\/job\/(\d+)/)?.[1];
+  if (efHost && efId) {
+    const domain = url.match(/[?&]domain=([^&#]+)/)?.[1] || (/\.eightfold\.ai$/i.test(efHost) ? `${efHost.split(".")[0]}.com` : efHost.replace(/^(?:apply\.careers|jobs\.careers|jobs|careers)\./i, ""));
+    for (const api of [`https://${efHost}/api/apply/v2/jobs/${efId}?domain=${domain}`, `https://${efHost}/api/pcsx/position_details?position_id=${efId}&domain=${domain}&hl=en`]) {
+      const r = await fetchJsonWithStatus(api, { timeoutMs: 15000 });
+      if (r.status === 404 || r.status === 410) continue;
+      const desc = findDescription(r.json);
+      if (desc.length > 200) return { content: stripHtml(desc), location: "", pay: "", finalUrl: url, via: "eightfold" };
+    }
+  }
+
+  // Tesla
+  m = url.match(/tesla\.com\/(?:[a-z]{2}_[A-Z]{2}\/)?careers\/search\/job\/(?:[^/?#]*-)?(\d+)/i);
+  if (m) {
+    const r = await fetchJsonWithStatus(`https://www.tesla.com/cua-api/careers/job/${m[1]}`, { timeoutMs: 15000 });
+    const text = r.json ? Object.values(r.json).filter((v) => typeof v === "string" && v.length > 40).join(" . ") : "";
+    if (text.length > 200) return { content: stripHtml(text), location: "", pay: "", finalUrl: url, via: "tesla" };
   }
 
   // SmartRecruiters
