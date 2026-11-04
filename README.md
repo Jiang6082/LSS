@@ -4,7 +4,7 @@ Scans for **US internships at well-known firms** in **software engineering, prod
 
 **Filters:** US only (incl. US-remote) · known firms only ([list](inputs/known_firms.json)) · pay ≥ $30/hr when the posting states pay · undergrad roles (PhD / MBA / master's-only excluded) · titles naming C++, Java, iOS/Android, embedded or hardware skipped (Python-friendly) · window 2027-07-13 → 2027-09-30 ([config](inputs/config.json))
 
-> **Last scan:** 2026-11-04 &nbsp;•&nbsp; **0 dates fit** &nbsp;•&nbsp; **13 flexible / near miss** &nbsp;•&nbsp; **1009 summer, dates not stated** &nbsp;•&nbsp; **0 new** &nbsp;•&nbsp; 5 closed postings dropped
+> **Last scan:** 2026-11-04 &nbsp;•&nbsp; **0 dates fit** &nbsp;•&nbsp; **13 flexible / near miss** &nbsp;•&nbsp; **1013 summer, dates not stated** &nbsp;•&nbsp; **0 new** &nbsp;•&nbsp; 5 closed postings dropped
 
 **Jump to:** [✅ Dates fit](#-dates-fit) · [🟡 Flexible](#-flexible-start--near-miss) · [⚪ Dates not stated](#-summer-2027--dates-not-stated) · [🆕 New](#-new-since-last-scan) · [How it works](#how-it-works) · [How to run](#how-to-run) · [CSV of everything](reports/roles.csv)
 
@@ -83,10 +83,10 @@ _None right now._
 
 ## ⚪ Summer 2027 — dates not stated
 
-1009 roles. The first 60 per track are below; the full list is in [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md).
+1013 roles. The first 60 per track are below; the full list is in [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md).
 
 <details>
-<summary><strong>💻 Software Engineering</strong> (589)</summary>
+<summary><strong>💻 Software Engineering</strong> (594)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -151,7 +151,7 @@ _None right now._
 | **NVIDIA** | AI Systems Software Engineering Intern | Austin, TX | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-10-30 | [Apply](https://jobs.nvidia.com/careers/job/893398073452) |
 | **NVIDIA** | Math Libraries Intern | Canada; Santa Clara, CA +1 | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-11-02 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Math-Libraries-Intern--cuEST---Summer-2027_JR2028449) |
 
-_+529 more in the full list._
+_+534 more in the full list._
 
 </details>
 
@@ -171,7 +171,7 @@ _+529 more in the full list._
 | **TikTok** | AI Product Manager Intern - Product Social | San Jose, CA | Summer 2027 dates not stated | $35/hr |  | ✓ | 2026-08-22 | [Apply](https://lifeattiktok.com/search/7675616554318596357) |
 | **TikTok** | AI Product Operations Intern | San Jose, CA | term dates not stated | $60/hr |  | ✓ | 2026-08-06 | [Apply](https://lifeattiktok.com/search/7670420017544251701) |
 | **TikTok** | AI Safety Evaluation & Governance Product Manager Intern - Multiple Teams | San Jose, CA | Summer 2027 dates not stated | $35/hr |  | ✓ | 2026-08-11 | [Apply](https://lifeattiktok.com/search/7670529537944766773) |
-| **TikTok** | Product Management Project Intern - Global Payment | San Jose, CA | Summer 2027 dates not stated |  |  | ? | 2026-09-22 | [Apply](https://jobs.bytedance.com/en/position/7686394581777631541/detail) |
+| **TikTok** | Product Management Project Intern - Global Payment | San Jose, CA | Summer 2027 dates not stated | $35/hr |  | ✓ | 2026-09-22 | [Apply](https://jobs.bytedance.com/en/position/7686394581777631541/detail) |
 | **TikTok** | Product Manager Intern - Ads Interface and Platform | San Jose, CA; Seattle, WA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $35-55/hr |  | ✓ | 2026-08-12 | [Apply](https://lifeattiktok.com/search/7672562486917286149) |
 | **TikTok** | Product Manager Intern - Commerce Ads | San Jose, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $35-55/hr |  | ✓ | 2026-08-12 | [Apply](https://lifeattiktok.com/search/7672557943224961333) |
 | **TikTok** | Product Manager Intern - Pgc | LA; San Jose, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $33/hr |  | ✓ | 2026-08-24 | [Apply](https://lifeattiktok.com/search/7673365416605010229) |
@@ -207,7 +207,7 @@ _+529 more in the full list._
 </details>
 
 <details>
-<summary><strong>📊 Data / Analytics / ML</strong> (280)</summary>
+<summary><strong>📊 Data / Analytics / ML</strong> (279)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -272,7 +272,7 @@ _+529 more in the full list._
 | **TikTok** | Machine Learning Engineer Intern - E-Commerce Knowledge Graph | Seattle, WA | Summer 2027 dates not stated | $60/hr | ✓ | ✓ | 2026-10-14 | [Apply](https://lifeattiktok.com/search/7679220954338494773) |
 | **TikTok** | Machine Learning Engineer Intern - E-Commerce Recommendation Live | Seattle, WA | Summer 2027 dates not stated | $60/hr | ✓ | ✓ | 2026-10-14 | [Apply](https://lifeattiktok.com/search/7694360097210861829) |
 
-_+220 more in the full list._
+_+219 more in the full list._
 
 </details>
 

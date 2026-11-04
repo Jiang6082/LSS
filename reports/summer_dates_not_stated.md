@@ -1,8 +1,8 @@
 # Summer 2027 roles with no dates in the posting
 
-Scan: 2026-11-04 · 1009 roles · ask the recruiter whether a start around late July (ending by 2027-09-30) is possible. Fixed-class programs (bank analyst classes, rotational programs) rarely move; tech internships with individual start dates are the best bets.
+Scan: 2026-11-04 · 1013 roles · ask the recruiter whether a start around late July (ending by 2027-09-30) is possible. Fixed-class programs (bank analyst classes, rotational programs) rarely move; tech internships with individual start dates are the best bets.
 
-## 💻 Software Engineering (589)
+## 💻 Software Engineering (594)
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -252,7 +252,7 @@ Scan: 2026-11-04 · 1009 roles · ask the recruiter whether a start around late 
 | **Citadel Securities** | Software Engineer - Intern - US | Miami, FL +1 | term dates not stated | $125/hr |  | ? | 2026-07-15 | [Apply](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/) |
 | **DRW** | Platform Engineer Intern | Chicago, IL | Summer 2027 dates not stated |  |  | ? | 2026-07-31 | [Apply](https://www.drw.com/500) |
 | **DRW** | Software Developer Intern | Chicago, IL | Summer 2027 dates not stated; 10-week program | $108/hr | ✓ | ✓ | 2026-07-13 | [Apply](https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328) |
-| **DV Trading** | Client Platforms Engineer Intern - Summer 2027 | New York; Chicago | Summer 2027 dates not stated | $40/hr |  |  | 2026-09-10 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4732697005) |
+| **DV Trading** | Client Platforms Engineer Intern - Summer 2027 | Chicago; New York | Summer 2027 dates not stated | $40/hr |  |  | 2026-09-10 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4732683005) |
 | **DV Trading** | Data Center Engineer Intern | Chicago, IL | Summer 2027 dates not stated | $40/hr |  |  | 2026-10-12 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4742962005) |
 | **DV Trading** | Data Center Engineer Intern - Summer 2027 | Chicago | Summer 2027 dates not stated | $40/hr |  |  | 2026-10-12 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4742962005) |
 | **DV Trading** | Database Engineer Intern - Summer 2027 | Chicago | Summer 2027 dates not stated | $40/hr | ✓ |  | 2026-10-06 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4741016005) |
@@ -505,6 +505,10 @@ Scan: 2026-11-04 · 1009 roles · ask the recruiter whether a start around late 
 | **Blue Origin** | Summer 2027 Software Developer Internship - Undergraduate | Seattle, WA +2 | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $32/hr |  | ✓ | 2026-09-01 | [Apply](https://blueorigin.wd5.myworkdayjobs.com/en-US/blueorigin/job/Greater-Seattle-Area/Summer-2027-Software-Developer-Internship---Undergraduate_R71425) |
 | **Bosch** | Information Security and Privacy Intern | Farmington Hills, MI | Summer 2027 dates not stated |  |  | ✓ | 2026-10-13 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000155120934) |
 | **Bosch** | Software Engineering Co-op | Fountain Inn, SC | Summer 2027 dates not stated |  |  | ✓ | 2026-10-19 | [Apply](https://jobs.smartrecruiters.com/BoschGroup/744000156311682) |
+| **Boston Scientific** | AI Solutions Engineering Intern | Arden Hills, MN | Summer 2027 dates not stated |  |  | ? | 2026-10-29 | [Apply](https://bostonscientific.eightfold.ai/careers/job/563602813547675) |
+| **Boston Scientific** | R&D Software Design Intern | Arden Hills, MN | Summer 2027 dates not stated |  |  | ? | 2026-10-29 | [Apply](https://bostonscientific.eightfold.ai/careers/job/563602813862687) |
+| **Boston Scientific** | Software & Systems Testing Engineering Intern | Arden Hills, MN | Summer 2027 dates not stated |  |  | ? | 2026-10-29 | [Apply](https://bostonscientific.eightfold.ai/careers/job/563602813862694) |
+| **Boston Scientific** | Software Test Engineer Intern | Waltham, MA | Summer 2027 dates not stated |  |  | ? | 2026-10-30 | [Apply](https://bostonscientific.eightfold.ai/careers/job/563602813568250) |
 | **CACI** | Cleared Software Engineer Intern - Summer 2027 | Denver, CO +1 | Summer 2027 dates not stated | $19-38/hr | ✗ java | ✓ | 2026-10-23 | [Apply](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Denver-CO-US/Cleared-Software-Engineer-Intern---Summer-2027_331999) |
 | **CACI** | Software Development Intern | Ashburn, VA; Oklahoma City, OK | Summer 2027 dates not stated | $22-44/hr | ✗ java | ✓ | 2026-10-02 | [Apply](https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051) |
 | **CACI** | Software Development Intern - Summer 2027 | Ashburn, VA | Summer 2027 dates not stated | $22-44/hr |  | ✓ | 2026-11-02 | [Apply](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051) |
@@ -544,6 +548,7 @@ Scan: 2026-11-04 · 1009 roles · ask the recruiter whether a start around late 
 | **John Deere** | Software Engineer Intern | Champaign, IL | Summer 2027 dates not stated | $15-40/hr | ✓ |  | 2026-09-29 | [Apply](https://johndeere.eightfold.ai/careers/job/137483583981) |
 | **John Deere** | Software Engineer Part-Time Student Intern | Champaign, IL | term dates not stated | $15-40/hr | ✓ | ✓ | 2026-10-05 | [Apply](https://johndeere.eightfold.ai/careers/job/137483700527) |
 | **John Deere** | Software Engineer Student Intern - Product Engineering | Cary, NC | term dates not stated | $15-40/hr | ✓ |  | 2026-10-21 | [Apply](https://johndeere.eightfold.ai/careers/job/137483990019) |
+| **John Deere** | Software Engineering Intern, Technology | Ames, IA | Summer 2027 dates not stated | $15-40/hr | ✓ |  | 2026-10-16 | [Apply](https://johndeere.eightfold.ai/careers/job/137483908089) |
 | **L3Harris** | Image Processing Engineer Intern | Tulsa, OK | term dates not stated |  | ✓ | ✓ | 2026-10-22 | [Apply](https://jobs.l3harris.com/job/Tulsa-Image-Processing-Engineer-Intern-OK-74115/1442671200/?ats=successfactors) |
 | **L3Harris** | Information Security Systems Engineer Intern | Salt Lake City, UT | Summer 2027 dates not stated |  | ✗ java | ✓ | 2026-10-28 | [Apply](https://careers.l3harris.com/en/job/salt-lake-city/intern-information-security-systems-engineer-salt-lake-city-ut/4832/101765422480) |
 | **L3Harris** | Software Engineer Intern | Salt Lake City, UT; Tulsa, OK +3 | term dates not stated | $29-35/hr | ✓ | ✓ | 2026-10-21 | [Apply](https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1418569700/?ats=successfactors) |
@@ -611,7 +616,7 @@ Scan: 2026-11-04 · 1009 roles · ask the recruiter whether a start around late 
 | **TikTok** | AI Product Manager Intern - Product Social | San Jose, CA | Summer 2027 dates not stated | $35/hr |  | ✓ | 2026-08-22 | [Apply](https://lifeattiktok.com/search/7675616554318596357) |
 | **TikTok** | AI Product Operations Intern | San Jose, CA | term dates not stated | $60/hr |  | ✓ | 2026-08-06 | [Apply](https://lifeattiktok.com/search/7670420017544251701) |
 | **TikTok** | AI Safety Evaluation & Governance Product Manager Intern - Multiple Teams | San Jose, CA | Summer 2027 dates not stated | $35/hr |  | ✓ | 2026-08-11 | [Apply](https://lifeattiktok.com/search/7670529537944766773) |
-| **TikTok** | Product Management Project Intern - Global Payment | San Jose, CA | Summer 2027 dates not stated |  |  | ? | 2026-09-22 | [Apply](https://jobs.bytedance.com/en/position/7686394581777631541/detail) |
+| **TikTok** | Product Management Project Intern - Global Payment | San Jose, CA | Summer 2027 dates not stated | $35/hr |  | ✓ | 2026-09-22 | [Apply](https://jobs.bytedance.com/en/position/7686394581777631541/detail) |
 | **TikTok** | Product Manager Intern - Ads Interface and Platform | San Jose, CA; Seattle, WA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $35-55/hr |  | ✓ | 2026-08-12 | [Apply](https://lifeattiktok.com/search/7672562486917286149) |
 | **TikTok** | Product Manager Intern - Commerce Ads | San Jose, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $35-55/hr |  | ✓ | 2026-08-12 | [Apply](https://lifeattiktok.com/search/7672557943224961333) |
 | **TikTok** | Product Manager Intern - Pgc | LA; San Jose, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $33/hr |  | ✓ | 2026-08-24 | [Apply](https://lifeattiktok.com/search/7673365416605010229) |
@@ -644,7 +649,7 @@ Scan: 2026-11-04 · 1009 roles · ask the recruiter whether a start around late 
 | **Illinois Tool Works** | Product Management Intern | Troy, OH | Summer 2027 dates not stated |  |  |  | 2026-09-15 | [Apply](https://careers.itw.com/global/en/job/JR10105) |
 | **PACCAR** | Product Planning Intern | Denton, TX | Summer 2027 dates not stated |  |  | ✓ | 2026-11-03 | [Apply](https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Product-Planning-TX-76205-7864/1453917433/?ats=successfactors) |
 
-## 📊 Data / Analytics / ML (280)
+## 📊 Data / Analytics / ML (279)
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -730,7 +735,6 @@ Scan: 2026-11-04 · 1009 roles · ask the recruiter whether a start around late 
 | **TikTok** | Research Engineer Intern, Agentic Systems & AI Infrastructure - TikTok-Generalized Arch | Seattle, WA | Summer 2027 dates not stated | $43/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7667934792727906565) |
 | **TikTok** | Research Scientist Intern - Monetization Technology - Business Integrity | San Jose, CA | Summer 2027 dates not stated | $60/hr | ✓ | ✓ | 2026-08-03 | [Apply](https://lifeattiktok.com/search/7668202600147552517) |
 | **TikTok** | Student Researcher | San Jose, CA | term dates not stated | $55/hr | ✓ | ✓ | 2026-04-01 | [Apply](https://jobs.bytedance.com/en/position/7623548747208739077/detail) |
-| **TikTok** | Student Researcher - AI Foundation Model Infrastructure | Seattle, WA | term dates not stated | $52/hr | ✓ | ✓ | 2026-04-01 | [Apply](https://jobs.bytedance.com/en/position/7623552947364317445/detail) |
 | **TikTok** | Student Researcher - AI Foundation Model Infrastructure - Seed | San Jose, CA | term dates not stated | $55/hr | ✓ | ✓ | 2026-08-13 | [Apply](https://jobs.bytedance.com/en/position/7673274910202988805/detail) |
 | **TikTok** | Student Researcher - AI Foundation Models Infrastructure - Seed Infra | San Jose, CA | term dates not stated | $55/hr | ✓ | ✓ | 2026-08-05 | [Apply](https://jobs.bytedance.com/en/position/7669973602626308357/detail) |
 | **TikTok** | Student Researcher - Large Language Model | San Jose, CA | term dates not stated | $55/hr | ✓ | ✓ | 2026-04-01 | [Apply](https://jobs.bytedance.com/en/position/7623541709721307445/detail) |
