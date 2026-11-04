@@ -9,7 +9,8 @@ import { ashby, collectorTasks, greenhouse, lever, seedKey } from "../tools/coll
 import { canonicalUrl, fetchJson, mapLimit, parseCsv } from "../tools/common.mjs";
 import { classifyDates } from "../tools/dates.mjs";
 import { enrichRow } from "../tools/enrich.mjs";
-import { advancedDegreeOnly, languageFlags, parsePay, screenRole, UNPAID_RE, usStatus } from "../tools/filter.mjs";
+import { degreeRequirement, titleDegree } from "../tools/degree.mjs";
+import { languageFlags, parsePay, screenRole, UNPAID_RE, usStatus } from "../tools/filter.mjs";
 import { generatedTokens, loadKnownFirms, loadSeeds, normalizeCompany } from "../tools/firms.mjs";
 import { writeReports } from "./build-reports.mjs";
 
@@ -98,6 +99,8 @@ log.boards = { firmsWithLiveBoards: boardAudit.filter((b) => b.live.length).leng
 const reject = {};
 const bump = (reason) => { reject[reason] = (reject[reason] || 0) + 1; };
 const payRejected = [];
+const degreeRejected = [];
+const noteDegree = (row, level, evidence) => { if (degreeRejected.length < 1500) degreeRejected.push({ company: row.Firm || row.Company, title: row.Title, level, evidence: String(evidence || "").slice(0, 220), url: row.URL }); };
 const notePay = (row, pay) => { if (payRejected.length < 400) payRejected.push({ company: row.Firm || row.Company, title: row.Title, pay: pay.text, hourly: pay.min, url: row.URL }); };
 const unlisted = new Map();
 const prefiltered = [];
@@ -105,6 +108,8 @@ for (const row of [...agg.rows, ...boardRows]) {
   if (!row.URL || !row.Title) { bump("missing url/title"); continue; }
   const role = screenRole(row, { excludeNonPythonTitles: config.excludeNonPythonTitles !== false });
   if (!role.ok) { bump(role.reason); continue; }
+  const td = titleDegree(row.Title);
+  if (!td.ok) { bump("graduate/professional degree (title)"); if (known.match(row.Company) || row.KnownBySource) noteDegree(row, "title", td.reason); continue; }
   const loc = usStatus(row.Location);
   if (loc === "non-us") { bump("outside US"); continue; }
   if (loc !== "us" && usStatus(row.Title) === "non-us") { bump("outside US (title)"); continue; }
@@ -161,7 +166,8 @@ for (const row of enriched) {
   const loc = usStatus(row.Location);
   if (loc === "non-us") { bump("outside US (detail)"); continue; }
   if (UNPAID_RE.test(row.Content || "")) { bump("unpaid"); continue; }
-  if (advancedDegreeOnly(row.Content)) { bump("PhD/MBA required (description)"); continue; }
+  const degree = degreeRequirement(`${row.Title} . ${row.Content || ""}`);
+  if (!degree.ok) { bump(`requires ${degree.level} (description)`); noteDegree(row, degree.level, degree.evidence); continue; }
   const pay = parsePay(row.Pay) || parsePay(row.Content);
   // Drop only when even the top of the stated range is below the minimum ("$25 - $75/hr" stays).
   if (pay && (pay.max ?? pay.min) < minPay) { bump(`pay below $${minPay}/hr`); notePay(row, pay); continue; }
@@ -183,6 +189,8 @@ for (const row of enriched) {
     Pay: pay ? (pay.max && pay.max !== pay.min ? `$${pay.min}-${pay.max}/hr` : `$${pay.min}/hr`) : "",
     PayMin: pay?.min ?? "",
     Python: lang.python ? "yes" : lang.others.length ? `no (${lang.others.join("/")})` : "",
+    Undergrad: degree.level === "undergrad" ? "yes" : "",
+    DegreeEvidence: (degree.evidence || "").slice(0, 200),
     URL: /go\.vansh\.nyc|simplify\.jobs/.test(row.URL) && row.FinalURL ? row.FinalURL : row.URL,
     CanonicalURL: row.CanonicalURL,
     Sources: row.Sources,
@@ -209,6 +217,7 @@ for (const r of kept) {
   if (BUCKET_RANK[r.Bucket] < BUCKET_RANK[prev.Bucket]) Object.assign(prev, { Bucket: r.Bucket, Dates: r.Dates, DateNote: r.DateNote, Evidence: r.Evidence, URL: r.URL, Weeks: r.Weeks });
   if (!prev.Pay && r.Pay) { prev.Pay = r.Pay; prev.PayMin = r.PayMin; }
   if (!prev.Python && r.Python) prev.Python = r.Python;
+  if (!prev.Undergrad && r.Undergrad) { prev.Undergrad = r.Undergrad; prev.DegreeEvidence = r.DegreeEvidence; }
   if (r.PostedAt && (!prev.PostedAt || r.PostedAt < prev.PostedAt)) prev.PostedAt = r.PostedAt;
 }
 const final = [...roles.values()].map((r) => ({ ...r, Location: r.Locations.join("; ") }));
@@ -243,7 +252,7 @@ log.rejected = Object.fromEntries(Object.entries(reject).sort((a, b) => b[1] - a
 log.durationSec = Math.round((Date.now() - started) / 1000);
 
 await writeReports({
-  out: OUT, config, log, roles: final, dateExcluded, gone, firstRun, boardAudit, payRejected,
+  out: OUT, config, log, roles: final, dateExcluded, gone, firstRun, boardAudit, payRejected, degreeRejected,
   unlisted: [...unlisted.values()].sort((a, b) => b.count - a.count).slice(0, 120),
   history,
 });
