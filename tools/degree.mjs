@@ -79,3 +79,13 @@ export function titleDegree(title = "") {
   if (hit && !T_UG.test(t)) return { ok: false, reason: `title says "${hit[0]}"` };
   return { ok: true };
 }
+
+// Research-scientist style internships are almost always PhD/MS-only; keep one only when the
+// posting explicitly opens it to undergraduates. ("Data Scientist" and "Quant Researcher" are not
+// included: many of those hire undergrads.)
+const RESEARCH_TITLE = /\b(?:research scientists?|applied scien(?:ce|tists?)|research interns?(?:hip)?s?|research internships?|student researchers?|research fellow(?:ship)?|research scholars?|scientist interns?|ai research(?!\s+engineer)|ml research(?!\s+engineer)|machine learning research(?!\s+engineer)|research associate interns?)\b/i;
+export function researchTitle(title = "") {
+  const t = String(title);
+  if (/\bdata scien|\bquant(?:itative)?\b|\bmarket research\b|\bequity research\b|\bcredit research\b|\binvestment research\b/i.test(t) && !/research scientist|applied scien|student researcher/i.test(t)) return false;
+  return RESEARCH_TITLE.test(t);
+}

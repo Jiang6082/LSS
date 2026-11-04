@@ -9,7 +9,7 @@ import { ashby, collectorTasks, greenhouse, lever, seedKey } from "../tools/coll
 import { canonicalUrl, fetchJson, mapLimit, parseCsv } from "../tools/common.mjs";
 import { classifyDates } from "../tools/dates.mjs";
 import { enrichRow } from "../tools/enrich.mjs";
-import { degreeRequirement, titleDegree } from "../tools/degree.mjs";
+import { degreeRequirement, researchTitle, titleDegree } from "../tools/degree.mjs";
 import { languageFlags, parsePay, screenRole, UNPAID_RE, usStatus } from "../tools/filter.mjs";
 import { generatedTokens, loadKnownFirms, loadSeeds, normalizeCompany } from "../tools/firms.mjs";
 import { writeReports } from "./build-reports.mjs";
@@ -168,6 +168,12 @@ for (const row of enriched) {
   if (UNPAID_RE.test(row.Content || "")) { bump("unpaid"); continue; }
   const degree = degreeRequirement(`${row.Title} . ${row.Content || ""}`);
   if (!degree.ok) { bump(`requires ${degree.level} (description)`); noteDegree(row, degree.level, degree.evidence); continue; }
+  const descriptionRead = (row.Content || "").length >= 400;
+  if (researchTitle(row.Title) && degree.level !== "undergrad") {
+    bump("research role, undergrad eligibility not stated");
+    noteDegree(row, "research role (no undergrad option stated)", descriptionRead ? "Research-scientist style title; the posting never says undergraduates are eligible." : "Research-scientist style title; the full description could not be read.");
+    continue;
+  }
   const pay = parsePay(row.Pay) || parsePay(row.Content);
   // Drop only when even the top of the stated range is below the minimum ("$25 - $75/hr" stays).
   if (pay && (pay.max ?? pay.min) < minPay) { bump(`pay below $${minPay}/hr`); notePay(row, pay); continue; }
@@ -189,7 +195,7 @@ for (const row of enriched) {
     Pay: pay ? (pay.max && pay.max !== pay.min ? `$${pay.min}-${pay.max}/hr` : `$${pay.min}/hr`) : "",
     PayMin: pay?.min ?? "",
     Python: lang.python ? "yes" : lang.others.length ? `no (${lang.others.join("/")})` : "",
-    Undergrad: degree.level === "undergrad" ? "yes" : "",
+    Undergrad: degree.level === "undergrad" ? "yes" : descriptionRead ? "" : "unverified",
     DegreeEvidence: (degree.evidence || "").slice(0, 200),
     URL: /go\.vansh\.nyc|simplify\.jobs/.test(row.URL) && row.FinalURL ? row.FinalURL : row.URL,
     CanonicalURL: row.CanonicalURL,
@@ -217,7 +223,8 @@ for (const r of kept) {
   if (BUCKET_RANK[r.Bucket] < BUCKET_RANK[prev.Bucket]) Object.assign(prev, { Bucket: r.Bucket, Dates: r.Dates, DateNote: r.DateNote, Evidence: r.Evidence, URL: r.URL, Weeks: r.Weeks });
   if (!prev.Pay && r.Pay) { prev.Pay = r.Pay; prev.PayMin = r.PayMin; }
   if (!prev.Python && r.Python) prev.Python = r.Python;
-  if (!prev.Undergrad && r.Undergrad) { prev.Undergrad = r.Undergrad; prev.DegreeEvidence = r.DegreeEvidence; }
+  if (r.Undergrad === "yes" && prev.Undergrad !== "yes") { prev.Undergrad = "yes"; prev.DegreeEvidence = r.DegreeEvidence; }
+  else if (prev.Undergrad === "unverified" && r.Undergrad === "") prev.Undergrad = "";
   if (r.PostedAt && (!prev.PostedAt || r.PostedAt < prev.PostedAt)) prev.PostedAt = r.PostedAt;
 }
 const final = [...roles.values()].map((r) => ({ ...r, Location: r.Locations.join("; ") }));
