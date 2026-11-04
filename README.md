@@ -4,7 +4,7 @@ Scans for **US internships at well-known firms** in **software engineering, prod
 
 **Filters:** US only (incl. US-remote) · known firms only ([list](inputs/known_firms.json)) · pay ≥ $30/hr when the posting states pay · undergrad roles (PhD / MBA / master's-only excluded) · titles naming C++, Java, iOS/Android, embedded or hardware skipped (Python-friendly) · window 2027-07-13 → 2027-09-30 ([config](inputs/config.json))
 
-> **Last scan:** 2026-11-04 &nbsp;•&nbsp; **0 dates fit** &nbsp;•&nbsp; **13 flexible / near miss** &nbsp;•&nbsp; **1035 summer, dates not stated** &nbsp;•&nbsp; **2 new** &nbsp;•&nbsp; 18 closed postings dropped
+> **Last scan:** 2026-11-04 &nbsp;•&nbsp; **0 dates fit** &nbsp;•&nbsp; **13 flexible / near miss** &nbsp;•&nbsp; **1026 summer, dates not stated** &nbsp;•&nbsp; **0 new** &nbsp;•&nbsp; 16 closed postings dropped
 
 **Jump to:** [✅ Dates fit](#-dates-fit) · [🟡 Flexible](#-flexible-start--near-miss) · [⚪ Dates not stated](#-summer-2027--dates-not-stated) · [🆕 New](#-new-since-last-scan) · [How it works](#how-it-works) · [How to run](#how-to-run) · [CSV of everything](reports/roles.csv)
 
@@ -83,10 +83,10 @@ _None right now._
 
 ## ⚪ Summer 2027 — dates not stated
 
-1035 roles. The first 60 per track are below; the full list is in [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md).
+1026 roles. The first 60 per track are below; the full list is in [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md).
 
 <details>
-<summary><strong>💻 Software Engineering</strong> (604)</summary>
+<summary><strong>💻 Software Engineering</strong> (598)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -151,7 +151,7 @@ _None right now._
 | **NVIDIA** | AI Systems Software Engineering Intern | Austin, TX | Summer 2027 dates not stated |  |  |  | 2026-10-30 | [Apply](https://jobs.nvidia.com/careers/job/893398073452) |
 | **NVIDIA** | Math Libraries Intern | Canada; Santa Clara, CA +1 | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-11-02 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Math-Libraries-Intern--cuEST---Summer-2027_JR2028449) |
 
-_+544 more in the full list._
+_+538 more in the full list._
 
 </details>
 
@@ -208,7 +208,7 @@ _+544 more in the full list._
 </details>
 
 <details>
-<summary><strong>📊 Data / Analytics / ML</strong> (284)</summary>
+<summary><strong>📊 Data / Analytics / ML</strong> (283)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -273,12 +273,12 @@ _+544 more in the full list._
 | **TikTok** | Machine Learning Engineer Intern - E-Commerce Governance | Seattle, WA | Summer 2027 dates not stated | $60/hr | ✓ | ✓ | 2026-10-14 | [Apply](https://lifeattiktok.com/search/7694366551807265029) |
 | **TikTok** | Machine Learning Engineer Intern - E-Commerce Knowledge Graph | Seattle, WA | Summer 2027 dates not stated | $60/hr | ✓ | ✓ | 2026-10-14 | [Apply](https://lifeattiktok.com/search/7679220954338494773) |
 
-_+224 more in the full list._
+_+223 more in the full list._
 
 </details>
 
 <details>
-<summary><strong>📈 Finance / Investment / Quant</strong> (103)</summary>
+<summary><strong>📈 Finance / Investment / Quant</strong> (101)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -307,7 +307,6 @@ _+224 more in the full list._
 | **Man Group** | Systematic Fast Trading Intern | New York | term dates not stated; 10-week program | $50-60/hr | ✓ | ✓ | 2026-10-25 | [Apply](https://job-boards.eu.greenhouse.io/mangroup/jobs/5012801101) |
 | **Man Group** | Systematic Quant Intern | Massachusetts | Summer 2027 dates not stated | $55-65/hr | ✓ |  | 2026-11-03 | [Apply](https://job-boards.eu.greenhouse.io/mangroup/jobs/5012811101) |
 | **Peak6** | Trading Internship for Women+ Summer 2027 | Chicago, IL | Summer 2027 dates not stated | $60-75/hr | ✓ | ✓ | Posted 30+ | [Apply](https://peak6group.wd1.myworkdayjobs.com/PEAK6/job/Chicago-IL/Trading-Internship-for-Women--Summer-2027_JR105061) |
-| **Tower Research Capital** | Intern | Gift City | term dates not stated |  | ✓ |  | 2026-09-07 | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8184771) |
 | **Tower Research Capital** | Quantitative Trader Intern | Chicago, IL; NYC | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-07-05 | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8024128) |
 | **TransMarket Group** | Algorithmic Trader Intern | Chicago, Illinois, United States | term dates not stated |  | ✓ | ✓ | 2026-08-03 | [Apply](https://job-boards.greenhouse.io/transmarketgroup/jobs/5151581007?gh_jid=5151581007) |
 | **TransMarket Group** | Quantitative Trader Intern | Chicago, IL | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-06-02 | [Apply](https://job-boards.greenhouse.io/transmarketgroup/jobs/5151569007?gh_jid=5151569007) |
@@ -342,8 +341,9 @@ _+224 more in the full list._
 | **JPMorgan Chase** | 2027 Commercial & Investment Bank Risk Management Summer Analyst Program | New York, NY, United States; Plano, TX, United States +4 | Summer 2027 dates not stated; 9-week program |  |  | ✓ | 2026-10-26 | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690781) |
 | **JPMorgan Chase** | Quantitative Research Intern | NYC | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-08-03 | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774061) |
 | **JPMorgan Chase** | Quantitative Research Intern - Markets - Analyst | NYC | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-08-03 | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038) |
+| **JPMorgan Chase** | Quantitative Research Summer Analyst Intern - Asset Management | NYC | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-08-03 | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074) |
 
-_+43 more in the full list._
+_+41 more in the full list._
 
 </details>
 
@@ -351,10 +351,7 @@ _+43 more in the full list._
 
 ## 🆕 New since last scan
 
-| Company | Role | Track | Location | Dates / note | Pay | Py | UG | Posted | Link |
-|---|---|---|---|---|---|---|---|---|---|
-| **Together AI** | Hardware Security Engineer Intern 🆕 | Software | San Francisco, CA | Summer 2027 dates not stated |  |  |  | 2026-10-16 | [Apply](https://job-boards.greenhouse.io/togetherai?error=true) |
-| **Visa** | Consulting & Analytics Intern 🆕 | Data | SK - Bratislava, Slovakia | term dates not stated; 11-week program |  |  |  | Posted Tod | [Apply](https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/SK---Bratislava-Slovakia/Consulting---Analytics-Intern_REF089754W-1) |
+_None right now._
 
 
 ---

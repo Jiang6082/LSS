@@ -1,8 +1,8 @@
 # Summer 2027 roles with no dates in the posting
 
-Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late July (ending by 2027-09-30) is possible. Fixed-class programs (bank analyst classes, rotational programs) rarely move; tech internships with individual start dates are the best bets.
+Scan: 2026-11-04 · 1026 roles · ask the recruiter whether a start around late July (ending by 2027-09-30) is possible. Fixed-class programs (bank analyst classes, rotational programs) rarely move; tech internships with individual start dates are the best bets.
 
-## 💻 Software Engineering (604)
+## 💻 Software Engineering (598)
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -243,7 +243,6 @@ Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late 
 | **Skydio** | Process Engineering Intern | San Mateo, CA | Summer 2027 dates not stated | $47/hr | ✓ | ✓ | 2026-10-25 | [Apply](https://jobs.ashbyhq.com/skydio/6e76d5fa-981e-4986-955b-602aa6ddcb1b) |
 | **Skydio** | Process Engineering Intern - Summer 2027 | Hayward, California, United States | Summer 2027 dates not stated | $47/hr | ✓ | ✓ | 2026-10-14 | [Apply](https://jobs.ashbyhq.com/skydio/6e76d5fa-981e-4986-955b-602aa6ddcb1b) |
 | **Skydio** | Software Engineer Intern | San Mateo, CA | Summer 2027 dates not stated | $47/hr | ✓ | ✓ | 2026-10-14 | [Apply](https://jobs.ashbyhq.com/skydio/79fdda46-4ff5-42c7-b208-55f2084cdb8c/application?embed=true) |
-| **Together AI** | Hardware Security Engineer Intern 🆕 | San Francisco, CA | Summer 2027 dates not stated |  |  |  | 2026-10-16 | [Apply](https://job-boards.greenhouse.io/togetherai?error=true) |
 | **Vercel** | Software Engineering Intern - Summer '27 | San Francisco, CA | Summer 2027 dates not stated |  | ✗ rust |  | 2026-09-08 | [Apply](https://job-boards.greenhouse.io/vercel/jobs/6181759004) |
 | **Akuna Capital** | Platform Engineer Intern | Chicago, IL | Summer 2027 dates not stated; 10-week program | $70/hr |  | ✓ | 2026-07-24 | [Apply](https://akunacapital.com/careers/job/8018856/?gh_jid=8018856) |
 | **Akuna Capital** | Platform Engineer Intern, Summer 2027 | Chicago, IL | Summer 2027 dates not stated; 10-week program | $70/hr |  | ✓ | 2026-07-13 | [Apply](https://www.akunacapital.com/careers/job/8018856/?gh_jid=8018856) |
@@ -255,7 +254,7 @@ Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late 
 | **Citadel Securities** | Software Engineer - Intern - US | Miami, FL +1 | term dates not stated | $125/hr |  | ? | 2026-07-15 | [Apply](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/) |
 | **DRW** | Platform Engineer Intern | Chicago, IL | Summer 2027 dates not stated |  |  | ? | 2026-07-31 | [Apply](https://www.drw.com/500) |
 | **DRW** | Software Developer Intern | Chicago, IL | Summer 2027 dates not stated; 10-week program | $108/hr | ✓ | ✓ | 2026-07-13 | [Apply](https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328) |
-| **DV Trading** | Client Platforms Engineer Intern - Summer 2027 | New York; Chicago | Summer 2027 dates not stated | $40/hr |  |  | 2026-09-10 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4732697005) |
+| **DV Trading** | Client Platforms Engineer Intern - Summer 2027 | Chicago; New York | Summer 2027 dates not stated | $40/hr |  |  | 2026-09-10 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4732683005) |
 | **DV Trading** | Data Center Engineer Intern | Chicago, IL | Summer 2027 dates not stated | $40/hr |  |  | 2026-10-12 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4742962005) |
 | **DV Trading** | Data Center Engineer Intern - Summer 2027 | Chicago | Summer 2027 dates not stated | $40/hr |  |  | 2026-10-12 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4742962005) |
 | **DV Trading** | Database Engineer Intern - Summer 2027 | Chicago | Summer 2027 dates not stated | $40/hr | ✓ |  | 2026-10-06 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4741016005) |
@@ -294,11 +293,6 @@ Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late 
 | **Point72** | Quantitative Software Developer Intern | New York | term dates not stated |  | ✓ | ✓ | 2024-08-15 | [Apply](https://boards.greenhouse.io/point72/jobs/7297666002?gh_jid=7297666002) |
 | **Point72** | Software Engineer Intern | NYC; New York, NY | Summer 2027 dates not stated | $63/hr | ✓ |  | 2026-10-14 | [Apply](https://boards.greenhouse.io/point72/jobs/8885733002) |
 | **Allen & Company** | Software Engineer Intern | Austin, TX | term dates not stated; 10-week program |  | ✓ |  | 2026-09-08 | [Apply](https://jobs.ashbyhq.com/allen-control-systems/ed5c58a7-6a3c-474b-aa07-43ff2051cb5c/application?embed=true) |
-| **Barclays** | 2027 Technology Analyst Summer Internship Programme Knutsford | Knutsford, Radbroke Hall | Summer 2027 dates not stated |  |  |  | Posted 2 D | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Analyst-Summer-Internship-Programme-Knutsford_JR-0000129510) |
-| **Barclays** | 2027 Technology Analyst Summer Internship Programme Northampton | Northampton, Barclays Campus, Pavilion Drive | Summer 2027 dates not stated |  |  |  | Posted 2 D | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Analyst-Summer-Internship-Programme-Northampton_JR-0000129498) |
-| **Barclays** | 2027 Technology Cyber and Security Summer Internship Programme Knutsford | Knutsford, Radbroke Hall | Summer 2027 dates not stated |  |  |  | Posted 2 D | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Cyber-and-Security-Summer-Internship-Programme-Knutsford_JR-0000129173) |
-| **Barclays** | 2027 Technology Developer Summer Internship Programme Knutsford | Knutsford, Radbroke Hall | Summer 2027 dates not stated |  | ✓ |  | Posted 2 D | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Knutsford-Radbroke-Hall/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-Knutsford_JR-0000129381) |
-| **Barclays** | 2027 Technology Developer Summer Internship Programme Northampton | Northampton, Barclays Campus, Pavilion Drive | Summer 2027 dates not stated |  | ✓ |  | Posted 2 D | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Northampton-Barclays-Campus-Pavilion-Drive/XMLNAME-2027-Technology-Developer-Summer-Internship-Programme-Northampton_JR-0000129379) |
 | **Barclays** | Chief Client Office - Client Data & Engineering Group Summer Internship Program 2027 New York City | New York City, NY | Summer 2027 dates not stated; 10-week program | $53/hr | ✓ |  | 2026-10-30 | [Apply](https://barclays.wd3.myworkdayjobs.com/en-US/external_career_site_barclays/job/New-York-745-7th-Avenue/Chief-Client-Office---Client-Data---Engineering-Group-Summer-Internship-Program-2027-New-York-City_JR-0000137731) |
 | **Barclays** | Chief Client Office Intern, Client Data & Engineering Group | New York, NY | Summer 2027 dates not stated; 10-week program | $53/hr | ✓ |  | 2026-10-30 | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Chief-Client-Office---Client-Data---Engineering-Group-Summer-Internship-Program-2027-New-York-City_JR-0000137731) |
 | **Barclays** | Client Data & Engineering Group Summer Intern - Chief Client Office | NYC | Summer 2027 dates not stated; 10-week program | $53/hr | ✓ |  | 2026-10-30 | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Chief-Client-Office---Client-Data---Engineering-Group-Summer-Internship-Program-2027-New-York-City_JR-0000137731) |
@@ -660,7 +654,7 @@ Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late 
 | **Illinois Tool Works** | Product Management Intern | Troy, OH | Summer 2027 dates not stated |  |  |  | 2026-09-15 | [Apply](https://careers.itw.com/global/en/job/JR10105) |
 | **PACCAR** | Product Planning Intern | Denton, TX | Summer 2027 dates not stated |  |  | ✓ | 2026-11-03 | [Apply](https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Product-Planning-TX-76205-7864/1453917433/?ats=successfactors) |
 
-## 📊 Data / Analytics / ML (284)
+## 📊 Data / Analytics / ML (283)
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -746,7 +740,6 @@ Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late 
 | **TikTok** | Research Engineer Intern - Agentic Systems & AI Infrastructure - Generalized Architecture | Seattle, WA | Summer 2027 dates not stated | $60/hr | ✓ | ✓ | 2026-08-03 | [Apply](https://lifeattiktok.com/search/7667934792727906565) |
 | **TikTok** | Research Engineer Intern, Agentic Systems & AI Infrastructure - TikTok-Generalized Arch | Seattle, WA | Summer 2027 dates not stated | $43/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7667934792727906565) |
 | **TikTok** | Research Scientist Intern - Monetization Technology - Business Integrity | San Jose, CA | Summer 2027 dates not stated | $60/hr | ✓ | ✓ | 2026-08-03 | [Apply](https://lifeattiktok.com/search/7668202600147552517) |
-| **TikTok** | Student Researcher | San Jose, CA | term dates not stated | $55/hr | ✓ | ✓ | 2026-04-01 | [Apply](https://jobs.bytedance.com/en/position/7623548747208739077/detail) |
 | **TikTok** | Student Researcher - AI Foundation Model Infrastructure | Seattle, WA | term dates not stated | $52/hr | ✓ | ✓ | 2026-04-01 | [Apply](https://jobs.bytedance.com/en/position/7623552947364317445/detail) |
 | **TikTok** | Student Researcher - AI Foundation Model Infrastructure - Seed | San Jose, CA | term dates not stated | $55/hr | ✓ | ✓ | 2026-08-13 | [Apply](https://jobs.bytedance.com/en/position/7673274910202988805/detail) |
 | **TikTok** | Student Researcher - AI Foundation Models Infrastructure - Seed Infra | San Jose, CA | term dates not stated | $55/hr | ✓ | ✓ | 2026-08-05 | [Apply](https://jobs.bytedance.com/en/position/7669973602626308357/detail) |
@@ -781,6 +774,7 @@ Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late 
 | **Brevan Howard** | 2027 Summer Internship Program - AI & Quantitative Analyst - New York | New York City, NY; New York | Summer 2027 dates not stated; 10-week program | $72/hr | ✓ | ✓ | 2026-09-14 | [Apply](https://brevanhoward.wd3.myworkdayjobs.com/en-US/bh_externalcareers/job/New-York/XMLNAME-2027-Summer-Internship-Program---AI---Quantitative-Analyst--New-York_JR101602) |
 | **Brevan Howard** | 2027 Summer Internship Program – Systematic Data Strategy, New York | New York | Summer 2027 dates not stated; 10-week program | $60/hr | ✓ | ✓ | Posted 30+ | [Apply](https://brevanhoward.wd3.myworkdayjobs.com/BH_ExternalCareers/job/New-York/XMLNAME-2027-Summer-Internship-Program---Systematic-Data-Strategy--New-York_JR101596) |
 | **Brevan Howard** | 2027 Summer Internship Program – Systematic Execution Research, New York | New York | Summer 2027 dates not stated; 10-week program | $72/hr | ✓ | ✓ | Posted 30+ | [Apply](https://brevanhoward.wd3.myworkdayjobs.com/BH_ExternalCareers/job/New-York/XMLNAME-2027-Summer-Internship-Program---Systematic-Execution-Research--New-York_JR101595) |
+| **Brevan Howard** | Execution Research Intern - Systematic Execution Research | NYC | Summer 2027 dates not stated |  |  | ? | 2026-09-10 | [Apply](https://wd3.myworkdaysite.com/recruiting/brevanhoward/BH_ExternalCareers/job/New-York/XMLNAME-2027-Summer-Internship-Program---Systematic-Execution-Research--New-York_JR101595) |
 | **Brevan Howard** | Quantitative Analyst Intern - AI | NYC | Summer 2027 dates not stated |  |  | ? | 2026-09-14 | [Apply](https://wd3.myworkdaysite.com/recruiting/brevanhoward/BH_ExternalCareers/job/New-York/XMLNAME-2027-Summer-Internship-Program---AI---Quantitative-Analyst--New-York_JR101602) |
 | **Millennium** | Applied AI Engineer Intern | Miami, FL | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-08-21 | [Apply](https://career.mlp.com/careers/job/755957778848) |
 | **Point72** | 2027 Summer Internship - Fundamental Researcher, Canvas | New York, NY | Summer 2027 dates not stated; 10-week program | $43/hr |  |  | 2026-10-14 | [Apply](https://boards.greenhouse.io/point72/jobs/8885693002?gh_jid=8885693002) |
@@ -836,7 +830,6 @@ Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late 
 | **Coinbase** | People Analytics Intern | NYC; Hybrid - New York, NY | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $40/hr |  |  | 2026-09-08 | [Apply](https://boards.greenhouse.io/embed/job_app?token=8175517) |
 | **Ramp** | Applied Scientist Intern | New York City, NY | term dates not stated | $60/hr | ✓ | ✓ | 2026-09-15 | [Apply](https://jobs.ashbyhq.com/ramp/b39ceb08-a0a7-4f8b-a760-2fb88e209956) |
 | **Visa** | Business Strategy Intern - Data and AI Team - Summer 2027 | Foster City, CA; US - Foster City, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $35-39/hr |  | ✓ | 2026-10-27 | [Apply](https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Foster-City-CA/Business-Strategy-Intern--Data-and-AI-Team---Summer-2027_REF089884W-2) |
-| **Visa** | Consulting & Analytics Intern 🆕 | SK - Bratislava, Slovakia | term dates not stated; 11-week program |  |  |  | Posted Tod | [Apply](https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/SK---Bratislava-Slovakia/Consulting---Analytics-Intern_REF089754W-1) |
 | **Visa** | Consulting & Analytics Intern - Summer 2027 | US - Atlanta, GA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $29-33/hr |  | ✓ | Posted 8 D | [Apply](https://visa.wd5.myworkdayjobs.com/Visa/job/US---Atlanta-GA/Consulting---Analytics-Intern---Summer-2027_REF089900W) |
 | **Visa** | Data Science Intern - Data and AI Team | Foster City, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $46-55/hr | ✓ | ✓ | 2026-10-27 | [Apply](https://visa.wd5.myworkdayjobs.com/Visa/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-1) |
 | **Visa** | Data Science Intern - Data and AI Team - Summer 2027 | Foster City, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $46-55/hr | ✓ | ✓ | 2026-10-27 | [Apply](https://visa.wd5.myworkdayjobs.com/en-US/visa_early_careers/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W) |
@@ -949,7 +942,7 @@ Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late 
 | **Trane Technologies** | AI & Analytics Intern | Minneapolis, MN; Davidson, NC +1 | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $23-30/hr | ✓ | ✓ | 2026-09-01 | [Apply](https://careers.tranetechnologies.com/global/en/job/JR-7591) |
 | **Walgreens** | Data Science Intern | Deerfield, IL | term dates not stated |  |  |  | 2026-10-13 | [Apply](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=26336&siteid=5014&PageType=JobDetails&jobid=1946191) |
 
-## 📈 Finance / Investment / Quant (103)
+## 📈 Finance / Investment / Quant (101)
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -978,7 +971,6 @@ Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late 
 | **Man Group** | Systematic Fast Trading Intern | New York | term dates not stated; 10-week program | $50-60/hr | ✓ | ✓ | 2026-10-25 | [Apply](https://job-boards.eu.greenhouse.io/mangroup/jobs/5012801101) |
 | **Man Group** | Systematic Quant Intern | Massachusetts | Summer 2027 dates not stated | $55-65/hr | ✓ |  | 2026-11-03 | [Apply](https://job-boards.eu.greenhouse.io/mangroup/jobs/5012811101) |
 | **Peak6** | Trading Internship for Women+ Summer 2027 | Chicago, IL | Summer 2027 dates not stated | $60-75/hr | ✓ | ✓ | Posted 30+ | [Apply](https://peak6group.wd1.myworkdayjobs.com/PEAK6/job/Chicago-IL/Trading-Internship-for-Women--Summer-2027_JR105061) |
-| **Tower Research Capital** | Intern | Gift City | term dates not stated |  | ✓ |  | 2026-09-07 | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8184771) |
 | **Tower Research Capital** | Quantitative Trader Intern | Chicago, IL; NYC | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-07-05 | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8024128) |
 | **TransMarket Group** | Algorithmic Trader Intern | Chicago, Illinois, United States | term dates not stated |  | ✓ | ✓ | 2026-08-03 | [Apply](https://job-boards.greenhouse.io/transmarketgroup/jobs/5151581007?gh_jid=5151581007) |
 | **TransMarket Group** | Quantitative Trader Intern | Chicago, IL | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-06-02 | [Apply](https://job-boards.greenhouse.io/transmarketgroup/jobs/5151569007?gh_jid=5151569007) |
@@ -1045,7 +1037,6 @@ Scan: 2026-11-04 · 1035 roles · ask the recruiter whether a start around late 
 | **Fidelity** | Quantitative Research Intern- Equity Quantitative Research Team | Boston, MA | term dates not stated |  |  | ? | 2026-10-29 | [Apply](https://fmr.wd1.myworkdayjobs.com/en-US/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Equity-Quantitative-Research-Team_2135122) |
 | **Fidelity** | Quantitative Research Intern- Fixed Income Team | Boston, MA +1 | term dates not stated |  |  | ? | 2026-10-29 | [Apply](https://fmr.wd1.myworkdayjobs.com/en-US/targeted/job/200-Seaport-Blvd-Boston-MA/Quantitative-Research-Intern--Fixed-Income-Team_2135109) |
 | **StepStone** | 2027 Venture Capital Summer Analyst | Baltimore | Summer 2027 dates not stated |  |  |  | 2026-08-03 | [Apply](https://www.stepstonegroup.com/current-opportunities/?gh_jid=8094340) |
-| **Blackstone** | Get to Know Blackstone - Educational Opportunities for Prospective Summer Analyst Candidates | New York | Summer 2027 dates not stated |  |  |  |  | [Apply](https://blackstone.wd1.myworkdayjobs.com/BX_External_Site/job/New-York/Get-to-Know-Blackstone---Educational-Opportunities-for-Prospective-Summer-Analyst-Candidates_34636) |
 | **GCM Grosvenor** | 2027 Treasury Summer Intern | Chicago, Illinois, United States | Summer 2027 dates not stated | $31-34/hr |  | ✓ | 2026-11-04 | [Apply](https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8004540003) |
 | **GCM Grosvenor** | 2027 Valuation Summer Intern | Chicago, Illinois, United States | Summer 2027 dates not stated | $31-34/hr |  | ✓ | 2026-11-03 | [Apply](https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8004539003) |
 | **Coinbase** | Credit Risk Intern | Hybrid - New York, NY | term dates not stated; 12+ weeks, so a late-July start would run into October | $40/hr |  | ✓ | 2026-09-08 | [Apply](https://www.coinbase.com/careers/positions/8175369?gh_jid=8175369) |
