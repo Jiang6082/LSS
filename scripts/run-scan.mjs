@@ -9,7 +9,7 @@ import { ashby, collectorTasks, greenhouse, lever, seedKey } from "../tools/coll
 import { canonicalUrl, fetchJson, mapLimit, parseCsv } from "../tools/common.mjs";
 import { classifyDates } from "../tools/dates.mjs";
 import { enrichRow } from "../tools/enrich.mjs";
-import { degreeRequirement, researchTitle, titleDegree } from "../tools/degree.mjs";
+import { degreeRequirement, educationHint, researchTitle, titleDegree } from "../tools/degree.mjs";
 import { languageFlags, parsePay, screenRole, UNPAID_RE, usStatus } from "../tools/filter.mjs";
 import { generatedTokens, loadKnownFirms, loadSeeds, normalizeCompany } from "../tools/firms.mjs";
 import { writeReports } from "./build-reports.mjs";
@@ -197,6 +197,7 @@ for (const row of enriched) {
     Python: lang.python ? "yes" : lang.others.length ? `no (${lang.others.join("/")})` : "",
     Undergrad: degree.level === "undergrad" ? "yes" : descriptionRead ? "" : "unverified",
     DegreeEvidence: (degree.evidence || "").slice(0, 200),
+    EducationNote: degree.level || !descriptionRead ? "" : educationHint(row.Content || ""),
     URL: /go\.vansh\.nyc|simplify\.jobs/.test(row.URL) && row.FinalURL ? row.FinalURL : row.URL,
     CanonicalURL: row.CanonicalURL,
     Sources: row.Sources,
@@ -224,7 +225,8 @@ for (const r of kept) {
   if (!prev.Pay && r.Pay) { prev.Pay = r.Pay; prev.PayMin = r.PayMin; }
   if (!prev.Python && r.Python) prev.Python = r.Python;
   if (r.Undergrad === "yes" && prev.Undergrad !== "yes") { prev.Undergrad = "yes"; prev.DegreeEvidence = r.DegreeEvidence; }
-  else if (prev.Undergrad === "unverified" && r.Undergrad === "") prev.Undergrad = "";
+  else if (prev.Undergrad === "unverified" && r.Undergrad === "") { prev.Undergrad = ""; prev.EducationNote = r.EducationNote; }
+  if (prev.Undergrad === "" && !prev.EducationNote && r.EducationNote) prev.EducationNote = r.EducationNote;
   if (r.PostedAt && (!prev.PostedAt || r.PostedAt < prev.PostedAt)) prev.PostedAt = r.PostedAt;
 }
 const final = [...roles.values()].map((r) => ({ ...r, Location: r.Locations.join("; ") }));
