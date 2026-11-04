@@ -11,6 +11,7 @@ import { canonicalUrl } from "./common.mjs";
 import { classifyDates } from "./dates.mjs";
 import { advancedDegreeOnly, parsePay, screenRole, usStatus } from "./filter.mjs";
 import { loadKnownFirms } from "./firms.mjs";
+import { degreeRequirement, titleDegree } from "./degree.mjs";
 
 let passed = 0;
 const failures = [];
@@ -98,6 +99,41 @@ check("PhD-only description", () => assert.ok(advancedDegreeOnly("Currently has,
 check("BS/MS/PhD is not PhD-only", () => assert.equal(advancedDegreeOnly("Currently pursuing a Bachelor's, Master's or PhD in Computer Science."), ""));
 check("PhD preferred is not PhD-only", () => assert.equal(advancedDegreeOnly("Currently pursuing a PhD is preferred."), ""));
 check("title city: Lisbon", () => assert.equal(usStatus("Product Manager Intern (2027) - Lisbon, PT"), "non-us"));
+
+// ---- Degree requirement ---------------------------------------------------------------------
+const degreeCases = [
+  ["Master's or PhD only", "Currently pursuing a Master's or PhD degree in Computer Science or a related field.", false],
+  ["Bachelor's, Master's or PhD", "Currently pursuing a Bachelor's, Master's, or PhD in Computer Science.", true],
+  ["JD program", "Currently enrolled in a JD program; 2L students preferred.", false],
+  ["MBA candidates", "MBA candidates graduating in 2028 are eligible.", false],
+  ["BS/MS", "Pursuing a BS/MS in Computer Science, Mathematics or related field.", true],
+  ["rising junior", "Must be a rising junior or senior at an accredited university.", true],
+  ["completed bachelor's, enrolled master's", "Bachelor's degree in Computer Science. Currently enrolled in a Master's program in Computer Science.", false],
+  ["undergrad and grad", "Open to undergraduate and graduate students.", true],
+  ["PhD preferred", "Pursuing a degree in CS or related field. PhD preferred.", true],
+  ["PhD colleagues", "Work alongside our PhD researchers on cutting-edge problems.", true],
+  ["Meta PhD wording", "Currently has, or is in the process of obtaining, a PhD degree in Computer Science, Machine Learning, or a related field.", false],
+  ["MS Excel is not a degree", "Proficiency with MS Excel and SQL. Pursuing a degree in finance.", true],
+  ["graduate program required", "Candidates must be enrolled in a graduate program (Master's or PhD).", false],
+  ["undergrad or grad degree", "Pursuing an undergraduate or graduate degree in a quantitative field.", true],
+  ["MFE", "Students currently pursuing a Master of Science in Financial Engineering (MFE).", false],
+  ["completed undergrad + pursuing master's", "Completed undergraduate degree and currently pursuing a Master's degree in Data Science.", false],
+  ["grad students also welcome", "Pursuing a degree in CS; graduate students are also welcome to apply.", true],
+  ["bachelor's or above", "Are enrolled in a Bachelor's degree or above in Computer Science.", true],
+  ["PhD or Master's program", "Currently enrolled in a PhD or Master's program in machine learning.", false],
+  ["law students", "Open to rising 2L and 3L law students.", false],
+  ["Master's students only", "This role is for Master's students only.", false],
+  ["completed junior year", "Candidates should have completed their junior year by the internship start.", true],
+  ["Master's required", "Minimum qualifications: Master's degree in Statistics or related field required.", false],
+];
+for (const [name, text, ok] of degreeCases) check(`degree: ${name}`, () => assert.equal(degreeRequirement(text).ok, ok, JSON.stringify(degreeRequirement(text))));
+const titleDegreeCases = [
+  ["Software Engineering - Intern, Graduate", false], ["2027 Summer Intern, MS, Software Engineering", false], ["Quantitative Master’s Internship - Technology", false],
+  ["Postdoctoral Researcher Intern", false], ["Machine Learning Intern - PhD", false], ["Graduate Product Management Intern", false],
+  ["Internship in Investment Engineering (Undergraduate & Master's)", true], ["Campus Quantitative Researcher - UG/MS - Intern", true],
+  ["Software Engineer Intern - Bachelor's & Master's", true], ["Software Engineer Intern", true], ["Undergraduate Program Software Engineer Intern", true],
+];
+for (const [title, ok] of titleDegreeCases) check(`degree title: ${title}`, () => assert.equal(titleDegree(title).ok, ok));
 
 // ---- Firm matching ----------------------------------------------------------------------------
 const known = await loadKnownFirms("inputs/known_firms.json");

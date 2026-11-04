@@ -20,12 +20,12 @@ const sortRoles = (rows) => rows.slice().sort((a, b) =>
 
 function table(rows, { showTrack = false, note = true } = {}) {
   if (!rows.length) return "_None right now._\n";
-  const head = ["Company", "Role", ...(showTrack ? ["Track"] : []), "Location", note ? "Dates / note" : "Dates", "Pay", "Py", "Posted", "Link"];
+  const head = ["Company", "Role", ...(showTrack ? ["Track"] : []), "Location", note ? "Dates / note" : "Dates", "Pay", "Py", "UG", "Posted", "Link"];
   const lines = [`| ${head.join(" | ")} |`, `|${head.map(() => "---").join("|")}|`];
   for (const r of rows) {
     const dateCell = esc([r.Dates, note && r.Bucket !== "fit" ? r.DateNote : ""].filter(Boolean).join(" — "));
     const tags = [r.New ? "🆕" : "", r.Applied ? `✅ ${esc(r.Applied)}` : ""].filter(Boolean).join(" ");
-    lines.push(`| **${esc(r.Company)}** | ${esc(r.Title)}${tags ? ` ${tags}` : ""} | ${showTrack ? `${r.Track} | ` : ""}${shortLoc(r.Location)} | ${dateCell} | ${esc(r.Pay)} | ${py(r.Python)} | ${day(r.PostedAt)} | [Apply](${r.URL}) |`);
+    lines.push(`| **${esc(r.Company)}** | ${esc(r.Title)}${tags ? ` ${tags}` : ""} | ${showTrack ? `${r.Track} | ` : ""}${shortLoc(r.Location)} | ${dateCell} | ${esc(r.Pay)} | ${py(r.Python)} | ${r.Undergrad === "yes" ? "✓" : ""} | ${day(r.PostedAt)} | [Apply](${r.URL}) |`);
   }
   return `${lines.join("\n")}\n`;
 }
@@ -37,7 +37,7 @@ function byTrack(rows, render) {
   }).filter(Boolean).join("\n");
 }
 
-export async function writeReports({ out = ".", config, log, roles, dateExcluded, gone, firstRun, boardAudit, unlisted, history, payRejected = [] }) {
+export async function writeReports({ out = ".", config, log, roles, dateExcluded, gone, firstRun, boardAudit, unlisted, history, payRejected = [], degreeRejected = [] }) {
   const dir = (p) => path.join(out, p);
   await fs.mkdir(dir("reports"), { recursive: true });
   await fs.mkdir(dir("data"), { recursive: true });
@@ -51,7 +51,7 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
   const minPay = config.minHourlyPay ?? 30;
 
   // ---- CSV + JSON ---------------------------------------------------------------------------
-  const headers = ["Bucket", "Track", "Company", "Category", "Title", "Location", "Dates", "DateNote", "Weeks", "Pay", "Python", "PostedAt", "FirstSeen", "New", "Applied", "URL", "Sources", "Evidence"];
+  const headers = ["Bucket", "Track", "Company", "Category", "Title", "Location", "Dates", "DateNote", "Weeks", "Pay", "Python", "Undergrad", "DegreeEvidence", "PostedAt", "FirstSeen", "New", "Applied", "URL", "Sources", "Evidence"];
   await fs.writeFile(dir("reports/roles.csv"), toCsv([...fit, ...flex, ...ask], headers), "utf8");
   await fs.writeFile(dir("reports/excluded_by_dates.csv"), toCsv(sortRoles(dateExcluded), ["Track", "Company", "Title", "Location", "Dates", "DateNote", "Pay", "URL", "Evidence"]), "utf8");
   await fs.writeFile(dir("data/roles.json"), JSON.stringify({ scannedAt: log.scannedAt, window: w, roles }, null, 1), "utf8");
@@ -75,6 +75,22 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
     "| Bucket | Company | Role | Dates | Note | Evidence | Link |",
     "|---|---|---|---|---|---|---|",
     ...[...fit, ...flex].map((r) => `| ${r.Bucket === "fit" ? "✅" : "🟡"} | ${esc(r.Company)} | ${esc(r.Title)} | ${esc(r.Dates)} | ${esc(r.DateNote)} | ${esc(r.Evidence).slice(0, 200)} | [link](${r.URL}) |`),
+    "",
+  ].join("\n"), "utf8");
+
+  // ---- Degree screen: what was dropped for needing a graduate / professional degree ---------------
+  const ugCount = roles.filter((r) => r.Undergrad === "yes").length;
+  const byLevel = degreeRejected.reduce((acc, d) => { acc[d.level] = (acc[d.level] || 0) + 1; return acc; }, {});
+  await fs.writeFile(dir("reports/degree_screen.md"), [
+    "# Degree screen",
+    "",
+    `Scan: ${date} · ${degreeRejected.length} postings at known firms dropped because they require a graduate or professional degree${degreeRejected.length ? ` (${Object.entries(byLevel).map(([k, v]) => `${k === "title" ? "title says so" : k}: ${v}`).join(", ")})` : ""}. Of the ${roles.length} roles kept, ${ugCount} explicitly include undergraduates (UG ✓); the rest don't state a degree level.`,
+    "",
+    "A role is dropped when its title names a graduate degree (\"Graduate Intern\", \"MS\", \"Master's\", \"PhD\", \"MBA\", \"JD\") with no undergrad option, or its description requires one (\"currently pursuing a Master's or PhD\", \"enrolled in an MBA program\", \"2L/3L law students\") and nothing in the posting opens it to undergrads. \"PhD preferred\" or \"graduate students also welcome\" does not drop a role.",
+    "",
+    "| Company | Role | Requires | Evidence | Link |",
+    "|---|---|---|---|---|",
+    ...sortRoles(degreeRejected.map((d) => ({ ...d, Company: d.company, Title: d.title, Track: "" }))).map((d) => `| ${esc(d.company)} | ${esc(d.title)} | ${esc(d.level === "title" ? "per title" : d.level)} | ${esc(d.evidence).slice(0, 180)} | [link](${d.url}) |`),
     "",
   ].join("\n"), "utf8");
 
@@ -162,7 +178,7 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
     "| 🟡 **Flexible / near miss** | Flexible, rolling or multiple start dates; off-cycle; Summer/Fall; a start inside the window with no end date; or a few days outside it | Apply, then confirm dates with the recruiter |",
     "| ⚪ **Dates not stated** | Summer 2027 role whose posting gives no dates | Ask whether a late-July start is possible before investing in the application |",
     "",
-    "Py column: ✓ = posting mentions Python · ✗ = mentions only other languages · blank = no language listed.",
+    "Py: ✓ = posting mentions Python · ✗ = mentions only other languages · blank = none listed. UG: ✓ = posting explicitly includes undergraduates · blank = degree level not stated. Roles requiring a Master's, PhD, MBA or JD are removed ([what was removed](reports/degree_screen.md)).",
     "",
     "---",
     "",
@@ -219,6 +235,7 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
     "| [reports/roles.csv](reports/roles.csv) | Every kept role with bucket, dates, pay, sources |",
     "| [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md) | Full ⚪ list |",
     "| [reports/date_evidence.md](reports/date_evidence.md) | The sentence behind every ✅ / 🟡 verdict |",
+    "| [reports/degree_screen.md](reports/degree_screen.md) | Roles removed for requiring a Master's / PhD / MBA / JD, with the sentence used |",
     "| [reports/excluded_by_dates.md](reports/excluded_by_dates.md) | Roles dropped for conflicting dates, with evidence |",
     "| [reports/scan_audit.md](reports/scan_audit.md) | Source health, funnel, rejection reasons, unlisted firms, ATS boards |",
     "| [data/roles.json](data/roles.json) · [data/history.json](data/history.json) | Machine-readable results and first-seen history |",
