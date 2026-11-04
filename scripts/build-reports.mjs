@@ -51,7 +51,7 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
   const minPay = config.minHourlyPay ?? 30;
 
   // ---- CSV + JSON ---------------------------------------------------------------------------
-  const headers = ["Bucket", "Track", "Company", "Category", "Title", "Location", "Dates", "DateNote", "Weeks", "Pay", "Python", "Undergrad", "DegreeEvidence", "PostedAt", "FirstSeen", "New", "Applied", "URL", "Sources", "Evidence"];
+  const headers = ["Bucket", "Track", "Company", "Category", "Title", "Location", "Dates", "DateNote", "Weeks", "Pay", "Python", "Undergrad", "DegreeEvidence", "EducationNote", "PostedAt", "FirstSeen", "New", "Applied", "URL", "Sources", "Evidence"];
   await fs.writeFile(dir("reports/roles.csv"), toCsv([...fit, ...flex, ...ask], headers), "utf8");
   await fs.writeFile(dir("reports/excluded_by_dates.csv"), toCsv(sortRoles(dateExcluded), ["Track", "Company", "Title", "Location", "Dates", "DateNote", "Pay", "URL", "Evidence"]), "utf8");
   await fs.writeFile(dir("data/roles.json"), JSON.stringify({ scannedAt: log.scannedAt, window: w, roles }, null, 1), "utf8");
@@ -81,6 +81,8 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
   // ---- Degree screen: what was dropped for needing a graduate / professional degree ---------------
   const ugCount = roles.filter((r) => r.Undergrad === "yes").length;
   const unverifiedCount = roles.filter((r) => r.Undergrad === "unverified").length;
+  const unstated = sortRoles(roles.filter((r) => !r.Undergrad));
+  const unverified = sortRoles(roles.filter((r) => r.Undergrad === "unverified"));
   const byLevel = degreeRejected.reduce((acc, d) => { acc[d.level] = (acc[d.level] || 0) + 1; return acc; }, {});
   await fs.writeFile(dir("reports/degree_screen.md"), [
     "# Degree screen",
@@ -89,9 +91,31 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
     "",
     "A role is dropped when its title names a graduate degree (\"Graduate Intern\", \"MS\", \"Master's\", \"PhD\", \"MBA\", \"JD\") with no undergrad option, or its description requires one (\"currently pursuing a Master's or PhD\", \"enrolled in an MBA program\", \"2L/3L law students\") and nothing in the posting opens it to undergrads. Research-scientist style titles (Research Scientist, Applied Scientist, Research Intern, Student Researcher) are dropped unless the posting explicitly includes undergraduates. \"PhD preferred\" or \"graduate students also welcome\" does not drop a role.",
     "",
+    "**Jump to:** [Dropped](#dropped) · [Kept, no degree level stated](#kept-but-the-posting-never-states-a-degree-level) · [Kept, description unreadable](#kept-description-couldnt-be-read)",
+    "",
+    "## Dropped",
+    "",
     "| Company | Role | Requires | Evidence | Link |",
     "|---|---|---|---|---|",
     ...sortRoles(degreeRejected.map((d) => ({ ...d, Company: d.company, Title: d.title, Track: "" }))).map((d) => `| ${esc(d.company)} | ${esc(d.title)} | ${esc(d.level === "title" ? "per title" : d.level)} | ${esc(d.evidence).slice(0, 180)} | [link](${d.url}) |`),
+    "",
+    "## Kept, but the posting never states a degree level",
+    "",
+    `${unstated.length} roles.`,
+    "",
+    "These stay in the lists because nothing in the posting limits them to graduate students. The column shows the posting's own sentence about education, if it has one; skim it before applying.",
+    "",
+    "| Company | Role | What the posting says about education | Link |",
+    "|---|---|---|---|",
+    ...unstated.map((r) => `| ${esc(r.Company)} | ${esc(r.Title)} | ${esc(r.EducationNote || "— (no education sentence)").slice(0, 200)} | [link](${r.URL}) |`),
+    "",
+    "## Kept, description couldn't be read",
+    "",
+    `${unverified.length} roles (shown as UG ? in the lists). The scanner couldn't load these postings' full text, so their degree requirement is unchecked. Open the link before applying.`,
+    "",
+    "| Company | Role | Link |",
+    "|---|---|---|",
+    ...unverified.map((r) => `| ${esc(r.Company)} | ${esc(r.Title)} | [link](${r.URL}) |`),
     "",
   ].join("\n"), "utf8");
 
