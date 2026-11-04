@@ -1,5 +1,5 @@
 [0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr
-[1s] aggregators: speedyapply_swe=826, speedyapply_ai=779, vanshb03=2110, simplify=5138
+[0s] aggregators: speedyapply_ai=779, speedyapply_swe=826, vanshb03=2112, simplify=5138
 [1s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)
 ATS firms 50/743
 ATS firms 100/743
@@ -15,9 +15,9 @@ ATS firms 550/743
 ATS firms 600/743
 ATS firms 650/743
 ATS firms 700/743
-[181s] ATS: 419 firms with live boards, 721 postings
-[181s] pre-screen: 3189 candidate postings
-[181s] detail fetch: 2716 unique postings
+[184s] ATS: 419 firms with live boards, 720 postings
+[184s] pre-screen: 3189 candidate postings
+[184s] detail fetch: 2716 unique postings
 details 50/2716
 details 100/2716
 details 150/2716
@@ -72,6 +72,6 @@ details 2550/2716
 details 2600/2716
 details 2650/2716
 details 2700/2716
-[332s] detail results: html=633, greenhouse=373, workday=1090, lever=60, oracle=108, jsonld=273, error=30, ashby=80, embedded=15, smartrecruiters=38, closed=16
-[334s] classified: 1465 kept, 477 excluded by dates, 16 closed
-[334s] done: 0 fit, 13 flexible, 1019 ask-about-dates
+[337s] detail results: html=576, greenhouse=422, workday=1098, lever=58, oracle=108, eightfold=76, error=22, ashby=80, embedded=14, smartrecruiters=38, jsonld=219, closed=5
+[339s] classified: 1457 kept, 489 excluded by dates, 5 closed
+[339s] done: 0 fit, 13 flexible, 1009 ask-about-dates

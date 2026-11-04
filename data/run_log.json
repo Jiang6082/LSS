@@ -1,32 +1,32 @@
 {
-  "scannedAt": "2026-11-04T22:05:10.267Z",
+  "scannedAt": "2026-11-04T22:16:12.645Z",
   "steps": [
     "[0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr",
-    "[1s] aggregators: speedyapply_swe=826, speedyapply_ai=779, vanshb03=2110, simplify=5138",
+    "[0s] aggregators: speedyapply_ai=779, speedyapply_swe=826, vanshb03=2112, simplify=5138",
     "[1s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)",
-    "[181s] ATS: 419 firms with live boards, 721 postings",
-    "[181s] pre-screen: 3189 candidate postings",
-    "[181s] detail fetch: 2716 unique postings",
-    "[332s] detail results: html=633, greenhouse=373, workday=1090, lever=60, oracle=108, jsonld=273, error=30, ashby=80, embedded=15, smartrecruiters=38, closed=16",
-    "[334s] classified: 1465 kept, 477 excluded by dates, 16 closed",
-    "[334s] done: 0 fit, 13 flexible, 1019 ask-about-dates"
+    "[184s] ATS: 419 firms with live boards, 720 postings",
+    "[184s] pre-screen: 3189 candidate postings",
+    "[184s] detail fetch: 2716 unique postings",
+    "[337s] detail results: html=576, greenhouse=422, workday=1098, lever=58, oracle=108, eightfold=76, error=22, ashby=80, embedded=14, smartrecruiters=38, jsonld=219, closed=5",
+    "[339s] classified: 1457 kept, 489 excluded by dates, 5 closed",
+    "[339s] done: 0 fit, 13 flexible, 1009 ask-about-dates"
   ],
   "errors": [],
   "sources": {
-    "speedyapply_swe": {
-      "ok": true,
-      "rows": 826,
-      "bytes": 272871
-    },
     "speedyapply_ai": {
       "ok": true,
       "rows": 779,
       "bytes": 258175
     },
+    "speedyapply_swe": {
+      "ok": true,
+      "rows": 826,
+      "bytes": 272871
+    },
     "vanshb03": {
       "ok": true,
-      "rows": 2110,
-      "bytes": 1495372
+      "rows": 2112,
+      "bytes": 1496416
     },
     "simplify": {
       "ok": true,
@@ -37,7 +37,7 @@
   "ptsSeeds": "loaded 233 firms",
   "boards": {
     "firmsWithLiveBoards": 419,
-    "postings": 721,
+    "postings": 720,
     "failedSeeds": [
       "Anysphere ashby:anysphere",
       "Tempus greenhouse:tempus",
@@ -48,42 +48,43 @@
     ]
   },
   "detailStats": {
-    "html": 633,
-    "greenhouse": 373,
-    "workday": 1090,
-    "lever": 60,
+    "html": 576,
+    "greenhouse": 422,
+    "workday": 1098,
+    "lever": 58,
     "oracle": 108,
-    "jsonld": 273,
-    "error": 30,
+    "eightfold": 76,
+    "error": 22,
     "ashby": 80,
-    "embedded": 15,
+    "embedded": 14,
     "smartrecruiters": 38,
-    "closed": 16
+    "jsonld": 219,
+    "closed": 5
   },
   "funnel": {
-    "aggregatorRows": 8853,
-    "boardRows": 721,
+    "aggregatorRows": 8855,
+    "boardRows": 720,
     "prefiltered": 3189,
     "uniqueUrls": 2716,
     "enriched": 2716,
-    "closed": 16,
-    "kept": 1465,
-    "roles": 1032,
-    "dateExcluded": 477
+    "closed": 5,
+    "kept": 1457,
+    "roles": 1022,
+    "dateExcluded": 489
   },
   "rejected": {
-    "not on known-firm list": 1872,
+    "not on known-firm list": 1873,
     "hardware": 845,
     "outside US": 771,
     "term: term year ####": 746,
     "outside SWE/PM/data/finance": 726,
-    "dates: posted dates conflict": 406,
+    "dates: posted dates conflict": 418,
     "PhD / MBA / law / medical": 360,
-    "pay below $30/hr": 325,
+    "pay below $30/hr": 330,
     "term: winter term": 273,
     "term: spring term": 245,
-    "requires PhD (description)": 210,
-    "requires Master's/PhD (description)": 166,
+    "requires PhD (description)": 215,
+    "requires Master's/PhD (description)": 170,
     "non-Python stack in title": 147,
     "not an internship": 118,
     "no matching track": 76,
@@ -92,23 +93,23 @@
     "term: winter/spring term": 39,
     "master's only": 37,
     "senior / manager title": 31,
-    "outside US (detail)": 25,
     "dates: co-op with no dates (usually 4-6 months)": 24,
-    "research role, undergrad eligibility not stated": 17,
-    "closed (verified)": 16,
+    "outside US (detail)": 24,
     "requires MBA (description)": 11,
     "new grad / full-time": 10,
+    "research role, undergrad eligibility not stated": 9,
     "outside US (title)": 6,
     "dates: 26-week assignment": 6,
     "term: 35-week assignment": 5,
+    "closed (verified)": 5,
     "term: posted dates Jan - Aug": 4,
+    "requires JD / law school (description)": 4,
     "term: 26-week assignment": 3,
-    "requires JD / law school (description)": 3,
+    "unpaid": 2,
     "term: spring/winter term": 1,
     "term: posted dates Jun - Aug": 1,
     "term: posted dates starts Jun": 1,
-    "unpaid": 1,
     "dates: 22-week assignment": 1
   },
-  "durationSec": 334
+  "durationSec": 339
 }
