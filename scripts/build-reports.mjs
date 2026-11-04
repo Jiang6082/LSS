@@ -25,7 +25,7 @@ function table(rows, { showTrack = false, note = true } = {}) {
   for (const r of rows) {
     const dateCell = esc([r.Dates, note && r.Bucket !== "fit" ? r.DateNote : ""].filter(Boolean).join(" — "));
     const tags = [r.New ? "🆕" : "", r.Applied ? `✅ ${esc(r.Applied)}` : ""].filter(Boolean).join(" ");
-    lines.push(`| **${esc(r.Company)}** | ${esc(r.Title)}${tags ? ` ${tags}` : ""} | ${showTrack ? `${r.Track} | ` : ""}${shortLoc(r.Location)} | ${dateCell} | ${esc(r.Pay)} | ${py(r.Python)} | ${r.Undergrad === "yes" ? "✓" : ""} | ${day(r.PostedAt)} | [Apply](${r.URL}) |`);
+    lines.push(`| **${esc(r.Company)}** | ${esc(r.Title)}${tags ? ` ${tags}` : ""} | ${showTrack ? `${r.Track} | ` : ""}${shortLoc(r.Location)} | ${dateCell} | ${esc(r.Pay)} | ${py(r.Python)} | ${r.Undergrad === "yes" ? "✓" : r.Undergrad === "unverified" ? "?" : ""} | ${day(r.PostedAt)} | [Apply](${r.URL}) |`);
   }
   return `${lines.join("\n")}\n`;
 }
@@ -80,13 +80,14 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
 
   // ---- Degree screen: what was dropped for needing a graduate / professional degree ---------------
   const ugCount = roles.filter((r) => r.Undergrad === "yes").length;
+  const unverifiedCount = roles.filter((r) => r.Undergrad === "unverified").length;
   const byLevel = degreeRejected.reduce((acc, d) => { acc[d.level] = (acc[d.level] || 0) + 1; return acc; }, {});
   await fs.writeFile(dir("reports/degree_screen.md"), [
     "# Degree screen",
     "",
-    `Scan: ${date} · ${degreeRejected.length} postings at known firms dropped because they require a graduate or professional degree${degreeRejected.length ? ` (${Object.entries(byLevel).map(([k, v]) => `${k === "title" ? "title says so" : k}: ${v}`).join(", ")})` : ""}. Of the ${roles.length} roles kept, ${ugCount} explicitly include undergraduates (UG ✓); the rest don't state a degree level.`,
+    `Scan: ${date} · ${degreeRejected.length} postings at known firms dropped because they require a graduate or professional degree${degreeRejected.length ? ` (${Object.entries(byLevel).map(([k, v]) => `${k === "title" ? "title says so" : k}: ${v}`).join(", ")})` : ""}. Of the ${roles.length} roles kept, ${ugCount} explicitly include undergraduates (UG ✓), ${roles.length - ugCount - unverifiedCount} were read and don't state a degree level, and ${unverifiedCount} couldn't be checked because the full description wasn't readable (UG ?).`,
     "",
-    "A role is dropped when its title names a graduate degree (\"Graduate Intern\", \"MS\", \"Master's\", \"PhD\", \"MBA\", \"JD\") with no undergrad option, or its description requires one (\"currently pursuing a Master's or PhD\", \"enrolled in an MBA program\", \"2L/3L law students\") and nothing in the posting opens it to undergrads. \"PhD preferred\" or \"graduate students also welcome\" does not drop a role.",
+    "A role is dropped when its title names a graduate degree (\"Graduate Intern\", \"MS\", \"Master's\", \"PhD\", \"MBA\", \"JD\") with no undergrad option, or its description requires one (\"currently pursuing a Master's or PhD\", \"enrolled in an MBA program\", \"2L/3L law students\") and nothing in the posting opens it to undergrads. Research-scientist style titles (Research Scientist, Applied Scientist, Research Intern, Student Researcher) are dropped unless the posting explicitly includes undergraduates. \"PhD preferred\" or \"graduate students also welcome\" does not drop a role.",
     "",
     "| Company | Role | Requires | Evidence | Link |",
     "|---|---|---|---|---|",
@@ -178,7 +179,7 @@ export async function writeReports({ out = ".", config, log, roles, dateExcluded
     "| 🟡 **Flexible / near miss** | Flexible, rolling or multiple start dates; off-cycle; Summer/Fall; a start inside the window with no end date; or a few days outside it | Apply, then confirm dates with the recruiter |",
     "| ⚪ **Dates not stated** | Summer 2027 role whose posting gives no dates | Ask whether a late-July start is possible before investing in the application |",
     "",
-    "Py: ✓ = posting mentions Python · ✗ = mentions only other languages · blank = none listed. UG: ✓ = posting explicitly includes undergraduates · blank = degree level not stated. Roles requiring a Master's, PhD, MBA or JD are removed ([what was removed](reports/degree_screen.md)).",
+    "Py: ✓ = posting mentions Python · ✗ = mentions only other languages · blank = none listed. UG: ✓ = posting explicitly includes undergraduates · blank = description read, no degree level stated · ? = description couldn't be read, check the posting. Roles requiring a Master's, PhD, MBA or JD are removed ([what was removed](reports/degree_screen.md)).",
     "",
     "---",
     "",
