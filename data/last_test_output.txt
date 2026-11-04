@@ -2,4 +2,4 @@
 > lss@0.1.0 test
 > node tools/selftest.mjs
 
-selftest: all 134 checks passed
+selftest: all 170 checks passed

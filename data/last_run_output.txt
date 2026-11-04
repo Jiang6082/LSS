@@ -1,5 +1,5 @@
 [0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr
-[0s] aggregators: speedyapply_ai=780, speedyapply_swe=830, vanshb03=2010, simplify=5153
+[0s] aggregators: speedyapply_ai=770, speedyapply_swe=820, vanshb03=2114, simplify=5166
 [1s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)
 ATS firms 50/743
 ATS firms 100/743
@@ -15,64 +15,63 @@ ATS firms 550/743
 ATS firms 600/743
 ATS firms 650/743
 ATS firms 700/743
-[173s] ATS: 419 firms with live boards, 736 postings
-[173s] pre-screen: 3235 candidate postings
-[173s] detail fetch: 2760 unique postings
-details 50/2760
-details 100/2760
-details 150/2760
-details 200/2760
-details 250/2760
-details 300/2760
-details 350/2760
-details 400/2760
-details 450/2760
-details 500/2760
-details 550/2760
-details 600/2760
-details 650/2760
-details 700/2760
-details 750/2760
-details 800/2760
-details 850/2760
-details 900/2760
-details 950/2760
-details 1000/2760
-details 1050/2760
-details 1100/2760
-details 1150/2760
-details 1200/2760
-details 1250/2760
-details 1300/2760
-details 1350/2760
-details 1400/2760
-details 1450/2760
-details 1500/2760
-details 1550/2760
-details 1600/2760
-details 1650/2760
-details 1700/2760
-details 1750/2760
-details 1800/2760
-details 1850/2760
-details 1900/2760
-details 1950/2760
-details 2000/2760
-details 2050/2760
-details 2100/2760
-details 2150/2760
-details 2200/2760
-details 2250/2760
-details 2300/2760
-details 2350/2760
-details 2400/2760
-details 2450/2760
-details 2500/2760
-details 2550/2760
-details 2600/2760
-details 2650/2760
-details 2700/2760
-details 2750/2760
-[318s] detail results: html=671, greenhouse=377, workday=1072, lever=58, oracle=104, jsonld=276, error=55, ashby=81, smartrecruiters=40, closed=26
-[320s] classified: 1612 kept, 531 excluded by dates, 26 closed
-[320s] done: 0 fit, 17 flexible, 1133 ask-about-dates
+[231s] ATS: 418 firms with live boards, 723 postings
+[231s] pre-screen: 3199 candidate postings
+[231s] detail fetch: 2736 unique postings
+details 50/2736
+details 100/2736
+details 150/2736
+details 200/2736
+details 250/2736
+details 300/2736
+details 350/2736
+details 400/2736
+details 450/2736
+details 500/2736
+details 550/2736
+details 600/2736
+details 650/2736
+details 700/2736
+details 750/2736
+details 800/2736
+details 850/2736
+details 900/2736
+details 950/2736
+details 1000/2736
+details 1050/2736
+details 1100/2736
+details 1150/2736
+details 1200/2736
+details 1250/2736
+details 1300/2736
+details 1350/2736
+details 1400/2736
+details 1450/2736
+details 1500/2736
+details 1550/2736
+details 1600/2736
+details 1650/2736
+details 1700/2736
+details 1750/2736
+details 1800/2736
+details 1850/2736
+details 1900/2736
+details 1950/2736
+details 2000/2736
+details 2050/2736
+details 2100/2736
+details 2150/2736
+details 2200/2736
+details 2250/2736
+details 2300/2736
+details 2350/2736
+details 2400/2736
+details 2450/2736
+details 2500/2736
+details 2550/2736
+details 2600/2736
+details 2650/2736
+details 2700/2736
+[393s] detail results: html=651, greenhouse=376, workday=1100, lever=58, oracle=108, jsonld=270, error=33, ashby=80, smartrecruiters=39, closed=21
+[395s] classified: 1473 kept, 468 excluded by dates, 21 closed
+[395s] done: 0 fit, 17 flexible, 1028 ask-about-dates
