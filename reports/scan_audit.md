@@ -1,76 +1,76 @@
 # Scan audit
 
-Scan: 2026-11-05T19:57:13.729Z · 320s
+Scan: 2026-11-06T19:24:42.261Z · 361s
 
 ## Sources
 
 | Source | Status | Rows |
 |---|---|---|
-| speedyapply_ai | ok | 788 |
-| speedyapply_swe | ok | 831 |
-| vanshb03 | ok | 2167 |
-| simplify | ok | 5365 |
-| Official ATS boards | 418 firms live | 723 |
+| speedyapply_ai | ok | 778 |
+| vanshb03 | ok | 2189 |
+| speedyapply_swe | ok | 830 |
+| simplify | ok | 5343 |
+| Official ATS boards | 418 firms live | 689 |
 
 PTS seed sharing: loaded 233 firms
 
 ## Funnel
 
-- aggregatorRows: 9151
-- boardRows: 723
-- prefiltered: 3271
-- uniqueUrls: 2799
-- enriched: 2799
-- closed: 6
-- kept: 1482
-- roles: 1028
+- aggregatorRows: 9140
+- boardRows: 689
+- prefiltered: 3205
+- uniqueUrls: 2751
+- enriched: 2751
+- closed: 5
+- kept: 1441
+- roles: 1015
 - dateExcluded: 505
 
 ## Detail fetch results
 
-- html: 581
-- greenhouse: 420
-- jsonld: 289
-- workday: 1103
-- lever: 62
-- oracle: 109
+- html: 589
+- greenhouse: 419
+- jsonld: 299
+- workday: 1041
+- lever: 74
+- oracle: 103
 - eightfold: 83
-- error: 26
-- ashby: 82
+- error: 23
+- ashby: 77
 - smartrecruiters: 38
-- closed: 6
+- closed: 5
 
 ## Rejections by reason
 
-- not on known-firm list: 1973
-- hardware: 878
-- outside US: 783
-- term: term year ####: 777
-- outside SWE/PM/data/finance: 738
-- dates: posted dates conflict: 423
-- PhD / MBA / law / medical: 372
-- pay below $30/hr: 340
-- term: winter term: 277
-- term: spring term: 244
+- not on known-firm list: 1988
+- hardware: 885
+- outside US: 784
+- term: term year ####: 768
+- outside SWE/PM/data/finance: 748
+- dates: posted dates conflict: 426
+- PhD / MBA / law / medical: 370
+- pay below $30/hr: 336
+- term: winter term: 270
+- term: spring term: 252
 - requires PhD (description): 226
-- requires Master's/PhD (description): 190
-- non-Python stack in title: 154
-- not an internship: 120
-- no matching track: 80
-- graduate/professional degree (title): 68
-- dates: fall-only term (usually runs past Oct 1): 40
-- term: winter/spring term: 39
-- master's only: 37
+- requires Master's/PhD (description): 189
+- non-Python stack in title: 156
+- not an internship: 122
+- no matching track: 81
+- graduate/professional degree (title): 61
+- dates: fall-only term (usually runs past Oct 1): 41
+- master's only: 38
+- term: winter/spring term: 38
 - senior / manager title: 33
-- dates: co-op with no dates (usually 4-6 months): 30
+- dates: co-op with no dates (usually 4-6 months): 26
 - outside US (detail): 26
 - requires MBA (description): 11
 - dates: 26-week assignment: 10
-- research role, undergrad eligibility not stated: 10
 - new grad / full-time: 9
+- research role, undergrad eligibility not stated: 9
 - outside US (title): 6
-- closed (verified): 6
 - term: 35-week assignment: 5
+- closed (verified): 5
 - term: posted dates Jan - Aug: 4
 - term: 26-week assignment: 3
 - unpaid: 2
@@ -87,37 +87,38 @@ Add any you recognise to `inputs/known_firms.json`.
 | Company | Roles | Example |
 |---|---|---|
 | Nissan Global | 27 | [Systems Engineer Intern - Summer 2027](https://alliance.wd3.myworkdayjobs.com/en-US/nissanjobs/job/Canton-Mississippi---United-States-of-America/Systems-Engineer-Intern---Summer-2027---Canton--MS_R00214882) |
+| JM Family | 21 | [Automation & Analytics Intern](https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Automation---Analytics-Intern_JR105132) |
 | Auto-Owners Insurance | 20 | [Predictive Modeler Intern - Summer 2027](https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Predictive-Modeler-Intern---Summer-2022_R_3833) |
 | Q2 | 19 | [Data Science Intern](https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-Texas/XMLNAME-2027-Summer-Internship---Data-Science_REQ-12796) |
 | Aptiv | 19 | [Embedded Software Engineer Intern](https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/USA-Walnut-Creek-CA---WR/Embedded-Software---Engineering-Intern_J000704386) |
-| JM Family | 18 | [Automation & Analytics Intern](https://jmfamily.wd1.myworkdayjobs.com/jmfamily_external/job/Florida---Deerfield-Beach/Automation---Analytics-Intern_JR105132) |
 | AeroVironment | 17 | [Embedded Software Engineer Intern](https://avav.wd1.myworkdayjobs.com/en-US/avav/job/Simi-Valley-CA/Summer-2027-Embedded-Software-Engineering-Intern_8388) |
+| Shure | 17 | [Artificial Intelligence Engineer Intern](https://careersus-shure.icims.com/jobs/4966/job?mobile=true&needsRedirect=false) |
 | National Information Solutions Cooperative | 17 | [Software Development Intern](https://job-boards.greenhouse.io/testnisc/jobs/8174090) |
-| Peraton | 17 | [Software Engineer Intern](https://careers-peraton.icims.com/jobs/169665/job?mobile=true&needsRedirect=false) |
-| ICF International | 16 | [Software Developer Intern](https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002) |
 | Bedrock Robotics | 16 | [Onboard Infrastructure Engineer Intern - ML Inference](https://jobs.ashbyhq.com/bedrock-robotics/0331551e-c18e-428a-8e91-e6cb25c9c2e8/application?embed=true) |
-| Shure | 15 | [Artificial Intelligence Engineer Intern](https://careersus-shure.icims.com/jobs/4966/job?mobile=true&needsRedirect=false) |
 | Ryan | 15 | [Application Development Intern](https://ryan.wd1.myworkdayjobs.com/Students-Graduates/job/Plano/Summer-2027-Intern--Application-Development_R0020820) |
 | Vertiv | 14 | [Software Engineer Intern](https://egup.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/20278777) |
-| Highmark Health | 14 | [Reimbursement Analyst Intern](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Reimbursement-Analyst-Undergraduate-Intern_J287154) |
+| Peraton | 14 | [Software Engineer Intern](https://careers-peraton.icims.com/jobs/169665/job?mobile=true&needsRedirect=false) |
 | Great American Insurance Company | 14 | [Cloud Data Platform Intern](https://gaig.wd1.myworkdayjobs.com/GAIG_External/job/Cincinnati-OH-USA/Cloud-Data-Platform-Intern---Summer-2027_R9795) |
-| Sierra Nevada Corporation | 13 | [Software Engineer Intern](https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1) |
 | Wellmark | 13 | [Software Engineer Intern](https://jobs.smartrecruiters.com/WellmarkInc/744000148915793) |
+| Highmark Health | 13 | [Reimbursement Analyst Intern](https://highmarkhealth.wd1.myworkdayjobs.com/highmark/job/PA-Working-at-Home---Pennsylvania/Summer-2027-Reimbursement-Analyst-Undergraduate-Intern_J287154) |
+| Sierra Nevada Corporation | 12 | [Software Engineer Intern](https://snc.wd1.myworkdayjobs.com/snc_external_career_site/job/Folsom-CA/Software-Engineering-Intern--Summer-2027-_R0030761-1) |
+| Constellation Brands | 12 | [Finance Analytics Intern](https://cbrands.wd5.myworkdayjobs.com/en-US/CBI_External_Careers/job/Rochester-New-York/Intern--Finance-Analytics_R-41494) |
 | Oshkosh | 11 | [Software Engineer Intern - Software - Summer 2027](https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Greenville-Wisconsin-United-States/Engineer-Intern---Software--Summer-2027-_R49745) |
+| ICF International | 11 | [Software Developer Intern](https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Reston-VA/XMLNAME-2027-Summer-Intern--Software-Developer--Reston--VA-_R2603002) |
 | The Toro Company | 11 | [Hardware and Software Engineering Intern](https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers/job/Perry-OK/Hardware-and-Software-Engineering-Intern---Ditch-Witch_JR17183) |
 | Smith+Nephew | 11 | [Data Science Intern - AI Center of Excellence](https://smithnephew.wd5.myworkdayjobs.com/External/job/US---Pittsburgh-PA/Intern-AI-Center-of-Excellence-Data-Science_R92480-1) |
 | The Aerospace Corporation | 11 | [Software Engineering Intern - Software Tools and Assurance](https://aero.wd5.myworkdayjobs.com/external/job/El-Segundo-CA/XMLNAME-2027-Software-Tools-and-Assurance-Engineering-Grad-Intern_R016753) |
 | Itron | 11 | [Data Science Intern - Distributed Intelligence](https://itron.wd5.myworkdayjobs.com/Itron/job/United-States-of-America-Washington-Liberty-Lake/Intern---Data-Science--Distributed-Intelligence_JR102942) |
 | SageSure | 11 | [Software Product Management Intern](https://www.sagesure.com/careers/current-job-openings/?gh_jid=4719520006) |
 | GlobalFoundries | 11 | [Software Engineer Intern](https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Software-Engineering-Intern--Summer-2027-_JR-2604039) |
-| Constellation Brands | 11 | [Finance Analytics Intern](https://cbrands.wd5.myworkdayjobs.com/en-US/CBI_External_Careers/job/Rochester-New-York/Intern--Finance-Analytics_R-41494) |
 | Allegion | 11 | [Software Systems Engineering Intern](https://allegion.wd5.myworkdayjobs.com/careers/job/Golden-CO/Summer-Intern---Software-Systems-Engineering_JR37395-1) |
+| JM Family Enterprises | 11 | [Data Engineer Intern](https://go.vansh.nyc/VR) |
 | Amplify | 10 | [Product Management Intern](https://jobs.ashbyhq.com/amplify/c95f690f-28af-42b1-8847-5dcf14c1155e/application?embed=true) |
 | DriveWealth | 10 | [AI Consulting Associate Program Product Owner Intern](https://boards.greenhouse.io/drivewealth/jobs/8038087003) |
+| CareSource | 10 | [Military and Veterans Intern](https://caresource.wd1.myworkdayjobs.com/caresource/job/Florida-WFH/XMLNAME-2027-Summer-Internship-Program---CareSource-Military-and-Veterans-Intern_R14186-1) |
 | Tencent | 10 | [Multimodal Algorithm Researcher Intern - Omni-Modal](https://tencent.wd1.myworkdayjobs.com/Tencent_Careers/job/US-California-Palo-Alto/Hunyuan-Multimodal-Algorithm-Researcher-Intern-Omni-Modal---_R107051) |
-| JM Family Enterprises | 10 | [Data Engineer Intern](https://go.vansh.nyc/VR) |
+| National Interstate Insurance | 10 | [Data Engineering Intern](https://go.vansh.nyc/Wd) |
 | Inversion Space | 9 | [Avionics Embedded Software Engineer Intern](https://job-boards.greenhouse.io/inversionspace/jobs/4744391005) |
-| National Interstate Insurance | 9 | [Data Engineering Intern](https://go.vansh.nyc/Wd) |
 | GDIT | 9 | [GDIT Summer Internship Program-Summer 2027 Software Development Internship -Egg Harbor Township New Jersey](https://gdit.wd5.myworkdayjobs.com/en-US/gdit_earlytalent/job/USA-NJ-Egg-Harbor-Township/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship--_RQ230643) |
 | Pennsylvania State University | 8 | [CSE Researcher-Narayanan Intern - V](https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/CSE-Part-Time-Researcher-Narayanan--V_REQ_0000078135-1) |
 | Teledyne | 8 | [Software Engineer Intern - NHRC](https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Huntsville-AL/NHRC-Software-Engineering-Internship--Summer-2027-_REQ36193) |
@@ -141,31 +142,35 @@ Add any you recognise to `inputs/known_firms.json`.
 | Lila Sciences | 7 | [Reaction Prediction & Benchmarking Co-op](https://job-boards.greenhouse.io/lilasciences/jobs/4465064009) |
 | Brain Co. | 7 | [Machine Learning Engineer – Applied AI Intern](https://jobs.ashbyhq.com/brainco/a4bdb254-8007-4142-bf36-a3e8622b1ed9/application?embed=true) |
 | SWBC | 7 | [Integration Analyst Intern](https://go.vansh.nyc/Wp) |
-| Lutron | 7 | [Summer 2027 - Software Engineering Intern - Austin - TX](https://studentopportunities-lutron.icims.com/jobs/5388/summer-2027---software-engineering-intern---austin%2c-tx/job) |
 | IAT Insurance Group | 6 | [Data & Integration Intern](https://iatinsurancegroup.wd1.myworkdayjobs.com/iat/job/Milwaukee-WI/Data---Integration-Internship_JR100404) |
-| Pilot Company | 6 | [Data Governance Intern](https://jobs.smartrecruiters.com/PilotCompany/744000148572871) |
 | Impulse Space | 6 | [Flight Software Engineer Intern - Summer 2027](https://impulsespace.pinpointhq.com/en/postings/d4fdab1d-254b-44a4-96bf-875ebd5b8cd7?ats=pinpointhq) |
 | AspenTech | 6 | [Data Science Intern](https://aspentech.wd5.myworkdayjobs.com/aspentech/job/Bedford-Massachusetts/Data-Science-Intern---Summer-2027---Bedford--MA_R9459) |
-| OCC | 6 | [Quantitative Risk Management Intern](https://theocc.wd5.myworkdayjobs.com/careers/job/Chicago---125-S-Franklin/Summer-Intern---Quantitative-Risk-Management_REQ-4864) |
 | Radiance Technologies | 6 | [Modeling Engineer Intern - Analytics, Simulation Sciences, Mass](https://radiancetech.wd12.myworkdayjobs.com/Radiance_External/job/Beavercreek-OH/XMLNAME-2027-Modeling--Analytics----Simulation-Sciences--MASS--Engineer-Intern_HR102440-1) |
 | Muon Space | 6 | [Flight Software Engineer Intern](https://job-boards.greenhouse.io/muonspace/jobs/5247725007) |
+| American Family Insurance Group | 6 | [GenAI Intern](https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/AMFAM---2027-Summer-GenAI-Intern_R39561) |
 | Assurant | 6 | [Software Engineer Intern](https://assurant.wd1.myworkdayjobs.com/en-US/Assurant_Careers/job/Atlanta-GA/Summer-2027-Intern--Software-Engineering-Intern_R-115727-1) |
 | Axiom Space | 6 | [Software Engineer Intern](https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site/job/Houston/Software-Engineering-Intern--Summer-2027-_JR100767) |
 | Healthpeak Properties | 6 | [Forward Deployed Software Engineer Intern](https://healthpeak.applytojob.com/apply/ss4v1Qi95q/Forward-Deployed-Software-Engineer-Internship) |
 | Insperity | 6 | [Rotational Data Analytics Intern](https://insperity.wd12.myworkdayjobs.com/NSP/job/Kingwood-TX/Rotational-Data-Analytics-Intern_JR103458) |
 | Hive Financial Systems | 6 | [Product & Program Management Intern](https://job-boards.greenhouse.io/hivefinancialsystems/jobs/5274970007) |
+| Two Six Technologies | 6 | [Systems Software Engineer Intern](https://job-boards.greenhouse.io/twosixtechnologies/jobs/6236518004) |
+| Molina Healthcare | 6 | [Quality Improvement Intern](https://hckd.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2040141) |
 | CNA Insurance | 6 | [Software Engineering Intern, Technology](https://go.vansh.nyc/1c9) |
+| Lutron | 6 | [Summer 2027 - Software Engineering Intern - Austin - TX](https://studentopportunities-lutron.icims.com/jobs/5388/summer-2027---software-engineering-intern---austin%2c-tx/job) |
 | The Nuclear Company | 5 | [AI/ML Engineer Intern](https://job-boards.greenhouse.io/thenuclearcompany/jobs/5383231008) |
 | General Matter | 5 | [Software Engineering Intern](https://job-boards.greenhouse.io/generalmatter/jobs/5377118008) |
 | Edison International | 5 | [Data Analytics Intern - Data Science - Applied Math](https://apply.edisoncareers.com/job/Rosemead-2027-Summer-Internship-Data-AnalyticsScienceApplied-Math-(PomonaRosemead)-CA-91770/1425207700/?ats=successfactors) |
 | Vermeer | 5 | [Embedded Software Engineer Intern](https://vermeer.wd5.myworkdayjobs.com/externalcareersite/job/Pella-Iowa-USA---Corporate-Office/Embedded-Software-Engineer-Internship-Summer-2027_REQ-22165) |
 | Ingredion | 5 | [Digital Innovation Intern](https://ingredion.wd1.myworkdayjobs.com/IngredionCareers/job/Bridgewater-NJ/Digital-Innovation-Intern_Req-40180-1) |
+| Apex | 5 | [Software Engineer Intern - Embedded Systems](https://jobs.ashbyhq.com/apex-technology-inc/4203604c-2330-4c89-8432-37af718a6bda/application?embed=true) |
 | ID.me | 5 | [Software Development Engineer Intern](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7980429003) |
+| Pilot Company | 5 | [Data Governance Intern](https://jobs.smartrecruiters.com/PilotCompany/744000148572871) |
 | Saronic | 5 | [Forward Deployed Engineer Intern - Summer 2027](https://jobs.ashbyhq.com/saronic/cffe4bc2-5f34-45bf-904d-e9a6c8a8e5ce/application?embed=true) |
 | Enterprise Holdings | 5 | [Software Engineer Intern - Summer 2027](https://us-erac.icims.com/jobs/566721/job?mobile=true&needsRedirect=false) |
+| V2X | 5 | [Artificial Intelligence Intern](https://careers.gov2x.com/jobs/62843?icims=1) |
+| OCC | 5 | [Quantitative Risk Management Intern](https://theocc.wd5.myworkdayjobs.com/careers/job/Chicago---125-S-Franklin/Summer-Intern---Quantitative-Risk-Management_REQ-4864) |
 | Symbotic | 5 | [Bot Controls Intern](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Wilmington--MA---HQ/Bot-Controls_R7965) |
 | Acuity | 5 | [Finance AI Engineering Intern](https://careers.acuityinc.com/job/Atlanta-Finance-AI-Engineering-Intern-Onsite-GA-30309/1434878900/?ats=successfactors) |
-| American Family Insurance Group | 5 | [GenAI Intern](https://amfam.wd1.myworkdayjobs.com/AmFamGroupInternCareers/job/WI-Madison/AMFAM---2027-Summer-GenAI-Intern_R39561) |
 | Midland States Bank | 5 | [AI Solutions Engineer Intern](https://midlandsb.wd1.myworkdayjobs.com/msbcareers/job/Effingham-IL/Intern---AI-Solutions-Engineer_JR1461) |
 | IDEMIA | 5 | [Software Engineer Intern](https://uscareers-idemia.icims.com/jobs/8650/job?mobile=true&needsRedirect=false) |
 | Federal Home Loan Bank of Indianapolis | 5 | [Model Risk Intern](https://fhlbi.wd1.myworkdayjobs.com/FHLBI_Careers/job/Indianapolis/Long-Term-Model-Risk-Intern_R623) |
@@ -176,12 +181,12 @@ Add any you recognise to `inputs/known_firms.json`.
 | TruStage | 5 | [Information Technology Development and Infrastructure Intern](https://trustage.wd1.myworkdayjobs.com/TruStage/job/Wisconsin---Remote/Enterprise-Information---Technology-Internship--Hybrid-_R-012155) |
 | Trace3 | 5 | [Data and Analytics Engineer Intern](https://job-boards.greenhouse.io/trace3/jobs/8274818) |
 | Atoms | 5 | [Machine Learning/Artificial Intelligence Research Intern](https://job-boards.greenhouse.io/cssmerge/jobs/8909115002) |
-| Two Six Technologies | 5 | [Systems Software Engineer Intern](https://job-boards.greenhouse.io/twosixtechnologies/jobs/6236518004) |
-| CareSource | 5 | [Military and Veterans Intern](https://caresource.wd1.myworkdayjobs.com/caresource/job/Florida-WFH/XMLNAME-2027-Summer-Internship-Program---CareSource-Military-and-Veterans-Intern_R14186-1) |
 | ParetoHealth | 5 | [Software Engineer Intern](https://job-boards.greenhouse.io/paretocaptiveservicesllc/jobs/4726117006) |
+| SAS | 5 | [Data Scientist Intern](https://careers-sas.icims.com/jobs/42786/job?mobile=true&needsRedirect=false) |
 | Oceaneering | 5 | [Cybersecurity SOC Intern](https://go.vansh.nyc/GZ) |
 | Inmar Intelligence | 5 | [Information Security Intern](https://go.vansh.nyc/JO) |
 | Insulet Corporation | 5 | [DevOps Engineer Intern](https://go.vansh.nyc/JZ) |
+| BorgWarner | 5 | [Systems Test Automation Engineering Intern](https://go.vansh.nyc/Sy) |
 | Hewlett Packard (HP) | 5 | [Software Intern](https://go.vansh.nyc/SM) |
 | Carnegie Mellon University | 5 | [Full-Stack Software Development Intern](https://go.vansh.nyc/10A) |
 | Tevora | 5 | [Cybersecurity Intern, Federal](https://go.vansh.nyc/12b) |
@@ -191,7 +196,6 @@ Add any you recognise to `inputs/known_firms.json`.
 | Medpace | 4 | [Python Intern - Summer 2027](https://careers.medpace.com/jobs/12962?icims=1) |
 | Westinghouse Electric Company | 4 | [Computer Engineering / Software Engineering Intern](https://careers.westinghousenuclear.com/job/Cranberry-Township-Summer-Intern-Computer-Engineering-Software-Engineering-NC/1422595200/?ats=successfactors) |
 | Compeer Financial | 4 | [Engineering Intern](https://job-boards.greenhouse.io/compeerfinancial/jobs/5404850008) |
-| Arch Capital Group | 4 | [Data and Analytics Intern](https://archgroup.wd1.myworkdayjobs.com/careers/job/Farmington-CT-United-States-of-America/Data-and-Analytics-Intern_R26_845) |
 | K2 Space | 4 | [Software Engineer Intern - Summer 2027](https://job-boards.greenhouse.io/k2spacecorporation/jobs/5411920008) |
 | NJM Insurance Group | 4 | [Insurance Product Management Analyst Intern 3](https://njm.wd1.myworkdayjobs.com/njm/job/NJM---Trenton/Insurance-Product-Management-Analyst-Intern-3_R2008190) |
 | Hadrian | 4 | [Software Engineer Intern](https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e/application?embed=true) |
@@ -202,18 +206,13 @@ Add any you recognise to `inputs/known_firms.json`.
 | Lunar Outpost | 4 | [Ground Software Engineer Intern - Summer 2027](https://lunaroutpost.bamboohr.com/careers/398/) |
 | CesiumAstro | 4 | [Embedded Software Engineer Intern](https://jobs.lever.co/CesiumAstro/96e97f22-a5b2-4e95-af84-b4f765343663/apply) |
 | Thrivent | 4 | [Application Engineer Intern - Investments](https://thrivent.wd5.myworkdayjobs.com/external/job/Mpls-Investments-Office/IT-Application-Engineer-Intern--Investments---Summer-2027_REQ-48511-2) |
-| UL Solutions | 4 | [Product Management Intern](https://fa-eups-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ULSolutionsCareers/job/10625) |
-| Capstone Investment Advisors | 4 | [Risk Tech Intern](https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8867730002) |
-| Tenstorrent | 4 | [AI Software Intern](https://job-boards.greenhouse.io/tenstorrentuniversity/jobs/5258901007) |
-| GuidePoint Security | 4 | [AI & Data Science Intern - GPSU](https://boards.greenhouse.io/guidepointsecurity/jobs/6218650004) |
 
-## Dropped for pay below $30/hr (340)
+## Dropped for pay below $30/hr (336)
 
 The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json to keep these.
 
 | Company | Role | Pay text | ≈ $/hr |
 |---|---|---|---|
-| GE | [Aerospace Engineering Engines Co-op - Computer or Software Engineering](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Engines-Engineering-Co-op---Computer-or-Software-Engineering---US---Fall-2027_R5029637-1) | $20/hour | 20 |
 | GE | [Project Engineer Intern - Summer 2027](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050023-1) | $21.00/hr | 21 |
 | GE | [Project Engineer Intern - Summer 2027](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050023-2) | $21.00/hr | 21 |
 | Ecolab | [Digital & AI Technology Intern](https://ecolab.wd1.myworkdayjobs.com/ecolab_external/job/USA---Minnesota---Saint-Paul/Digital---AI-Technology-Intern_R00303249) | $23 - $25 / hour | 23 |
@@ -247,23 +246,19 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Booz Allen Hamilton | [Systems Engineer Intern - University](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University---2027-Summer-Games-Systems-Engineer-Intern---Charleston--SC_R0248369) | $52,900 | 25 |
 | Booz Allen Hamilton | [Systems Engineer Intern - University](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Colorado-Springs-CO/University---2027-Summer-Games-Systems-Engineer-Intern---Colorado-Springs--CO_R0248368) | $52,900 | 25 |
 | Booz Allen Hamilton | [Systems Engineer Intern](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/McLean-VA/University---2027-Summer-Games-Systems-Engineer-Intern---McLean--VA_R0248361) | $53,000 | 25 |
-| Booz Allen Hamilton | [Systems Engineer Intern - Summer Games](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/University---2027-Summer-Games--Systems-Engineer-Intern---Atlanta--GA_R0248381) | $52,900 | 25 |
 | Johns Hopkins Applied Physics Laboratory | [Engineer/Analyst/Scientist Intern - C2 Resilience Sciences](https://careers.jhuapl.edu/jobs/59832?icims=1) | $22.60 Hour | 23 |
 | Johns Hopkins Applied Physics Laboratory | [2027 Internship - Weapon Control](https://careers.jhuapl.edu/jobs/59901?icims=1) | $22.60 Hour | 23 |
 | Johns Hopkins Applied Physics Laboratory | [Software Developer Intern - Tactical System Prototyping and Deployment](https://careers.jhuapl.edu/jobs/59564?icims=1) | $22.60 Hour | 23 |
 | Johns Hopkins Applied Physics Laboratory | [Engineer/SW Developer/Analyst Intern - Maritime Force Engagement Control](https://careers.jhuapl.edu/jobs/59598?icims=1) | $22.60 Hour | 23 |
 | Booz Allen Hamilton | [Software Developer Intern](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394) | $52,900 | 25 |
 | Booz Allen Hamilton | [Software Developer Intern - University](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Software-Developer-Intern---Honolulu--HI_R0248393) | $52,900 | 25 |
-| Booz Allen Hamilton | [Software Developer Intern](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Software-Developer-Intern---Ft-Walton-Beach--FL_R0248404) | $52,900 | 25 |
 | Booz Allen Hamilton | [Software Developer Intern - University](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Software-Developer-Intern---Annapolis-Junction--MD_R0248403) | $52,900 | 25 |
 | Philips | [Data Engineering Co-op](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Reedsville-Pennsylvania-United-States/Co-op-Data-Engineering-Reedsville--PA-July-December-2027_587486) | $25.00 to $29.00 | 25 |
 | Johnson & Johnson | [Data Science Co-op - Summer 2027](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Data-Science-Co-Op--Summer-2027_R-096746) | $23.50/hr | 24 |
 | Johnson & Johnson | [Software Engineer Co-op](https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743) | $23.50/hr | 24 |
 | TikTok | [Ecosystem Analyst Intern - TikTok LIVE](https://lifeattiktok.com/search/7678985103851407669) | $23.75- $23.75 | 24 |
 | Booz Allen Hamilton | [Systems Engineer Intern - Summer Games](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Systems-Engineer-Intern---Ft-Walton-Beach--FL_R0248388) | $52,900 | 25 |
-| McKesson | [Software Engineer Intern](https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152742) | $17.33 - $28.88 | 17 |
 | Johns Hopkins Applied Physics Laboratory | [Acoustic Algorithm Development Engineer Intern](https://careers.jhuapl.edu/jobs/59784?icims=1) | $22.60 Hour | 23 |
-| GE | [Engines Engineering Intern - Computer or Software Engineering](https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Evendale/Engines-Engineering-Intern---Computer-or-Software-Engineering---US---Summer-2027_R5029622-1) | $20/hour | 20 |
 | SurveyMonkey | [Data Science Intern - Enterprise Reporting & Analytics](https://momentive.wd1.myworkdayjobs.com/MC/job/US-NY-Niskayuna/Summer-2027-Intern---Enterprise-Reporting---Analytics---Data-Science_R9807-1) | $22.00 - $26.00 | 22 |
 | GE | [Project Engineer Intern - Summer 2027](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050026-1) | $21.00/hr | 21 |
 | GE | [Project Engineer Intern - Summer 2027](https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Bellevue/GE-Vernova---Project-Engineer-Intern---Summer-2027_R5050026-2) | $21.00/hr | 21 |
@@ -277,12 +272,10 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Veeam | [Data Analytics & Programs Intern](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4955300101) | $20 - $25 USD | 20 |
 | Veeam | [AI & Automation Engineering Intern - Summer 2027](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4955296101) | $20 - $25 USD | 20 |
 | Honeywell | [Software Engineer Co-op](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158088) | $20/hr | 20 |
-| Centene | [Data and Analytics Intern - Undergraduate](https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Data-and-Analytics-Summer-2027-Intern--Undergraduate-_1660515) | $21.00 - $26.00 per hour | 21 |
 | Stryker | [Data Analytics Intern](https://stryker.wd1.myworkdayjobs.com/StrykerCareers/job/Fort-Wayne-Indiana/Data-Engineering-Intern_R572901) | $20 | 20 |
 | General Dynamics | [Software Development Intern](https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Software-Development-Internship_RQ228931-2) | $19.55 - $26.45 | 20 |
 | General Dynamics | [AI Network Engineering Intern](https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-AI-Network-Engineering-Internship_RQ228934-2) | $19.55 - $26.45 | 20 |
 | General Dynamics | [Generative AI Software Development Intern](https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Generative-AI-Software-Development-Internship_RQ228933-1) | $19.55 - $26.45 | 20 |
-| Boston Scientific | [Software Development Engineer Intern](https://bostonscientific.eightfold.ai/careers/job/563602813567960) | $ 44616 | 21 |
 | Tradeweb | [Market Data Product Management Intern](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301932) | $22-$25 hour | 22 |
 | Johns Hopkins Applied Physics Laboratory | [Space Exploration Software Engineer Intern - Embedded Applications](https://careers.jhuapl.edu/jobs/60223?icims=1) | $22.60 Hour | 23 |
 | Pacific Life | [Software Engineering Intern](https://pacificlife.wd1.myworkdayjobs.com/en-US/PacificLifeCareers/job/Newport-Beach-CA-700/Summer-2027-Software-Engineering-Internship_R17826) | $25.00 per hour | 25 |
@@ -290,7 +283,6 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Honeywell | [Software Engineering Co-op](https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Honeywell/job/158957) | $25.50/hr | 26 |
 | TikTok | [Client Solutions Intern](https://lifeattiktok.com/search/7684622182248548661) | $25- $25 | 25 |
 | General Dynamics | [Software Engineer Intern - CWL](https://careers-gdms.icims.com/jobs/75346/job?mobile=true&needsRedirect=false) | $27.50 /Hr | 28 |
-| Boston Scientific | [Equipment Engineering AI Vision Engineer Intern](https://bostonscientific.eightfold.ai/careers/job/563602813584308) | $ 43368 | 21 |
 | Tradeweb | [Data Management Intern](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301946) | $22-$25 hour | 22 |
 | Dow Jones | [Data Analyst Intern](https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Data-Analyst-Intern_Job_Req_55893) | $28.00 - $28.00 | 28 |
 | Apple | [IT Data Intern - Analytics, & Automation](https://applebank.wd5.myworkdayjobs.com/applebankcareers/job/New-York-NY/XMLNAME-2027-Summer-Intern--IT-Data--Analytics----Automation_2026-1414) | $24/hr | 24 |
@@ -322,6 +314,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Booz Allen Hamilton | [Systems Engineer Intern](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/University---2027-Summer-Games--Systems-Engineer-Intern---Dayton--OH_R0252342) | $52,900 | 25 |
 | Booz Allen Hamilton | [Systems Engineer Intern - Summer Games](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Detroit-MI/University---2027-Summer-Games--Systems-Engineer-Intern---Royal-Oaks--MI_R0252341) | $52,900 | 25 |
 | Booz Allen Hamilton | [Software Developer Intern](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Albuquerque-NM/University---2027-Summer-Games-Software-Developer-Intern---Albuquerque--NM_R0252335) | $52,900 | 25 |
+| Booz Allen Hamilton | [Software Developer Intern - University - Summer Games](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Dayton-OH/University---2027-Summer-Games-Software-Developer-Intern---Dayton--OH_R0252345) | $52,900 | 25 |
 | ASML | [Frontend Developer Intern](https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852) | $18.00/hr | 18 |
 | Schonfeld | [DMFI Intern](https://job-boards.greenhouse.io/schonfeld/jobs/8324611) | $50,000 an | 24 |
 | Leidos | [Data Engineer Intern](https://leidos.wd5.myworkdayjobs.com/External/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576) | $41,600 | 20 |
@@ -357,6 +350,11 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | General Dynamics | [Software Engineer Intern](https://careers-gdms.icims.com/jobs/75626/job?mobile=true&needsRedirect=false) | $29.00 /Hr | 29 |
 | General Dynamics | [Software Engineer Intern](https://careers-gdms.icims.com/jobs/75775/job?mobile=true&needsRedirect=false) | $21.50 | 22 |
 | S&P Global | [Product Management Intern](https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/New-York-NY/Summer-Intern--Product-Management_332679-1) | $20 to $25 | 20 |
+| Johns Hopkins Applied Physics Laboratory | [Maritime Software Development Intern - Maritime Software Development - Ocean Systems and Engineering](https://careers.jhuapl.edu/jobs/60820?icims=1&lang=en-us) | $22.60 Hour | 23 |
+| T-Mobile | [Software Engineer Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380650) | $27/hour | 27 |
+| T-Mobile | [Software Engineer Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739) | $27/hour | 27 |
+| T-Mobile | [Software Engineering Intern](https://tmobile.wd1.myworkdayjobs.com/External/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380734) | $27/hour | 27 |
+| S&P Global | [Managed Data Services Intern - Ilevel - GP Mds](https://spgi.wd5.myworkdayjobs.com/en-US/SPGI_Careers/job/Dallas-TX/Summer-intern--iLevel---GP-MDS_332651-1) | $20 to $25 per hour | 20 |
 | Veeam | [Data & Analytics Engineering Intern](https://go.vansh.nyc/ar) | $20 - $25 USD | 20 |
 | Boston Scientific | [AI/Data Science Intern](https://go.vansh.nyc/b2) | $ 43368 | 21 |
 | Dominion Energy | [Electric Transmission Asset Analyst Intern - Digital Solutions Team](https://go.vansh.nyc/cc) | $21.00 - $28.00 | 21 |
@@ -375,7 +373,6 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Johns Hopkins Applied Physics Laboratory | [Space Exploration Software Engineer Intern, Embedded Applications](https://go.vansh.nyc/JE) | $22.60 Hour | 23 |
 | Johns Hopkins Applied Physics Laboratory | [Engineer/SW Developer/Analyst Intern, Maritime Force Engagement Control](https://go.vansh.nyc/LU) | $22.60 Hour | 23 |
 | Johns Hopkins Applied Physics Laboratory | [Software Developer Intern, Tactical System Prototyping and Deployment](https://go.vansh.nyc/LV) | $22.60 Hour | 23 |
-| McKesson | [Software Engineer Intern](https://go.vansh.nyc/LZ) | $17.33 - $28.88 | 17 |
 | Emerson | [Software Engineer Co-op](https://go.vansh.nyc/MM) | $24-$28 | 24 |
 | DV Trading | [Futures & Options Trading Analyst Intern](https://go.vansh.nyc/Ow) | $18.75/hr | 19 |
 | General Dynamics | [EE/Computer Engineer Intern](https://go.vansh.nyc/PZ) | $27.50 /Hr | 28 |
@@ -393,6 +390,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | MITRE | [Critical Infrastructure Protection Intern](https://go.vansh.nyc/10s) | $46,500 - $58,000 | 22 |
 | MITRE | [Data Science and Engineering Intern](https://go.vansh.nyc/10t) | $46,500 - $58,000 | 22 |
 | Dow Jones | [Software Engineering Intern](https://go.vansh.nyc/10X) | $28.00 - $28.00 | 28 |
+| Boston Scientific | [Software Test Engineer Intern](https://go.vansh.nyc/11g) | $ 44616 | 21 |
 | MITRE | [AI Solutions Architect Intern](https://go.vansh.nyc/13Y) | $46,500 - $58,000 | 22 |
 | FedEx | [Data Science Intern](https://go.vansh.nyc/13Z) | $25/hour | 25 |
 | TikTok | [Production System Engineer Project Intern, Server DevOps](https://go.vansh.nyc/14e) | $25- $25 | 25 |
@@ -420,37 +418,36 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | General Dynamics | [AI/ML Software Development and Engineering Intern](https://go.vansh.nyc/1hT) | $19.55 - $26.45 | 20 |
 | General Dynamics | [Software Engineer Intern](https://go.vansh.nyc/1hX) | $24.70/Hr | 25 |
 | Booz Allen Hamilton | [Cybersecurity Analyst Intern](https://go.vansh.nyc/1iU) | $53,000 | 25 |
+| T-Mobile | [Software Engineering Intern](https://go.vansh.nyc/1kt) | $27/hour | 27 |
+| T-Mobile | [Software Engineering Intern](https://go.vansh.nyc/1kB) | $27/hour | 27 |
+| T-Mobile | [AI Engineering Intern](https://go.vansh.nyc/1kC) | $27/hour | 27 |
+| T-Mobile | [Software Engineer Intern, HR Data Products](https://go.vansh.nyc/1kD) | $27/hour | 27 |
+| T-Mobile | [Data Engineering Intern](https://go.vansh.nyc/1kE) | $27/hour | 27 |
+| Booz Allen Hamilton | [University - 2027 Summer Games Software Developer Intern - Dayton - OH](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Dayton-OH/University---2027-Summer-Games-Software-Developer-Intern---Dayton--OH_R0252345) | $52,900 | 25 |
+| T-Mobile | [Summer 2027 Software Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380650) | $27/hour | 27 |
 | Leidos | [Software Engineering & AI Intern](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/6314-RemoteTeleworker-US/Software-Engineering---AI-Intern_R-00196220) | $48,100 | 23 |
-| Northrop Grumman | [2027 Software Engineering Intern - Roy UT](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Engineering-Intern---Roy-UT_R10259181) | $23.00 to $29.00 per hour | 23 |
-| Northrop Grumman | [2027 DevOps Software Engineering Intern - Roy UT](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178) | $23.00 to $29.00 per hour | 23 |
 | Northrop Grumman | [2027 Cybersecurity Software Engineering Intern - Roy UT](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Clearfield/XMLNAME-2027-Cybersecurity-Software-Engineering-Intern---Roy-UT_R10259177) | $23.00 to $29.00 per hour | 23 |
+| Northrop Grumman | [2027 Software Test Engineering Intern - Roy UT](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-Software-Test-Engineering-Intern---Roy-UT_R10259179) | $23.00 to $29.00 per hour | 23 |
+| Northrop Grumman | [2027 DevOps Software Engineering Intern - Roy UT](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-DevOps-Software-Engineering-Intern---Roy-UT_R10259178) | $23.00 to $29.00 per hour | 23 |
 | General Dynamics | [Software Intern Engineer](https://careers-gdms.icims.com/jobs/75755/software-intern-engineer/job) | $29.25 /Hr | 29 |
-| T-Mobile | [Summer 2027 T-Ads Software Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381234) | $27/hour | 27 |
 | T-Mobile | [Summer 2027 Software Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Atlanta-Georgia/Summer-2027-Software-Engineering-Internship_REQ380652) | $27/hour | 27 |
+| T-Mobile | [Summer 2027 T-Ads Software Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381234) | $27/hour | 27 |
 | Leidos | [Software Engineering Intern](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Arlington-VA/Software-Engineering-Intern_R-00195980) | $48,100 | 23 |
 | T-Mobile | [Summer 2027 Software Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/New-York-New-York/Summer-2027-Software-Engineering-Internship_REQ380886) | $27/hour | 27 |
 | T-Mobile | [Summer 2027 Software Engineering Internship](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882) | $27/hour | 27 |
 | ASML | [Internship - Frontend Developer](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Frontend-Developer_J-00354852) | $18.00/hr | 18 |
 | General Dynamics | [Software Engineer - Intern](https://careers-gdms.icims.com/jobs/75626/software-engineer---intern/job) | $29.00 /Hr | 29 |
-| Booz Allen Hamilton | [University - 2027 Summer Games Software Developer Intern - Lexington - MA](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274) | $52,900 | 25 |
 | Booz Allen Hamilton | [University - 2027 Summer Games Software Developer Intern - Royal Oaks - MI](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Detroit-MI/University---2027-Summer-Games-Software-Developer-Intern---Royal-Oaks--MI_R0252340) | $52,900 | 25 |
+| Booz Allen Hamilton | [University - 2027 Summer Games Software Developer Intern - Lexington - MA](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Lexington-MA/University---2027-Summer-Games-Software-Developer-Intern---Lexington--MA_R0252274) | $52,900 | 25 |
 | Booz Allen Hamilton | [University - 2027 Summer Games Software Developer Intern - Albuquerque - NM](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Albuquerque-NM/University---2027-Summer-Games-Software-Developer-Intern---Albuquerque--NM_R0252335) | $52,900 | 25 |
-| General Dynamics | [Software Test Engineer Intern](https://careers-gdms.icims.com/jobs/75729/software-test-engineer-intern/job) | $29.00 | 29 |
-| ASML | [Internship - Software Engineer In Test - MOD](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Software-Engineer-In-Test--MOD-_J-00354568) | $18.00/hr | 18 |
-| Coinbase | [Software Engineer Intern](https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873) | $25 - $25 | 25 |
 | Leidos | [Systems - Integration and Software Engineer Intern](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Atlantic-City-NJ/Systems--Integration-and-Software-Engineer-Intern_R-00194152) | $48,100 | 23 |
 | Pacific Life | [Summer 2027 Software Engineering Internship](https://pacificlife.wd1.myworkdayjobs.com/en-US/pacificlifecareers/job/Newport-Beach-CA-700/Summer-2027-Software-Engineering-Internship_R17826) | $25.00 per hour | 25 |
-| Johnson & Johnson | [Software Engineering Co-Op](https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Danvers-Massachusetts-United-States-of-America/Software-Engineering-Co-Op_R-098277) | $23.50/hr | 24 |
-| Johnson & Johnson | [Software Test Engineering Co-op - RLM](https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Danvers-Massachusetts-United-States-of-America/Software-Test-Engineering-Co-op--RLM-_R-098669) | $23.50/hr | 24 |
-| McKesson | [Software Installation & IT Support Intern - Summer 2027](https://mckesson.wd3.myworkdayjobs.com/en-US/external_careers/job/USA-CO-Longmont/Software-Installation---IT-Support-Intern---Summer-2027_JR0152304) | $17.33 - $28.88 | 17 |
-| McKesson | [Software Engineer Intern - Summer 2027](https://mckesson.wd3.myworkdayjobs.com/en-US/external_careers/job/USA-CO-Longmont/Software-Engineer-Intern---Summer-2027_JR0152742) | $17.33 - $28.88 | 17 |
 | Stryker | [Commercial Operations Software Engineering Intern - Flower Mound - TX](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Flower-Mound-Texas/Commercial-Operations-Software-Engineering-Intern---Flower-Mound--TX_R572941) | $20 | 20 |
-| Booz Allen Hamilton | [University - 2027 Summer Games Software Developer Intern - Huntsville - AL](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Huntsville-AL/University---2027-Summer-Games-Software-Developer-Intern---Huntsville--AL_R0248394) | $52,900 | 25 |
 | Booz Allen Hamilton | [University - 2027 Summer Games Software Developer Intern - Honolulu - HI](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Honolulu-HI/University---2027-Summer-Games-Software-Developer-Intern---Honolulu--HI_R0248393) | $52,900 | 25 |
 | Johnson & Johnson | [Software Engineering Co-Op. Summer 2027](https://jj.wd5.myworkdayjobs.com/en-US/jj/job/Cincinnati-Ohio-United-States-of-America/Software-Engineering-Co-Op-Summer-2027_R-096743) | $23.50/hr | 24 |
-| Stryker | [Summer 2027 Internship - Software Engineering - Michigan](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1) | $ 20 | 20 |
 | Stryker | [Summer 2027 Internship - Software Engineering - Florida](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Fort-Lauderdale-Florida/Summer-2027-Internship---Software-Engineering---Florida_R572629-1) | $ 20 | 20 |
 | Stryker | [Summer 2027 Internship - Software Engineering - California](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/San-Jose-California/Summer-2027-Internship---Software-Engineering---California_R572624) | $ 20 | 20 |
+| Stryker | [Summer 2027 Internship - Software Engineering - Michigan](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Portage-Michigan/Summer-2027-Internship---Software-Engineering---Michigan_R572632-1) | $ 20 | 20 |
 | Stryker | [Summer 2027 Internship - Software Engineering - Indiana](https://stryker.wd1.myworkdayjobs.com/en-US/strykercareers/job/Fort-Wayne-Indiana/Summer-2027-Internship---Software-Engineering---Indiana_R572631) | $ 20 | 20 |
 | Booz Allen Hamilton | [University - AI RAN Telecommunications Engineer Intern](https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/McLean-VA/University--AI-RAN-Telecommunications-Engineer-Intern_R0253024) | $53,000 | 25 |
 | Leidos | [Data Engineer Intern](https://leidos.wd5.myworkdayjobs.com/en-US/external/job/Fort-Belvoir-VA/Data-Engineer-Intern_R-00195576) | $41,600 | 20 |
@@ -492,10 +489,10 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Federal Reserve | [Oklahoma City – Regional Affairs Economics, Internship – Summer 2027](https://rb.wd5.myworkdayjobs.com/FRS/job/Oklahoma-City-OK/Oklahoma-City---Regional-Affairs-Economics--Internship---Summer-2027_R-0000034004) | $21.00 per hour | 21 |
 | Federal Reserve | [Denver – Regional Affairs Economics, Internship – Summer 2027](https://rb.wd5.myworkdayjobs.com/FRS/job/Denver-CO/Denver---Regional-Affairs-Economics--Internship---Summer-2027_R-0000034013-1) | $23.00 per hour | 23 |
 | Federal Reserve | [Economic Research, Internship – Summer 2027](https://rb.wd5.myworkdayjobs.com/FRS/job/Kansas-City-MO/Economic-Research--Internship---Summer-2027_R-0000034027) | $21.00 per hour | 21 |
+| Federal Reserve | [Omaha – Regional Affairs Economics, Internship – Summer 2027](https://rb.wd5.myworkdayjobs.com/FRS/job/Omaha-NE/Omaha---Regional-Affairs-Economics--Internship---Summer-2027_R-0000034014-1) | $21.00 per hour | 21 |
 | CME Group | [Year-Long Technology Internship (Summer 2027-Spring 2028)](https://cmegroup.wd1.myworkdayjobs.com/cme_careers/job/Chicago---20-S-Wacker/Year-Long-Technology-Internship--Summer-2027-Spring-2028-_34831) | $21.68 | 22 |
 | S&P Global | [Summer Intern, Product Management](https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/New-York-NY/Summer-Intern--Product-Management_332679-1) | $20 to $25 | 20 |
 | Northwestern Mutual | [Investment Strategy Analyst Intern, Summer 2027](https://northwesternmutual.wd5.myworkdayjobs.com/CORPORATE-CAREERS/job/Milwaukee-WI-Corporate/Investment-Strategy-Analyst-Intern--Summer-2027_JR-46324) | $16.50 | 17 |
-| Travelers | [Risk Control Intern](https://travelers.wd5.myworkdayjobs.com/External/job/NC---Charlotte/Risk-Control-Intern_R-53501) | $25.00 - $26.00 | 25 |
 | Travelers | [Risk Control Intern](https://travelers.wd5.myworkdayjobs.com/External/job/TX---Richardson/Risk-Control-Intern_R-53499-1) | $25.00 - $26.00 | 25 |
 | Travelers | [Risk Control Intern](https://travelers.wd5.myworkdayjobs.com/External/job/MN---St-Paul/Risk-Control-Intern_R-53498) | $25.00 - $26.00 | 25 |
 | Travelers | [Risk Control Intern](https://travelers.wd5.myworkdayjobs.com/External/job/KS---Overland-Park/Risk-Control-Intern_R-53505) | $25.00 - $26.00 | 25 |
@@ -527,7 +524,6 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Travelers | [Bond & Specialty Insurance Underwriting Professional Development Program (BSI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/MS---Flowood/Bond---Specialty-Insurance-Underwriting-Professional-Development-Program--BSI-UPDP--Internship_R-52881) | $25.00 - $26.00 | 25 |
 | Travelers | [Bond & Specialty Insurance Underwriting Professional Development Program (BSI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Bond---Specialty-Insurance-Underwriting-Professional-Development-Program--BSI-UPDP--Internship_R-52882) | $25.00 - $26.00 | 25 |
 | Travelers | [Bond & Specialty Insurance Underwriting Professional Development Program (BSI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Bond---Specialty-Insurance-Underwriting-Professional-Development-Program--BSI-UPDP--Internship_R-52883) | $25.00 - $26.00 | 25 |
-| Travelers | [Bond & Specialty Insurance Underwriting Professional Development Program (BSI UPDP) Internship](https://travelers.wd5.myworkdayjobs.com/External/job/NJ---Edison/Bond---Specialty-Insurance-Underwriting-Professional-Development-Program--BSI-UPDP--Internship_R-52880) | $25.00 - $26.00 | 25 |
 | The Hartford | [Intern, Enterprise Risk Management](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Intern--Enterprise-Risk-Management_R2626403-1) | $25 - $26 | 25 |
 | The Hartford | [2027 Summer Intern - Finance](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Finance_R2627497) | $20.00 - $25.00 | 20 |
 | The Hartford | [2027 Summer Intern - Investment Consulting Group](https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Investment-Consulting-Group_R2627498) | $20.00 - $25.00 | 20 |
@@ -542,14 +538,14 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Rocket Lab | [Ground Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/8042092003) | $25 - $25 | 25 |
 | Rocket Lab | [HITL Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990268003) | $28 - $28 | 28 |
 | Rocket Lab | [R&D Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7996576003) | $20.00 USD Hour | 20 |
+| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986963003) | $22 - $22 | 22 |
+| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986956003) | $25 - $25 | 25 |
 | Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986961003) | $22 - $22 | 22 |
 | Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986874003) | $18.00 USD Hour | 18 |
-| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986956003) | $25 - $25 | 25 |
-| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986963003) | $22 - $22 | 22 |
-| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990272003) | $25.00 USD Hour | 25 |
 | Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7987046003) | $28 - $28 | 28 |
-| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990138003) | $28 - $28 | 28 |
+| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990272003) | $25.00 USD Hour | 25 |
 | Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990270003) | $25.00 USD Hour | 25 |
+| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990138003) | $28 - $28 | 28 |
 | Rocket Lab | [Test Engineering Intern - Avionics Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7987159003) | $28 - $28 | 28 |
 | Rocket Lab | [Test Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990350003) | $25.00 USD Hour | 25 |
 | Ginkgo Bioworks | [Software Intern, Autonomous Lab](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) | $37,700-$53,500 | 18 |
@@ -560,99 +556,99 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Microsoft** (Big Tech): eightfold:apply.careers.microsoft.com/microsoft.com [local] 20
 - **Netflix** (Big Tech): eightfold:explore.jobs.netflix.net/netflix.com [pts] 6
 - **NVIDIA** (Big Tech): workday:nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite [pts] 1017
-- **Salesforce** (Big Tech): workday:salesforce.wd12.myworkdayjobs.com/External_Career_Site [pts] 762
+- **Salesforce** (Big Tech): workday:salesforce.wd12.myworkdayjobs.com/External_Career_Site [pts] 766
 - **Adobe** (Big Tech): workday:adobe.wd5.myworkdayjobs.com/external_experienced [pts] 128
 - **Intel** (Big Tech): workday:intel.wd1.myworkdayjobs.com/External [pts] 544
 - **Lyft** (Big Tech): greenhouse:lyft [pts] 167
 - **Airbnb** (Big Tech): greenhouse:airbnb [pts] 203
-- **Pinterest** (Big Tech): greenhouse:pinterest [pts] 165
-- **Reddit** (Big Tech): greenhouse:reddit [pts] 165
-- **Spotify** (Big Tech): lever:spotify [pts] 86
-- **SpaceX** (Big Tech): greenhouse:spacex [guessed] 2890
-- **Waymo** (Big Tech): greenhouse:waymo [local] 367
-- **Stripe** (Big Tech): greenhouse:stripe [pts] 763
-- **Workday** (Big Tech): workday:workday.wd5.myworkdayjobs.com/Workday [pts] 191
-- **PayPal** (Big Tech): workday:paypal.wd1.myworkdayjobs.com/jobs [pts] 186
-- **Dropbox** (Big Tech): greenhouse:dropbox [pts] 32
-- **DoorDash** (Big Tech): greenhouse:doordashusa [pts] 438
-- **Instacart** (Big Tech): greenhouse:instacart [pts] 92
-- **Roblox** (Big Tech): greenhouse:roblox [pts] 270
+- **Pinterest** (Big Tech): greenhouse:pinterest [pts] 166
+- **Reddit** (Big Tech): greenhouse:reddit [pts] 159
+- **Spotify** (Big Tech): lever:spotify [pts] 85
+- **SpaceX** (Big Tech): greenhouse:spacex [guessed] 2889
+- **Waymo** (Big Tech): greenhouse:waymo [local] 369
+- **Stripe** (Big Tech): greenhouse:stripe [pts] 765
+- **Workday** (Big Tech): workday:workday.wd5.myworkdayjobs.com/Workday [pts] 189
+- **PayPal** (Big Tech): workday:paypal.wd1.myworkdayjobs.com/jobs [pts] 189
+- **Dropbox** (Big Tech): greenhouse:dropbox [pts] 34
+- **DoorDash** (Big Tech): greenhouse:doordashusa [pts] 439
+- **Instacart** (Big Tech): greenhouse:instacart [pts] 91
+- **Roblox** (Big Tech): greenhouse:roblox [pts] 271
 - **Snowflake** (Big Tech): ashby:snowflake [pts] 370
-- **Databricks** (Big Tech): greenhouse:databricks [pts] 923
-- **Palantir** (Big Tech): lever:palantir [pts] 308
-- **Bloomberg** (Big Tech): workday:bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site [pts] 28
-- **Zillow** (Big Tech): workday:zillow.wd5.myworkdayjobs.com/Zillow_Group_External [local] 57
-- **Epic Games** (Big Tech): greenhouse:epicgames [guessed] 133
-- **Riot Games** (Big Tech): greenhouse:riotgames [guessed] 186
-- **Nintendo** (Big Tech): greenhouse:nintendo [guessed] 75
-- **OpenAI** (AI & ML): ashby:openai [pts] 815
-- **Anthropic** (AI & ML): greenhouse:anthropic [pts] 679
-- **Scale AI** (AI & ML): greenhouse:scaleai [pts] 166
-- **Perplexity** (AI & ML): ashby:perplexity [pts] 138
-- **Cohere** (AI & ML): ashby:cohere [pts] 118
+- **Databricks** (Big Tech): greenhouse:databricks [pts] 928
+- **Palantir** (Big Tech): lever:palantir [pts] 305
+- **Bloomberg** (Big Tech): workday:bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site [pts] 23
+- **Zillow** (Big Tech): workday:zillow.wd5.myworkdayjobs.com/Zillow_Group_External [local] 60
+- **Epic Games** (Big Tech): greenhouse:epicgames [guessed] 130
+- **Riot Games** (Big Tech): greenhouse:riotgames [guessed] 187
+- **Nintendo** (Big Tech): greenhouse:nintendo [guessed] 71
+- **OpenAI** (AI & ML): ashby:openai [pts] 819
+- **Anthropic** (AI & ML): greenhouse:anthropic [pts] 671
+- **Scale AI** (AI & ML): greenhouse:scaleai [pts] 170
+- **Perplexity** (AI & ML): ashby:perplexity [pts] 136
+- **Cohere** (AI & ML): ashby:cohere [pts] 123
 - **Hugging Face** (AI & ML): workable:huggingface [pts] 6
 - **Character.AI** (AI & ML): ashby:character [guessed] 13
 - **Cognition** (AI & ML): ashby:cognition [pts] 108
 - **Glean** (AI & ML): greenhouse:gleanwork [pts] 129
-- **Harvey** (AI & ML): ashby:harvey [pts] 362
-- **Sierra** (AI & ML): ashby:sierra [pts] 217
-- **Decagon** (AI & ML): ashby:decagon [pts] 133
+- **Harvey** (AI & ML): ashby:harvey [pts] 369
+- **Sierra** (AI & ML): ashby:sierra [pts] 216
+- **Decagon** (AI & ML): ashby:decagon [pts] 132
 - **Runway** (AI & ML): ashby:runway [guessed] 3
-- **ElevenLabs** (AI & ML): ashby:elevenlabs [pts] 142
-- **Together AI** (AI & ML): greenhouse:togetherai [guessed] 83
-- **CoreWeave** (AI & ML): greenhouse:coreweave [pts] 302
-- **Snorkel AI** (AI & ML): greenhouse:snorkelai [pts] 43
-- **Figure** (AI & ML): greenhouse:figure [guessed] 21
-- **Nuro** (AI & ML): greenhouse:nuro [guessed] 93
-- **Anduril** (AI & ML): greenhouse:andurilindustries [pts] 2572
-- **Shield AI** (AI & ML): lever:shieldai [guessed] 658, ashby:shieldai [guessed] 691, greenhouse:shield [guessed] 1, ashby:shield [guessed] 691
-- **Skydio** (AI & ML): ashby:skydio [guessed] 196
-- **Abridge** (AI & ML): ashby:abridge [guessed] 39
-- **Mercor** (AI & ML): ashby:mercor [pts] 91
+- **ElevenLabs** (AI & ML): ashby:elevenlabs [pts] 141
+- **Together AI** (AI & ML): greenhouse:togetherai [guessed] 78
+- **CoreWeave** (AI & ML): greenhouse:coreweave [pts] 293
+- **Snorkel AI** (AI & ML): greenhouse:snorkelai [pts] 42
+- **Figure** (AI & ML): greenhouse:figure [guessed] 22
+- **Nuro** (AI & ML): greenhouse:nuro [guessed] 94
+- **Anduril** (AI & ML): greenhouse:andurilindustries [pts] 2586
+- **Shield AI** (AI & ML): lever:shieldai [guessed] 661, greenhouse:shield [guessed] 1, ashby:shield [guessed] 695
+- **Skydio** (AI & ML): ashby:skydio [guessed] 193
+- **Abridge** (AI & ML): ashby:abridge [guessed] 27
+- **Mercor** (AI & ML): ashby:mercor [pts] 92
 - **Cerebras** (AI & ML): ashby:cerebras [guessed] 121
-- **Lambda** (AI & ML): ashby:lambda [guessed] 97
-- **Modal** (AI & ML): ashby:modal [pts] 42
+- **Lambda** (AI & ML): ashby:lambda [guessed] 98
+- **Modal** (AI & ML): ashby:modal [pts] 43
 - **Pinecone** (AI & ML): ashby:pinecone [guessed] 6
 - **Replit** (AI & ML): ashby:replit [pts] 28
-- **Vercel** (AI & ML): greenhouse:vercel [pts] 88
-- **Dataiku** (AI & ML): greenhouse:dataiku [guessed] 13
-- **Physical Intelligence** (AI & ML): ashby:physicalintelligence [guessed] 45
-- **Reflection AI** (AI & ML): ashby:reflectionai [guessed] 44
+- **Vercel** (AI & ML): greenhouse:vercel [pts] 86
+- **Dataiku** (AI & ML): greenhouse:dataiku [guessed] 15
+- **Physical Intelligence** (AI & ML): ashby:physicalintelligence [guessed] 44
+- **Reflection AI** (AI & ML): ashby:reflectionai [guessed] 46
 - **Imbue** (AI & ML): greenhouse:imbue [guessed] 2
 - **Inflection AI** (AI & ML): greenhouse:inflectionai [guessed] 4
 - **Ambience Healthcare** (AI & ML): ashby:ambiencehealthcare [guessed] 19
-- **Suno** (AI & ML): ashby:suno [guessed] 71
+- **Suno** (AI & ML): ashby:suno [guessed] 68
 - **Pika** (AI & ML): ashby:pika [guessed] 16
 - **Midjourney** (AI & ML): ashby:midjourney [guessed] 16
 - **Luma AI** (AI & ML): ashby:lumaai [guessed] 28
-- **Black Forest Labs** (AI & ML): ashby:black-forest-labs [guessed] 16
-- **Fireworks AI** (AI & ML): ashby:fireworks [guessed] 93
-- **Baseten** (AI & ML): ashby:baseten [guessed] 102
-- **Anyscale** (AI & ML): ashby:anyscale [guessed] 23
+- **Black Forest Labs** (AI & ML): ashby:black-forest-labs [guessed] 15
+- **Fireworks AI** (AI & ML): ashby:fireworks [guessed] 91
+- **Baseten** (AI & ML): ashby:baseten [guessed] 101
+- **Anyscale** (AI & ML): ashby:anyscale [guessed] 24
 - **Weaviate** (AI & ML): ashby:weaviate [guessed] 2
-- **LangChain** (AI & ML): ashby:langchain [guessed] 100
+- **LangChain** (AI & ML): ashby:langchain [guessed] 98
 - **Hex** (AI & ML): ashby:hex [pts] 39
-- **Exa** (AI & ML): ashby:exa [pts] 63
+- **Exa** (AI & ML): ashby:exa [pts] 64
 - **Jane Street** (Quant & Trading): greenhouse:janestreet [pts] 219, ashby:jane [pts] 26
 - **Hudson River Trading** (Quant & Trading): greenhouse:wehrtyou [pts] 83
-- **Jump Trading** (Quant & Trading): greenhouse:jumptrading [pts] 93, ashby:jump [pts] 3
-- **DRW** (Quant & Trading): greenhouse:drweng [pts] 164, greenhouse:drwfr [pts] 9
-- **Optiver** (Quant & Trading): greenhouse:optiverprivate [pts] 8, greenhouse:optiverus [pts] 156, greenhouse:optiver [guessed] 0
-- **IMC Trading** (Quant & Trading): greenhouse:imc [pts] 161
-- **Virtu Financial** (Quant & Trading): greenhouse:virtu [pts] 47
+- **Jump Trading** (Quant & Trading): greenhouse:jumptrading [pts] 92, ashby:jump [pts] 3
+- **DRW** (Quant & Trading): greenhouse:drweng [pts] 166, greenhouse:drwfr [pts] 10
+- **Optiver** (Quant & Trading): greenhouse:optiverprivate [pts] 8, greenhouse:optiverus [pts] 155, greenhouse:optiver [guessed] 0
+- **IMC Trading** (Quant & Trading): greenhouse:imc [pts] 162
+- **Virtu Financial** (Quant & Trading): greenhouse:virtu [pts] 48
 - **Tower Research Capital** (Quant & Trading): greenhouse:towerresearchcapital [pts] 91
 - **Five Rings** (Quant & Trading): greenhouse:fiveringsllc [pts] 17
-- **Akuna Capital** (Quant & Trading): greenhouse:akunacapital [local] 32
+- **Akuna Capital** (Quant & Trading): greenhouse:akunacapital [local] 31
 - **Chicago Trading Company** (Quant & Trading): greenhouse:ctccampusboard [pts] 4, greenhouse:chicagotrading [pts] 17
 - **Old Mission Capital** (Quant & Trading): ashby:old-mission-capital [pts] 37
 - **Belvedere Trading** (Quant & Trading): lever:belvederetrading [pts] 17
 - **Peak6** (Quant & Trading): workday:peak6group.wd1.myworkdayjobs.com/PEAK6 [pts] 11
-- **Flow Traders** (Quant & Trading): greenhouse:flowtraders [pts] 44
+- **Flow Traders** (Quant & Trading): greenhouse:flowtraders [pts] 42
 - **Jump Crypto** (Quant & Trading): greenhouse:jumpcrypto [guessed] 2
-- **Geneva Trading** (Quant & Trading): greenhouse:genevatrading [pts] 12
+- **Geneva Trading** (Quant & Trading): greenhouse:genevatrading [pts] 13
 - **Gelber Group** (Quant & Trading): greenhouse:gelbergroup [pts] 13
 - **TransMarket Group** (Quant & Trading): greenhouse:transmarketgroup [pts] 17
-- **3Red Partners** (Quant & Trading): greenhouse:3redpartners [pts] 6
+- **3Red Partners** (Quant & Trading): greenhouse:3redpartners [pts] 5
 - **DV Trading** (Quant & Trading): greenhouse:dvtrading [guessed] 73
 - **Aquatic Capital Management** (Quant & Trading): greenhouse:aquaticcapitalmanagement [guessed] 12
 - **Voloridge Investment Management** (Quant & Trading): greenhouse:voloridgeinvestmentmanagement [guessed] 10
@@ -663,102 +659,102 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Simplex Trading** (Quant & Trading): greenhouse:simplextrading [guessed] 6
 - **Ansatz Capital** (Quant & Trading): lever:ansatzcapital [guessed] 5
 - **Arrowstreet Capital** (Quant & Trading): workday:arrowstreetcapital.wd5.myworkdayjobs.com/Arrowstreet [pts] 6, workday:arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers [pts] 4
-- **PDT Partners** (Quant & Trading): greenhouse:pdtpartners [guessed] 12
+- **PDT Partners** (Quant & Trading): greenhouse:pdtpartners [guessed] 13
 - **Engineers Gate** (Quant & Trading): greenhouse:engineersgate [pts] 9
 - **Walleye Capital** (Quant & Trading): greenhouse:walleyecapital-external-students [pts] 1, greenhouse:walleyecapital-external-fulltime [pts] 13, greenhouse:walleyecapital [guessed] 0
 - **Voleon** (Quant & Trading): ashby:voleon [pts] 65
-- **Qube Research & Technologies** (Quant & Trading): greenhouse:quberesearchandtechnologies [pts] 209
+- **Qube Research & Technologies** (Quant & Trading): greenhouse:quberesearchandtechnologies [pts] 211
 - **Squarepoint Capital** (Quant & Trading): greenhouse:squarepointcapital [pts] 90
 - **WorldQuant** (Quant & Trading): greenhouse:worldquant [pts] 87
 - **Graham Capital Management** (Quant & Trading): greenhouse:grahamcapitalmanagement [pts] 13
-- **Man Group** (Quant & Trading): greenhouse:mangroup [pts] 70, workday:mangroupplc.wd3.myworkdayjobs.com/Man_Group_Careers [pts] 1
+- **Man Group** (Quant & Trading): greenhouse:mangroup [pts] 72, workday:mangroupplc.wd3.myworkdayjobs.com/Man_Group_Careers [pts] 1
 - **Quantbot Technologies** (Quant & Trading): greenhouse:quantbot-technologies [guessed] 6
 - **Millennium** (Hedge Funds): workday:mlp.wd5.myworkdayjobs.com/mlpcareers [pts] 0
-- **Point72** (Hedge Funds): greenhouse:point72 [pts] 197
-- **Bridgewater Associates** (Hedge Funds): greenhouse:bridgewater89 [pts] 22
-- **AQR** (Hedge Funds): greenhouse:aqr [pts] 55
+- **Point72** (Hedge Funds): greenhouse:point72 [pts] 200
+- **Bridgewater Associates** (Hedge Funds): greenhouse:bridgewater89 [pts] 21
+- **AQR** (Hedge Funds): greenhouse:aqr [pts] 53
 - **Schonfeld** (Hedge Funds): greenhouse:schonfeld [pts] 67
 - **Marshall Wace** (Hedge Funds): greenhouse:marshallwace [guessed] 0
 - **Brevan Howard** (Hedge Funds): workday:brevanhoward.wd3.myworkdayjobs.com/BH_ExternalCareers [pts] 18
-- **ExodusPoint** (Hedge Funds): greenhouse:exoduspoint [pts] 4
+- **ExodusPoint** (Hedge Funds): greenhouse:exoduspoint [pts] 3
 - **Verition** (Hedge Funds): greenhouse:veritiongroupllc [pts] 13
 - **Viking Global Investors** (Hedge Funds): greenhouse:vikingglobalinvestors [pts] 4
 - **Lone Pine Capital** (Hedge Funds): greenhouse:lonepinecapital [guessed] 0
-- **Jain Global** (Hedge Funds): workday:jainglobal.wd5.myworkdayjobs.com/ExternalSite [pts] 28
+- **Jain Global** (Hedge Funds): workday:jainglobal.wd5.myworkdayjobs.com/ExternalSite [pts] 27
 - **Magnetar Capital** (Hedge Funds): greenhouse:magnetar [guessed] 5
 - **Durable Capital** (Hedge Funds): greenhouse:durable [guessed] 4
 - **Dragoneer Investment Group** (Hedge Funds): greenhouse:dragoneerinvestmentgroup [guessed] 0
 - **Morgan Stanley** (Investment Banks): eightfold:morganstanley.eightfold.ai/morganstanley.com [local] 20
 - **JPMorgan Chase** (Investment Banks): oracle:jpmc.fa.oraclecloud.com/CX_1001 [pts] 1000
-- **Bank of America** (Investment Banks): workday:ghr.wd1.myworkdayjobs.com/Lateral-US [pts] 900
-- **Wells Fargo** (Investment Banks): workday:wf.wd1.myworkdayjobs.com/wellsfargojobs [pts] 727
-- **Barclays** (Investment Banks): workday:barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays [pts] 577
-- **Deutsche Bank** (Investment Banks): workday:db.wd3.myworkdayjobs.com/DBWebsite [pts] 602
-- **BMO** (Investment Banks): workday:bmo.wd3.myworkdayjobs.com/External [pts] 614
-- **William Blair** (Investment Banks): greenhouse:williamblair [guessed] 49
-- **Lincoln International** (Investment Banks): greenhouse:lincolninternational [guessed] 36
-- **Macquarie** (Investment Banks): workday:mq.wd3.myworkdayjobs.com/CareersatMQ [pts] 18
-- **Raymond James** (Investment Banks): workday:raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers [pts] 200, workday:raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers [pts] 9
+- **Bank of America** (Investment Banks): workday:ghr.wd1.myworkdayjobs.com/Lateral-US [pts] 905
+- **Wells Fargo** (Investment Banks): workday:wf.wd1.myworkdayjobs.com/wellsfargojobs [pts] 737
+- **Barclays** (Investment Banks): workday:barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays [pts] 579
+- **Deutsche Bank** (Investment Banks): workday:db.wd3.myworkdayjobs.com/DBWebsite [pts] 606
+- **BMO** (Investment Banks): workday:bmo.wd3.myworkdayjobs.com/External [pts] 635
+- **William Blair** (Investment Banks): greenhouse:williamblair [guessed] 50
+- **Lincoln International** (Investment Banks): greenhouse:lincolninternational [guessed] 37
+- **Macquarie** (Investment Banks): workday:mq.wd3.myworkdayjobs.com/CareersatMQ [pts] 19
+- **Raymond James** (Investment Banks): workday:raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers [pts] 199, workday:raymondjames.wd1.myworkdayjobs.com/RaymondJamesEarlyCareers [pts] 10
 - **LionTree** (Investment Banks): greenhouse:liontree [guessed] 3
 - **Ducera Partners** (Investment Banks): greenhouse:ducerapartners [guessed] 4
 - **Capital One** (Banks & Financial Services): workday:capitalone.wd12.myworkdayjobs.com/Capital_One [pts] 1014
-- **Synchrony** (Banks & Financial Services): workday:synchronyfinancial.wd5.myworkdayjobs.com/careers [pts] 32, workday:synchronyfinancial.wd5.myworkdayjobs.com/University [pts] 24
-- **U.S. Bank** (Banks & Financial Services): workday:usbank.wd1.myworkdayjobs.com/US_Bank_Careers [pts] 1005
-- **Fifth Third** (Banks & Financial Services): workday:fifththird.wd5.myworkdayjobs.com/53careers [pts] 341
-- **KeyBank** (Banks & Financial Services): workday:keybank.wd5.myworkdayjobs.com/External_Career_Site [pts] 423, workday:keybank.wd5.myworkdayjobs.com/Scout [pts] 3
-- **M&T Bank** (Banks & Financial Services): workday:mtb.wd5.myworkdayjobs.com/MTB [pts] 671, workday:mtb.wd5.myworkdayjobs.com/Campus [pts] 55
-- **State Street** (Banks & Financial Services): workday:statestreet.wd1.myworkdayjobs.com/Global [pts] 727
-- **Northern Trust** (Banks & Financial Services): workday:ntrs.wd1.myworkdayjobs.com/northerntrust [pts] 350
-- **Federal Reserve** (Banks & Financial Services): workday:rb.wd5.myworkdayjobs.com/FRS [pts] 157
-- **Nasdaq** (Banks & Financial Services): workday:nasdaq.wd1.myworkdayjobs.com/Global_External_Site [pts] 95
+- **Synchrony** (Banks & Financial Services): workday:synchronyfinancial.wd5.myworkdayjobs.com/careers [pts] 30, workday:synchronyfinancial.wd5.myworkdayjobs.com/University [pts] 23
+- **U.S. Bank** (Banks & Financial Services): workday:usbank.wd1.myworkdayjobs.com/US_Bank_Careers [pts] 1002
+- **Fifth Third** (Banks & Financial Services): workday:fifththird.wd5.myworkdayjobs.com/53careers [pts] 351
+- **KeyBank** (Banks & Financial Services): workday:keybank.wd5.myworkdayjobs.com/External_Career_Site [pts] 414, workday:keybank.wd5.myworkdayjobs.com/Scout [pts] 3
+- **M&T Bank** (Banks & Financial Services): workday:mtb.wd5.myworkdayjobs.com/MTB [pts] 683, workday:mtb.wd5.myworkdayjobs.com/Campus [pts] 55
+- **State Street** (Banks & Financial Services): workday:statestreet.wd1.myworkdayjobs.com/Global [pts] 734
+- **Northern Trust** (Banks & Financial Services): workday:ntrs.wd1.myworkdayjobs.com/northerntrust [pts] 346
+- **Federal Reserve** (Banks & Financial Services): workday:rb.wd5.myworkdayjobs.com/FRS [pts] 160
+- **Nasdaq** (Banks & Financial Services): workday:nasdaq.wd1.myworkdayjobs.com/Global_External_Site [pts] 92
 - **CME Group** (Banks & Financial Services): workday:cmegroup.wd1.myworkdayjobs.com/cme_careers [pts] 57
-- **S&P Global** (Banks & Financial Services): workday:spgi.wd5.myworkdayjobs.com/SPGI_Careers [pts] 325
-- **FactSet** (Banks & Financial Services): workday:factset.wd108.myworkdayjobs.com/FactSetCareers [pts] 69
-- **Morningstar** (Banks & Financial Services): workday:morningstar.wd5.myworkdayjobs.com/morningstar [pts] 87, workday:morningstar.wd5.myworkdayjobs.com/Americas [pts] 8, workday:morningstar.wd5.myworkdayjobs.com/MorningstarDBRS [pts] 16
-- **Fidelity National Information Services** (Banks & Financial Services): workday:fis.wd5.myworkdayjobs.com/SearchJobs [pts] 319
-- **Fiserv** (Banks & Financial Services): workday:fiserv.wd5.myworkdayjobs.com/EXT [pts] 226
-- **Global Payments** (Banks & Financial Services): workday:tsys.wd1.myworkdayjobs.com/TSYS [pts] 215
-- **LPL Financial** (Banks & Financial Services): workday:lplfinancial.wd1.myworkdayjobs.com/External [pts] 155
-- **Northwestern Mutual** (Banks & Financial Services): workday:northwesternmutual.wd5.myworkdayjobs.com/CORPORATE-CAREERS [pts] 32
+- **S&P Global** (Banks & Financial Services): workday:spgi.wd5.myworkdayjobs.com/SPGI_Careers [pts] 328
+- **FactSet** (Banks & Financial Services): workday:factset.wd108.myworkdayjobs.com/FactSetCareers [pts] 72
+- **Morningstar** (Banks & Financial Services): workday:morningstar.wd5.myworkdayjobs.com/morningstar [pts] 90, workday:morningstar.wd5.myworkdayjobs.com/Americas [pts] 8, workday:morningstar.wd5.myworkdayjobs.com/MorningstarDBRS [pts] 16
+- **Fidelity National Information Services** (Banks & Financial Services): workday:fis.wd5.myworkdayjobs.com/SearchJobs [pts] 306
+- **Fiserv** (Banks & Financial Services): workday:fiserv.wd5.myworkdayjobs.com/EXT [pts] 230
+- **Global Payments** (Banks & Financial Services): workday:tsys.wd1.myworkdayjobs.com/TSYS [pts] 218
+- **LPL Financial** (Banks & Financial Services): workday:lplfinancial.wd1.myworkdayjobs.com/External [pts] 158
+- **Northwestern Mutual** (Banks & Financial Services): workday:northwesternmutual.wd5.myworkdayjobs.com/CORPORATE-CAREERS [pts] 36
 - **MassMutual** (Banks & Financial Services): workday:massmutual.wd1.myworkdayjobs.com/MMINDCareersite [pts] 1, workday:massmutual.wd1.myworkdayjobs.com/MMAscendCareers [pts] 1
-- **Guardian Life** (Banks & Financial Services): workday:guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers [pts] 113
-- **Nationwide** (Banks & Financial Services): workday:nationwide.wd1.myworkdayjobs.com/Nationwide_Career [pts] 115
-- **Allstate** (Banks & Financial Services): workday:allstate.wd5.myworkdayjobs.com/allstate_careers [pts] 347
-- **Travelers** (Banks & Financial Services): workday:travelers.wd5.myworkdayjobs.com/External [pts] 403
+- **Guardian Life** (Banks & Financial Services): workday:guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers [pts] 110
+- **Nationwide** (Banks & Financial Services): workday:nationwide.wd1.myworkdayjobs.com/Nationwide_Career [pts] 116
+- **Allstate** (Banks & Financial Services): workday:allstate.wd5.myworkdayjobs.com/allstate_careers [pts] 346
+- **Travelers** (Banks & Financial Services): workday:travelers.wd5.myworkdayjobs.com/External [pts] 404
 - **The Hartford** (Banks & Financial Services): workday:thehartford.wd5.myworkdayjobs.com/Careers_External [pts] 132
-- **Pacific Life** (Banks & Financial Services): workday:pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers [pts] 67
+- **Pacific Life** (Banks & Financial Services): workday:pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers [pts] 66
 - **BlackRock** (Asset Management): workday:blackrock.wd1.myworkdayjobs.com/BlackRock_Professional [pts] 155
-- **Vanguard** (Asset Management): workday:vanguard.wd5.myworkdayjobs.com/vanguard_external [pts] 196
-- **Fidelity** (Asset Management): workday:fil.wd3.myworkdayjobs.com/001 [pts] 55, workday:fmr.wd1.myworkdayjobs.com/fidelitycareers [pts] 515
+- **Vanguard** (Asset Management): workday:vanguard.wd5.myworkdayjobs.com/vanguard_external [pts] 191
+- **Fidelity** (Asset Management): workday:fil.wd3.myworkdayjobs.com/001 [pts] 54, workday:fmr.wd1.myworkdayjobs.com/fidelitycareers [pts] 516
 - **T. Rowe Price** (Asset Management): workday:troweprice.wd5.myworkdayjobs.com/TRowePrice [pts] 66, workday:troweprice.wd5.myworkdayjobs.com/TRowePriceInternational [pts] 17
 - **Invesco** (Asset Management): workday:invesco.wd1.myworkdayjobs.com/IVZ [pts] 149
 - **Franklin Templeton** (Asset Management): workday:franklintempleton.wd5.myworkdayjobs.com/Primary-External-1 [pts] 0, workday:franklintempleton.wd5.myworkdayjobs.com/Jobs-WAM [pts] 0
-- **PIMCO** (Asset Management): workday:pimco.wd1.myworkdayjobs.com/pimco-careers [pts] 156
-- **PGIM** (Asset Management): workday:pru.wd5.myworkdayjobs.com/PGIM_Careers [pts] 79, workday:pru.wd5.myworkdayjobs.com/Careers [pts] 114
-- **Nuveen** (Asset Management): workday:tiaa.wd1.myworkdayjobs.com/Search [pts] 123
+- **PIMCO** (Asset Management): workday:pimco.wd1.myworkdayjobs.com/pimco-careers [pts] 149
+- **PGIM** (Asset Management): workday:pru.wd5.myworkdayjobs.com/PGIM_Careers [pts] 76, workday:pru.wd5.myworkdayjobs.com/Careers [pts] 114
+- **Nuveen** (Asset Management): workday:tiaa.wd1.myworkdayjobs.com/Search [pts] 125
 - **AllianceBernstein** (Asset Management): workday:abglobal.wd1.myworkdayjobs.com/alliancebernsteincareers [pts] 49
-- **Capital Group** (Asset Management): workday:capgroup.wd1.myworkdayjobs.com/capitalgroupcareers [pts] 88
-- **Dimensional** (Asset Management): workday:dimensional.wd5.myworkdayjobs.com/DFA_Careers [pts] 53, ashby:dimensional [guessed] 12
-- **Wellington Management** (Asset Management): workday:wellington.wd5.myworkdayjobs.com/External [pts] 81
-- **Neuberger Berman** (Asset Management): workday:nb.wd1.myworkdayjobs.com/NBCareers [pts] 56, workday:nb.wd1.myworkdayjobs.com/PWM [pts] 6
-- **MFS** (Asset Management): workday:mfs.wd1.myworkdayjobs.com/MFS-Careers [pts] 28
-- **Russell Investments** (Asset Management): workday:russell.wd5.myworkdayjobs.com/russellinvestments [pts] 33
+- **Capital Group** (Asset Management): workday:capgroup.wd1.myworkdayjobs.com/capitalgroupcareers [pts] 89
+- **Dimensional** (Asset Management): workday:dimensional.wd5.myworkdayjobs.com/DFA_Careers [pts] 52, ashby:dimensional [guessed] 12
+- **Wellington Management** (Asset Management): workday:wellington.wd5.myworkdayjobs.com/External [pts] 83
+- **Neuberger Berman** (Asset Management): workday:nb.wd1.myworkdayjobs.com/NBCareers [pts] 55, workday:nb.wd1.myworkdayjobs.com/PWM [pts] 6
+- **MFS** (Asset Management): workday:mfs.wd1.myworkdayjobs.com/MFS-Careers [pts] 26
+- **Russell Investments** (Asset Management): workday:russell.wd5.myworkdayjobs.com/russellinvestments [pts] 35
 - **GMO** (Asset Management): lever:gmo [pts] 9
 - **Ariel Investments** (Asset Management): greenhouse:arielinvestments [guessed] 1
 - **Harris Associates** (Asset Management): greenhouse:harrisassociates [guessed] 8
-- **Baillie Gifford** (Asset Management): workday:bailliegifford.wd3.myworkdayjobs.com/BaillieGiffordCareers [pts] 11, workday:bailliegifford.wd3.myworkdayjobs.com/BaillieGiffordEarlyCareers [pts] 0
-- **Connor Clark & Lunn** (Asset Management): greenhouse:cclfg [pts] 72, greenhouse:cclim [pts] 5
+- **Baillie Gifford** (Asset Management): workday:bailliegifford.wd3.myworkdayjobs.com/BaillieGiffordCareers [pts] 12, workday:bailliegifford.wd3.myworkdayjobs.com/BaillieGiffordEarlyCareers [pts] 0
+- **Connor Clark & Lunn** (Asset Management): greenhouse:cclfg [pts] 75, greenhouse:cclim [pts] 5
 - **StepStone** (Asset Management): greenhouse:stepstone [guessed] 62
 - **Adams Street Partners** (Asset Management): greenhouse:adamsstreetpartners [guessed] 16
-- **Blackstone** (Private Equity & VC): workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Careers [pts] 94, workday:blackstone.wd1.myworkdayjobs.com/BX_External_Site [pts] 46
+- **Blackstone** (Private Equity & VC): workday:blackstone.wd1.myworkdayjobs.com/Blackstone_Careers [pts] 97, workday:blackstone.wd1.myworkdayjobs.com/BX_External_Site [pts] 46
 - **Apollo** (Private Equity & VC): workday:athene.wd5.myworkdayjobs.com/Apollo_Careers [pts] 38, greenhouse:apollo [guessed] 0
 - **TPG** (Private Equity & VC): greenhouse:tpgcareers [pts] 19
-- **Ares** (Private Equity & VC): workday:aresmgmt.wd1.myworkdayjobs.com/External [pts] 173
-- **Blue Owl** (Private Equity & VC): workday:blueowl.wd1.myworkdayjobs.com/blueowl [pts] 35
+- **Ares** (Private Equity & VC): workday:aresmgmt.wd1.myworkdayjobs.com/External [pts] 171
+- **Blue Owl** (Private Equity & VC): workday:blueowl.wd1.myworkdayjobs.com/blueowl [pts] 36
 - **Bain Capital** (Private Equity & VC): ashby:bain-capital [guessed] 1
 - **Warburg Pincus** (Private Equity & VC): greenhouse:warburgpincusllc [pts] 5
 - **General Atlantic** (Private Equity & VC): greenhouse:generalatlantic [pts] 14
-- **Oaktree** (Private Equity & VC): workday:oaktree.wd1.myworkdayjobs.com/Oaktree [pts] 49
+- **Oaktree** (Private Equity & VC): workday:oaktree.wd1.myworkdayjobs.com/Oaktree [pts] 52
 - **HPS Investment Partners** (Private Equity & VC): greenhouse:hpsinvestmentpartners [guessed] 1
 - **GCM Grosvenor** (Private Equity & VC): greenhouse:gcmgrosvenor [guessed] 17
 - **Insight Partners** (Private Equity & VC): greenhouse:insight [guessed] 11
@@ -772,182 +768,182 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **GTCR** (Private Equity & VC): greenhouse:gtcr [guessed] 0
 - **American Securities** (Private Equity & VC): greenhouse:americansecurities [guessed] 0
 - **Y Combinator** (Private Equity & VC): ashby:ycombinator [guessed] 10
-- **Point72 Ventures** (Private Equity & VC): greenhouse:point72 [guessed] 197
-- **Visa** (Fintech & Payments): workday:visa.wd5.myworkdayjobs.com/Visa [pts] 506, workday:visa.wd5.myworkdayjobs.com/Visa_Early_Careers [pts] 54
-- **Mastercard** (Fintech & Payments): workday:mastercard.wd1.myworkdayjobs.com/CorporateCareers [pts] 635, workday:mastercard.wd1.myworkdayjobs.com/Campus [pts] 27
-- **Plaid** (Fintech & Payments): ashby:plaid [pts] 145
-- **Chime** (Fintech & Payments): greenhouse:chime [pts] 74
+- **Point72 Ventures** (Private Equity & VC): greenhouse:point72 [guessed] 200
+- **Visa** (Fintech & Payments): workday:visa.wd5.myworkdayjobs.com/Visa [pts] 480, workday:visa.wd5.myworkdayjobs.com/Visa_Early_Careers [pts] 37
+- **Mastercard** (Fintech & Payments): workday:mastercard.wd1.myworkdayjobs.com/CorporateCareers [pts] 623, workday:mastercard.wd1.myworkdayjobs.com/Campus [pts] 24
+- **Plaid** (Fintech & Payments): ashby:plaid [pts] 144
+- **Chime** (Fintech & Payments): greenhouse:chime [pts] 73
 - **Robinhood** (Fintech & Payments): greenhouse:robinhood [pts] 151
-- **Coinbase** (Fintech & Payments): greenhouse:coinbase [pts] 278
-- **Affirm** (Fintech & Payments): greenhouse:affirm [pts] 237
-- **SoFi** (Fintech & Payments): greenhouse:sofi [local] 52
-- **Brex** (Fintech & Payments): greenhouse:brex [pts] 272
+- **Coinbase** (Fintech & Payments): greenhouse:coinbase [pts] 281
+- **Affirm** (Fintech & Payments): greenhouse:affirm [pts] 236
+- **SoFi** (Fintech & Payments): greenhouse:sofi [local] 45
+- **Brex** (Fintech & Payments): greenhouse:brex [pts] 267
 - **Ramp** (Fintech & Payments): ashby:ramp [pts] 170
 - **Mercury** (Fintech & Payments): ashby:mercury [pts] 0
 - **Wealthfront** (Fintech & Payments): lever:wealthfront [pts] 23
-- **Betterment** (Fintech & Payments): greenhouse:betterment [pts] 25
-- **Addepar** (Fintech & Payments): greenhouse:addepar1 [pts] 109
+- **Betterment** (Fintech & Payments): greenhouse:betterment [pts] 26
+- **Addepar** (Fintech & Payments): greenhouse:addepar1 [pts] 107
 - **Carta** (Fintech & Payments): greenhouse:carta [guessed] 79
-- **Toast** (Fintech & Payments): greenhouse:toast [pts] 335
-- **Nubank** (Fintech & Payments): greenhouse:nubank [pts] 0, ashby:nubank [guessed] 105
-- **Kraken** (Fintech & Payments): ashby:kraken.com [pts] 87
-- **Gemini** (Fintech & Payments): greenhouse:gemini [pts] 29
-- **Ripple** (Fintech & Payments): greenhouse:ripple [pts] 112
+- **Toast** (Fintech & Payments): greenhouse:toast [pts] 329
+- **Nubank** (Fintech & Payments): greenhouse:nubank [pts] 0, ashby:nubank [guessed] 107
+- **Kraken** (Fintech & Payments): ashby:kraken.com [pts] 89
+- **Gemini** (Fintech & Payments): greenhouse:gemini [pts] 27
+- **Ripple** (Fintech & Payments): greenhouse:ripple [pts] 116
 - **Paxos** (Fintech & Payments): ashby:paxos [pts] 24
-- **Anchorage Digital** (Fintech & Payments): lever:anchorage [pts] 21
+- **Anchorage Digital** (Fintech & Payments): lever:anchorage [pts] 23
 - **Fireblocks** (Fintech & Payments): greenhouse:fireblocks [guessed] 26
 - **Clear Street** (Fintech & Payments): greenhouse:clearstreet [pts] 46
-- **Upstart** (Fintech & Payments): greenhouse:upstart [pts] 87
-- **Gusto** (Fintech & Payments): greenhouse:gusto [local] 84
+- **Upstart** (Fintech & Payments): greenhouse:upstart [pts] 88
+- **Gusto** (Fintech & Payments): greenhouse:gusto [local] 83
 - **Deel** (Fintech & Payments): ashby:deel [pts] 0
 - **Bill.com** (Fintech & Payments): greenhouse:billcom [guessed] 42
 - **Adyen** (Fintech & Payments): greenhouse:adyen [guessed] 252
-- **Payoneer** (Fintech & Payments): greenhouse:payoneer [guessed] 99
+- **Payoneer** (Fintech & Payments): greenhouse:payoneer [guessed] 100
 - **Wise** (Fintech & Payments): greenhouse:wise [guessed] 17
 - **Dave** (Fintech & Payments): ashby:dave [guessed] 9
 - **Acorns** (Fintech & Payments): ashby:acorns [guessed] 11
-- **Blend** (Fintech & Payments): greenhouse:blend [guessed] 12
-- **Socure** (Fintech & Payments): ashby:socure [guessed] 87
-- **Alloy** (Fintech & Payments): greenhouse:alloy [guessed] 30, lever:alloy [guessed] 7, ashby:alloy [guessed] 30
-- **Sardine** (Fintech & Payments): ashby:sardine [guessed] 43
+- **Blend** (Fintech & Payments): greenhouse:blend [guessed] 11
+- **Socure** (Fintech & Payments): ashby:socure [guessed] 88
+- **Alloy** (Fintech & Payments): greenhouse:alloy [guessed] 31, lever:alloy [guessed] 7, ashby:alloy [guessed] 31
+- **Sardine** (Fintech & Payments): ashby:sardine [guessed] 41
 - **Persona** (Fintech & Payments): ashby:persona [guessed] 14
 - **Modern Treasury** (Fintech & Payments): ashby:moderntreasury [guessed] 8
 - **Lithic** (Fintech & Payments): greenhouse:lithic [guessed] 10
-- **Highnote** (Fintech & Payments): greenhouse:highnote [guessed] 5
-- **Galileo** (Fintech & Payments): greenhouse:galileo [guessed] 11
-- **Enova** (Fintech & Payments): greenhouse:enova [guessed] 39
+- **Highnote** (Fintech & Payments): greenhouse:highnote [guessed] 4
+- **Galileo** (Fintech & Payments): greenhouse:galileo [guessed] 12
+- **Enova** (Fintech & Payments): greenhouse:enova [guessed] 38
 - **Avant** (Fintech & Payments): workday:avant.wd503.myworkdayjobs.com/External_Careers [pts] 8
-- **NerdWallet** (Fintech & Payments): ashby:nerdwallet [guessed] 30
+- **NerdWallet** (Fintech & Payments): ashby:nerdwallet [guessed] 27
 - **Synctera** (Fintech & Payments): ashby:synctera [guessed] 1
 - **Treasury Prime** (Fintech & Payments): greenhouse:treasuryprime [guessed] 2
-- **Talos** (Fintech & Payments): ashby:Talos-Trading [pts] 20
-- **Alpaca** (Fintech & Payments): greenhouse:alpaca [pts] 69
-- **Polymarket** (Fintech & Payments): ashby:polymarket [guessed] 36
-- **Kalshi** (Fintech & Payments): greenhouse:kalshi [guessed] 28, ashby:kalshi [guessed] 35
+- **Talos** (Fintech & Payments): ashby:Talos-Trading [pts] 19
+- **Alpaca** (Fintech & Payments): greenhouse:alpaca [pts] 66
+- **Polymarket** (Fintech & Payments): ashby:polymarket [guessed] 35
+- **Kalshi** (Fintech & Payments): greenhouse:kalshi [guessed] 28, ashby:kalshi [guessed] 32
 - **Uniswap Labs** (Fintech & Payments): ashby:uniswap [guessed] 9
 - **Consensys** (Fintech & Payments): greenhouse:consensys [pts] 12, ashby:consensys [guessed] 6
 - **Grayscale** (Fintech & Payments): greenhouse:grayscale [guessed] 3
 - **Galaxy** (Fintech & Payments): greenhouse:galaxy [guessed] 2
-- **Figma** (High-Growth Tech): greenhouse:figma [pts] 143
-- **Notion** (High-Growth Tech): ashby:notion [pts] 150
+- **Figma** (High-Growth Tech): greenhouse:figma [pts] 145
+- **Notion** (High-Growth Tech): ashby:notion [pts] 154
 - **Discord** (High-Growth Tech): greenhouse:discord [pts] 27
-- **Asana** (High-Growth Tech): greenhouse:asana [pts] 111
-- **Samsara** (High-Growth Tech): greenhouse:samsara [pts] 312
+- **Asana** (High-Growth Tech): greenhouse:asana [pts] 108
+- **Samsara** (High-Growth Tech): greenhouse:samsara [pts] 310
 - **Airtable** (High-Growth Tech): greenhouse:airtable [pts] 5
-- **Linear** (High-Growth Tech): ashby:linear [pts] 31
-- **PostHog** (High-Growth Tech): ashby:posthog [pts] 8
-- **Supabase** (High-Growth Tech): ashby:supabase [pts] 70
+- **Linear** (High-Growth Tech): ashby:linear [pts] 32
+- **PostHog** (High-Growth Tech): ashby:posthog [pts] 10
+- **Supabase** (High-Growth Tech): ashby:supabase [pts] 71
 - **Benchling** (High-Growth Tech): ashby:benchling [pts] 51
-- **Verkada** (High-Growth Tech): greenhouse:verkada [pts] 339
-- **Flexport** (High-Growth Tech): greenhouse:flexport [pts] 190
-- **Faire** (High-Growth Tech): greenhouse:faire [pts] 66
-- **Lucid Software** (High-Growth Tech): greenhouse:lucidsoftware [pts] 24
-- **Workiva** (High-Growth Tech): workday:workiva.wd503.myworkdayjobs.com/careers [pts] 94
+- **Verkada** (High-Growth Tech): greenhouse:verkada [pts] 345
+- **Flexport** (High-Growth Tech): greenhouse:flexport [pts] 192
+- **Faire** (High-Growth Tech): greenhouse:faire [pts] 65
+- **Lucid Software** (High-Growth Tech): greenhouse:lucidsoftware [pts] 26
+- **Workiva** (High-Growth Tech): workday:workiva.wd503.myworkdayjobs.com/careers [pts] 93
 - **Rubrik** (High-Growth Tech): greenhouse:rubrik [local] 150
-- **GitLab** (High-Growth Tech): greenhouse:gitlab [pts] 244
-- **Elastic** (High-Growth Tech): greenhouse:elastic [guessed] 429
-- **Grafana Labs** (High-Growth Tech): greenhouse:grafanalabs [pts] 124
+- **GitLab** (High-Growth Tech): greenhouse:gitlab [pts] 245
+- **Elastic** (High-Growth Tech): greenhouse:elastic [guessed] 422
+- **Grafana Labs** (High-Growth Tech): greenhouse:grafanalabs [pts] 136
 - **Sentry** (High-Growth Tech): ashby:sentry [guessed] 39
-- **Miro** (High-Growth Tech): ashby:miro [guessed] 22
+- **Miro** (High-Growth Tech): ashby:miro [guessed] 21
 - **Webflow** (High-Growth Tech): greenhouse:webflow [guessed] 0, ashby:webflow [guessed] 22
 - **Zapier** (High-Growth Tech): ashby:zapier [pts] 10
-- **Klaviyo** (High-Growth Tech): greenhouse:klaviyo [guessed] 156
+- **Klaviyo** (High-Growth Tech): greenhouse:klaviyo [guessed] 152
 - **Snyk** (High-Growth Tech): ashby:snyk [guessed] 38
-- **1Password** (High-Growth Tech): ashby:1password [guessed] 76
+- **1Password** (High-Growth Tech): ashby:1password [guessed] 78
 - **Fivetran** (High-Growth Tech): greenhouse:fivetran [pts] 159
-- **Amplitude** (High-Growth Tech): ashby:amplitude [guessed] 51
-- **Mixpanel** (High-Growth Tech): greenhouse:mixpanel [guessed] 42
-- **Twilio** (High-Growth Tech): greenhouse:twilio [pts] 123
-- **MongoDB** (High-Growth Tech): greenhouse:mongodb [pts] 366
-- **Datadog** (High-Growth Tech): greenhouse:datadog [pts] 396
-- **Cloudflare** (High-Growth Tech): greenhouse:cloudflare [pts] 463
-- **Zscaler** (High-Growth Tech): greenhouse:zscaler [guessed] 371
-- **Okta** (High-Growth Tech): greenhouse:okta [local] 387
-- **Duolingo** (High-Growth Tech): greenhouse:duolingo [pts] 56
-- **Coursera** (High-Growth Tech): greenhouse:coursera [pts] 34
+- **Amplitude** (High-Growth Tech): ashby:amplitude [guessed] 52
+- **Mixpanel** (High-Growth Tech): greenhouse:mixpanel [guessed] 40
+- **Twilio** (High-Growth Tech): greenhouse:twilio [pts] 127
+- **MongoDB** (High-Growth Tech): greenhouse:mongodb [pts] 370
+- **Datadog** (High-Growth Tech): greenhouse:datadog [pts] 399
+- **Cloudflare** (High-Growth Tech): greenhouse:cloudflare [pts] 462
+- **Zscaler** (High-Growth Tech): greenhouse:zscaler [guessed] 374
+- **Okta** (High-Growth Tech): greenhouse:okta [local] 377
+- **Duolingo** (High-Growth Tech): greenhouse:duolingo [pts] 59
+- **Coursera** (High-Growth Tech): greenhouse:coursera [pts] 39
 - **Khan Academy** (High-Growth Tech): greenhouse:khanacademy [pts] 4
-- **Nextdoor** (High-Growth Tech): greenhouse:nextdoor [guessed] 22
-- **Peloton** (High-Growth Tech): greenhouse:peloton [guessed] 47
-- **Whoop** (High-Growth Tech): ashby:whoop [guessed] 125
-- **Strava** (High-Growth Tech): ashby:strava [guessed] 26
+- **Nextdoor** (High-Growth Tech): greenhouse:nextdoor [guessed] 21
+- **Peloton** (High-Growth Tech): greenhouse:peloton [guessed] 45
+- **Whoop** (High-Growth Tech): ashby:whoop [guessed] 124
+- **Strava** (High-Growth Tech): ashby:strava [guessed] 24
 - **Calm** (High-Growth Tech): greenhouse:calm [guessed] 1
-- **Zocdoc** (High-Growth Tech): greenhouse:zocdoc [guessed] 63
-- **Hims & Hers** (High-Growth Tech): ashby:hims-and-hers [guessed] 150
+- **Zocdoc** (High-Growth Tech): greenhouse:zocdoc [guessed] 65
+- **Hims & Hers** (High-Growth Tech): ashby:hims-and-hers [guessed] 152
 - **Flatiron Health** (High-Growth Tech): greenhouse:flatironhealth [guessed] 25
-- **Vanta** (High-Growth Tech): ashby:vanta [guessed] 85
+- **Vanta** (High-Growth Tech): ashby:vanta [guessed] 84
 - **Drata** (High-Growth Tech): ashby:drata [guessed] 25
-- **Lattice** (High-Growth Tech): greenhouse:lattice [guessed] 7
-- **Outreach** (High-Growth Tech): lever:outreach [guessed] 22
-- **Attentive** (High-Growth Tech): greenhouse:attentive [guessed] 25
-- **Braze** (High-Growth Tech): greenhouse:braze [guessed] 364
+- **Lattice** (High-Growth Tech): greenhouse:lattice [guessed] 6
+- **Outreach** (High-Growth Tech): lever:outreach [guessed] 21
+- **Attentive** (High-Growth Tech): greenhouse:attentive [guessed] 27
+- **Braze** (High-Growth Tech): greenhouse:braze [guessed] 359
 - **Iterable** (High-Growth Tech): greenhouse:iterable [guessed] 0, ashby:iterable [guessed] 15
 - **Sprout Social** (High-Growth Tech): greenhouse:sproutsocial [pts] 24
 - **Smartsheet** (High-Growth Tech): greenhouse:smartsheet [guessed] 70
-- **ClickUp** (High-Growth Tech): ashby:clickup [guessed] 48
+- **ClickUp** (High-Growth Tech): ashby:clickup [guessed] 47
 - **Calendly** (High-Growth Tech): greenhouse:calendly [guessed] 7
-- **Pendo** (High-Growth Tech): greenhouse:pendo [guessed] 24
-- **FullStory** (High-Growth Tech): ashby:fullstory [guessed] 10
+- **Pendo** (High-Growth Tech): greenhouse:pendo [guessed] 23
+- **FullStory** (High-Growth Tech): ashby:fullstory [guessed] 11
 - **Contentful** (High-Growth Tech): greenhouse:contentful [guessed] 29
 - **Sanity** (High-Growth Tech): ashby:sanity [guessed] 32
 - **Netlify** (High-Growth Tech): greenhouse:netlify [guessed] 4
 - **Render** (High-Growth Tech): ashby:render [guessed] 35
 - **Fastly** (High-Growth Tech): greenhouse:fastly [guessed] 57
-- **Tanium** (High-Growth Tech): greenhouse:tanium [guessed] 63
+- **Tanium** (High-Growth Tech): greenhouse:tanium [guessed] 67
 - **Abnormal Security** (High-Growth Tech): greenhouse:abnormalsecurity [guessed] 85
-- **Chainguard** (High-Growth Tech): greenhouse:chainguard [guessed] 98
-- **Cribl** (High-Growth Tech): greenhouse:cribl [guessed] 76
+- **Chainguard** (High-Growth Tech): greenhouse:chainguard [guessed] 100
+- **Cribl** (High-Growth Tech): greenhouse:cribl [guessed] 77
 - **ClickHouse** (High-Growth Tech): ashby:clickhouse [guessed] 202
 - **Starburst** (High-Growth Tech): greenhouse:starburst [guessed] 34
-- **SingleStore** (High-Growth Tech): greenhouse:singlestore [guessed] 40
-- **Cockroach Labs** (High-Growth Tech): greenhouse:cockroachlabs [guessed] 10
+- **SingleStore** (High-Growth Tech): greenhouse:singlestore [guessed] 41
+- **Cockroach Labs** (High-Growth Tech): greenhouse:cockroachlabs [guessed] 12
 - **Neo4j** (High-Growth Tech): greenhouse:neo4j [guessed] 64
 - **Redis** (High-Growth Tech): ashby:redis [guessed] 32
 - **Temporal** (High-Growth Tech): ashby:temporal [guessed] 79
 - **Airbyte** (High-Growth Tech): ashby:airbyte [guessed] 9
 - **Astronomer** (High-Growth Tech): ashby:astronomer [guessed] 19
-- **Prefect** (High-Growth Tech): ashby:prefect [guessed] 5
+- **Prefect** (High-Growth Tech): ashby:prefect [guessed] 6
 - **Sigma Computing** (High-Growth Tech): greenhouse:sigmacomputing [guessed] 79
-- **Collibra** (High-Growth Tech): greenhouse:collibra [guessed] 23
-- **UiPath** (High-Growth Tech): ashby:uipath [guessed] 102
-- **Appian** (High-Growth Tech): greenhouse:appian [guessed] 156
-- **Squarespace** (High-Growth Tech): greenhouse:squarespace [local] 22
+- **Collibra** (High-Growth Tech): greenhouse:collibra [guessed] 24
+- **UiPath** (High-Growth Tech): ashby:uipath [guessed] 103
+- **Appian** (High-Growth Tech): greenhouse:appian [guessed] 155
+- **Squarespace** (High-Growth Tech): greenhouse:squarespace [local] 21
 - **GoDaddy** (High-Growth Tech): greenhouse:godaddy [guessed] 30
-- **Justworks** (High-Growth Tech): greenhouse:justworks [guessed] 109
+- **Justworks** (High-Growth Tech): greenhouse:justworks [guessed] 111
 - **Remote.com** (High-Growth Tech): greenhouse:remotecom [guessed] 0
-- **Oyster** (High-Growth Tech): ashby:oyster [guessed] 20
-- **Handshake** (High-Growth Tech): ashby:handshake [pts] 80
-- **Rocket Lab** (High-Growth Tech): greenhouse:rocketlab [guessed] 549
-- **Sila** (High-Growth Tech): lever:sila [guessed] 222
-- **Lucid Motors** (High-Growth Tech): greenhouse:lucidmotors [guessed] 453
-- **Motional** (High-Growth Tech): greenhouse:motional [guessed] 81
-- **Waabi** (High-Growth Tech): lever:waabi [guessed] 89
-- **Wing** (High-Growth Tech): greenhouse:wing [guessed] 55
-- **LaunchDarkly** (High-Growth Tech): greenhouse:launchdarkly [guessed] 45
-- **CircleCI** (High-Growth Tech): greenhouse:circleci [guessed] 14
+- **Oyster** (High-Growth Tech): ashby:oyster [guessed] 19
+- **Handshake** (High-Growth Tech): ashby:handshake [pts] 79
+- **Rocket Lab** (High-Growth Tech): greenhouse:rocketlab [guessed] 542
+- **Sila** (High-Growth Tech): lever:sila [guessed] 220
+- **Lucid Motors** (High-Growth Tech): greenhouse:lucidmotors [guessed] 460
+- **Motional** (High-Growth Tech): greenhouse:motional [guessed] 78
+- **Waabi** (High-Growth Tech): lever:waabi [guessed] 88
+- **Wing** (High-Growth Tech): greenhouse:wing [guessed] 56
+- **LaunchDarkly** (High-Growth Tech): greenhouse:launchdarkly [guessed] 43
+- **CircleCI** (High-Growth Tech): greenhouse:circleci [guessed] 16
 - **JFrog** (High-Growth Tech): greenhouse:jfrog [guessed] 74
 - **Docker** (High-Growth Tech): ashby:docker [guessed] 51
-- **Kong** (High-Growth Tech): ashby:kong [guessed] 101
-- **Tailscale** (High-Growth Tech): greenhouse:tailscale [guessed] 71
+- **Kong** (High-Growth Tech): ashby:kong [guessed] 107
+- **Tailscale** (High-Growth Tech): greenhouse:tailscale [guessed] 72
 - **Lyra Health** (High-Growth Tech): lever:lyrahealth [guessed] 483
-- **Headway** (High-Growth Tech): ashby:headway [guessed] 93
+- **Headway** (High-Growth Tech): ashby:headway [guessed] 95
 - **Komodo Health** (High-Growth Tech): greenhouse:komodohealth [guessed] 21
-- **Veeva** (High-Growth Tech): lever:veeva [guessed] 878
+- **Veeva** (High-Growth Tech): lever:veeva [guessed] 876
 - **Doximity** (High-Growth Tech): greenhouse:doximity [guessed] 11
-- **GoodRx** (High-Growth Tech): ashby:goodrx [guessed] 5
-- **Hinge Health** (High-Growth Tech): ashby:hinge-health [guessed] 86
+- **GoodRx** (High-Growth Tech): ashby:goodrx [guessed] 7
+- **Hinge Health** (High-Growth Tech): ashby:hinge-health [guessed] 87
 - **Omada Health** (High-Growth Tech): greenhouse:omadahealth [guessed] 18
 - **Ginkgo Bioworks** (High-Growth Tech): greenhouse:ginkgobioworks [guessed] 20
-- **Insitro** (High-Growth Tech): ashby:insitro [guessed] 15
-- **Isomorphic Labs** (High-Growth Tech): greenhouse:isomorphiclabs [guessed] 33
+- **Insitro** (High-Growth Tech): ashby:insitro [guessed] 14
+- **Isomorphic Labs** (High-Growth Tech): greenhouse:isomorphiclabs [guessed] 43
 - **Generate Biomedicines** (High-Growth Tech): greenhouse:generatebiomedicines [guessed] 23
 - **Xaira Therapeutics** (High-Growth Tech): greenhouse:xairatherapeutics [guessed] 32
 - **Arcadia** (High-Growth Tech): lever:arcadia [guessed] 15
 - **Thumbtack** (High-Growth Tech): ashby:thumbtack [guessed] 36
-- **TaskRabbit** (High-Growth Tech): greenhouse:taskrabbit [guessed] 20
-- **Angi** (High-Growth Tech): ashby:angi [guessed] 16
+- **TaskRabbit** (High-Growth Tech): greenhouse:taskrabbit [guessed] 19
+- **Angi** (High-Growth Tech): ashby:angi [guessed] 21
 - **Gopuff** (High-Growth Tech): lever:gopuff [guessed] 782
 - **Uber Freight** (High-Growth Tech): greenhouse:uberfreight [guessed] 97
-- **project44** (High-Growth Tech): greenhouse:project44 [pts] 25
+- **project44** (High-Growth Tech): greenhouse:project44 [pts] 26
 - **Motive** (High-Growth Tech): greenhouse:motive [guessed] 4
 - **Hopper** (High-Growth Tech): ashby:hopper [guessed] 21
 - **Vacasa** (High-Growth Tech): greenhouse:vacasa [guessed] 0
@@ -958,22 +954,22 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Masterclass** (High-Growth Tech): greenhouse:masterclass [guessed] 0
 - **Patreon** (High-Growth Tech): ashby:patreon [guessed] 21
 - **Substack** (High-Growth Tech): ashby:substack [guessed] 19
-- **Medium** (High-Growth Tech): greenhouse:medium [guessed] 2
+- **Medium** (High-Growth Tech): greenhouse:medium [guessed] 3
 - **Quora** (High-Growth Tech): ashby:quora [guessed] 8
-- **Mozilla** (High-Growth Tech): greenhouse:mozilla [pts] 112
-- **Wikimedia Foundation** (High-Growth Tech): greenhouse:wikimedia [pts] 14
+- **Mozilla** (High-Growth Tech): greenhouse:mozilla [pts] 113
+- **Wikimedia Foundation** (High-Growth Tech): greenhouse:wikimedia [pts] 15
 - **DuckDuckGo** (High-Growth Tech): ashby:duck-duck-go [pts] 10
-- **Proton** (High-Growth Tech): greenhouse:proton [guessed] 14
+- **Proton** (High-Growth Tech): greenhouse:proton [guessed] 13
 - **Brave** (High-Growth Tech): greenhouse:brave [guessed] 10
 - **Scopely** (High-Growth Tech): greenhouse:scopely [guessed] 166
 - **Bungie** (High-Growth Tech): greenhouse:bungie [guessed] 4
-- **FanDuel** (High-Growth Tech): greenhouse:fanduel [guessed] 94
-- **PrizePicks** (High-Growth Tech): greenhouse:prizepicks [guessed] 31
+- **FanDuel** (High-Growth Tech): greenhouse:fanduel [guessed] 92
+- **PrizePicks** (High-Growth Tech): greenhouse:prizepicks [guessed] 30
 - **Sleeper** (High-Growth Tech): ashby:sleeper [pts] 7
 - **StockX** (High-Growth Tech): greenhouse:stockx [guessed] 35
-- **Poshmark** (High-Growth Tech): greenhouse:poshmark [guessed] 0, ashby:poshmark [guessed] 22
-- **Motorola Solutions** (Enterprise & Consumer Tech): workday:motorolasolutions.wd5.myworkdayjobs.com/Careers [pts] 480
-- **Groupon** (Enterprise & Consumer Tech): greenhouse:groupon [pts] 27
+- **Poshmark** (High-Growth Tech): greenhouse:poshmark [guessed] 0, ashby:poshmark [guessed] 21
+- **Motorola Solutions** (Enterprise & Consumer Tech): workday:motorolasolutions.wd5.myworkdayjobs.com/Careers [pts] 500
+- **Groupon** (Enterprise & Consumer Tech): greenhouse:groupon [pts] 26
 
 ## Seeded boards that failed
 
