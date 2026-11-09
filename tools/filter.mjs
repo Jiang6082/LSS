@@ -50,11 +50,13 @@ export function trackFor(title = "", category = "", department = "") {
 }
 
 // Title-level screen. Returns { ok, reason, track }.
-export function screenRole({ Title = "", Department = "", Category = "" } = {}, { excludeNonPythonTitles = true } = {}) {
+export function screenRole({ Title = "", Department = "", Category = "", URL = "" } = {}, { excludeNonPythonTitles = true } = {}) {
   const title = String(Title).replace(/\s+/g, " ").trim();
   if (!title) return { ok: false, reason: "no title" };
   if (!INTERN_RE.test(title)) return { ok: false, reason: "not an internship" };
   if (NOT_INTERN_RE.test(title)) return { ok: false, reason: "new grad / full-time" };
+  // Job lists sometimes shorten the title; the posting's URL slug keeps the full one ("...-High-School-Intern-...").
+  if (/high[-_ ]?school|micro[-_ ]?internship/i.test(String(URL))) return { ok: false, reason: "new grad / full-time" };
   if (SENIOR_RE.test(title)) return { ok: false, reason: "senior / manager title" };
   if (DEGREE_RE.test(title)) return { ok: false, reason: "PhD / MBA / law / medical" };
   if (MASTERS_RE.test(title) && !UNDERGRAD_RE.test(title)) return { ok: false, reason: "master's only" };
