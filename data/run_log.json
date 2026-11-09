@@ -1,15 +1,15 @@
 {
-  "scannedAt": "2026-11-08T17:55:47.516Z",
+  "scannedAt": "2026-11-09T14:09:14.625Z",
   "steps": [
     "[0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr",
-    "[0s] aggregators: speedyapply_swe=834, speedyapply_ai=799, vanshb03=2264, simplify=5349",
-    "[0s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)",
-    "[124s] ATS: 418 firms with live boards, 684 postings",
-    "[124s] pre-screen: 3242 candidate postings",
-    "[124s] detail fetch: 2781 unique postings",
-    "[263s] detail results: html=576, error=25, greenhouse=429, jsonld=309, workday=1053, lever=84, oracle=103, eightfold=81, ashby=81, smartrecruiters=37, closed=3",
-    "[264s] classified: 1431 kept, 522 excluded by dates, 3 closed",
-    "[264s] done: 0 fit, 12 flexible, 997 ask-about-dates"
+    "[0s] aggregators: speedyapply_swe=834, speedyapply_ai=799, simplify=5317, vanshb03=2317",
+    "[1s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)",
+    "[206s] ATS: 418 firms with live boards, 687 postings",
+    "[206s] pre-screen: 3252 candidate postings",
+    "[206s] detail fetch: 2789 unique postings",
+    "[403s] detail results: html=596, error=25, greenhouse=433, jsonld=312, workday=1032, lever=80, oracle=103, ashby=81, smartrecruiters=37, closed=5, embedded=2, eightfold=83",
+    "[405s] classified: 1444 kept, 525 excluded by dates, 5 closed",
+    "[405s] done: 0 fit, 12 flexible, 1001 ask-about-dates"
   ],
   "errors": [],
   "sources": {
@@ -23,21 +23,21 @@
       "rows": 799,
       "bytes": 264120
     },
-    "vanshb03": {
-      "ok": true,
-      "rows": 2264,
-      "bytes": 1647507
-    },
     "simplify": {
       "ok": true,
-      "rows": 5349,
-      "bytes": 13159468
+      "rows": 5317,
+      "bytes": 13066989
+    },
+    "vanshb03": {
+      "ok": true,
+      "rows": 2317,
+      "bytes": 1683926
     }
   },
   "ptsSeeds": "loaded 233 firms",
   "boards": {
     "firmsWithLiveBoards": 418,
-    "postings": 684,
+    "postings": 687,
     "failedSeeds": [
       "Mistral AI lever:mistral",
       "Anysphere ashby:anysphere",
@@ -51,61 +51,62 @@
     ]
   },
   "detailStats": {
-    "html": 576,
+    "html": 596,
     "error": 25,
-    "greenhouse": 429,
-    "jsonld": 309,
-    "workday": 1053,
-    "lever": 84,
+    "greenhouse": 433,
+    "jsonld": 312,
+    "workday": 1032,
+    "lever": 80,
     "oracle": 103,
-    "eightfold": 81,
     "ashby": 81,
     "smartrecruiters": 37,
-    "closed": 3
+    "closed": 5,
+    "embedded": 2,
+    "eightfold": 83
   },
   "funnel": {
-    "aggregatorRows": 9246,
-    "boardRows": 684,
-    "prefiltered": 3242,
-    "uniqueUrls": 2781,
-    "enriched": 2781,
-    "closed": 3,
-    "kept": 1431,
-    "roles": 1009,
-    "dateExcluded": 522
+    "aggregatorRows": 9267,
+    "boardRows": 687,
+    "prefiltered": 3252,
+    "uniqueUrls": 2789,
+    "enriched": 2789,
+    "closed": 5,
+    "kept": 1444,
+    "roles": 1013,
+    "dateExcluded": 525
   },
   "rejected": {
-    "not on known-firm list": 2011,
-    "hardware": 879,
-    "outside US": 793,
-    "term: term year ####": 766,
-    "outside SWE/PM/data/finance": 760,
-    "dates: posted dates conflict": 440,
-    "PhD / MBA / law / medical": 381,
-    "pay below $30/hr": 346,
-    "term: winter term": 272,
-    "term: spring term": 248,
-    "requires PhD (description)": 235,
-    "requires Master's/PhD (description)": 192,
-    "non-Python stack in title": 169,
-    "not an internship": 122,
-    "no matching track": 85,
-    "graduate/professional degree (title)": 62,
+    "not on known-firm list": 2013,
+    "hardware": 877,
+    "outside US": 790,
+    "outside SWE/PM/data/finance": 768,
+    "term: term year ####": 761,
+    "dates: posted dates conflict": 443,
+    "PhD / MBA / law / medical": 379,
+    "pay below $30/hr": 337,
+    "term: winter term": 273,
+    "term: spring term": 256,
+    "requires PhD (description)": 238,
+    "requires Master's/PhD (description)": 189,
+    "non-Python stack in title": 173,
+    "not an internship": 121,
+    "no matching track": 90,
+    "graduate/professional degree (title)": 61,
     "dates: fall-only term (usually runs past Oct 1)": 41,
     "term: winter/spring term": 39,
     "master's only": 38,
     "senior / manager title": 33,
-    "outside US (detail)": 25,
+    "outside US (detail)": 26,
     "dates: co-op with no dates (usually 4-6 months)": 24,
     "dates: 26-week assignment": 15,
-    "research role, undergrad eligibility not stated": 13,
+    "research role, undergrad eligibility not stated": 11,
     "requires MBA (description)": 11,
     "new grad / full-time": 9,
     "outside US (title)": 6,
     "term: 35-week assignment": 5,
+    "closed (verified)": 5,
     "term: posted dates Jan - Aug": 4,
     "term: 26-week assignment": 3,
-    "closed (verified)": 3,
     "unpaid": 2,
     "dates: 22-week assignment": 2,
     "term: spring/winter term": 1,
@@ -113,5 +114,5 @@
     "term: posted dates starts Jun": 1,
     "requires JD / law school (description)": 1
   },
-  "durationSec": 264
+  "durationSec": 405
 }
