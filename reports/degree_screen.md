@@ -1,6 +1,6 @@
 # Degree screen
 
-Scan: 2026-11-09 · 483 postings at known firms dropped because they require a graduate or professional degree (title says so: 33, PhD: 238, research role (no undergrad option stated): 11, Master's/PhD: 189, MBA: 11, JD / law school: 1). Of the 1013 roles kept, 811 explicitly include undergraduates (UG ✓), 154 were read and don't state a degree level, and 48 couldn't be checked because the full description wasn't readable (UG ?).
+Scan: 2026-11-09 · 484 postings at known firms dropped because they require a graduate or professional degree (title says so: 33, PhD: 238, Master's/PhD: 191, MBA: 11, research role (no undergrad option stated): 10, JD / law school: 1). Of the 1012 roles kept, 810 explicitly include undergraduates (UG ✓), 154 were read and don't state a degree level, and 48 couldn't be checked because the full description wasn't readable (UG ?).
 
 A role is dropped when its title names a graduate degree ("Graduate Intern", "MS", "Master's", "PhD", "MBA", "JD") with no undergrad option, or its description requires one ("currently pursuing a Master's or PhD", "enrolled in an MBA program", "2L/3L law students") and nothing in the posting opens it to undergrads. Research-scientist style titles (Research Scientist, Applied Scientist, Research Intern, Student Researcher) are dropped unless the posting explicitly includes undergraduates. "PhD preferred" or "graduate students also welcome" does not drop a role.
 
@@ -178,6 +178,8 @@ A role is dropped when its title names a graduate degree ("Graduate Intern", "MS
 | KLA | Computer Vision/Machine Learning Intern | Master's/PhD | Students working towards a Master's or PhD Level Degree in Computer Science, Electrical Engineering or related field. | [link](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921) |
 | KLA | Computer Vision/Machine Learning Intern | Master's/PhD | Students working towards a Master's or PhD Level Degree in Computer Science, Electrical Engineering or related field. | [link](https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1) |
 | KLA | Computer Vision/Machine Learning Intern | Master's/PhD | Students working towards a Master's or PhD Level Degree in Computer Science, Electrical Engineering or related field. | [link](https://go.vansh.nyc/9f) |
+| KLA | Image Processing Intern | Master's/PhD | . KLA Corporation is seeking enthusiastic and driven master’s or Ph.D. students to contribute to cutting edge projects within our engineering and scientific teams. | [link](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Image-Processing-Intern_2642159-2) |
+| KLA | Image Processing Intern | Master's/PhD | . KLA Corporation is seeking enthusiastic and driven master’s or Ph.D. students to contribute to cutting edge projects within our engineering and scientific teams. | [link](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Image-Processing-Intern_2642159) |
 | KLA | Machine Learning Engineer Intern | Master's/PhD | Currently pursuing a Master's or PhD in Computer Science, Electrical Engineering, Physics, Applied Mathematics or a related STEM field. | [link](https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Product-Development-Engineering-Intern_2641562-1) |
 | KLA | Machine Learning Engineer Intern | Master's/PhD | Currently pursuing a Master's or PhD in Computer Science, Electrical Engineering, Physics, Applied Mathematics or a related STEM field. | [link](https://kla.wd1.myworkdayjobs.com/en-US/ur/job/Milpitas-CA/Product-Development-Engineering-Intern_2641562) |
 | Klaviyo | AI Engineer Intern - Summer 2027 | Master's/PhD | Pursuing an advanced degree in Computer Science, Artificial Intelligence, Machine Learning, or a related field, Graduating in December 2027 or May/June 2028 | [link](https://job-boards.greenhouse.io/klaviyocampus/jobs/8003260003) |
@@ -413,7 +415,6 @@ A role is dropped when its title names a graduate degree ("Graduate Intern", "MS
 | TikTok | Student Researcher - Multimodal Interaction and World Model | PhD | Student Researcher - (Seed Model - Multimodal Interaction & World Model) – 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7623547506849679621/detail) |
 | TikTok | Student Researcher - Multiple Teams | PhD | Student Researcher - (Seed Model - Multimodal Interaction & World Model) – 2026 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7670323135220959493/detail) |
 | TikTok | Student Researcher - Multiple Teams | PhD | Student Researcher - (Seed Model - LLM) - 2026 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7670318960697952517/detail) |
-| TikTok | Student Researcher - Speech Foundation Model | research role (no undergrad option stated) | Research-scientist style title; the full description could not be read. | [link](https://jobs.bytedance.com/en/position/7623551375612627253/detail) |
 | TikTok | Student Researcher - Speech Foundation Model | PhD | Student Researcher - (Seed Model - Speech) – 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7623550540616108293/detail) |
 | TikTok | Student Researcher - Vision Foundation Model | PhD | Student Researcher - (Seed Model - Vision) - 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7623543230203939077/detail) |
 | TikTok | Student Researcher Intern - Seed Model - Seed Responsible AI | PhD | Student Researcher - (Seed Model - Seed Responsible AI) - 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7688841262493485365/detail) |
@@ -505,7 +506,7 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Databricks | Software Engineering Intern | You will graduate in fall 2027 or spring 2028 with a degree in Computer Science, Engineering, or related subject | [link](https://www.databricks.com/company/careers/university-recruiting---engineering/software-engineering-intern-2027-6865687002?gh_jid=6865687002) |
 | Palantir | Forward Deployed Infrastructure Engineer, Internship - US Government | Must be planning on graduating in 2028. | [link](https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9) |
 | Palantir | Forward Deployed Software Engineer Intern - Commercial | What We Require Engineering degree, preferred in fields such as Computer Science, Electrical and Computer Engineering, Mathematics, Software Engineering, Physics, and Data Science. | [link](https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2/apply) |
-| Palantir | Forward Deployed Software Engineer Intern - Warp Speed | High School Name & Graduation Year | [link](https://jobs.lever.co/palantir/b3d81928-6c26-432f-8a0a-36602c2eefcb/apply) |
+| Palantir | Forward Deployed Software Engineer Intern - Warp Speed | Must be graduating in December 2027 or Spring 2028 | [link](https://jobs.lever.co/palantir/b3d81928-6c26-432f-8a0a-36602c2eefcb/apply) |
 | Palantir | Forward Deployed Software Engineer, Internship - US Government | Must be planning on graduating in 2027. | [link](https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e) |
 | Palantir | Information Security Engineer, Internship | Must be planning on graduating in 2028. | [link](https://jobs.lever.co/palantir/ef725594-42dd-4f0d-ba8e-df8179dbc6cb) |
 | Palantir | Privacy and Civil Liberties Software Engineer Intern | Must be planning on graduating in 2027. | [link](https://jobs.lever.co/palantir/09846827-b931-4a9f-bd64-c3bb8860187b/apply) |
@@ -663,6 +664,7 @@ These stay in the lists because nothing in the posting limits them to graduate s
 
 | Company | Role | Link |
 |---|---|---|
+| Microsoft | Software Engineer Intern, Cloud & Distributed Backend | [link](https://go.vansh.nyc/5L) |
 | Tesla | Advanced Automation Engineer Intern - Cell Engineering - Winter/Spring 2027 | [link](https://www.tesla.com/careers/search/job/286986) |
 | Tesla | Embedded Software Engineer Intern - Optimus | [link](https://www.tesla.com/careers/search/job/282340) |
 | Tesla | Internship - Software Engineering - People Products - Summer 2027 | [link](https://www.tesla.com/careers/search/job/284004) |
@@ -687,7 +689,6 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Zipline | Maps Intern - Summer 2027 | [link](https://www.zipline.com/open-roles?gh_jid=7980866003) |
 | Zipline | Software Systems Validation Intern | [link](https://www.zipline.com/open-roles/7894335003?gh_jid=7894335003) |
 | Zipline | System Test Automation Intern | [link](https://www.zipline.com/open-roles/7886320003?gh_jid=7886320003) |
-| KLA | Software Engineer Intern - AI/ML for Diagnostics & Calibration | [link](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineering-Intern---AI-ML-for-Diagnostics---Calibration_2642129) |
 | T-Mobile | Summer 2027 Software Engineering Internship | [link](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-Software-Engineering-Internship_REQ380882) |
 | Zebra Technologies | 2027 Summer Internship - US - Software Engineer | [link](https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Holtsville-New-York/XMLNAME-2027-Summer-Internship--US----Software-Engineer_JR103657) |
 | Zebra Technologies | 2027 Summer Internship - US - Software Engineer - AI Features & Product Convergence - Zebra Task Manager | [link](https://zebra.wd501.myworkdayjobs.com/en-US/zebra_careers/job/Kennesaw-Georgia/XMLNAME-2027-Summer-Internship--US----Software-Engineer--AI-Features---Product-Convergence--Zebra-Task-Manager_JR103636) |
@@ -703,7 +704,7 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Zipline | Autonomy Intern | [link](https://www.zipline.com/open-roles/8002829003?gh_jid=8002829003) |
 | Zipline | Data Analytics Intern | [link](https://www.zipline.com/open-roles/7990632003?gh_jid=7990632003) |
 | Dell | Data Science Intern | [link](https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/299978) |
-| KLA | Image Processing Intern | [link](https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Image-Processing-Intern_2642159-2) |
+| Sonos | Data Engineering Intern - Seattle | [link](https://sonos.wd1.myworkdayjobs.com/en-US/sonos/job/Seattle-WA/Data-Engineering-Intern--Seattle-_R2897-1) |
 | West Monroe | Data & Analytics Consulting Intern | [link](https://westmonroe.com/careers/job-details-students?gh_jid=6167581004) |
 | Boeing | Data Analytics Intern | [link](https://boeing.wd1.myworkdayjobs.com/en-US/EXTERNAL_CAREERS/details/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1?q=JR2026520976) |
 | Citadel | Quantitative Research Analyst - Intern - US | [link](https://www.citadel.com/careers/details/quantitative-research-analyst-intern-us/) |

@@ -1,6 +1,6 @@
 # Excluded because the posted dates conflict with the window
 
-Scan: 2026-11-09 · 525 postings at known firms whose own dates fall outside 2027-07-13 → 2027-09-30 (e.g. a June start or an end in December). Listed so you can spot a misread date; the quoted sentence is what the parser used.
+Scan: 2026-11-09 · 524 postings at known firms whose own dates fall outside 2027-07-13 → 2027-09-30 (e.g. a June start or an end in December). Listed so you can spot a misread date; the quoted sentence is what the parser used.
 
 | Company | Role | Dates read | Why | Evidence | Link |
 |---|---|---|---|---|---|
@@ -417,10 +417,9 @@ Scan: 2026-11-09 · 525 postings at known firms whose own dates fall outside 202
 | Bose | Data Analytics Engineer Co-op |  | co-op with no dates (usually 4-6 months) |  | [link](https://boseallaboutme.wd503.myworkdayjobs.com/en-US/bose_careers/job/US-MA---Framingham/Data-Analytics-Engineer-Co-op_R29271) |
 | Charter Communications | 2027 Summer Intern: Data Science | May 26 - Aug 6 | posted dates May 26 - Aug 6 | Internship program runs from May 26 through August 6, 2027. | [link](https://invitation-charter.icims.com/jobs/81763/2027-summer-intern%3a-data-science/job) |
 | Match Group | Data Scientist Intern | Jun 1 - Aug 31 | posted dates Jun 1 - Aug 31 | Program Duration The internship program will run from June 1 through August 31, 2027. | [link](https://jobs.lever.co/matchgroup/573621f6-9931-4e39-840a-1d04171be2ff/apply) |
-| Match Group | Data Scientist Intern | Jun 1 - Aug 31 | posted dates Jun 1 - Aug 31 | The internship program will run from June 1 through August 31, 2027. | [link](https://jobs.lever.co/matchgroup/573621f6-9931-4e39-840a-1d04171be2ff) |
+| Match Group | Data Scientist Intern | Jun 1 - Aug 31 | posted dates Jun 1 - Aug 31 | Program Duration The internship program will run from June 1 through August 31, 2027. | [link](https://jobs.lever.co/matchgroup/573621f6-9931-4e39-840a-1d04171be2ff) |
 | Match Group | Machine Learning Engineer Intern | Jun 1 - Aug 31 | posted dates Jun 1 - Aug 31 | Program Duration The internship program will run from June 1 through August 31, 2027. | [link](https://jobs.lever.co/matchgroup/860a839a-5be3-44dc-916f-eb2e71d67d72/apply) |
 | Match Group | Machine Learning Engineer Intern | Jun 1 - Aug 31 | posted dates Jun 1 - Aug 31 | Program Duration The internship program will run from June 1 through August 31, 2027. | [link](https://jobs.lever.co/matchgroup/860a839a-5be3-44dc-916f-eb2e71d67d72) |
-| Sonos | Data Engineering Intern - Seattle | Jun - Aug | posted dates Jun - Aug | Available to participate in our internship program from June to August | [link](https://sonos.wd1.myworkdayjobs.com/en-US/sonos/job/Seattle-WA/Data-Engineering-Intern--Seattle-_R2897-1) |
 | Trimble | AI Automation Intern |  | 26-week assignment |  | [link](https://trimble.wd1.myworkdayjobs.com/en-US/TrimbleCareers/job/US---OH-Dayton/AI-Automation-Intern_R58148) |
 | Trimble | AI Automation Intern |  | 26-week assignment |  | [link](https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---OH-Dayton/AI-Automation-Intern_R58148) |
 | Trimble | AI Automation Intern |  | 26-week assignment |  | [link](https://trimble.wd1.myworkdayjobs.com/en-US/trimblecareers/job/US---OH-Dayton/AI-Automation-Intern_R58148) |

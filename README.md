@@ -4,7 +4,7 @@ Scans for **US internships at well-known firms** in **software engineering, prod
 
 **Filters:** US only (incl. US-remote) · known firms only ([list](inputs/known_firms.json)) · pay ≥ $30/hr when the posting states pay · undergrad roles (PhD / MBA / master's-only excluded) · titles naming C++, Java, iOS/Android, embedded or hardware skipped (Python-friendly) · window 2027-07-13 → 2027-09-30 ([config](inputs/config.json))
 
-> **Last scan:** 2026-11-09 &nbsp;•&nbsp; **0 dates fit** &nbsp;•&nbsp; **12 flexible / near miss** &nbsp;•&nbsp; **1001 summer, dates not stated** &nbsp;•&nbsp; **7 new** &nbsp;•&nbsp; 5 closed postings dropped
+> **Last scan:** 2026-11-09 &nbsp;•&nbsp; **0 dates fit** &nbsp;•&nbsp; **11 flexible / near miss** &nbsp;•&nbsp; **1001 summer, dates not stated** &nbsp;•&nbsp; **1 new** &nbsp;•&nbsp; 5 closed postings dropped
 
 **Jump to:** [✅ Dates fit](#-dates-fit) · [🟡 Flexible](#-flexible-start--near-miss) · [⚪ Dates not stated](#-summer-2027--dates-not-stated) · [🆕 New](#-new-since-last-scan) · [How it works](#how-it-works) · [How to run](#how-to-run) · [CSV of everything](reports/roles.csv)
 
@@ -54,16 +54,15 @@ _None right now._
 
 </details>
 
-### 📊 Data / Analytics / ML (3)
+### 📊 Data / Analytics / ML (2)
 
 <details open>
-<summary>3 roles</summary>
+<summary>2 roles</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
 | **Amazon** | Business Analyst Intern – Summer 2027 | Bellevue, Washington, USA | May - Sep — 12 wks anywhere in May - Sep; ask for a late-July start |  |  | ✓ | October  9 | [Apply](https://www.amazon.jobs/en/jobs/10575250/business-analyst-intern-summer-2027) |
 | **Epic Games** | Data Science Intern | Cary, NC | flexible — posting says "flexible start" |  | ✓ |  | 2026-09-22 | [Apply](https://epicgames.com/careers/jobs/6202675004?gh_jid=6202675004) |
-| **CACI** | AI Prompt Engineer Intern | Ashburn, VA | Jul - Sep — start day not stated - confirm it is mid/late month | $19-36/hr | ✓ | ✓ | 2026-10-01 | [Apply](https://caci.wd1.myworkdayjobs.com/external/job/Ashburn-VA-US/AI-Prompt-Engineer-High-School-Intern---Summer-2027_332816-1) |
 
 </details>
 
@@ -119,13 +118,13 @@ _None right now._
 | **Microsoft** | Software Engineer Intern | Mountain View, CA; Redmond, WA +1 | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $45-55/hr | ✓ | ✓ | 2026-10-21 | [Apply](https://jobs.smartrecruiters.com/LinkedIn3/744000156616169) |
 | **Microsoft** | Software Engineer Intern - First Play | Mountain View, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $45-55/hr | ✓ | ✓ | 2026-10-28 | [Apply](https://jobs.smartrecruiters.com/LinkedIn3/744000158394370) |
 | **Microsoft** | Software Engineer Intern, AI/ML & LLM | Redmond, WA | Summer 2027 dates not stated | $33/hr | ✓ | ✓ | 2026-08-04 | [Apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922929) |
-| **Microsoft** | Software Engineer Intern, Cloud & Distributed Backend | Redmond, WA | Summer 2027 dates not stated | $33/hr | ✓ | ✓ | 2026-08-04 | [Apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922923) |
+| **Microsoft** | Software Engineer Intern, Cloud & Distributed Backend | Redmond, WA | Summer 2027 dates not stated |  |  | ? | 2026-08-04 | [Apply](https://go.vansh.nyc/5L) |
 | **Microsoft** | Software Engineer Intern, CoreAI | Multiple Locations, United States; Redmond, WA | Summer 2027 dates not stated | $33/hr |  | ✓ | 2026-08-03 | [Apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0) |
 | **Microsoft** | Software Engineer Intern, Data Platform/Analytics | Redmond, WA | Summer 2027 dates not stated | $33/hr | ✓ | ✓ | 2026-08-04 | [Apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922931) |
 | **Microsoft** | Software Engineer Intern, Fullstack Product (Web + Services) | Multiple Locations, United States | Summer 2027 dates not stated | $33/hr | ✓ | ✓ | 2026-08-04 | [Apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922922) |
 | **Microsoft** | Software Engineer Intern, Security & Identity | Redmond, WA; Cambridge, MA +1 | Summer 2027 dates not stated | $33/hr | ✓ | ✓ | 2026-08-04 | [Apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922930) |
 | **Microsoft** | Software Engineer Intern, Teamwork Experiences | Redmond, WA | Summer 2027 dates not stated | $33/hr | ✓ | ✓ | 2026-11-03 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557037859) |
-| **Microsoft** | Software Engineer: Intern Opportunities for University Students - CoreAI - Redmond - WA 🆕 | Redmond, WA | term dates not stated | $52/hr |  | ✓ | 2026-11-03 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
+| **Microsoft** | Software Engineer: Intern Opportunities for University Students - CoreAI - Redmond - WA | Redmond, WA | term dates not stated | $52/hr |  | ✓ | 2026-11-03 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
 | **Microsoft** | Software Engineer: Security & Identity Intern Opportunities for University Students - Cambridge | Cambridge, MA | term dates not stated | $52/hr | ✓ | ✓ | 2026-10-23 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557044765) |
 | **Microsoft** | Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond | Redmond, WA | term dates not stated | $52/hr | ✓ | ✓ | 2026-11-06 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556922930) |
 | **Microsoft** | Software Engineering Intern | Redmond, WA; Reston, VA | Summer 2027 dates not stated |  |  | ✓ | 2026-09-11 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556983221) |
@@ -155,7 +154,7 @@ _+526 more in the full list._
 </details>
 
 <details>
-<summary><strong>📱 Product Management</strong> (50)</summary>
+<summary><strong>📱 Product Management</strong> (49)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -165,7 +164,6 @@ _+526 more in the full list._
 | **Databricks** | Product Management Intern (Summer 2027) | Bellevue, Washington; Mountain View, California +1 | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $54-56/hr | ✓ | ✓ | 2023-08-17 | [Apply](https://databricks.com/company/careers/open-positions/job?gh_jid=6883068002) |
 | **Electronic Arts** | Product Management Intern | Austin, TX | Summer 2027 dates not stated |  |  | ✓ | 2026-10-06 | [Apply](https://jobs.ea.com/en_US/careers/JobDetail/Product-Management-Intern-Fan-Care-Community-Care-Summer-2027/216182) |
 | **Intuit** | Product Manager Intern | Mountain View, CA; San Diego, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $48-74/hr |  | ✓ | 2026-09-14 | [Apply](https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632) |
-| **Microsoft** | Business Program Manager, Global Intern Experience & Innovation | United States, Washington, Redmond | term dates not stated | $47-91/hr |  | ✓ | 2026-11-02 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557043712) |
 | **Microsoft** | Product Manager Intern | Remote; Cambridge, MA | Summer 2027 dates not stated | $33/hr |  | ✓ | 2026-08-04 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556953113) |
 | **Salesforce** | Product Management Intern - Product Management | SF; NYC +2 | Summer 2027 dates not stated | $54-61/hr |  | ✓ | 2026-11-06 | [Apply](https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2027-Intern---Product-Management_JR367659) |
 | **TikTok** | AI Governance Strategy Product Manager Intern - Platform Trust and Ecosystem | San Jose, CA | Summer 2027 dates not stated | $35-55/hr | ✓ | ✓ | 2026-09-03 | [Apply](https://lifeattiktok.com/search/7677493272788683013) |
@@ -190,8 +188,8 @@ _+526 more in the full list._
 | **Federal Reserve** | Supervision & Regulation Intern - Business Relationship | Atlanta, GA | Summer 2027 dates not stated; 10-week program |  |  | ✓ | 2026-11-02 | [Apply](https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Supervision---Regulation--Business-Relationship-_R-0000033860) |
 | **Intercontinental Exchange** | Product Management Intern | Atlanta, GA | Summer 2027 dates not stated |  |  | ✓ | 2026-10-23 | [Apply](https://ice.jibeapply.com/jobs/14065?icims=1) |
 | **LPL Financial** | Product Intern - Product | Austin, TX; Fort Mill, SC | Summer 2027 dates not stated | $25-30/hr |  | ✓ | 2026-08-10 | [Apply](https://lplfinancial.wd1.myworkdayjobs.com/university/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918) |
-| **Nationwide** | State Product Analyst Intern - Personal Lines 🆕 | Des Moines, IA; Columbus, OH | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $23-50/hr |  | ✓ | 2026-08-21 | [Apply](https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Summer-2027-State-Product-Analyst-Intern---Personal-Lines_099794) |
-| **Nationwide** | Summer 2027 State Product Analyst Intern - Personal Lines 🆕 | Iowa - Des Moines, 1100 Locust Street; Ohio - Columbus, One Nationwide Plaza | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $23-50/hr |  | ✓ |  | [Apply](https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Iowa---Des-Moines-1100-Locust-Street/Summer-2027-State-Product-Analyst-Intern---Personal-Lines_099794) |
+| **Nationwide** | State Product Analyst Intern - Personal Lines | Des Moines, IA; Columbus, OH | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $23-50/hr |  | ✓ | 2026-08-21 | [Apply](https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Summer-2027-State-Product-Analyst-Intern---Personal-Lines_099794) |
+| **Nationwide** | Summer 2027 State Product Analyst Intern - Personal Lines | Iowa - Des Moines, 1100 Locust Street; Ohio - Columbus, One Nationwide Plaza | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $23-50/hr |  | ✓ |  | [Apply](https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Iowa---Des-Moines-1100-Locust-Street/Summer-2027-State-Product-Analyst-Intern---Personal-Lines_099794) |
 | **Invesco** | Digital Product Management Intern | Atlanta, GA | Summer 2027 dates not stated; 9-week program | $35/hr | ✓ | ✓ | 2026-11-05 | [Apply](https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Digital-Product-Management_R-15876-1) |
 | **Invesco** | Early Career Intern - Digital Product Management | Atlanta, Georgia | term dates not stated; 9-week program | $35/hr | ✓ | ✓ | Posted 4 D | [Apply](https://invesco.wd1.myworkdayjobs.com/IVZ/job/Atlanta-Georgia/Early-Career-Intern---Digital-Product-Management_R-15876-1) |
 | **Coinbase** | Associate Product Manager Intern | Hybrid - San Francisco, CA | term dates not stated; 12+ weeks, so a late-July start would run into October | $55/hr |  |  | 2026-09-08 | [Apply](https://www.coinbase.com/careers/positions/8168322?gh_jid=8168322) |
@@ -213,7 +211,7 @@ _+526 more in the full list._
 </details>
 
 <details>
-<summary><strong>📊 Data / Analytics / ML</strong> (283)</summary>
+<summary><strong>📊 Data / Analytics / ML</strong> (284)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -246,7 +244,7 @@ _+526 more in the full list._
 | **Samsung** | AI Data Analyst Intern | Plano, TX | term dates not stated |  | ✓ | ✓ | 2026-11-06 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1) |
 | **Samsung** | Business Intelligence & Data Analytics Intern | Plano, TX | Summer 2027 dates not stated; 10-week program |  | ✓ |  | 2026-11-06 | [Apply](https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Business-Intelligence---Data-Analytics-Intern_R121949) |
 | **Samsung** | Care AI Data Analytic Intern | Plano, TX | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-11-06 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1) |
-| **Samsung** | ePro Business & Data Analyst Intern 🆕 | Plano, TX | term dates not stated |  |  | ✓ | 2026-11-08 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996) |
+| **Samsung** | ePro Business & Data Analyst Intern | Plano, TX | term dates not stated |  |  | ✓ | 2026-11-08 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996) |
 | **Samsung** | Samsung Care AI Data Analytic Intern | Plano, TX | term dates not stated |  | ✓ | ✓ | 2026-11-07 | [Apply](https://sec.wd3.myworkdayjobs.com/en-US/samsung_careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1) |
 | **Stripe** | Data Analyst - Intern | New York City, NY | term dates not stated | $60/hr |  | ✓ | 2026-10-02 | [Apply](https://stripe.com/jobs/search?gh_jid=8194291) |
 | **Tesla** | Data Engineer Intern - Energy | Palo Alto, CA | Summer 2027 dates not stated |  |  | ? | 2026-10-29 | [Apply](https://www.tesla.com/careers/search/job/287982) |
@@ -278,7 +276,7 @@ _+526 more in the full list._
 | **TikTok** | LLM Post-training Engineer Intern - Research & Product | San Jose, CA | Summer 2027 dates not stated | $60/hr | ✓ | ✓ | 2026-08-06 | [Apply](https://lifeattiktok.com/search/7670285031018432773) |
 | **TikTok** | Machine Learning Engineer Intern | San Jose, CA | Summer 2027 dates not stated | $60/hr | ✓ | ✓ | 2026-08-03 | [Apply](https://lifeattiktok.com/search/7667338938890930437) |
 
-_+223 more in the full list._
+_+224 more in the full list._
 
 </details>
 
@@ -358,29 +356,8 @@ _+22 more in the full list._
 
 | Company | Role | Track | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|---|
-| **Microsoft** | Software Engineer: Intern Opportunities for University Students - CoreAI - Redmond - WA 🆕 | Software | Redmond, WA | term dates not stated | $52/hr |  | ✓ | 2026-11-03 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556951950) |
-| **CACI** | Software Engineering Intern - Summer 2027 🆕 | Software | Sarasota, FL | Summer 2027 dates not stated |  |  | ? | 2026-10-28 | [Apply](https://caci.wd1.myworkdayjobs.com/en-US/external/job/Sarasota-FL-US/Software-Engineering-Intern---Summer-2027_332618) |
-| **Nationwide** | State Product Analyst Intern - Personal Lines 🆕 | Product | Des Moines, IA; Columbus, OH | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $23-50/hr |  | ✓ | 2026-08-21 | [Apply](https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Ohio---Columbus-One-Nationwide-Plaza/Summer-2027-State-Product-Analyst-Intern---Personal-Lines_099794) |
-| **Nationwide** | Summer 2027 State Product Analyst Intern - Personal Lines 🆕 | Product | Iowa - Des Moines, 1100 Locust Street; Ohio - Columbus, One Nationwide Plaza | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $23-50/hr |  | ✓ |  | [Apply](https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Iowa---Des-Moines-1100-Locust-Street/Summer-2027-State-Product-Analyst-Intern---Personal-Lines_099794) |
-| **Samsung** | ePro Business & Data Analyst Intern 🆕 | Data | Plano, TX | term dates not stated |  |  | ✓ | 2026-11-08 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996) |
-| **GE** | AI Data Mining Agent Intern, SCS Commercial 🆕 | Data | Atlanta, GA | Summer 2027 dates not stated | $25-50/hr |  | ✓ | 2026-10-07 | [Apply](https://gevernova.wd5.myworkdayjobs.com/only_confidential_executive_recruiting/job/Atlanta/SCS-Commercial-Intern------AI-Data-Mining-Agent_R5055036-1) |
-| **John Deere** | Process Automation Intern, Data and Analytics 🆕 | Data | Greeneville, TN | Summer 2027 dates not stated | $15-40/hr | ✓ | ✓ | 2026-10-16 | [Apply](https://johndeere.eightfold.ai/careers/job/137483907415) |
+| **Sonos** | Data Engineering Intern - Seattle 🆕 | Data | Seattle, WA | term dates not stated |  |  | ? | 2026-11-03 | [Apply](https://sonos.wd1.myworkdayjobs.com/en-US/sonos/job/Seattle-WA/Data-Engineering-Intern--Seattle-_R2897-1) |
 
-
-<details>
-<summary>9 roles no longer found this scan</summary>
-
-- TikTok — Student Researcher - Speech Foundation Model (ask; first seen 2026-11-03)
-- RTX — Program Fleet Intern (ask; first seen 2026-11-03)
-- Caterpillar — Corporate Intern - Autonomy & Intelligent Systems Engineering (ask; first seen 2026-11-03)
-- Caterpillar — Corporate Intern - Digital and Analytics (ask; first seen 2026-11-03)
-- Zebra Technologies — Software Engineer Intern (ask; first seen 2026-11-04)
-- Alaska Airlines — Software Engineer Intern (ask; first seen 2026-11-06)
-- Alaska Airlines — Cybersecurity Threat Defense Intern (ask; first seen 2026-11-06)
-- Alaska Airlines — Software Delivery Platform Intern (ask; first seen 2026-11-06)
-- JPMorgan Chase — 2027 Markets Summer Analyst Program - Research (ask; first seen 2026-11-07)
-
-</details>
 
 ---
 

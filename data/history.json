@@ -17,12 +17,11 @@
  },
  "tiktok|student researcher speech foundation model": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-08",
+  "lastSeen": "2026-11-09",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Student Researcher - Speech Foundation Model",
-  "url": "https://jobs.bytedance.com/en/position/7623551375612627253/detail",
-  "goneOn": "2026-11-09"
+  "url": "https://jobs.bytedance.com/en/position/7623551375612627253/detail"
  },
  "tiktok|student researcher": {
   "firstSeen": "2026-11-03",
@@ -4681,7 +4680,7 @@
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Software Engineer Intern, Cloud & Distributed Backend",
-  "url": "https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0&pid=1970393556922923"
+  "url": "https://go.vansh.nyc/5L"
  },
  "microsoft|software engineer intern fullstack product web + services": {
   "firstSeen": "2026-11-03",
@@ -11252,5 +11251,13 @@
   "company": "Nationwide",
   "title": "Summer 2027 State Product Analyst Intern - Personal Lines",
   "url": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career/job/Iowa---Des-Moines-1100-Locust-Street/Summer-2027-State-Product-Analyst-Intern---Personal-Lines_099794"
+ },
+ "sonos|data engineering intern seattle": {
+  "firstSeen": "2026-11-09",
+  "lastSeen": "2026-11-09",
+  "bucket": "ask",
+  "company": "Sonos",
+  "title": "Data Engineering Intern - Seattle",
+  "url": "https://sonos.wd1.myworkdayjobs.com/en-US/sonos/job/Seattle-WA/Data-Engineering-Intern--Seattle-_R2897-1"
  }
 }
