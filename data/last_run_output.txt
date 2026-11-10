@@ -1,6 +1,6 @@
 [0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr
-[1s] aggregators: speedyapply_ai=805, vanshb03=2343, speedyapply_swe=823, simplify=5367
-[1s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)
+[0s] aggregators: speedyapply_swe=820, vanshb03=2375, speedyapply_ai=803, simplify=5316
+[0s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)
 ATS firms 50/743
 ATS firms 100/743
 ATS firms 150/743
@@ -15,64 +15,64 @@ ATS firms 550/743
 ATS firms 600/743
 ATS firms 650/743
 ATS firms 700/743
-[200s] ATS: 419 firms with live boards, 672 postings
-[200s] pre-screen: 3243 candidate postings
-[200s] detail fetch: 2791 unique postings
-details 50/2791
-details 100/2791
-details 150/2791
-details 200/2791
-details 250/2791
-details 300/2791
-details 350/2791
-details 400/2791
-details 450/2791
-details 500/2791
-details 550/2791
-details 600/2791
-details 650/2791
-details 700/2791
-details 750/2791
-details 800/2791
-details 850/2791
-details 900/2791
-details 950/2791
-details 1000/2791
-details 1050/2791
-details 1100/2791
-details 1150/2791
-details 1200/2791
-details 1250/2791
-details 1300/2791
-details 1350/2791
-details 1400/2791
-details 1450/2791
-details 1500/2791
-details 1550/2791
-details 1600/2791
-details 1650/2791
-details 1700/2791
-details 1750/2791
-details 1800/2791
-details 1850/2791
-details 1900/2791
-details 1950/2791
-details 2000/2791
-details 2050/2791
-details 2100/2791
-details 2150/2791
-details 2200/2791
-details 2250/2791
-details 2300/2791
-details 2350/2791
-details 2400/2791
-details 2450/2791
-details 2500/2791
-details 2550/2791
-details 2600/2791
-details 2650/2791
-details 2700/2791
-details 2750/2791
-[366s] detail results: html=573, error=23, greenhouse=429, jsonld=317, workday=1027, lever=83, oracle=100, ashby=85, embedded=14, smartrecruiters=45, closed=11, eightfold=84
-[368s] classified: 1424 kept, 523 excluded by dates, 11 closed
-[368s] done: 0 fit, 12 flexible, 989 ask-about-dates
+[160s] ATS: 418 firms with live boards, 675 postings
+[160s] pre-screen: 3235 candidate postings
+[160s] detail fetch: 2794 unique postings
+details 50/2794
+details 100/2794
+details 150/2794
+details 200/2794
+details 250/2794
+details 300/2794
+details 350/2794
+details 400/2794
+details 450/2794
+details 500/2794
+details 550/2794
+details 600/2794
+details 650/2794
+details 700/2794
+details 750/2794
+details 800/2794
+details 850/2794
+details 900/2794
+details 950/2794
+details 1000/2794
+details 1050/2794
+details 1100/2794
+details 1150/2794
+details 1200/2794
+details 1250/2794
+details 1300/2794
+details 1350/2794
+details 1400/2794
+details 1450/2794
+details 1500/2794
+details 1550/2794
+details 1600/2794
+details 1650/2794
+details 1700/2794
+details 1750/2794
+details 1800/2794
+details 1850/2794
+details 1900/2794
+details 1950/2794
+details 2000/2794
+details 2050/2794
+details 2100/2794
+details 2150/2794
+details 2200/2794
+details 2250/2794
+details 2300/2794
+details 2350/2794
+details 2400/2794
+details 2450/2794
+details 2500/2794
+details 2550/2794
+details 2600/2794
+details 2650/2794
+details 2700/2794
+details 2750/2794
+[340s] detail results: html=562, error=27, greenhouse=434, jsonld=320, workday=1043, lever=86, oracle=99, ashby=83, smartrecruiters=50, closed=7, eightfold=83
+[342s] classified: 1416 kept, 531 excluded by dates, 7 closed
+[342s] done: 0 fit, 13 flexible, 980 ask-about-dates
