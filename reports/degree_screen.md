@@ -1,6 +1,6 @@
 # Degree screen
 
-Scan: 2026-11-10 · 496 postings at known firms dropped because they require a graduate or professional degree (title says so: 34, PhD: 241, research role (no undergrad option stated): 16, Master's/PhD: 190, MBA: 12, JD / law school: 3). Of the 1016 roles kept, 816 explicitly include undergraduates (UG ✓), 157 were read and don't state a degree level, and 43 couldn't be checked because the full description wasn't readable (UG ?).
+Scan: 2026-11-10 · 497 postings at known firms dropped because they require a graduate or professional degree (title says so: 34, PhD: 242, research role (no undergrad option stated): 16, Master's/PhD: 190, MBA: 12, JD / law school: 3). Of the 1001 roles kept, 801 explicitly include undergraduates (UG ✓), 159 were read and don't state a degree level, and 41 couldn't be checked because the full description wasn't readable (UG ?).
 
 A role is dropped when its title names a graduate degree ("Graduate Intern", "MS", "Master's", "PhD", "MBA", "JD") with no undergrad option, or its description requires one ("currently pursuing a Master's or PhD", "enrolled in an MBA program", "2L/3L law students") and nothing in the posting opens it to undergrads. Research-scientist style titles (Research Scientist, Applied Scientist, Research Intern, Student Researcher) are dropped unless the posting explicitly includes undergraduates. "PhD preferred" or "graduate students also welcome" does not drop a role.
 
@@ -408,7 +408,7 @@ A role is dropped when its title names a graduate degree ("Graduate Intern", "MS
 | TikTok | Research Scientist Intern - Foundations & Intelligence Service | PhD | Research Scientist Intern (Data-TnS-Algo-Foundations & Intelligence Service) - 2027 Start (PhD) | [link](https://lifeattiktok.com/search/7662677746436524293) |
 | TikTok | Research Scientist Intern - Monetization Technology - Ads Core | PhD | Research Scientist Intern (Monetization Technology - Ads Core) - 2027 Start (PhD) | [link](https://lifeattiktok.com/search/7703777085291415813) |
 | TikTok | Research Scientist Intern - Monetization Technology - Business Integrity | PhD | Research Scientist Intern (Monetization Technology - Business Integrity) - 2027 Start (PhD) | [link](https://lifeattiktok.com/search/7668204438271969589) |
-| TikTok | Research Scientist Intern - Multi-modal Agentic Databases | research role (no undergrad option stated) | Research-scientist style title; the posting never says undergraduates are eligible. | [link](https://jobs.bytedance.com/en/position/7667380184615127301/detail) |
+| TikTok | Research Scientist Intern - Multi-modal Agentic Databases | PhD | Research Scientist Intern (Multi-modal Agentic Databases) - 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7667380184615127301/detail) |
 | TikTok | Research Scientist Intern - Multimedia Streaming | PhD | Research Scientist Intern (Multimedia Streaming) - 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7670354800621603125/detail) |
 | TikTok | Research Scientist Intern - Multiple Teams | PhD | Research Scientist - LLM Training System as a Service - Global Frontier Tech Recruitment Program - 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7629483617265289525/detail) |
 | TikTok | Research Scientist Intern - Neural Graphics and World Models | PhD | Research Scientist Intern (TikTok-Neural Graphics and World Models) - 2027 Start (PhD) | [link](https://lifeattiktok.com/search/7667935738840090933) |
@@ -424,11 +424,12 @@ A role is dropped when its title names a graduate degree ("Graduate Intern", "MS
 | TikTok | Student Researcher - AI Foundation Models Infrastructure - Seed Infra | PhD | Student Researcher - (Seed Model - AI Foundation Models Infrastructure) - 2026 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7670329439609850165/detail) |
 | TikTok | Student Researcher - Large Language Model - Seed | PhD | Student Researcher - (Seed Model - LLM) - 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7623539152655632693/detail) |
 | TikTok | Student Researcher - LLM Post Training - Agent & Reinforcement Learning | PhD | Student Researcher - (Seed Model - LLM - Post Training, Agent & Reinforcement Learning) – 2026 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7670325736893565189/detail) |
-| TikTok | Student Researcher - Multimodal Interaction and World Model | research role (no undergrad option stated) | Research-scientist style title; the full description could not be read. | [link](https://jobs.bytedance.com/en/position/7623547506849679621/detail) |
+| TikTok | Student Researcher - Multimodal Interaction and World Model | PhD | Student Researcher - (Seed Model - Multimodal Interaction & World Model) – 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7623547506849679621/detail) |
 | TikTok | Student Researcher - Multiple Teams | PhD | Student Researcher - (Seed Model - Multimodal Interaction & World Model) – 2026 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7670323135220959493/detail) |
 | TikTok | Student Researcher - Multiple Teams | PhD | Student Researcher - (Seed Model - LLM) - 2026 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7670318960697952517/detail) |
+| TikTok | Student Researcher - Speech Foundation Model | research role (no undergrad option stated) | Research-scientist style title; the full description could not be read. | [link](https://jobs.bytedance.com/en/position/7623551375612627253/detail) |
 | TikTok | Student Researcher - Speech Foundation Model | PhD | Student Researcher - (Seed Model - Speech) – 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7623550540616108293/detail) |
-| TikTok | Student Researcher - Vision Foundation Model | PhD | Student Researcher - (Seed Model - Vision) - 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7623543230203939077/detail) |
+| TikTok | Student Researcher - Vision Foundation Model | research role (no undergrad option stated) | Research-scientist style title; the full description could not be read. | [link](https://jobs.bytedance.com/en/position/7623543230203939077/detail) |
 | TikTok | Student Researcher Intern - Seed Model - Seed Responsible AI | PhD | Student Researcher - (Seed Model - Seed Responsible AI) - 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7688841262493485365/detail) |
 | TikTok | Video/Image AI/ML Software Engineer Intern - Multimedia | PhD | Video/Image AI/ML Software Engineer Intern (Multimedia) - 2027 Start (PhD) - Intern (Video and Edge, Multimedia Lab) - 2027 Start (PhD) | [link](https://jobs.bytedance.com/en/position/7670354329765464373/detail) |
 | Together AI | Research Intern | Master's/PhD | Currently pursuing a Master's or Ph.D. degree in Computer Science, Electrical Engineering, or a related field | [link](https://job-boards.greenhouse.io/togetherai/jobs/5267198007) |
@@ -509,7 +510,7 @@ A role is dropped when its title names a graduate degree ("Graduate Intern", "MS
 
 ## Kept, but the posting never states a degree level
 
-157 roles.
+159 roles.
 
 These stay in the lists because nothing in the posting limits them to graduate students. The column shows the posting's own sentence about education, if it has one; skim it before applying.
 
@@ -533,8 +534,10 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Salesforce | Software Engineer Intern, Security/Government | — (no education sentence) | [link](https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer--Security-Government-_JR364911) |
 | Salesforce | Summer 2027 Intern - Software Engineer - Security/Government | — (no education sentence) | [link](https://salesforce.wd12.myworkdayjobs.com/en-US/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer--Security-Government-_JR364911-1) |
 | Samsung | AI Application Engineer Intern | Pursuing Master's or PhD (preferred) in Computer Science, Computer Engineering, Electrical Engineering, or a related field preferred. | [link](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003) |
+| TikTok | Backend Software Engineer Intern, Social Foundation | . Early Careers at TikTok Americas Asia Pacific Europe, the UK and the Middle East Global Frontier Tech Recruitment Program PhD Opportunities FAQs Blog | [link](https://lifeattiktok.com/search/7667935565120112949) |
 | TikTok | Software Engineer Intern - AI Infra Compute | . Early Careers at ByteDance Americas Asia Pacific Europe, the UK and the Middle East Global Frontier Tech Recruitment Program PhD Opportunities FAQs Blog | [link](https://jobs.bytedance.com/en/position/7667378931599214853/detail) |
 | TikTok | Software Engineer Intern - AI Infrastructure Compute | . Early Careers at ByteDance Americas Asia Pacific Europe, the UK and the Middle East Global Frontier Tech Recruitment Program PhD Opportunities FAQs Blog | [link](https://jobs.bytedance.com/en/position/7667377525182662965/detail) |
+| TikTok | Software Engineer Intern, Code Graph and Quality Validation | . Early Careers at TikTok Americas Asia Pacific Europe, the UK and the Middle East Global Frontier Tech Recruitment Program PhD Opportunities FAQs Blog | [link](https://lifeattiktok.com/search/7667935738376227077) |
 | Clay | Software Engineering Intern | You're currently pursuing a degree in Computer Science or a related field | [link](https://jobs.ashbyhq.com/claylabs/5b7eced2-36bd-4265-a2a8-da0f786e47aa) |
 | Exa | Software Engineer Intern | Currently pursuing a degree in Computer Science, Engineering, Physics, or a related technical field AND are willing to take off a semester to work full time in SF. Remote and part-time interns are not | [link](https://jobs.ashbyhq.com/exa/a9e01521-66f1-481b-89da-ec01d4620f16/application?embed=true) |
 | Hex | Product Engineer Intern | You are pursuing a degree in Computer Science, Engineering, or a related field, with plans to graduate in December 2027 or 2028. | [link](https://jobs.ashbyhq.com/hex/45022740-b0ca-4a54-a98b-b90f9b4a9a30) |
@@ -542,8 +545,7 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Mercor | Research Engineer Intern - Multiple Teams | — (no education sentence) | [link](https://jobs.ashbyhq.com/mercor/049bd532-6fb7-4ae6-85a1-788dd31a14ca/application?embed=true) |
 | Mercor | Research Engineer Intern, Environments, Data and Post-Training | — (no education sentence) | [link](https://jobs.ashbyhq.com/mercor/049bd532-6fb7-4ae6-85a1-788dd31a14ca) |
 | Mercor | Software Engineer Intern | Pursuing a degree in Computer Science or a related field, graduating 2027 to 2029 | [link](https://jobs.ashbyhq.com/mercor/de3025e5-10ca-4d55-b688-eff0e647ac8d/application?embed=true) |
-| Shield AI | 2027 Summer Intern - Supplier Development Engineer - 6463 | * You are currently pursuing a degree in electrical, industrial, or mechanical engineering or related field to graduate in December 2027 or Spring 2028. | [link](https://jobs.lever.co/shieldai/a2bb6f71-abcf-4938-a3a2-803b5d7c0753) |
-| Shield AI | Software Engineer Co-op Intern | If you are currently enrolled in or have graduated from a university within the past 24 months, what is your current or final GPA? | [link](https://jobs.lever.co/shieldai/db8fc063-8856-4404-991c-f287712de949/apply) |
+| Shield AI | 2027 Summer Intern - Supplier Development Engineer - 6463 | * You are currently pursuing a degree in electrical, industrial, or mechanical engineering or related field to graduate in December 2027 or Spring 2028. | [link](https://jobs.ashbyhq.com/shield/463966b6-fd51-47ef-b9b1-cb53c47cc275) |
 | Vercel | Software Engineering Intern - Summer '27 | Currently pursuing a degree in Computer Science, Engineering, or a related field, graduating in Fall 2027 or Spring 2028 | [link](https://job-boards.greenhouse.io/vercel/jobs/6181759004) |
 | DV Trading | Client Platforms Engineer Intern - Summer 2027 | — (no education sentence) | [link](https://job-boards.greenhouse.io/dvtrading/jobs/4732697005) |
 | DV Trading | Data Center Engineer Intern | . Currently pursuing a degree in Computer Science, Information Technology, or a related field and expected to graduate by Summer 2028 | [link](https://job-boards.greenhouse.io/dvtrading/jobs/4742962005) |
@@ -610,7 +612,6 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | General Dynamics | Software Engineer for Crypto & Cross Domain Solutions Intern | Engineering Interns must be enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering or other related | [link](https://careers-gdms.icims.com/jobs/75477/job?mobile=true&needsRedirect=false) |
 | General Dynamics | Software Engineer Intern | Engineering Interns must be enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering or other related | [link](https://careers-gdms.icims.com/jobs/79755/job?mobile=true&needsRedirect=false) |
 | General Dynamics | Software Engineer Intern, Crypto & Cross Domain Solutions | Engineering Interns must be enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering or other related | [link](https://careers-gdms.icims.com/jobs/75477/software-engineer-intern-for-crypto-%26-cross-domain-solutions/job) |
-| General Dynamics | Software Test Engineering Intern, Space and Embedded Crypto | Engineering Interns must be enrolled in an accredited degree program in Computer Engineering, Systems Engineering, Software Engineering, Electrical Engineering, Mechanical Engineering or other related | [link](https://careers-gdms.icims.com/jobs/75163/software-test-engineering-intern---space-and-embedded-crypto/job) |
 | Illinois Tool Works | Software Engineer Intern | — (no education sentence) | [link](https://careers.itw.com/global/en/job/JR10261) |
 | Illinois Tool Works | Software Engineer Intern - Application Software | — (no education sentence) | [link](https://careers.itw.com/global/en/job/JR10491) |
 | John Deere | Software Engineer Intern | Ideally you will be pursuing a degree in the Computer Science, Software Engineering and Engineering discipline; | [link](https://johndeere.eightfold.ai/careers/job/137483583981) |
@@ -630,6 +631,8 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Illinois Tool Works | Product Management Intern | — (no education sentence) | [link](https://careers.itw.com/global/en/job/JR10105) |
 | Epic Games | Data Science Intern | — (no education sentence) | [link](https://epicgames.com/careers/jobs/6202675004?gh_jid=6202675004) |
 | Samsung | Business Intelligence & Data Analytics Intern | . Academic Major Preferred: Master's | [link](https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Business-Intelligence---Data-Analytics-Intern_R121949) |
+| TikTok | AI Engineer Intern, TikTok-Client Arch | . Early Careers at TikTok Americas Asia Pacific Europe, the UK and the Middle East Global Frontier Tech Recruitment Program PhD Opportunities FAQs Blog | [link](https://lifeattiktok.com/search/7667935738190465285) |
+| TikTok | Artificial Intelligence Engineer Intern - Client Architecture | . Early Careers at TikTok Americas Asia Pacific Europe, the UK and the Middle East Global Frontier Tech Recruitment Program PhD Opportunities FAQs Blog | [link](https://lifeattiktok.com/search/7667935738190465285) |
 | Hex | AI Engineer Intern | You are pursuing a degree in Computer Science, Engineering, or a related field, with plans to graduate in December 2027 or sometime in 2028 | [link](https://jobs.ashbyhq.com/hex/f2562cd7-abf2-434b-85ff-0a5016fbf0d6) |
 | Mercor | Data Science Intern | Pursuing a degree in a quantitative field, graduating 2027 (potentially 2028) | [link](https://jobs.ashbyhq.com/mercor/11516609-e54b-4087-87c2-e84a8bafbb5a) |
 | Hudson River Trading | Data Scientist Intern | You are a full-time student pursuing a degree in a STEM field — a computer science background is not required | [link](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8257369) |
@@ -675,12 +678,11 @@ These stay in the lists because nothing in the posting limits them to graduate s
 
 ## Kept, description couldn't be read
 
-43 roles (shown as UG ? in the lists). The scanner couldn't load these postings' full text, so their degree requirement is unchecked. Open the link before applying.
+41 roles (shown as UG ? in the lists). The scanner couldn't load these postings' full text, so their degree requirement is unchecked. Open the link before applying.
 
 | Company | Role | Link |
 |---|---|---|
 | Tesla | Advanced Automation Engineer Intern - Cell Engineering - Winter/Spring 2027 | [link](https://www.tesla.com/careers/search/job/286986) |
-| Tesla | Embedded Software Engineer Intern - Optimus | [link](https://www.tesla.com/careers/search/job/282340) |
 | Tesla | Internship - Software Engineering - People Products - Summer 2027 | [link](https://www.tesla.com/careers/search/job/284004) |
 | Tesla | Physics Engine Development Engineer Intern - Optimus | [link](https://www.tesla.com/careers/search/job/282147) |
 | Tesla | Software Engineer Intern - SI Reinforcement Learning | [link](https://www.tesla.com/careers/search/job/289241) |
@@ -691,7 +693,6 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Citadel Securities | Software Engineer - Intern - US | [link](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/) |
 | DRW | Platform Engineer Intern | [link](https://www.drw.com/500) |
 | Hudson River Trading | Software Engineer Intern | [link](https://www.hudsonrivertrading.com/hrt-job/software-engineering-internship-c-or-python-summer-2027/?gh_src=) |
-| LPL Financial | Platform Engineer Intern | [link](https://go.vansh.nyc/QR) |
 | MetLife | Global Technology Intern | [link](https://metlife.avature.net/en_US/ml/JobDetail/20701) |
 | Zipline | Aircraft Software Integration Intern | [link](https://www.zipline.com/open-roles/7986848003?gh_jid=7986848003) |
 | Zipline | Change Management Intern - Summer 2027 | [link](https://www.zipline.com/open-roles/7991435003?gh_jid=7991435003) |
