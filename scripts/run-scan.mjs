@@ -6,7 +6,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { collectAggregators } from "../tools/aggregators.mjs";
 import { ashby, collectorTasks, greenhouse, lever, seedKey } from "../tools/collectors.mjs";
-import { canonicalUrl, fetchJson, mapLimit, parseCsv } from "../tools/common.mjs";
+import { canonicalUrl, fetchJson, mapLimit, parseCsv, postedTime } from "../tools/common.mjs";
 import { classifyDates } from "../tools/dates.mjs";
 import { enrichRow } from "../tools/enrich.mjs";
 import { degreeRequirement, educationHint, researchTitle, titleDegree } from "../tools/degree.mjs";
@@ -25,11 +25,14 @@ const step = (msg) => { const line = `[${((Date.now() - started) / 1000).toFixed
 const config = JSON.parse(await fs.readFile(opt("config", "inputs/config.json"), "utf8"));
 const known = await loadKnownFirms("inputs/known_firms.json");
 const minPay = Number(config.minHourlyPay ?? 30);
+const maxAgeDays = Number(config.maxPostingAgeDays ?? 0); // 0 = no age limit
+const titleKey = (t) => t.toLowerCase().replace(/\b20\d{2}\b/g, " ").replace(/[^a-z0-9+#]+/g, " ").trim();
 step(`known firms: ${known.firms.length}; window ${config.window.earliestStart} -> ${config.window.latestEnd}; min pay $${minPay}/hr`);
 
 // ---------------------------------------------------------------------------------------------
 // 1. Community lists
-const agg = await collectAggregators(config.sources || {}, { maxAgeDays: config.maxPostingAgeDays ?? 240 });
+// Lists are read a full year back so every copy of a role contributes its date to the age check below.
+const agg = await collectAggregators(config.sources || {}, { maxAgeDays: 400 });
 log.sources = agg.status;
 step(`aggregators: ${Object.entries(agg.status).map(([k, v]) => `${k}=${v.ok ? v.rows : `FAILED (${v.error})`}`).join(", ")}`);
 
@@ -128,13 +131,28 @@ for (const row of [...agg.rows, ...boardRows]) {
   }
   const pay = parsePay(row.Pay);
   if (pay && (pay.max ?? pay.min) < minPay) { bump(`pay below $${minPay}/hr`); notePay({ ...row, Firm: firm.name }, pay); continue; }
-  prefiltered.push({ ...row, Firm: firm.name, FirmCategory: firm.category, FirmTier: firm.tier, Track: role.track, US: loc });
+  const posted = postedTime(row.PostedAt);
+  prefiltered.push({ ...row, PostedAt: Number.isFinite(posted) ? new Date(posted).toISOString() : "", RoleKey: `${normalizeCompany(firm.name)}|${titleKey(row.Title)}`, Firm: firm.name, FirmCategory: firm.category, FirmTier: firm.tier, Track: role.track, US: loc });
 }
-step(`pre-screen: ${prefiltered.length} candidate postings`);
+
+// Posting age: drop a role when its newest known posting date (same firm + title, any source or URL)
+// is more than maxPostingAgeDays old. Undated postings are kept.
+let fresh = prefiltered;
+if (maxAgeDays > 0) {
+  const cutoff = Date.now() - maxAgeDays * 86400000;
+  const newest = new Map();
+  for (const r of prefiltered) if (r.PostedAt && !(newest.get(r.RoleKey) >= r.PostedAt)) newest.set(r.RoleKey, r.PostedAt);
+  fresh = prefiltered.filter((r) => {
+    const n = newest.get(r.RoleKey);
+    if (n && Date.parse(n) < cutoff) { bump(`posted more than ${maxAgeDays} days ago`); return false; }
+    return true;
+  });
+}
+step(`pre-screen: ${fresh.length} candidate postings${maxAgeDays > 0 ? ` (${prefiltered.length - fresh.length} older than ${maxAgeDays} days dropped)` : ""}`);
 
 // Merge identical URLs across sources before fetching details.
 const byUrl = new Map();
-for (const row of prefiltered) {
+for (const row of fresh) {
   const key = canonicalUrl(row.URL);
   const prev = byUrl.get(key);
   if (!prev) { byUrl.set(key, { ...row, Sources: [row.Source], CanonicalURL: key }); continue; }
@@ -142,7 +160,7 @@ for (const row of prefiltered) {
   if ((row.Content || "").length > (prev.Content || "").length) { prev.Content = row.Content; prev.DetailURL = row.DetailURL || prev.DetailURL; prev.Source = row.Source; }
   if (!prev.Pay && row.Pay) prev.Pay = row.Pay;
   if (!prev.Terms?.length && row.Terms?.length) prev.Terms = row.Terms;
-  if (!prev.PostedAt && row.PostedAt) prev.PostedAt = row.PostedAt;
+  if (row.PostedAt && (!prev.PostedAt || row.PostedAt > prev.PostedAt)) prev.PostedAt = row.PostedAt;
 }
 let candidates = [...byUrl.values()];
 const maxEnrich = Number(opt("max-enrich", config.maxEnrich ?? 6000));
@@ -212,7 +230,6 @@ step(`classified: ${kept.length} kept, ${dateExcluded.length} excluded by dates,
 
 // Same role posted at several URLs (cities, boards, aggregators) -> one row.
 const BUCKET_RANK = { fit: 0, flex: 1, ask: 2 };
-const titleKey = (t) => t.toLowerCase().replace(/\b20\d{2}\b/g, " ").replace(/[^a-z0-9+#]+/g, " ").trim();
 const roles = new Map();
 for (const r of kept) {
   const key = `${normalizeCompany(r.Company)}|${titleKey(r.Title)}`;
@@ -227,7 +244,7 @@ for (const r of kept) {
   if (r.Undergrad === "yes" && prev.Undergrad !== "yes") { prev.Undergrad = "yes"; prev.DegreeEvidence = r.DegreeEvidence; }
   else if (prev.Undergrad === "unverified" && r.Undergrad === "") { prev.Undergrad = ""; prev.EducationNote = r.EducationNote; }
   if (prev.Undergrad === "" && !prev.EducationNote && r.EducationNote) prev.EducationNote = r.EducationNote;
-  if (r.PostedAt && (!prev.PostedAt || r.PostedAt < prev.PostedAt)) prev.PostedAt = r.PostedAt;
+  if (r.PostedAt && (!prev.PostedAt || r.PostedAt > prev.PostedAt)) prev.PostedAt = r.PostedAt; // newest posting date
 }
 const final = [...roles.values()].map((r) => ({ ...r, Location: r.Locations.join("; ") }));
 
@@ -256,7 +273,7 @@ for (const r of final) {
 }
 const gone = Object.entries(history).filter(([k, h]) => !currentKeys.has(k) && h.lastSeen && h.lastSeen < today && !h.goneOn).map(([k, h]) => { h.goneOn = today; return { Key: k, ...h }; });
 
-log.funnel = { aggregatorRows: agg.rows.length, boardRows: boardRows.length, prefiltered: prefiltered.length, uniqueUrls: byUrl.size, enriched: enriched.length, closed: closedCount, kept: kept.length, roles: final.length, dateExcluded: dateExcluded.length };
+log.funnel = { aggregatorRows: agg.rows.length, boardRows: boardRows.length, prefiltered: prefiltered.length, postedRecently: fresh.length, uniqueUrls: byUrl.size, enriched: enriched.length, closed: closedCount, kept: kept.length, roles: final.length, dateExcluded: dateExcluded.length };
 log.rejected = Object.fromEntries(Object.entries(reject).sort((a, b) => b[1] - a[1]));
 log.durationSec = Math.round((Date.now() - started) / 1000);
 
