@@ -7,7 +7,7 @@ import os from "node:os";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { rowsFromListingsJson, rowsFromSpeedyReadme } from "./aggregators.mjs";
-import { canonicalUrl } from "./common.mjs";
+import { canonicalUrl, postedTime } from "./common.mjs";
 import { embeddedDescription } from "./enrich.mjs";
 import { classifyDates } from "./dates.mjs";
 import { advancedDegreeOnly, parsePay, screenRole, usStatus } from "./filter.mjs";
@@ -211,6 +211,16 @@ check("embedded Eightfold description", () => {
   const text = embeddedDescription(html);
   assert.match(text, /Currently pursuing a Bachelor's, Master's or PhD/); assert.doesNotMatch(text, /allowedFileTypes/);
 });
+{
+  const now = Date.parse("2026-11-15T12:00:00Z");
+  const daysAgo = (v) => Math.round((now - postedTime(v, now)) / 86400000);
+  check("posted: ISO date", () => assert.equal(daysAgo("2026-10-01T00:00:00Z"), 46));
+  check("posted: epoch seconds", () => assert.equal(daysAgo(String(Math.floor(now / 1000) - 5 * 86400)), 5));
+  check("posted: Workday 'Posted 3 Days Ago'", () => assert.equal(daysAgo("Posted 3 Days Ago"), 3));
+  check("posted: Workday 'Posted 30+ Days Ago'", () => assert.equal(daysAgo("Posted 30+ Days Ago"), 31));
+  check("posted: Workday 'Posted Today'", () => assert.equal(daysAgo("Posted Today"), 0));
+  check("posted: unknown", () => assert.ok(Number.isNaN(postedTime(""))));
+}
 check("canonical url drops tracking", () => assert.equal(canonicalUrl("https://boards.greenhouse.io/stripe/jobs/111?utm_source=Simplify&ref=Simplify"), "https://boards.greenhouse.io/stripe/jobs/111"));
 
 // ---- End-to-end scan against fixtures ---------------------------------------------------------
@@ -219,15 +229,17 @@ await fs.mkdir(path.join(tmp, "data"), { recursive: true });
 const cfg = JSON.parse(await fs.readFile("inputs/config.json", "utf8"));
 cfg.sources = { simplify: "https://fixtures.local/simplify.json", vanshb03: "https://fixtures.local/vansh.json", speedyapply_swe: "https://fixtures.local/speedy.md" };
 cfg.atsBoards = false;
+cfg.maxPostingAgeDays = 30;
 await fs.writeFile(path.join(tmp, "config.json"), JSON.stringify(cfg), "utf8");
 const run = spawnSync(process.execPath, ["--import", pathToFileURL(path.resolve("tests/mock-fetch.mjs")).href, "scripts/run-scan.mjs", `--config=${path.join(tmp, "config.json")}`, `--out=${tmp}`, "--no-ats", "--no-remote-seeds"], { encoding: "utf8", timeout: 120000 });
 check("e2e: scan exits 0", () => assert.equal(run.status, 0, `${run.stdout}\n${run.stderr}`));
 let roles = [];
 try { roles = JSON.parse(await fs.readFile(path.join(tmp, "data/roles.json"), "utf8")).roles; } catch (error) { failures.push(`e2e: roles.json missing (${error.message})\n${run.stdout}\n${run.stderr}`); }
 const bucketOf = (company) => roles.find((r) => r.Company === company)?.Bucket ?? null;
-const e2e = [["Stripe", "fit"], ["Unknown Faang Co", "fit"], ["Notion", "flex"], ["Robinhood", "flex"], ["Meta", "ask"], ["Two Sigma", "ask"], ["NVIDIA", null], ["Goldman Sachs", null], ["Palantir", null], ["Capital One", null], ["Google", null], ["Tiny Startup", null], ["Citadel", null], ["Datadog", null]];
+const e2e = [["Stripe", "fit"], ["Unknown Faang Co", "fit"], ["Notion", "flex"], ["Robinhood", "flex"], ["Meta", "ask"], ["Two Sigma", "ask"], ["NVIDIA", null], ["Goldman Sachs", null], ["Palantir", null], ["Capital One", null], ["Google", null], ["Tiny Startup", null], ["Citadel", null], ["Datadog", null], ["Snowflake", null], ["Figma", "ask"]];
 for (const [company, want] of e2e) check(`e2e: ${company} -> ${want}`, () => assert.equal(bucketOf(company), want));
 check("e2e: Stripe deduped across sources", () => { const r = roles.filter((x) => x.Company === "Stripe"); assert.equal(r.length, 1); assert.ok(r[0].Sources.length >= 2, JSON.stringify(r[0].Sources)); assert.equal(r[0].Pay, "$50-60/hr"); assert.equal(r[0].Python, "yes"); });
+check("e2e: Figma shows its newest posting date", () => { const r = roles.find((x) => x.Company === "Figma"); assert.ok(r && Date.now() - Date.parse(r.PostedAt) < 3 * 86400000, JSON.stringify(r?.PostedAt)); });
 check("e2e: Robinhood URL resolved from short link", () => assert.match(roles.find((r) => r.Company === "Robinhood")?.URL || "", /greenhouse\.io\/robinhood/));
 check("e2e: README written", async () => {});
 const readme = await fs.readFile(path.join(tmp, "README.md"), "utf8").catch(() => "");
