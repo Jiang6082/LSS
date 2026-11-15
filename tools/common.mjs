@@ -140,6 +140,25 @@ export function parseCsv(text = "") {
   return records.slice(1).map((values) => Object.fromEntries(headers.map((h, i) => [h, values[i] ?? ""])));
 }
 
+// Posting date from ISO strings, epoch seconds/ms, or Workday text ("Posted 3 Days Ago",
+// "Posted 30+ Days Ago" -> 31 days). Returns epoch ms, or NaN when unknown.
+export function postedTime(value, now = Date.now()) {
+  if (value == null || value === "") return NaN;
+  const s = String(value).trim();
+  if (typeof value === "number" || /^\d{9,13}$/.test(s)) { const n = Number(s); return n < 1e12 ? n * 1000 : n; }
+  if (/\bposted\s+today\b|\bjust posted\b|^today$/i.test(s)) return now;
+  if (/\bposted\s+yesterday\b|^yesterday$/i.test(s)) return now - 86400000;
+  const m = s.match(/(\d+)\s*(\+)?\s*(hour|day|week|month)s?\s+ago/i);
+  if (m) {
+    const n = Number(m[1]) + (m[2] ? 1 : 0);
+    const unit = m[3].toLowerCase();
+    const days = unit === "hour" ? 0 : unit === "week" ? n * 7 : unit === "month" ? n * 30 : n;
+    return now - days * 86400000;
+  }
+  const t = Date.parse(s);
+  return Number.isFinite(t) ? t : NaN;
+}
+
 export function hostOf(url = "") {
   try { return new URL(url).hostname.replace(/^www\./, "").toLowerCase(); } catch { return ""; }
 }

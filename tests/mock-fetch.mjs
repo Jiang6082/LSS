@@ -14,6 +14,10 @@ const SIMPLIFY = [
   listing({ company_name: "Two Sigma", title: "Quantitative Research Intern", locations: ["New York, NY"], url: "https://careers.twosigma.com/x", category: "Quant" }),
   listing({ company_name: "Capital One", title: "Data Analyst Intern", locations: ["McLean, VA"], url: "https://www.capitalonecareers.com/job/1", category: "AI/ML/Data" }),
   listing({ company_name: "Datadog", title: "Software Engineer Intern", locations: ["New York, NY"], url: "https://datadog.example/closed", active: false }),
+  // Posting age: Snowflake's only copy is 45 days old (dropped); Figma's list copy is old but it was reposted 2 days ago (kept).
+  listing({ company_name: "Snowflake", title: "Software Engineer Intern", locations: ["San Mateo, CA"], url: "https://snowflake.example/jobs/1", date_posted: now - 45 * 86400 }),
+  listing({ company_name: "Figma", title: "Software Engineer Intern", locations: ["San Francisco, CA"], url: "https://figma.example/jobs/1", date_posted: now - 45 * 86400 }),
+  listing({ company_name: "Figma", title: "Software Engineer Intern", locations: ["New York, NY"], url: "https://figma.example/jobs/2", date_posted: now - 2 * 86400 }),
 ];
 
 const VANSH = [
@@ -53,6 +57,7 @@ const routes = [
   [/higher\.gs\.com\/roles\/1/, () => [200, ld("Our 10-week Summer Analyst program runs June 8 - August 14, 2027.")]],
   [/capitalonecareers\.com\/job\/1/, () => [200, ld("Analyze data with SQL and Python.", { baseSalary: { "@type": "MonetaryAmount", currency: "USD", value: { "@type": "QuantitativeValue", minValue: 25, maxValue: 28, unitText: "HOUR" } } })]],
   [/metacareers\.com\/jobs\/123/, () => [200, "<html><body><h1>Data Engineer Intern</h1><p>Summer 2027. Python, SQL.</p></body></html>"]],
+  [/(?:snowflake|figma)\.example\/jobs\/\d/, () => [200, "<html><body><h1>Software Engineer Intern</h1><p>Summer 2027 internship building data tools in Python with our platform team. Pursuing a bachelor's degree in computer science.</p></body></html>"]],
   [/unknownfaang\.example\/jobs\/1/, () => [200, ld("The internship runs from August 3 to September 25, 2027. Python preferred.")]],
 ];
 
