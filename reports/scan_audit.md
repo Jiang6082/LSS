@@ -1,54 +1,54 @@
 # Scan audit
 
-Scan: 2026-11-15T12:38:22.323Z · 276s
+Scan: 2026-11-15T12:48:42.799Z · 232s
 
 ## Sources
 
 | Source | Status | Rows |
 |---|---|---|
-| speedyapply_swe | ok | 853 |
 | speedyapply_ai | ok | 840 |
+| speedyapply_swe | ok | 853 |
 | vanshb03 | ok | 2457 |
 | simplify | ok | 5324 |
-| Official ATS boards | 419 firms live | 650 |
+| Official ATS boards | 417 firms live | 644 |
 
 PTS seed sharing: loaded 233 firms
 
 ## Funnel
 
 - aggregatorRows: 9474
-- boardRows: 650
-- prefiltered: 3216
-- uniqueUrls: 2765
-- enriched: 2765
+- boardRows: 644
+- prefiltered: 3200
+- uniqueUrls: 2758
+- enriched: 2758
 - closed: 17
-- kept: 1392
-- roles: 970
-- dateExcluded: 516
+- kept: 1386
+- roles: 964
+- dateExcluded: 515
 
 ## Detail fetch results
 
 - html: 569
-- greenhouse: 439
-- jsonld: 327
-- workday: 965
-- lever: 84
+- greenhouse: 435
+- jsonld: 325
+- workday: 961
+- lever: 85
 - eightfold: 93
 - oracle: 96
-- error: 21
-- ashby: 82
+- error: 25
+- ashby: 80
 - embedded: 12
 - closed: 17
 - smartrecruiters: 60
 
 ## Rejections by reason
 
-- not on known-firm list: 2102
+- not on known-firm list: 2112
 - hardware: 829
 - outside US: 803
 - outside SWE/PM/data/finance: 775
 - term: term year ####: 722
-- dates: posted dates conflict: 427
+- dates: posted dates conflict: 426
 - PhD / MBA / law / medical: 391
 - non-Python stack in title: 357
 - pay below $30/hr: 323
@@ -204,9 +204,9 @@ Add any you recognise to `inputs/known_firms.json`.
 | Hadrian | 4 | [Software Engineer Intern](https://jobs.ashbyhq.com/hadrian-automation/2b0423c6-947d-4226-8d23-90743bd5e63e/application?embed=true) |
 | ID.me | 4 | [Product Intern](https://job-boards.greenhouse.io/idmeuniversityrecruiting/jobs/7986695003) |
 | C.H. Robinson | 4 | [Software Engineer Intern](https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Software-Engineering-Internship-2027_R49323) |
+| Allen Control Systems | 4 | [Computer Vision Intern - Machine Learning](https://jobs.ashbyhq.com/allen-control-systems/a7831fef-7125-4c03-b828-5f0472989037/application?embed=true) |
 | Aramco Americas | 4 | [AI/ML Engineering Intern - Summer Student Program](https://aramcoservices.applytojob.com/apply/MdhantU1bV/Information-Technology-2027-Summer-Student-Program) |
 | ibotta | 4 | [Software Engineer Intern](https://jobs.ashbyhq.com/ibotta/3130669e-16aa-4f63-834d-b83571c8d269/application?embed=true) |
-| Astranis | 4 | [Flight Software Intern - Summer 2027](https://job-boards.greenhouse.io/astranis/jobs/4704598006) |
 
 ## Dropped for pay below $30/hr (323)
 
@@ -526,14 +526,14 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 | Rocket Lab | [Ground Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/8042092003) | $25 - $25 | 25 |
 | Rocket Lab | [HITL Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990268003) | $28 - $28 | 28 |
 | Rocket Lab | [R&D Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7996576003) | $20.00 USD Hour | 20 |
-| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986874003) | $18.00 USD Hour | 18 |
-| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986956003) | $25 - $25 | 25 |
 | Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986963003) | $22 - $22 | 22 |
 | Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986961003) | $22 - $22 | 22 |
+| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986956003) | $25 - $25 | 25 |
+| Rocket Lab | [Security Analyst Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7986874003) | $18.00 USD Hour | 18 |
 | Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7987046003) | $28 - $28 | 28 |
-| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990138003) | $28 - $28 | 28 |
-| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990270003) | $25.00 USD Hour | 25 |
 | Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990272003) | $25.00 USD Hour | 25 |
+| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990270003) | $25.00 USD Hour | 25 |
+| Rocket Lab | [Systems Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990138003) | $28 - $28 | 28 |
 | Rocket Lab | [Test Engineering Intern Summer 2027](https://job-boards.greenhouse.io/rocketlab/jobs/7990350003) | $25.00 USD Hour | 25 |
 | Ginkgo Bioworks | [Software Intern, Autonomous Lab](https://job-boards.greenhouse.io/ginkgobioworks/jobs/5033167007) | $37,700-$53,500 | 18 |
 | Motorola Solutions | [Software System Technologist Intern (Summer 2027 Internship)](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Software-System-Technologist-Intern--Summer-2027-Internship-_R70511) | $20.70 - $24.10 USD | 21 |
@@ -541,7 +541,6 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 ## Live ATS boards
 
 - **Amazon** (Big Tech): amazon:intern [local] 95, amazon:internship [local] 1000
-- **Microsoft** (Big Tech): eightfold:apply.careers.microsoft.com/microsoft.com [local] 20
 - **Netflix** (Big Tech): eightfold:explore.jobs.netflix.net/netflix.com [pts] 6
 - **NVIDIA** (Big Tech): workday:nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite [pts] 1015
 - **Salesforce** (Big Tech): workday:salesforce.wd12.myworkdayjobs.com/External_Career_Site [pts] 800
@@ -641,7 +640,6 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 - **Aquatic Capital Management** (Quant & Trading): greenhouse:aquaticcapitalmanagement [guessed] 12
 - **Voloridge Investment Management** (Quant & Trading): greenhouse:voloridgeinvestmentmanagement [guessed] 9
 - **Vatic Labs** (Quant & Trading): greenhouse:vaticlabs [guessed] 7
-- **Valkyrie Trading** (Quant & Trading): lever:valkyrietrading [guessed] 5
 - **BlackEdge Capital** (Quant & Trading): greenhouse:blackedgecapital [guessed] 2
 - **Teza Technologies** (Quant & Trading): ashby:teza-technologies [guessed] 8
 - **Simplex Trading** (Quant & Trading): greenhouse:simplextrading [guessed] 6
@@ -962,6 +960,7 @@ The pay text each drop was based on. Lower `minHourlyPay` in inputs/config.json 
 
 ## Seeded boards that failed
 
+- Microsoft eightfold:apply.careers.microsoft.com/microsoft.com
 - Mistral AI lever:mistral
 - Anysphere ashby:anysphere
 - Tempus greenhouse:tempus

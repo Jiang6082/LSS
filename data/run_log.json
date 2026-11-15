@@ -1,27 +1,27 @@
 {
-  "scannedAt": "2026-11-15T12:38:22.323Z",
+  "scannedAt": "2026-11-15T12:48:42.799Z",
   "steps": [
     "[0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr",
-    "[2s] aggregators: speedyapply_swe=853, speedyapply_ai=840, vanshb03=2457, simplify=5324",
-    "[2s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)",
-    "[138s] ATS: 419 firms with live boards, 650 postings",
-    "[138s] pre-screen: 3216 candidate postings",
-    "[138s] detail fetch: 2765 unique postings",
-    "[274s] detail results: html=569, greenhouse=439, jsonld=327, workday=965, lever=84, eightfold=93, oracle=96, error=21, ashby=82, embedded=12, closed=17, smartrecruiters=60",
-    "[276s] classified: 1392 kept, 516 excluded by dates, 17 closed",
-    "[276s] done: 0 fit, 13 flexible, 957 ask-about-dates"
+    "[0s] aggregators: speedyapply_ai=840, speedyapply_swe=853, vanshb03=2457, simplify=5324",
+    "[0s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)",
+    "[107s] ATS: 417 firms with live boards, 644 postings",
+    "[107s] pre-screen: 3200 candidate postings",
+    "[107s] detail fetch: 2758 unique postings",
+    "[231s] detail results: html=569, greenhouse=435, jsonld=325, workday=961, lever=85, eightfold=93, oracle=96, error=25, ashby=80, embedded=12, closed=17, smartrecruiters=60",
+    "[232s] classified: 1386 kept, 515 excluded by dates, 17 closed",
+    "[232s] done: 0 fit, 13 flexible, 951 ask-about-dates"
   ],
   "errors": [],
   "sources": {
-    "speedyapply_swe": {
-      "ok": true,
-      "rows": 853,
-      "bytes": 278935
-    },
     "speedyapply_ai": {
       "ok": true,
       "rows": 840,
       "bytes": 275908
+    },
+    "speedyapply_swe": {
+      "ok": true,
+      "rows": 853,
+      "bytes": 278935
     },
     "vanshb03": {
       "ok": true,
@@ -36,9 +36,10 @@
   },
   "ptsSeeds": "loaded 233 firms",
   "boards": {
-    "firmsWithLiveBoards": 419,
-    "postings": 650,
+    "firmsWithLiveBoards": 417,
+    "postings": 644,
     "failedSeeds": [
+      "Microsoft eightfold:apply.careers.microsoft.com/microsoft.com",
       "Mistral AI lever:mistral",
       "Anysphere ashby:anysphere",
       "Tempus greenhouse:tempus",
@@ -50,36 +51,36 @@
   },
   "detailStats": {
     "html": 569,
-    "greenhouse": 439,
-    "jsonld": 327,
-    "workday": 965,
-    "lever": 84,
+    "greenhouse": 435,
+    "jsonld": 325,
+    "workday": 961,
+    "lever": 85,
     "eightfold": 93,
     "oracle": 96,
-    "error": 21,
-    "ashby": 82,
+    "error": 25,
+    "ashby": 80,
     "embedded": 12,
     "closed": 17,
     "smartrecruiters": 60
   },
   "funnel": {
     "aggregatorRows": 9474,
-    "boardRows": 650,
-    "prefiltered": 3216,
-    "uniqueUrls": 2765,
-    "enriched": 2765,
+    "boardRows": 644,
+    "prefiltered": 3200,
+    "uniqueUrls": 2758,
+    "enriched": 2758,
     "closed": 17,
-    "kept": 1392,
-    "roles": 970,
-    "dateExcluded": 516
+    "kept": 1386,
+    "roles": 964,
+    "dateExcluded": 515
   },
   "rejected": {
-    "not on known-firm list": 2102,
+    "not on known-firm list": 2112,
     "hardware": 829,
     "outside US": 803,
     "outside SWE/PM/data/finance": 775,
     "term: term year ####": 722,
-    "dates: posted dates conflict": 427,
+    "dates: posted dates conflict": 426,
     "PhD / MBA / law / medical": 391,
     "non-Python stack in title": 357,
     "pay below $30/hr": 323,
@@ -112,5 +113,5 @@
     "term: posted dates Jun - Aug": 1,
     "term: posted dates starts Jun": 1
   },
-  "durationSec": 276
+  "durationSec": 232
 }

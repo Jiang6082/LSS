@@ -1,8 +1,8 @@
 # Summer 2027 roles with no dates in the posting
 
-Scan: 2026-11-15 · 957 roles · ask the recruiter whether a start around late July (ending by 2027-09-30) is possible. Fixed-class programs (bank analyst classes, rotational programs) rarely move; tech internships with individual start dates are the best bets.
+Scan: 2026-11-15 · 951 roles · ask the recruiter whether a start around late July (ending by 2027-09-30) is possible. Fixed-class programs (bank analyst classes, rotational programs) rarely move; tech internships with individual start dates are the best bets.
 
-## 💻 Software Engineering (557)
+## 💻 Software Engineering (556)
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -283,7 +283,6 @@ Scan: 2026-11-15 · 957 roles · ask the recruiter whether a start around late J
 | **Point72** | Quantitative Developer Intern | NYC; New York, NY +1 | Summer 2027 dates not stated |  | ✓ | ✓ | 2024-08-23 | [Apply](https://boards.greenhouse.io/point72/jobs/7609197002) |
 | **Point72** | Quantitative Software Developer Intern | New York | term dates not stated |  | ✓ | ✓ | 2024-08-15 | [Apply](https://boards.greenhouse.io/point72/jobs/7297666002?gh_jid=7297666002) |
 | **Point72** | Software Engineer Intern | NYC; New York, NY | Summer 2027 dates not stated | $63/hr | ✓ | ✓ | 2026-10-14 | [Apply](https://boards.greenhouse.io/point72/jobs/8885733002) |
-| **Allen & Company** | Software Engineer Intern | Austin, TX | term dates not stated; 10-week program |  | ✓ |  | 2026-09-08 | [Apply](https://jobs.ashbyhq.com/allen-control-systems/ed5c58a7-6a3c-474b-aa07-43ff2051cb5c/application?embed=true) |
 | **Goldman Sachs** | Summer Analyst Intern - Americas - Engineering | Salt Lake City, UT | Summer 2027 dates not stated; 9-week program |  |  | ✓ | 2026-08-15 | [Apply](https://higher.gs.com/roles/171565?type=students) |
 | **Goldman Sachs** | Summer Analyst Intern - Engineering | Dallas, TX | Summer 2027 dates not stated; 9-week program |  |  | ✓ | 2026-08-15 | [Apply](https://higher.gs.com/roles/171553?type=students) |
 | **BNY** | Engineering Developer Intern - Engineering | Lake Mary, FL | Summer 2027 dates not stated; 10-week program |  | ✓ | ✓ | 2026-08-24 | [Apply](https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/81252) |
@@ -428,8 +427,8 @@ Scan: 2026-11-15 · 957 roles · ask the recruiter whether a start around late J
 | **Motorola Solutions** | Presale Systems Engineer - Summer 2027 Internship | Massachusetts Remote Work, More...; Brooklyn, NY, More... | Summer 2027 dates not stated |  |  | ✓ | Posted 24  | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Massachusetts-Remote-Work/Presale-Systems-Engineer---Summer-2027-Internship_R69640) |
 | **Motorola Solutions** | Presales Engineering Intern- Summer 2027 Internship | Chicago, IL | Summer 2027 dates not stated |  |  | ✓ | Posted 20  | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Presales-Engineering-Intern--Summer-2027-Internship_R69922) |
 | **Motorola Solutions** | Presales Systems Engineer - 2027 Internship | Linthicum, MD, More...; Georgia, US Offsite, More... | term dates not stated |  |  | ✓ | Posted 30+ | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Linthicum-MD/Presales-Systems-Engineer---2027-Internship_R69140) |
-| **Motorola Solutions** | Presales Systems Engineer - Summer 2027 Internship | Allen, TX (TX139), More...; Brentwood, TN, More... | Summer 2027 dates not stated |  |  | ✓ | Posted 20  | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Presales-Systems-Engineer---Summer-2027-Internship_R69875) |
-| **Motorola Solutions** | Presales Systems Engineering - Summer 2027 Internship | Waltham, MA, More... | Summer 2027 dates not stated |  |  | ✓ | Posted 20  | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Waltham-MA/Presales-Systems-Engineering---Summer-2027-Internship_R69779) |
+| **Motorola Solutions** | Presales Systems Engineer - Summer 2027 Internship | Allen, TX (TX139), More...; Brentwood, TN, More... | Summer 2027 dates not stated |  |  | ? | Posted 20  | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Presales-Systems-Engineer---Summer-2027-Internship_R69875) |
+| **Motorola Solutions** | Presales Systems Engineering - Summer 2027 Internship | Waltham, MA, More... | Summer 2027 dates not stated |  |  | ? | Posted 20  | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Waltham-MA/Presales-Systems-Engineering---Summer-2027-Internship_R69779) |
 | **Motorola Solutions** | Prototype Engineer Intern - Summer 2027 | Plantation, FL | Summer 2027 dates not stated |  |  | ✓ | Posted 30+ | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Prototype-Engineer-Intern---Summer-2027_R69267-1) |
 | **Motorola Solutions** | Software Engineer Intern | Chicago, IL; Schaumburg, IL | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-09-08 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Software-Engineering-Intern---Summer-2027_R68388) |
 | **Motorola Solutions** | Software Engineer Intern - Summer 2027 | Plantation, FL; Elgin, IL +1 | Summer 2027 dates not stated |  | ✗ java | ✓ | 2026-09-24 | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Plantation-FL/Software-Engineering-Intern---Summer-2027_R69136) |
@@ -614,7 +613,7 @@ Scan: 2026-11-15 · 957 roles · ask the recruiter whether a start around late J
 | **Illinois Tool Works** | Product Management Intern | Troy, OH; Troy, MI | Summer 2027 dates not stated |  |  | ✓ | 2026-09-15 | [Apply](https://careers.itw.com/global/en/job/JR10105) |
 | **PACCAR** | Product Planning Intern | Denton, TX | Summer 2027 dates not stated |  |  | ✓ | 2026-11-03 | [Apply](https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Product-Planning-TX-76205-7864/1453917433/?ats=successfactors) |
 
-## 📊 Data / Analytics / ML (273)
+## 📊 Data / Analytics / ML (268)
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -751,10 +750,6 @@ Scan: 2026-11-15 · 957 roles · ask the recruiter whether a start around late J
 | **Point72** | Quantitative Research Intern (NLP) | New York | term dates not stated |  | ✓ | ✓ | 2025-05-31 | [Apply](https://boards.greenhouse.io/point72/jobs/8018862002?gh_jid=8018862002) |
 | **Schonfeld** | Data Science Intern | NYC | Summer 2027 dates not stated | $106/hr | ✓ |  | 2026-09-04 | [Apply](https://job-boards.greenhouse.io/schonfeld/jobs/8171692) |
 | **Verition** | AI Associate Intern, Equity Long/Short | New York, NY; Miami, FL +3 | Summer 2027 dates not stated; 10-week program | $67-77/hr |  |  | 2026-10-28 | [Apply](https://job-boards.greenhouse.io/veritiongroupllcinternships/jobs/5275320007) |
-| **Allen & Company** | Computer Vision Intern - Machine Learning | Austin, TX | Summer 2027 dates not stated; 10-week program |  | ✓ |  | 2026-09-08 | [Apply](https://jobs.ashbyhq.com/allen-control-systems/a7831fef-7125-4c03-b828-5f0472989037/application?embed=true) |
-| **Allen & Company** | Research Intern - AI for Science | Seattle, WA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October |  |  | ✓ | 2026-10-19 | [Apply](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293615) |
-| **Allen & Company** | Research Intern - Open Ecosystem | Seattle, WA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October |  |  | ✓ | 2026-10-26 | [Apply](https://job-boards.greenhouse.io/thealleninstitute/jobs/8319350) |
-| **Allen & Company** | Research Internship - AI for Neuroscience | Seattle, WA | term dates not stated; 12+ weeks, so a late-July start would run into October |  | ✓ | ✓ | 2026-11-15 | [Apply](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293636) |
 | **JPMorgan Chase** | Data & AI Intern - Analyst | Palo Alto, CA; Newark, DE +6 | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-08-03 | [Apply](https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773869) |
 | **William Blair** | Agentic AI Development Intern | Chicago, IL | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $35/hr | ✓ | ✓ | 2026-09-22 | [Apply](https://www.williamblair.com/Careers/job-description?gh_jid=5242282007) |
 | **American Express** | AI Engineer Intern - Enterprise Technology Services | Sunrise, FL; New York, NY | Summer 2027 dates not stated; 10-week program |  | ✓ | ✓ | 2026-08-17 | [Apply](https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011745) |
@@ -886,7 +881,6 @@ Scan: 2026-11-15 · 957 roles · ask the recruiter whether a start around late J
 | **PACCAR** | Data Engineering Intern | United States | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-11-11 | [Apply](https://career5.successfactors.eu/career?career_ns=job_listing&company=paccarinc&career_job_req_id=73957) |
 | **PACCAR** | Warranty Business Intern | Denton, TX | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-11-02 | [Apply](https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Warranty-Business-TX-76205-7864/1453566133/?ats=successfactors) |
 | **RTX** | Cyber Research Intern | Cedar Rapids, IA | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-11-03 | [Apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-IA-CEDAR-RAPIDS-166--855-35Th-St-NE--BLDG-166/Cyber-Research-Internship--Summer-2027----Onsite_01872177) |
-| **Southern Company** | AI & Business Analytics Intern | Waynesboro, MS | term dates not stated |  |  |  | 2026-08-12 | [Apply](https://southernmississippitradingllc.applytojob.com/apply/jIkpJ1ZhDo/AI-Business-Analytics-Intern) |
 | **Walmart** | Data Science & Data Analytics Intern, Last Mile Delivery | Bentonville, AR | Summer 2027 dates not stated | $21-40/hr |  |  | 2026-11-10 | [Apply](https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/Bentonville-AR/Summer-2027-Corporate-Intern--Data-Science---Data-Analytics---Last-Mile-Delivery_R-2690193) |
 | **Walmart** | Data Science Intern, Last Mile Delivery | Bentonville, AR | Summer 2027 dates not stated | $21-40/hr |  |  | 2026-11-05 | [Apply](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-J-Street-Offices-Suite-2-AR-BENTONVILLE-Home-Office/XMLNAME--USA--Summer-2027-Corporate-Intern---Last-Mile-Delivery-Data-Science-Intern_R-2686828) |
 | **Walmart** | Summer 2027 Corporate Intern: Data Science & Data Analytics - Last Mile Delivery | Bentonville, AR | Summer 2027 dates not stated | $21-40/hr |  |  | 2026-11-11 | [Apply](https://walmart.wd504.myworkdayjobs.com/en-US/walmartexternal/job/Bentonville-AR/Summer-2027-Corporate-Intern--Data-Science---Data-Analytics---Last-Mile-Delivery_R-2690193) |
@@ -974,7 +968,7 @@ Scan: 2026-11-15 · 957 roles · ask the recruiter whether a start around late J
 | **Robinhood** | Corporate Finance Intern (Summer 2027) | New York, NY | Summer 2027 dates not stated | $33/hr |  |  | 2026-11-13 | [Apply](https://boards.greenhouse.io/robinhood/jobs/8357464?t=gh_src=&gh_jid=8357464) |
 | **Tradeweb** | Quantitative Intern | NYC | Summer 2027 dates not stated | $45-75/hr | ✓ | ✓ | 2026-09-24 | [Apply](https://ecnf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/301931) |
 | **Visa** | Risk Intern | PA - Panama City, Panama | term dates not stated |  |  | ✓ | Posted 16  | [Apply](https://visa.wd5.myworkdayjobs.com/Visa/job/PA---Panama-City-Panama/Risk-Intern_REF086150W-1) |
-| **Motorola Solutions** | IT M&A Integration Analyst - 2027 Summer Internship (Chicago Hybrid) | Chicago, IL | Summer 2027 dates not stated |  |  | ✓ | Posted 5 D | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/IT-M-A-Integration-Analyst---2026-Summer-Internship--Chicago-Hybrid-_R70464) |
+| **Motorola Solutions** | IT M&A Integration Analyst - 2027 Summer Internship (Chicago Hybrid) | Chicago, IL | Summer 2027 dates not stated |  |  | ? | Posted 5 D | [Apply](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/IT-M-A-Integration-Analyst---2026-Summer-Internship--Chicago-Hybrid-_R70464) |
 | **Booz Allen Hamilton** | Quantum Computing Research Intern | Washington, DC | Summer 2027 dates not stated | $33/hr | ✓ | ✓ | 2026-09-09 | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/University---Summer-2027-Quantum-Computing-Research-Intern_R0249046) |
 | **Brattle** | Energy Analyst Intern - Economics | Boston, MA | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-09-18 | [Apply](https://job-boards.greenhouse.io/thebrattlegroup/jobs/4735999005) |
 | **West Monroe** | Market Research Associate Intern | Boston, MA | term dates not stated |  |  | ? | 2026-10-06 | [Apply](https://westmonroe.com/careers/job-details-students?gh_jid=6166314004) |

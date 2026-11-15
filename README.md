@@ -4,7 +4,7 @@ Scans for **US internships at well-known firms** in **software engineering, prod
 
 **Filters:** US only (incl. US-remote) · known firms only ([list](inputs/known_firms.json)) · pay ≥ $30/hr when the posting states pay · undergrad roles (PhD / MBA / master's-only excluded) · titles naming C++, Java, iOS/Android, embedded or hardware skipped (Python-friendly) · window 2027-07-13 → 2027-09-30 ([config](inputs/config.json))
 
-> **Last scan:** 2026-11-15 &nbsp;•&nbsp; **0 dates fit** &nbsp;•&nbsp; **13 flexible / near miss** &nbsp;•&nbsp; **957 summer, dates not stated** &nbsp;•&nbsp; **0 new** &nbsp;•&nbsp; 17 closed postings dropped
+> **Last scan:** 2026-11-15 &nbsp;•&nbsp; **0 dates fit** &nbsp;•&nbsp; **13 flexible / near miss** &nbsp;•&nbsp; **951 summer, dates not stated** &nbsp;•&nbsp; **0 new** &nbsp;•&nbsp; 17 closed postings dropped
 
 **Jump to:** [✅ Dates fit](#-dates-fit) · [🟡 Flexible](#-flexible-start--near-miss) · [⚪ Dates not stated](#-summer-2027--dates-not-stated) · [🆕 New](#-new-since-last-scan) · [How it works](#how-it-works) · [How to run](#how-to-run) · [CSV of everything](reports/roles.csv)
 
@@ -83,10 +83,10 @@ _None right now._
 
 ## ⚪ Summer 2027 — dates not stated
 
-957 roles. The first 60 per track are below; the full list is in [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md).
+951 roles. The first 60 per track are below; the full list is in [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md).
 
 <details>
-<summary><strong>💻 Software Engineering</strong> (557)</summary>
+<summary><strong>💻 Software Engineering</strong> (556)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -151,7 +151,7 @@ _None right now._
 | **Palantir** | Forward Deployed Software Engineer, Internship - France | New York, NY | term dates not stated | $58/hr | ✓ | ✓ | 2026-03-10 | [Apply](https://jobs.lever.co/palantir/ac0dc094-2480-43c2-8495-26ade227ff4f) |
 | **Palantir** | Forward Deployed Software Engineer, Internship - US Government | Honolulu, HI; New York, NY +1 | term dates not stated | $58/hr | ✓ |  | 2021-07-01 | [Apply](https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e) |
 
-_+497 more in the full list._
+_+496 more in the full list._
 
 </details>
 
@@ -209,7 +209,7 @@ _+497 more in the full list._
 </details>
 
 <details>
-<summary><strong>📊 Data / Analytics / ML</strong> (273)</summary>
+<summary><strong>📊 Data / Analytics / ML</strong> (268)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -274,7 +274,7 @@ _+497 more in the full list._
 | **TikTok** | Data Scientist Project Intern, TikTok Integrity and Safety | San Jose, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $35/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7610543185362372917) |
 | **TikTok** | LLM Post-training Engineer Intern - Research & Product | San Jose, CA | Summer 2027 dates not stated | $60/hr | ✓ | ✓ | 2026-08-06 | [Apply](https://lifeattiktok.com/search/7670285031018432773) |
 
-_+213 more in the full list._
+_+208 more in the full list._
 
 </details>
 
@@ -354,52 +354,6 @@ _+22 more in the full list._
 
 _None right now._
 
-
-<details>
-<summary>40 roles no longer found this scan</summary>
-
-- General Motors — Data Scaling Intern - Data Scaling - Embodied AI (ask; first seen 2026-11-03)
-- General Motors — Embodied AI Data Scaling Intern - Data Scaling - Embodied AI (ask; first seen 2026-11-03)
-- General Motors — Onboard Autonomy Intern - Embodied AI (ask; first seen 2026-11-03)
-- General Motors — Seam Intern - Embodied AI (ask; first seen 2026-11-03)
-- Micron — HBM Data Scientist Intern (ask; first seen 2026-11-03)
-- Federal Reserve — Supervision & Regulation Intern - Business Relationship (ask; first seen 2026-11-03)
-- Guardian Life — Data Engineering Intern - Digital & Technology (ask; first seen 2026-11-03)
-- Guardian Life — Application Development Intern - Digital & Technology (ask; first seen 2026-11-03)
-- Guardian Life — Summer Intern - Digital & Technology - AI & Machine Learning (ask; first seen 2026-11-03)
-- Toyota Research Institute — Automated Driving Advanced Development Intern - Machine Learning Research (ask; first seen 2026-11-06)
-- RTX — Aftermarket & Sustainment Engineering Methods Engineering Intern (ask; first seen 2026-11-12)
-- RTX — Methods Engineering Intern, Aftermarket & Sustainment Engineering (ask; first seen 2026-11-12)
-- Fifth Third — Summer 2027 Commercial Middle Market Internship - Costa Mesa (ask; first seen 2026-11-13)
-- General Motors — Product Management Intern - Digital Product (ask; first seen 2026-11-14)
-- General Motors — Software Engineer Intern - Digital Product: Software Engineering (ask; first seen 2026-11-14)
-- General Motors — AI/ML Engineer Intern - Autonomous Vehicle: Simulation (ask; first seen 2026-11-14)
-- General Motors — AI/ML Engineer Intern - Autonomous Vehicles: Simulation (ask; first seen 2026-11-14)
-- General Motors — Machine Learning Engineer Intern - AV/AI Platform (ask; first seen 2026-11-14)
-- General Motors — AI/ML Engineer Intern - Mapping (ask; first seen 2026-11-14)
-- Hewlett Packard Enterprise — Wireless Networking Intern (ask; first seen 2026-11-14)
-- General Motors — Summer Intern - Onboard Autonomy - Embodied AI (ask; first seen 2026-11-14)
-- General Motors — Product Management Intern - Vehicle Autonomy (ask; first seen 2026-11-14)
-- HP — Software Systems Intern - IQ (ask; first seen 2026-11-14)
-- HP — Software Quality Assurance Intern (ask; first seen 2026-11-14)
-- HP — Software Engineer Intern (ask; first seen 2026-11-14)
-- HP — Software Engineer Intern - Connectivity (ask; first seen 2026-11-14)
-- General Motors — Research and Development Intern - Vehicle Health Management (ask; first seen 2026-11-14)
-- HP — Software Engineer Intern - AIML Platform - HP IQ (ask; first seen 2026-11-14)
-- HP — Software Engineer Intern - Product & Developer Productivity (ask; first seen 2026-11-14)
-- General Motors — Software Engineer Intern, Digital Product (ask; first seen 2026-11-14)
-- HP — Software Product Security Intern, HP IQ (ask; first seen 2026-11-14)
-- RTX — Software Engineering Co-op (ask; first seen 2026-11-14)
-- HP — Cloud Engineering Intern - HP IQ (ask; first seen 2026-11-14)
-- HP — Software Engineering Intern - Product & Developer Productivity - HP IQ (ask; first seen 2026-11-14)
-- HP — Software Engineering Intern - AIML Platform - HP IQ (ask; first seen 2026-11-14)
-- Target — Store Executive Intern - Store Leadership Intern - St. Cloud - MN - Starting Summer 2027 ​ ​ (ask; first seen 2026-11-14)
-- General Motors — 2027 Summer Intern - Machine Learning Engineer - AV/AI Platform (ask; first seen 2026-11-14)
-- General Motors — 2027 Summer Intern - Research and Development - Vehicle Aerodynamics and Machine Learning (ask; first seen 2026-11-14)
-- Vanguard — College to Corporate IT Internship-Risk & Security-Engineer (NC) (ask; first seen 2026-11-14)
-- Motorola Solutions — Software System Technologist Intern (Summer 2027 Internship) (ask; first seen 2026-11-14)
-
-</details>
 
 ---
 

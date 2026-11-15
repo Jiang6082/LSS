@@ -1,6 +1,6 @@
 # Degree screen
 
-Scan: 2026-11-15 · 517 postings at known firms dropped because they require a graduate or professional degree (title says so: 27, PhD: 248, Master's/PhD: 207, MBA: 18, JD / law school: 3, research role (no undergrad option stated): 14). Of the 970 roles kept, 775 explicitly include undergraduates (UG ✓), 149 were read and don't state a degree level, and 46 couldn't be checked because the full description wasn't readable (UG ?).
+Scan: 2026-11-15 · 517 postings at known firms dropped because they require a graduate or professional degree (title says so: 27, PhD: 248, Master's/PhD: 207, MBA: 18, JD / law school: 3, research role (no undergrad option stated): 14). Of the 964 roles kept, 769 explicitly include undergraduates (UG ✓), 146 were read and don't state a degree level, and 49 couldn't be checked because the full description wasn't readable (UG ?).
 
 A role is dropped when its title names a graduate degree ("Graduate Intern", "MS", "Master's", "PhD", "MBA", "JD") with no undergrad option, or its description requires one ("currently pursuing a Master's or PhD", "enrolled in an MBA program", "2L/3L law students") and nothing in the posting opens it to undergrads. Research-scientist style titles (Research Scientist, Applied Scientist, Research Intern, Student Researcher) are dropped unless the posting explicitly includes undergraduates. "PhD preferred" or "graduate students also welcome" does not drop a role.
 
@@ -530,7 +530,7 @@ A role is dropped when its title names a graduate degree ("Graduate Intern", "MS
 
 ## Kept, but the posting never states a degree level
 
-149 roles.
+146 roles.
 
 These stay in the lists because nothing in the posting limits them to graduate students. The column shows the posting's own sentence about education, if it has one; skim it before applying.
 
@@ -578,7 +578,6 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Old Mission Capital | Software Engineer Intern | — (no education sentence) | [link](https://www.oldmissioncapital.com/careers/?gh_jid=7796180003) |
 | Voleon | Software Engineer Intern | — (no education sentence) | [link](https://jobs.ashbyhq.com/voleon/57f1b666-2f4b-4bad-aac0-fa42a1c8fdf6/application?embed=true) |
 | Marshall Wace | Technology Intern | We don’t specifically look for those working towards a computer science degree, but we do look for those who are high-achieving academically and have actively developed technical, software engineering | [link](https://job-boards.greenhouse.io/mwinternshipprogram/jobs/8606238002) |
-| Allen & Company | Software Engineer Intern | Currently pursuing a degree in Computer Science, Software Engineering, or a related field | [link](https://jobs.ashbyhq.com/allen-control-systems/ed5c58a7-6a3c-474b-aa07-43ff2051cb5c/application?embed=true) |
 | Federal Reserve | 2027 Summer Internship Program - Information Security Intern | — (no education sentence) | [link](https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Information-Security-Intern_R-0000033910) |
 | Federal Reserve | Information Security Intern | — (no education sentence) | [link](https://rb.wd5.myworkdayjobs.com/frs/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Information-Security-Intern_R-0000033910) |
 | Synchrony | Digital Technology Center Intern | — (no education sentence) | [link](https://synchronyfinancial.wd5.myworkdayjobs.com/University/job/Stamford-Hub/UConn-Stamford-Digital-Technology-Center-Intern---Summer-2027_2602661) |
@@ -656,7 +655,6 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Jump Trading | Campus Data Engineer (Intern) | — (no education sentence) | [link](https://www.jumptrading.com/hr/job?gh_jid=8002998) |
 | Schonfeld | Data Science Intern | Degree in quantitative field such as computer science, data science or financial engineering | [link](https://job-boards.greenhouse.io/schonfeld/jobs/8171692) |
 | Verition | AI Associate Intern, Equity Long/Short | — (no education sentence) | [link](https://job-boards.greenhouse.io/veritiongroupllcinternships/jobs/5275320007) |
-| Allen & Company | Computer Vision Intern - Machine Learning | Currently pursuing a degree in Computer Science, Electrical Engineering, Robotics, or a related field | [link](https://jobs.ashbyhq.com/allen-control-systems/a7831fef-7125-4c03-b828-5f0472989037/application?embed=true) |
 | Coinbase | Analytics Engineer Intern | Currently pursuing a degree in computer science, data science, statistics, economics, or a related quantitative field, or equivalent experience | [link](https://boards.greenhouse.io/embed/job_app?token=8175471) |
 | Coinbase | People Analytics Intern | Currently pursuing a degree or certificate in an analytical discipline (e.g., data science, statistics, I/O psychology, business analytics, or related field). | [link](https://boards.greenhouse.io/embed/job_app?token=8175517) |
 | Rocket Companies | Data Analyst Intern | — (no education sentence) | [link](https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Detroit-MI/Data-Analyst-Intern---Summer-2027_R-083832) |
@@ -671,7 +669,6 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Koch Industries | Business Analytics & Insights Intern | Currently enrolled in a business degree program such as Business Analytics, Data Analytics, Economics, Statistics, Accounting, Finance, Agribusiness, or related fields | [link](https://koch.avature.net/en_US/careers/JobDetail/194813) |
 | MITRE | Trustworthy AI Intern | — (no education sentence) | [link](https://careers.mitre.org/us/en/job/R117833/Trustworthy-AI-Intern) |
 | PACCAR | AI-Driven Vehicle Definition Intern | . The candidate we seek will be currently enrolled in an Electrical/Computer Engineering or Computer Science or a related program. | [link](https://jobs.paccar.com/job/Denton-2027-Summer-Internship-AI-Driven-Vehicle-Definition-TX-76205-7864/1453573733/?ats=successfactors) |
-| Southern Company | AI & Business Analytics Intern | Currently pursuing a degree in Computer Science, Data Science, Information Systems, Business Analytics, Business, or a related field. | [link](https://southernmississippitradingllc.applytojob.com/apply/jIkpJ1ZhDo/AI-Business-Analytics-Intern) |
 | Walmart | Data Science & Data Analytics Intern, Last Mile Delivery | — (no education sentence) | [link](https://walmart.wd504.myworkdayjobs.com/en-US/WalmartExternal/job/Bentonville-AR/Summer-2027-Corporate-Intern--Data-Science---Data-Analytics---Last-Mile-Delivery_R-2690193) |
 | Walmart | Data Science Intern, Last Mile Delivery | — (no education sentence) | [link](https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-J-Street-Offices-Suite-2-AR-BENTONVILLE-Home-Office/XMLNAME--USA--Summer-2027-Corporate-Intern---Last-Mile-Delivery-Data-Science-Intern_R-2686828) |
 | Walmart | Summer 2027 Corporate Intern: Data Science & Data Analytics - Last Mile Delivery | — (no education sentence) | [link](https://walmart.wd504.myworkdayjobs.com/en-US/walmartexternal/job/Bentonville-AR/Summer-2027-Corporate-Intern--Data-Science---Data-Analytics---Last-Mile-Delivery_R-2690193) |
@@ -688,7 +685,7 @@ These stay in the lists because nothing in the posting limits them to graduate s
 
 ## Kept, description couldn't be read
 
-46 roles (shown as UG ? in the lists). The scanner couldn't load these postings' full text, so their degree requirement is unchecked. Open the link before applying.
+49 roles (shown as UG ? in the lists). The scanner couldn't load these postings' full text, so their degree requirement is unchecked. Open the link before applying.
 
 | Company | Role | Link |
 |---|---|---|
@@ -708,6 +705,8 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | Zipline | Maps Intern - Summer 2027 | [link](https://www.zipline.com/open-roles?gh_jid=7980866003) |
 | Zipline | Software Systems Validation Intern | [link](https://www.zipline.com/open-roles/7894335003?gh_jid=7894335003) |
 | Zipline | System Test Automation Intern | [link](https://www.zipline.com/open-roles/7886320003?gh_jid=7886320003) |
+| Motorola Solutions | Presales Systems Engineer - Summer 2027 Internship | [link](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Presales-Systems-Engineer---Summer-2027-Internship_R69875) |
+| Motorola Solutions | Presales Systems Engineering - Summer 2027 Internship | [link](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Waltham-MA/Presales-Systems-Engineering---Summer-2027-Internship_R69779) |
 | T-Mobile | Summer 2027 Software Engineering Internship | [link](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739) |
 | West Monroe | Software Engineering Consultant Intern - AI Concentration | [link](https://www.westmonroe.com/careers/job-details-students?gh_jid=6183029004) |
 | General Motors | 2027 Summer Intern - Software Engineer - AV/AI Platform | [link](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/GM-Automation---Sunnyvale---GM-Automation---Sunnyvale/XMLNAME-2027-Summer-Intern---Software-Engineer--AV-AI-Platform_JR-202621696) |
@@ -737,4 +736,5 @@ These stay in the lists because nothing in the posting limits them to graduate s
 | General Motors | 2027 Summer Intern - Machine Learning Engineer - Embodied AI | [link](https://generalmotors.wd5.myworkdayjobs.com/en-US/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Engineer--Embodied-AI_JR-202624034) |
 | Point72 | Investment Analyst Intern, Point72 Academy | [link](https://go.vansh.nyc/1g) |
 | Point72 | Quantitative Researcher Intern | [link](https://go.vansh.nyc/1f) |
+| Motorola Solutions | IT M&A Integration Analyst - 2027 Summer Internship (Chicago Hybrid) | [link](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/IT-M-A-Integration-Analyst---2026-Summer-Internship--Chicago-Hybrid-_R70464) |
 | West Monroe | Market Research Associate Intern | [link](https://westmonroe.com/careers/job-details-students?gh_jid=6166314004) |

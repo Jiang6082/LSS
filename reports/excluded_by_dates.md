@@ -1,6 +1,6 @@
 # Excluded because the posted dates conflict with the window
 
-Scan: 2026-11-15 · 516 postings at known firms whose own dates fall outside 2027-07-13 → 2027-09-30 (e.g. a June start or an end in December). Listed so you can spot a misread date; the quoted sentence is what the parser used.
+Scan: 2026-11-15 · 515 postings at known firms whose own dates fall outside 2027-07-13 → 2027-09-30 (e.g. a June start or an end in December). Listed so you can spot a misread date; the quoted sentence is what the parser used.
 
 | Company | Role | Dates read | Why | Evidence | Link |
 |---|---|---|---|---|---|
@@ -198,8 +198,8 @@ Scan: 2026-11-15 · 516 postings at known firms whose own dates fall outside 202
 | Sigma Computing | Software Engineer Intern | Jun - Aug | posted dates Jun - Aug | Able to intern from June 2027 through August/early September 2027 (dates flexible) | [link](https://job-boards.greenhouse.io/sigmacomputing/jobs/8001295003) |
 | Sigma Computing | Software Engineer Intern | Jun - Aug | posted dates Jun - Aug | Able to intern from June 2027 through August/early September 2027 (dates flexible) | [link](https://job-boards.greenhouse.io/sigmacomputing/jobs/7850795003) |
 | Sigma Computing | Software Engineer Intern - Summer 2027 | Jun - Aug | posted dates Jun - Aug | Able to intern from June 2027 through August/early September 2027 (dates flexible) | [link](https://job-boards.greenhouse.io/sigmacomputing/jobs/7850795003) |
-| Sigma Computing | Technical Writer Intern (Summer 2027) | Jun - Aug | posted dates Jun - Aug | Able to intern from June 2027 through August 2027 (flexible) | [link](https://job-boards.greenhouse.io/sigmacomputing/jobs/8034168003) |
 | Sigma Computing | Technical Writer Intern (Summer 2027) | Jun - Aug | posted dates Jun - Aug | Able to intern from June 2027 through August 2027 (flexible) | [link](https://job-boards.greenhouse.io/sigmacomputing/jobs/8034205003) |
+| Sigma Computing | Technical Writer Intern (Summer 2027) | Jun - Aug | posted dates Jun - Aug | Able to intern from June 2027 through August 2027 (flexible) | [link](https://job-boards.greenhouse.io/sigmacomputing/jobs/8034168003) |
 | Tanium | Cloud Security Intern | Jun 7 - Aug 13 | posted dates Jun 7 - Aug 13 | Available to work full-time from June 7, 2027 to August 13, 2027 | [link](https://job-boards.greenhouse.io/tanium/jobs/8176398) |
 | UiPath | Software Engineer Intern | Jun - Aug | posted dates Jun - Aug | 12 week summer internship (May/June - August/September 2027) | [link](https://jobs.ashbyhq.com/uipath/4983eab7-099d-4c77-9a5a-8dde72084c04/application?embed=true) |
 | UiPath | Software Engineer Intern | Jun - Aug | posted dates Jun - Aug | 12 week summer internship (May/June - August/September 2027) | [link](https://jobs.ashbyhq.com/uipath/4983eab7-099d-4c77-9a5a-8dde72084c04) |
@@ -480,7 +480,6 @@ Scan: 2026-11-15 · 516 postings at known firms whose own dates fall outside 202
 | Philips | Co-op - Data Engineer - Biocompatibility - Murrysville - PA - January to June 2027 |  | co-op with no dates (usually 4-6 months) |  | [link](https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers/job/Murrysville-Pennsylvania-United-States/Co-op---Data-Engineer--Biocompatibility----Murrysville--PA---January-to-June-2027_591730) |
 | Procter & Gamble | Data & AI Engineering Intern | May 25 - Aug 5 | posted dates May 25 - Aug 5 | . You must be available during the summer of 2027 for a 12 week internship from mid/late May through early August. | [link](https://pg.wd5.myworkdayjobs.com/1000/job/CINCINNATI-GENERAL-OFFICES/Data---AI-Engineering-Internship_R000157499) |
 | Procter & Gamble | Data & AI Engineering Internship | May 25 - Aug 5 | posted dates May 25 - Aug 5 | . You must be available during the summer of 2027 for a 12 week internship from mid/late May through early August. | [link](https://pg.wd5.myworkdayjobs.com/en-US/1000/job/CINCINNATI-GENERAL-OFFICES/Data---AI-Engineering-Internship_R000157499) |
-| Southern Company | GIS Analyst Intern | May - Aug | posted dates May - Aug | . Highlights/Internship Overview: This is a 12-week, competitively paid summer internship starting in May and ending in August. . Highlights/Internship Overview | [link](https://careers-sscgp.icims.com/jobs/3036/job?mobile=true&needsRedirect=false) |
 | Universal Music Group | Data Engineer Co-Op |  | co-op with no dates (usually 4-6 months) |  | [link](https://umusic.wd5.myworkdayjobs.com/en-US/umgpp/job/Remote-New-York/Data-Engineer-Co-Op_UMG-26319) |
 | Adobe | 2027 Intern - FP&A Finance & Reporting | May - Sep | posted dates May - Sep | Ability to participate in a full-time internship from May–September 2027 | [link](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---FP-A-Finance---Reporting_R173005) |
 | Amazon | Freeways Data Evaluation Intern |  | 26-week assignment |  | [link](https://jobs.lever.co/zoox/ad992e12-39da-4046-b766-45f928924575) |
