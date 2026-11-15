@@ -7248,12 +7248,11 @@
  },
  "toyota research institute|human centered ai research intern causal reasoning models": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-03",
+  "lastSeen": "2026-11-15",
   "bucket": "ask",
   "company": "Toyota Research Institute",
   "title": "Human-Centered AI Research Intern - Causal Reasoning Models",
-  "url": "https://jobs.lever.co/tri/6433edb6-76be-409f-9a73-9b9d9c207f9f",
-  "goneOn": "2026-11-04"
+  "url": "https://jobs.lever.co/tri/be41a03c-460e-4ff7-b817-f012aa1c4b37/apply"
  },
  "eqt|data engineering intern": {
   "firstSeen": "2026-11-03",
@@ -12762,5 +12761,21 @@
   "title": "Software System Technologist Intern (Summer 2027 Internship)",
   "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Software-System-Technologist-Intern--Summer-2027-Internship-_R70511",
   "goneOn": "2026-11-15"
+ },
+ "amazon|data scientist intern": {
+  "firstSeen": "2026-11-15",
+  "lastSeen": "2026-11-15",
+  "bucket": "ask",
+  "company": "Amazon",
+  "title": "Data Scientist Intern",
+  "url": "https://jobs.lever.co/zoox/85c6aec7-8da2-445d-9c4d-812365dbce97/apply"
+ },
+ "arrowstreet capital|quantitative developer intern summer": {
+  "firstSeen": "2026-11-15",
+  "lastSeen": "2026-11-15",
+  "bucket": "ask",
+  "company": "Arrowstreet Capital",
+  "title": "Quantitative Developer Intern, Summer 2027",
+  "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Quantitative-Developer-Intern--Summer-2027_R1506"
  }
 }
