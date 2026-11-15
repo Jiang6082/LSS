@@ -22,9 +22,13 @@ export function normalizeCompany(name = "") {
   return words.join(" ");
 }
 
+// Names that shrink to a common word once suffixes are stripped ("Allen & Company" -> "allen",
+// "Man Group" -> "man") must match exactly, or "Allen Institute" / "Southern California Edison" would count.
+const NO_PREFIX = ["allen", "man", "capital", "partners", "news", "analysis", "match", "southern", "tiger", "viking", "advent", "temporal", "paramount", "campbell"];
+
 export async function loadKnownFirms(path = "inputs/known_firms.json") {
   const raw = JSON.parse(await fs.readFile(path, "utf8"));
-  const exact = new Set((raw.exact || []).map(normalizeCompany));
+  const exact = new Set([...(raw.exact || []), ...NO_PREFIX].map(normalizeCompany));
   const firms = [];
   const byAlias = new Map();
   const categoryOrder = raw.categoryOrder || Object.keys(raw.categories);
