@@ -1,45 +1,44 @@
 {
-  "scannedAt": "2026-11-15T18:51:33.171Z",
+  "scannedAt": "2026-11-16T22:01:53.012Z",
   "steps": [
     "[0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr",
-    "[0s] aggregators: speedyapply_ai=840, speedyapply_swe=853, vanshb03=2463, simplify=5318",
+    "[0s] aggregators: speedyapply_ai=831, speedyapply_swe=848, vanshb03=2419, simplify=5224",
     "[0s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)",
-    "[126s] ATS: 418 firms with live boards, 643 postings",
-    "[127s] pre-screen: 1598 candidate postings (1596 older than 30 days dropped)",
-    "[127s] detail fetch: 1453 unique postings",
-    "[191s] detail results: workday=557, eightfold=74, html=275, error=11, ashby=51, jsonld=217, oracle=18, greenhouse=153, lever=43, smartrecruiters=45, closed=9",
-    "[192s] classified: 705 kept, 281 excluded by dates, 9 closed",
-    "[192s] done: 0 fit, 4 flexible, 454 ask-about-dates"
+    "[154s] ATS: 419 firms with live boards, 645 postings",
+    "[154s] pre-screen: 1572 candidate postings (1591 older than 30 days dropped)",
+    "[154s] detail fetch: 1431 unique postings",
+    "[238s] detail results: workday=547, eightfold=74, html=284, error=11, ashby=51, jsonld=214, greenhouse=135, smartrecruiters=46, lever=39, oracle=14, closed=16",
+    "[239s] classified: 696 kept, 271 excluded by dates, 16 closed",
+    "[239s] done: 0 fit, 4 flexible, 449 ask-about-dates"
   ],
   "errors": [],
   "sources": {
     "speedyapply_ai": {
       "ok": true,
-      "rows": 840,
-      "bytes": 275928
+      "rows": 831,
+      "bytes": 272490
     },
     "speedyapply_swe": {
       "ok": true,
-      "rows": 853,
-      "bytes": 278960
+      "rows": 848,
+      "bytes": 277446
     },
     "vanshb03": {
       "ok": true,
-      "rows": 2463,
-      "bytes": 1976878
+      "rows": 2419,
+      "bytes": 1991387
     },
     "simplify": {
       "ok": true,
-      "rows": 5318,
-      "bytes": 13193057
+      "rows": 5224,
+      "bytes": 13148956
     }
   },
   "ptsSeeds": "loaded 233 firms",
   "boards": {
-    "firmsWithLiveBoards": 418,
-    "postings": 643,
+    "firmsWithLiveBoards": 419,
+    "postings": 645,
     "failedSeeds": [
-      "Microsoft eightfold:apply.careers.microsoft.com/microsoft.com",
       "Mistral AI lever:mistral",
       "Anysphere ashby:anysphere",
       "Tempus greenhouse:tempus",
@@ -50,58 +49,58 @@
     ]
   },
   "detailStats": {
-    "workday": 557,
+    "workday": 547,
     "eightfold": 74,
-    "html": 275,
+    "html": 284,
     "error": 11,
     "ashby": 51,
-    "jsonld": 217,
-    "oracle": 18,
-    "greenhouse": 153,
-    "lever": 43,
-    "smartrecruiters": 45,
-    "closed": 9
+    "jsonld": 214,
+    "greenhouse": 135,
+    "smartrecruiters": 46,
+    "lever": 39,
+    "oracle": 14,
+    "closed": 16
   },
   "funnel": {
-    "aggregatorRows": 9474,
-    "boardRows": 643,
-    "prefiltered": 3194,
-    "postedRecently": 1598,
-    "uniqueUrls": 1453,
-    "enriched": 1453,
-    "closed": 9,
-    "kept": 705,
-    "roles": 458,
-    "dateExcluded": 281
+    "aggregatorRows": 9322,
+    "boardRows": 645,
+    "prefiltered": 3163,
+    "postedRecently": 1572,
+    "uniqueUrls": 1431,
+    "enriched": 1431,
+    "closed": 16,
+    "kept": 696,
+    "roles": 453,
+    "dateExcluded": 271
   },
   "rejected": {
-    "not on known-firm list": 2118,
-    "posted more than 30 days ago": 1596,
-    "hardware": 830,
-    "outside US": 801,
-    "outside SWE/PM/data/finance": 775,
-    "term: term year ####": 723,
-    "PhD / MBA / law / medical": 389,
-    "non-Python stack in title": 357,
-    "term: spring term": 279,
-    "term: winter term": 240,
-    "dates: posted dates conflict": 230,
-    "pay below $30/hr": 195,
-    "not an internship": 128,
-    "requires PhD (description)": 125,
-    "requires Master's/PhD (description)": 108,
-    "no matching track": 99,
+    "not on known-firm list": 2088,
+    "posted more than 30 days ago": 1591,
+    "hardware": 825,
+    "outside SWE/PM/data/finance": 771,
+    "outside US": 735,
+    "term: term year ####": 721,
+    "PhD / MBA / law / medical": 387,
+    "non-Python stack in title": 359,
+    "term: spring term": 274,
+    "term: winter term": 237,
+    "dates: posted dates conflict": 223,
+    "pay below $30/hr": 194,
+    "not an internship": 127,
+    "requires PhD (description)": 123,
+    "requires Master's/PhD (description)": 104,
+    "no matching track": 98,
     "graduate/professional degree (title)": 55,
     "senior / manager title": 35,
-    "master's only": 33,
-    "term: winter/spring term": 31,
+    "master's only": 32,
+    "term: winter/spring term": 30,
     "dates: fall-only term (usually runs past Oct 1)": 22,
-    "dates: co-op with no dates (usually 4-6 months)": 17,
-    "research role, undergrad eligibility not stated": 11,
+    "closed (verified)": 16,
+    "dates: co-op with no dates (usually 4-6 months)": 14,
     "new grad / full-time": 10,
-    "closed (verified)": 9,
-    "outside US (detail)": 9,
-    "requires MBA (description)": 8,
+    "requires MBA (description)": 9,
+    "research role, undergrad eligibility not stated": 8,
+    "outside US (detail)": 8,
     "dates: 26-week assignment": 7,
     "outside US (title)": 6,
     "dates: 22-week assignment": 5,
@@ -114,5 +113,5 @@
     "unpaid": 1,
     "requires JD / law school (description)": 1
   },
-  "durationSec": 192
+  "durationSec": 239
 }
