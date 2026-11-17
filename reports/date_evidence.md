@@ -1,6 +1,6 @@
 # Date evidence for ✅ and 🟡 roles
 
-Scan: 2026-11-16 · the sentence the date classifier used for each role, so you can check it before applying.
+Scan: 2026-11-17 · the sentence the date classifier used for each role, so you can check it before applying.
 
 | Bucket | Company | Role | Dates | Note | Evidence | Link |
 |---|---|---|---|---|---|---|
