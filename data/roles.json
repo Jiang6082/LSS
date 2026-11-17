@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-17T16:38:36.267Z",
+ "scannedAt": "2026-11-17T20:55:17.389Z",
  "window": {
   "year": 2027,
   "earliestStart": "2027-07-13",
@@ -35,7 +35,7 @@
     "Simplify",
     "ATS Workday:salesforce/External_Career_Site"
    ],
-   "PostedAt": "2026-10-30T16:41:16.486Z",
+   "PostedAt": "2026-10-30T20:57:29.065Z",
    "Terms": "Summer 2027",
    "DetailStatus": "workday",
    "Key": "salesforce|software engineer intern",
@@ -1175,7 +1175,7 @@
     "Simplify",
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-11-11T16:41:16.509Z",
+   "PostedAt": "2026-11-11T20:57:29.079Z",
    "Terms": "Summer 2027",
    "DetailStatus": "workday",
    "Key": "motorola solutions|software engineer intern",
@@ -1456,7 +1456,7 @@
     "vanshb03",
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-04T16:38:36.405Z",
+   "PostedAt": "2026-11-03T20:55:17.516Z",
    "Terms": "N/A",
    "DetailStatus": "jsonld",
    "Key": "keysight|r d software engineer intern",
@@ -1509,7 +1509,7 @@
     "vanshb03",
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-22T16:38:36.405Z",
+   "PostedAt": "2026-10-21T20:55:17.516Z",
    "Terms": "N/A",
    "DetailStatus": "jsonld",
    "Key": "docusign|software engineer intern",
@@ -1528,9 +1528,9 @@
     "https://careers.docusign.com/jobs/30488?icims=1",
     "https://careers.docusign.com/careers-home/jobs/30484?icims=1",
     "https://careers.docusign.com/careers-home/jobs/30497?icims=1",
-    "https://uscareers-docusign.icims.com/jobs/30488/job",
+    "https://uscareers-docusign.icims.com/jobs/30470/job",
     "https://uscareers-docusign.icims.com/jobs/30470/software-engineer-intern/job",
-    "https://uscareers-docusign.icims.com/jobs/30470/job"
+    "https://uscareers-docusign.icims.com/jobs/30488/job"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -1558,11 +1558,11 @@
    "CanonicalURL": "https://apply.careers.microsoft.com/careers/job/1970393556986141",
    "Sources": [
     "Simplify",
-    "speedyapply AI",
     "ATS Eightfold:apply.careers.microsoft.com",
+    "speedyapply AI",
     "vanshb03"
    ],
-   "PostedAt": "2026-10-30T16:38:36.376Z",
+   "PostedAt": "2026-11-12T18:46:17.000Z",
    "Terms": "N/A",
    "DetailStatus": "eightfold",
    "Key": "microsoft|applied scientist intern",
@@ -1723,7 +1723,7 @@
     "Simplify",
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-04T16:38:36.405Z",
+   "PostedAt": "2026-11-03T20:55:17.516Z",
    "Terms": "Summer 2027",
    "DetailStatus": "workday",
    "Key": "trimble|hardware software testing intern",
@@ -1863,7 +1863,7 @@
    "Tier": 12,
    "Track": "Software",
    "Title": "Software Engineer Intern",
-   "Location": "Salt Lake City, UT; Carlsbad, CA; Nashville, TN",
+   "Location": "Salt Lake City, UT; Carlsbad, CA",
    "US": "us",
    "Bucket": "ask",
    "Dates": "",
@@ -1882,19 +1882,17 @@
     "Simplify",
     "vanshb03"
    ],
-   "PostedAt": "2026-11-04T15:07:47.000Z",
+   "PostedAt": "2026-10-28T22:42:02.000Z",
    "Terms": "N/A",
    "DetailStatus": "html",
    "Key": "l3harris|software engineer intern",
    "Locations": [
     "Salt Lake City, UT",
-    "Carlsbad, CA",
-    "Nashville, TN"
+    "Carlsbad, CA"
    ],
    "URLs": [
     "https://jobs.l3harris.com/job/Salt-Lake-City-Intern,-Software-Engineer-(Salt-Lake-City,-UT)-UT-84116/1418569700/?ats=successfactors",
-    "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-(Carlsbad,-CA)-CA-92009/1444689600/?ats=successfactors",
-    "https://jobs.l3harris.com/job/Nashville-Intern,-Software-Engineer-TN-37203/1447640200/?ats=successfactors"
+    "https://jobs.l3harris.com/job/Carlsbad-Software-Engineering-Intern-(Carlsbad,-CA)-CA-92009/1444689600/?ats=successfactors"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -2039,7 +2037,7 @@
     "ATS Ashby:skydio",
     "vanshb03"
    ],
-   "PostedAt": "2026-10-23T16:38:36.405Z",
+   "PostedAt": "2026-10-22T22:18:31.000Z",
    "Terms": "Summer 2027",
    "DetailStatus": "ashby",
    "Key": "skydio|frontend software engineer intern",
@@ -2154,7 +2152,7 @@
     "ATS Lever:palantir",
     "vanshb03"
    ],
-   "PostedAt": "2026-10-23T16:38:36.405Z",
+   "PostedAt": "2026-10-23T20:55:17.516Z",
    "Terms": "N/A",
    "DetailStatus": "lever",
    "Key": "palantir|forward deployed software engineer intern warp speed",
@@ -2231,7 +2229,7 @@
     "ATS Workday:adobe/external_experienced",
     "vanshb03"
    ],
-   "PostedAt": "2026-10-19T19:51:34.000Z",
+   "PostedAt": "2026-10-19T20:57:29.065Z",
    "Terms": "Summer 2027",
    "DetailStatus": "workday",
    "Key": "adobe|ai architecture intern",
@@ -2386,7 +2384,7 @@
     "ATS Ashby:skydio",
     "vanshb03"
    ],
-   "PostedAt": "2026-10-27T16:38:36.376Z",
+   "PostedAt": "2026-10-26T20:55:17.494Z",
    "Terms": "N/A",
    "DetailStatus": "ashby",
    "Key": "skydio|autonomy engineer intern",
@@ -2465,7 +2463,7 @@
     "vanshb03",
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-26T16:38:36.405Z",
+   "PostedAt": "2026-10-26T03:06:24.000Z",
    "Terms": "N/A",
    "DetailStatus": "workday",
    "Key": "hewlett packard enterprise|ai ml developer intern",
@@ -2657,7 +2655,7 @@
     "speedyapply AI",
     "ATS Ashby:skydio"
    ],
-   "PostedAt": "2026-10-27T16:38:36.376Z",
+   "PostedAt": "2026-10-26T20:55:17.494Z",
    "Terms": "N/A",
    "DetailStatus": "ashby",
    "Key": "skydio|autonomy engineer intern reinforcement learning",
@@ -2933,48 +2931,6 @@
    "New": false
   },
   {
-   "Company": "Amazon",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Database Engineer Intern",
-   "Location": "Seattle, WA; East Palo Alto, CA; Seattle, WA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "yes",
-   "Undergrad": "yes",
-   "DegreeEvidence": "- Currently has, or is in the process of obtaining, a Bachelor's degree or above in computer science, computer engineering, or related field",
-   "EducationNote": "",
-   "URL": "https://amazon.jobs/en/jobs/10590290/database-engineer-intern-summer-2027",
-   "CanonicalURL": "https://amazon.jobs/en/jobs/10590290/database-engineer-intern-summer-2027",
-   "Sources": [
-    "Simplify",
-    "ATS Amazon:intern",
-    "ATS Amazon:internship",
-    "vanshb03"
-   ],
-   "PostedAt": "2026-10-27T22:04:13.000Z",
-   "Terms": "Summer 2027",
-   "DetailStatus": "html",
-   "Key": "amazon|database engineer intern",
-   "Locations": [
-    "Seattle, WA; East Palo Alto, CA",
-    "Seattle, WA"
-   ],
-   "URLs": [
-    "https://amazon.jobs/en/jobs/10590290/database-engineer-intern-summer-2027",
-    "https://www.amazon.jobs/en/jobs/10590290/database-engineer-intern-summer-2027"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
    "Company": "Mercor",
    "Category": "AI & ML",
    "Tier": 1,
@@ -3231,10 +3187,9 @@
    "CanonicalURL": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Engineer-Intern_2642721",
    "Sources": [
     "Simplify",
-    "vanshb03",
-    "speedyapply SWE"
+    "vanshb03"
    ],
-   "PostedAt": "2026-11-03T16:38:36.405Z",
+   "PostedAt": "2026-11-02T00:00:00.000Z",
    "Terms": "N/A",
    "DetailStatus": "workday",
    "Key": "kla|software engineer intern",
@@ -3249,8 +3204,7 @@
     "https://kla.wd1.myworkdayjobs.com/search/job/Austin-TX/Software-Engineering-Intern_2642004-1",
     "https://kla.wd1.myworkdayjobs.com/UR/job/Totowa-NJ/Software-Engineer-Intern_2642151",
     "https://kla.wd1.myworkdayjobs.com/UR/job/Austin-TX/Software-Engineering-Intern_2642004",
-    "https://kla.wd1.myworkdayjobs.com/ur/job/Totowa-NJ/Software-Engineer-Intern_2642151",
-    "https://kla.wd1.myworkdayjobs.com/en-US/ur/job/Totowa-NJ/Software-Engineer-Intern_2642151"
+    "https://kla.wd1.myworkdayjobs.com/ur/job/Totowa-NJ/Software-Engineer-Intern_2642151"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -3309,7 +3263,7 @@
    "PayMin": 37,
    "Python": "yes",
    "Undergrad": "yes",
-   "DegreeEvidence": ". Master's OR Bachelor’s Level Degree in Computer Science, Software Engineering, or a related field.",
+   "DegreeEvidence": "Students working towards a Master's or Bachelor's Level Degree in Computer Science or any engineering field",
    "EducationNote": "",
    "URL": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Intern_2642700",
    "CanonicalURL": "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Intern_2642700",
@@ -3318,9 +3272,9 @@
     "vanshb03",
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-07T16:38:36.405Z",
+   "PostedAt": "2026-11-06T20:55:17.516Z",
    "Terms": "N/A",
-   "DetailStatus": "workday",
+   "DetailStatus": "html",
    "Key": "kla|software intern",
    "Locations": [
     "Milpitas, CA"
@@ -3331,8 +3285,8 @@
     "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Intern_2642954-1",
     "https://kla.wd1.myworkdayjobs.com/UR/job/Milpitas-CA/Software-Intern_2642954",
     "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Software-Intern_2642700-1",
-    "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Software-Intern_2642954-1",
-    "https://kla.wd1.myworkdayjobs.com/en-US/ur/job/Milpitas-CA/Software-Intern_2642954"
+    "https://kla.wd1.myworkdayjobs.com/en-US/ur/job/Milpitas-CA/Software-Intern_2642954",
+    "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Milpitas-CA/Software-Intern_2642954-1"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -3411,43 +3365,6 @@
    ],
    "URLs": [
     "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer---Autonomous-Vehicles_JR-202623439"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Toyota Research Institute",
-   "Category": "Fortune 500",
-   "Tier": 12,
-   "Track": "Data",
-   "Title": "Human Interactive Driving Research Intern - Learning-Based Control for Safe Autonomous Driving",
-   "Location": "Los Altos, CA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Bachelor's",
-   "EducationNote": "",
-   "URL": "https://jobs.lever.co/tri/e67d9f3e-f731-4f66-ab87-bdc45fe45d88/apply",
-   "CanonicalURL": "https://jobs.lever.co/tri/e67d9f3e-f731-4f66-ab87-bdc45fe45d88",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-29T22:51:53.000Z",
-   "Terms": "N/A",
-   "DetailStatus": "html",
-   "Key": "toyota research institute|human interactive driving research intern learning based control for safe autonomous driving",
-   "Locations": [
-    "Los Altos, CA"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/tri/e67d9f3e-f731-4f66-ab87-bdc45fe45d88/apply"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -3770,46 +3687,6 @@
    "Company": "Intercontinental Exchange",
    "Category": "Banks & Financial Services",
    "Tier": 5,
-   "Track": "Data",
-   "Title": "Agentic AI Data Science Intern",
-   "Location": "Jacksonville, FL",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "yes",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Must be currently enrolled in a degree program at an accredited university, be at least advancing to their junior year of study, and pursuing a degree in computer science, data science, AI/ML, or a re",
-   "EducationNote": "",
-   "URL": "https://ice.jibeapply.com/jobs/14070?icims=1",
-   "CanonicalURL": "https://ice.jibeapply.com/jobs/14070",
-   "Sources": [
-    "Simplify",
-    "vanshb03"
-   ],
-   "PostedAt": "2026-10-31T00:00:00.000Z",
-   "Terms": "Summer 2027",
-   "DetailStatus": "jsonld",
-   "Key": "intercontinental exchange|agentic ai data science intern",
-   "Locations": [
-    "Jacksonville, FL"
-   ],
-   "URLs": [
-    "https://ice.jibeapply.com/jobs/14070?icims=1",
-    "https://careers-ice.icims.com/jobs/14070/job?mobile=true&needsRedirect=false",
-    "https://careers-ice.icims.com/jobs/14070/summer-internship-program-2027---agentic-ai-data-science-intern/job"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Intercontinental Exchange",
-   "Category": "Banks & Financial Services",
-   "Tier": 5,
    "Track": "Finance",
    "Title": "Trading System Development Intern",
    "Location": "NYC; New York, NY",
@@ -3843,81 +3720,6 @@
     "https://ice.jibeapply.com/jobs/14102?icims=1",
     "https://careers-ice.icims.com/jobs/14102/job?mobile=true&needsRedirect=false",
     "https://careers-ice.icims.com/jobs/14102/summer-internship-program-2027---trading-system-development-intern/job"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Intercontinental Exchange",
-   "Category": "Banks & Financial Services",
-   "Tier": 5,
-   "Track": "Product",
-   "Title": "Product Management Intern",
-   "Location": "Atlanta, GA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Must be currently enrolled in a degree program at an accredited university and be at least advancing to their junior year of study",
-   "EducationNote": "",
-   "URL": "https://ice.jibeapply.com/jobs/14065?icims=1",
-   "CanonicalURL": "https://ice.jibeapply.com/jobs/14065",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-23T20:09:00.000Z",
-   "Terms": "Summer 2027",
-   "DetailStatus": "jsonld",
-   "Key": "intercontinental exchange|product management intern",
-   "Locations": [
-    "Atlanta, GA"
-   ],
-   "URLs": [
-    "https://ice.jibeapply.com/jobs/14065?icims=1",
-    "https://careers-ice.icims.com/jobs/14065/job?mobile=true&needsRedirect=false"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Intercontinental Exchange",
-   "Category": "Banks & Financial Services",
-   "Tier": 5,
-   "Track": "Data",
-   "Title": "Data Analyst Intern",
-   "Location": "Jacksonville, FL",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Must be currently enrolled in a degree program at an accredited university and be at least advancing to their junior year of study",
-   "EducationNote": "",
-   "URL": "https://ice.jibeapply.com/jobs/14089?icims=1",
-   "CanonicalURL": "https://ice.jibeapply.com/jobs/14089",
-   "Sources": [
-    "Simplify"
-   ],
-   "PostedAt": "2026-10-23T20:09:00.000Z",
-   "Terms": "Summer 2027",
-   "DetailStatus": "jsonld",
-   "Key": "intercontinental exchange|data analyst intern",
-   "Locations": [
-    "Jacksonville, FL"
-   ],
-   "URLs": [
-    "https://ice.jibeapply.com/jobs/14089?icims=1"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -4174,7 +3976,7 @@
     "speedyapply AI",
     "vanshb03"
    ],
-   "PostedAt": "2026-11-03T16:38:36.376Z",
+   "PostedAt": "2026-11-03T20:55:17.494Z",
    "Terms": "N/A",
    "DetailStatus": "greenhouse",
    "Key": "samsung|ai application engineer intern",
@@ -4281,8 +4083,8 @@
    "Pay": "",
    "PayMin": "",
    "Python": "",
-   "Undergrad": "yes",
-   "DegreeEvidence": ". Peterbilt Motors Company, a PACCAR Company, has an internship for students currently enrolled in college.",
+   "Undergrad": "unverified",
+   "DegreeEvidence": "",
    "EducationNote": "",
    "URL": "https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Product-Planning-TX-76205-7864/1453917433/?ats=successfactors",
    "CanonicalURL": "https://jobs.paccar.com/job/Denton-2027-Summer-Internship-Product-Planning-TX-76205-7864/1453917433",
@@ -4291,7 +4093,7 @@
    ],
    "PostedAt": "2026-11-03T15:47:44.000Z",
    "Terms": "Summer 2027",
-   "DetailStatus": "html",
+   "DetailStatus": "error: This operation was aborted",
    "Key": "paccar|product planning intern",
    "Locations": [
     "Denton, TX"
@@ -4328,7 +4130,7 @@
     "ATS Workday:arrowstreetcapital/Campus_Careers",
     "vanshb03"
    ],
-   "PostedAt": "2026-11-03T16:42:40.000Z",
+   "PostedAt": "2026-11-03T20:57:29.070Z",
    "Terms": "Summer 2027",
    "DetailStatus": "workday",
    "Key": "arrowstreet capital|software engineer intern",
@@ -4367,7 +4169,7 @@
     "vanshb03",
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-04T16:38:36.405Z",
+   "PostedAt": "2026-11-03T20:55:17.516Z",
    "Terms": "N/A",
    "DetailStatus": "workday",
    "Key": "trimble|ai developer intern",
@@ -4413,7 +4215,7 @@
     "speedyapply SWE",
     "vanshb03"
    ],
-   "PostedAt": "2026-11-04T16:38:36.405Z",
+   "PostedAt": "2026-11-03T23:35:11.000Z",
    "Terms": "Summer 2027",
    "DetailStatus": "eightfold",
    "Key": "microsoft|software engineer intern",
@@ -4566,7 +4368,7 @@
     "Simplify",
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-05T16:38:36.376Z",
+   "PostedAt": "2026-11-04T20:55:17.494Z",
    "Terms": "N/A",
    "DetailStatus": "workday",
    "Key": "kla|algorithm engineering intern",
@@ -4576,7 +4378,6 @@
    "URLs": [
     "https://kla.wd1.myworkdayjobs.com/Search/job/Ann-Arbor-MI/Algorithm-Engineering-Intern_2641512-1",
     "https://kla.wd1.myworkdayjobs.com/UR/job/Ann-Arbor-MI/Algorithm-Engineering-Intern_2641512",
-    "https://kla.wd1.myworkdayjobs.com/en-US/ur/job/Ann-Arbor-MI/Algorithm-Engineering-Intern_2641512",
     "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Ann-Arbor-MI/Algorithm-Engineering-Intern_2641512-1"
    ],
    "FirstSeen": "2026-11-06",
@@ -4871,7 +4672,7 @@
    "Python": "yes",
    "Undergrad": "yes",
    "DegreeEvidence": "What We Require Currently pursuing a Bachelor’s or Master’s degree in Computer Science, Mathematics, Software Engineering, Physics, or a similar technical field.",
-   "EducationNote": "",
+   "EducationNote": "Will this be your final internship before graduating?",
    "URL": "https://jobs.lever.co/palantir/cd64bcd4-50bb-4aeb-a135-4e0487ffd312/apply",
    "CanonicalURL": "https://jobs.lever.co/palantir/cd64bcd4-50bb-4aeb-a135-4e0487ffd312",
    "Sources": [
@@ -4880,9 +4681,9 @@
     "ATS Lever:palantir",
     "vanshb03"
    ],
-   "PostedAt": "2026-11-06T16:38:36.405Z",
+   "PostedAt": "2026-11-05T23:41:19.000Z",
    "Terms": "N/A",
-   "DetailStatus": "lever",
+   "DetailStatus": "html",
    "Key": "palantir|software engineer intern sovereign ai systems",
    "Locations": [
     "NYC",
@@ -4949,9 +4750,9 @@
    "Evidence": "",
    "Pay": "",
    "PayMin": "",
-   "Python": "yes",
-   "Undergrad": "yes",
-   "DegreeEvidence": ". Undergraduate/Masters student in your penultimate year of study (2028 graduate) in Computer Science, Engineering, Mathematics or a related field",
+   "Python": "",
+   "Undergrad": "unverified",
+   "DegreeEvidence": "",
    "EducationNote": "",
    "URL": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Arlington-VA/Intelligence-Intern---Summer-2027_R30605",
    "CanonicalURL": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers/job/USA---Arlington-VA/Intelligence-Intern---Summer-2027_R30605",
@@ -4960,7 +4761,7 @@
    ],
    "PostedAt": "2026-11-05T00:00:00.000Z",
    "Terms": "Summer 2027",
-   "DetailStatus": "workday",
+   "DetailStatus": "html",
    "Key": "crowdstrike|intelligence intern",
    "Locations": [
     "Arlington County, Arlington, VA"
@@ -5010,44 +4811,6 @@
    "New": false
   },
   {
-   "Company": "Match Group",
-   "Category": "Enterprise & Consumer Tech",
-   "Tier": 10,
-   "Track": "Data",
-   "Title": "Machine Learning Engineer Intern",
-   "Location": "Palo Alto, CA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "yes",
-   "DegreeEvidence": ". Are you currently enrolled in a college or university?",
-   "EducationNote": "",
-   "URL": "https://jobs.lever.co/matchgroup/860a839a-5be3-44dc-916f-eb2e71d67d72/apply",
-   "CanonicalURL": "https://jobs.lever.co/matchgroup/860a839a-5be3-44dc-916f-eb2e71d67d72",
-   "Sources": [
-    "Simplify",
-    "speedyapply AI"
-   ],
-   "PostedAt": "2026-11-07T16:38:36.376Z",
-   "Terms": "Summer 2027",
-   "DetailStatus": "html",
-   "Key": "match|machine learning engineer intern",
-   "Locations": [
-    "Palo Alto, CA"
-   ],
-   "URLs": [
-    "https://jobs.lever.co/matchgroup/860a839a-5be3-44dc-916f-eb2e71d67d72/apply"
-   ],
-   "FirstSeen": "2026-11-06",
-   "New": false
-  },
-  {
    "Company": "Waymo",
    "Category": "Big Tech",
    "Tier": 0,
@@ -5073,7 +4836,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:waymo"
    ],
-   "PostedAt": "2026-11-07T16:38:36.405Z",
+   "PostedAt": "2026-11-06T20:55:17.516Z",
    "Terms": "Summer 2027",
    "DetailStatus": "greenhouse",
    "Key": "waymo|software engineer intern",
@@ -5223,7 +4986,7 @@
     "Simplify",
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-07T16:38:36.376Z",
+   "PostedAt": "2026-11-07T20:55:17.494Z",
    "Terms": "N/A",
    "DetailStatus": "jsonld",
    "Key": "docusign|agentic ai engineer intern",
@@ -5302,7 +5065,7 @@
     "speedyapply SWE",
     "ATS Greenhouse:samsara"
    ],
-   "PostedAt": "2026-11-07T16:38:36.405Z",
+   "PostedAt": "2026-11-06T20:55:17.516Z",
    "Terms": "N/A",
    "DetailStatus": "greenhouse",
    "Key": "samsara|software engineer intern",
@@ -5321,35 +5084,33 @@
    "Tier": 0,
    "Track": "Product",
    "Title": "Product Management Intern - Product Management",
-   "Location": "SF; NYC; SF; NYC",
+   "Location": "SF; NYC",
    "US": "us",
    "Bucket": "ask",
    "Dates": "",
    "DateNote": "Summer 2027 dates not stated",
    "Weeks": "",
    "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
+   "Pay": "$54-61/hr",
+   "PayMin": 54,
    "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Currently enrolled in a Bachelor's degree program, preferably in a technical field (Computer Science, Engineering), Business, or a related discipline",
    "EducationNote": "",
-   "URL": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2027-Intern---Product-Management_JR367659",
-   "CanonicalURL": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2027-Intern---Product-Management_JR367659",
+   "URL": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Product-Management_JR367659-1",
+   "CanonicalURL": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Product-Management_JR367659-1",
    "Sources": [
-    "Simplify"
+    "Simplify",
+    "ATS Workday:salesforce/External_Career_Site"
    ],
-   "PostedAt": "2026-11-06T00:00:00.000Z",
+   "PostedAt": "2026-11-17T20:57:29.065Z",
    "Terms": "Summer 2027",
-   "DetailStatus": "html",
+   "DetailStatus": "workday",
    "Key": "salesforce|product management intern product management",
    "Locations": [
-    "SF; NYC",
-    "SF",
-    "NYC"
+    "SF; NYC"
    ],
    "URLs": [
-    "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---San-Francisco/Summer-2027-Intern---Product-Management_JR367659",
     "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Product-Management_JR367659-1"
    ],
    "FirstSeen": "2026-11-07",
@@ -5417,7 +5178,7 @@
     "Simplify",
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-09T16:38:36.376Z",
+   "PostedAt": "2026-11-08T20:55:17.494Z",
    "Terms": "N/A",
    "DetailStatus": "workday",
    "Key": "samsung|epro business data analyst intern",
@@ -5577,7 +5338,7 @@
     "ATS Greenhouse:epicgames",
     "vanshb03"
    ],
-   "PostedAt": "2026-11-11T16:38:36.376Z",
+   "PostedAt": "2026-11-10T20:55:17.494Z",
    "Terms": "N/A",
    "DetailStatus": "greenhouse",
    "Key": "epic games|ai programmer intern",
@@ -5733,7 +5494,7 @@
     "vanshb03",
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-11T16:38:36.405Z",
+   "PostedAt": "2026-11-10T20:55:17.516Z",
    "Terms": "N/A",
    "DetailStatus": "jsonld",
    "Key": "general dynamics|systems and software development intern",
@@ -5776,7 +5537,7 @@
     "speedyapply SWE",
     "ATS Lever:palantir"
    ],
-   "PostedAt": "2026-11-11T16:38:36.405Z",
+   "PostedAt": "2026-11-10T23:08:59.000Z",
    "Terms": "N/A",
    "DetailStatus": "lever",
    "Key": "palantir|software engineer intern connectivity platform product",
@@ -5902,7 +5663,7 @@
     "ATS Ashby:skydio",
     "vanshb03"
    ],
-   "PostedAt": "2026-11-11T16:38:36.405Z",
+   "PostedAt": "2026-11-11T20:55:17.516Z",
    "Terms": "Summer 2027",
    "DetailStatus": "ashby",
    "Key": "skydio|middleware software engineer intern",
@@ -5942,7 +5703,7 @@
     "speedyapply AI",
     "ATS Greenhouse:andurilindustries"
    ],
-   "PostedAt": "2026-10-22T16:38:36.376Z",
+   "PostedAt": "2026-10-21T20:55:17.494Z",
    "Terms": "N/A",
    "DetailStatus": "greenhouse",
    "Key": "anduril|finance data analyst intern",
@@ -6211,7 +5972,7 @@
     "ATS Greenhouse:nintendo",
     "vanshb03"
    ],
-   "PostedAt": "2026-10-30T16:38:36.405Z",
+   "PostedAt": "2026-10-29T20:55:17.516Z",
    "Terms": "Summer 2027",
    "DetailStatus": "greenhouse",
    "Key": "nintendo|software engineer intern platform security",
@@ -6290,7 +6051,7 @@
     "ATS Greenhouse:nintendo",
     "vanshb03"
    ],
-   "PostedAt": "2026-10-31T16:38:36.405Z",
+   "PostedAt": "2026-10-30T20:55:17.516Z",
    "Terms": "Summer 2027",
    "DetailStatus": "greenhouse",
    "Key": "nintendo|software engineer intern performance tools",
@@ -6330,7 +6091,7 @@
     "ATS Greenhouse:nintendo",
     "vanshb03"
    ],
-   "PostedAt": "2026-10-30T16:38:36.405Z",
+   "PostedAt": "2026-10-29T20:55:17.516Z",
    "Terms": "Summer 2027",
    "DetailStatus": "greenhouse",
    "Key": "nintendo|software engineer intern connectivity",
@@ -6370,7 +6131,7 @@
     "ATS Greenhouse:nintendo",
     "vanshb03"
    ],
-   "PostedAt": "2026-10-30T16:38:36.405Z",
+   "PostedAt": "2026-10-29T20:55:17.516Z",
    "Terms": "Summer 2027",
    "DetailStatus": "greenhouse",
    "Key": "nintendo|software engineer intern audio",
@@ -6410,7 +6171,7 @@
     "ATS Greenhouse:nintendo",
     "vanshb03"
    ],
-   "PostedAt": "2026-10-31T16:38:36.405Z",
+   "PostedAt": "2026-10-30T20:55:17.516Z",
    "Terms": "Summer 2027",
    "DetailStatus": "greenhouse",
    "Key": "nintendo|software engineer intern graphics",
@@ -6512,11 +6273,11 @@
    "DateNote": "term dates not stated",
    "Weeks": "",
    "Evidence": "",
-   "Pay": "$27-37/hr",
-   "PayMin": 27,
-   "Python": "yes",
-   "Undergrad": "yes",
-   "DegreeEvidence": "The addition of a rising senior intern with foundational experience in Java is critical to supporting both near‑term Provider module activities and longer‑term modernization roadmap execution",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "",
+   "Undergrad": "unverified",
+   "DegreeEvidence": "",
    "EducationNote": "",
    "URL": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NC-Raleigh/Professional-Programmer---Intern_RQ232030",
    "CanonicalURL": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NC-Raleigh/Professional-Programmer---Intern_RQ232030",
@@ -6525,7 +6286,7 @@
    ],
    "PostedAt": "2026-11-12T00:00:00.000Z",
    "Terms": "N/A",
-   "DetailStatus": "workday",
+   "DetailStatus": "html",
    "Key": "general dynamics|programmer intern",
    "Locations": [
     "Raleigh, NC"
@@ -6687,7 +6448,7 @@
     "https://jobs.smartrecruiters.com/ServiceNow/744000161936128"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "Emerson",
@@ -6841,6 +6602,43 @@
    "URLs": [
     "https://apply.careers.microsoft.com/careers/job/1970393556953113",
     "https://apply.careers.microsoft.com/careers/job/1970393557044772"
+   ],
+   "FirstSeen": "2026-11-03",
+   "New": false
+  },
+  {
+   "Company": "KLA",
+   "Category": "Enterprise & Consumer Tech",
+   "Tier": 10,
+   "Track": "Data",
+   "Title": "Computer Vision/Machine Learning Intern",
+   "Location": "Milpitas, CA",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "",
+   "Undergrad": "unverified",
+   "DegreeEvidence": "",
+   "EducationNote": "",
+   "URL": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1",
+   "CanonicalURL": "https://go.vansh.nyc/9f",
+   "Sources": [
+    "vanshb03"
+   ],
+   "PostedAt": "2026-10-14T07:00:00.000Z",
+   "Terms": "Summer",
+   "DetailStatus": "html",
+   "Key": "kla|computer vision machine learning intern",
+   "Locations": [
+    "Milpitas, CA"
+   ],
+   "URLs": [
+    "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Computer-Vision-Machine-Learning-Intern_2641921-1"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -7066,43 +6864,6 @@
    ],
    "FirstSeen": "2026-11-03",
    "New": false
-  },
-  {
-   "Company": "Toyota",
-   "Category": "Fortune 500",
-   "Tier": 12,
-   "Track": "Data",
-   "Title": "Data Science Intern, TFS",
-   "Location": "Plano, TX",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://go.vansh.nyc/dm",
-   "CanonicalURL": "https://go.vansh.nyc/dm",
-   "Sources": [
-    "vanshb03"
-   ],
-   "PostedAt": "2026-10-21T07:00:00.000Z",
-   "Terms": "Summer",
-   "DetailStatus": "error: fetch failed",
-   "Key": "toyota|data science intern tfs",
-   "Locations": [
-    "Plano, TX"
-   ],
-   "URLs": [
-    "https://go.vansh.nyc/dm"
-   ],
-   "FirstSeen": "2026-11-17",
-   "New": true
   },
   {
    "Company": "Microsoft",
@@ -7406,7 +7167,7 @@
    "Tier": 10,
    "Track": "Software",
    "Title": "Software Engineering Intern",
-   "Location": "Milpitas, CA",
+   "Location": "Milpitas, CA; Austin, TX",
    "US": "us",
    "Bucket": "ask",
    "Dates": "",
@@ -7416,23 +7177,26 @@
    "Pay": "",
    "PayMin": "",
    "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Currently pursuing a Bachelor's or Master's degree in Computer Science or a related technical field",
    "EducationNote": "",
    "URL": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Software-Engineering-Intern_2642189-1",
    "CanonicalURL": "https://go.vansh.nyc/h2",
    "Sources": [
-    "vanshb03"
+    "vanshb03",
+    "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-23T07:00:00.000Z",
+   "PostedAt": "2026-11-02T20:55:17.516Z",
    "Terms": "Summer",
    "DetailStatus": "html",
    "Key": "kla|software engineering intern",
    "Locations": [
-    "Milpitas, CA"
+    "Milpitas, CA",
+    "Austin, TX"
    ],
    "URLs": [
-    "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Software-Engineering-Intern_2642189-1"
+    "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Milpitas-CA/Software-Engineering-Intern_2642189-1",
+    "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Austin-TX/Software-Engineering-Intern_2642004-1"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -11196,7 +10960,7 @@
     "vanshb03",
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-07T16:38:36.376Z",
+   "PostedAt": "2026-11-06T20:55:17.494Z",
    "Terms": "Summer",
    "DetailStatus": "workday",
    "Key": "samsung|business intelligence data analytics intern",
@@ -11356,7 +11120,7 @@
     "https://tmobile.wd1.myworkdayjobs.com/External/job/Frisco-Texas/Summer-2027-Site-Reliability-Engineering-Internship_REQ381393"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "T-Mobile",
@@ -11393,7 +11157,7 @@
     "https://tmobile.wd1.myworkdayjobs.com/External/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381219"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "T-Mobile",
@@ -11430,7 +11194,7 @@
     "https://tmobile.wd1.myworkdayjobs.com/External/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "General Dynamics",
@@ -11475,7 +11239,7 @@
    "Tier": 10,
    "Track": "Software",
    "Title": "Software Engineering Intern",
-   "Location": "Knoxville, TN",
+   "Location": "Knoxville, TN; Westminster, CO +6",
    "US": "us",
    "Bucket": "ask",
    "Dates": "",
@@ -11484,26 +11248,27 @@
    "Evidence": "",
    "Pay": "",
    "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
+   "Python": "yes",
+   "Undergrad": "",
    "DegreeEvidence": "",
-   "EducationNote": "",
+   "EducationNote": "Currently pursuing a degree in Computer Science, Engineering, or a related technical field.",
    "URL": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---TN-Knoxville/Software-Engineering-Intern_R58120",
    "CanonicalURL": "https://go.vansh.nyc/1rP",
    "Sources": [
     "vanshb03",
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-11T16:38:36.405Z",
+   "PostedAt": "2026-11-10T18:58:00.000Z",
    "Terms": "Summer",
    "DetailStatus": "html",
    "Key": "trimble|software engineering intern",
    "Locations": [
-    "Knoxville, TN"
+    "Knoxville, TN",
+    "Westminster, CO +6"
    ],
    "URLs": [
     "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---TN-Knoxville/Software-Engineering-Intern_R58120",
-    "https://trimble.wd1.myworkdayjobs.com/en-US/trimblecareers/job/US---TN-Knoxville/Software-Engineering-Intern_R58120"
+    "https://trimble.wd1.myworkdayjobs.com/en-US/trimblecareers/job/US---CO-Westminster/Software-Engineering-Intern_R57676"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -11991,7 +11756,7 @@
     "https://trinitylifesciences.wd108.myworkdayjobs.com/Trinity/job/Waltham-MA---Headquarters/Data-Science-Intern_JR100881"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "PTC",
@@ -12080,11 +11845,11 @@
    "DateNote": "Summer 2027 dates not stated",
    "Weeks": "",
    "Evidence": "",
-   "Pay": "$27-37/hr",
-   "PayMin": 27,
-   "Python": "yes",
-   "Undergrad": "yes",
-   "DegreeEvidence": "The addition of a rising senior intern with foundational experience in Java is critical to supporting both near‑term Provider module activities and longer‑term modernization roadmap execution",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "",
+   "Undergrad": "unverified",
+   "DegreeEvidence": "",
    "EducationNote": "",
    "URL": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-NC-Raleigh/Professional-Programmer---Intern_RQ232030",
    "CanonicalURL": "https://go.vansh.nyc/1xx",
@@ -12093,7 +11858,7 @@
    ],
    "PostedAt": "2026-11-12T20:06:47.000Z",
    "Terms": "Summer",
-   "DetailStatus": "workday",
+   "DetailStatus": "html",
    "Key": "general dynamics|professional programmer intern",
    "Locations": [
     "Raleigh, NC"
@@ -12477,7 +12242,7 @@
     "https://job-boards.greenhouse.io/schonfeld/jobs/8171699"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "Bloomberg Industry Group",
@@ -12494,24 +12259,103 @@
    "Evidence": "",
    "Pay": "",
    "PayMin": "",
-   "Python": "yes",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Studying for a bachelor’s degree in data analytics, statistics, computer science, or a related field",
+   "Python": "",
+   "Undergrad": "unverified",
+   "DegreeEvidence": "",
    "EducationNote": "",
    "URL": "https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Data-Analyst-Intern_145487",
    "CanonicalURL": "https://go.vansh.nyc/1AF",
    "Sources": [
-    "vanshb03"
+    "vanshb03",
+    "speedyapply AI"
    ],
    "PostedAt": "2026-11-16T23:36:57.000Z",
    "Terms": "Summer",
-   "DetailStatus": "workday",
+   "DetailStatus": "html",
    "Key": "bloomberg industry|data analyst intern",
    "Locations": [
     "Arlington, VA"
    ],
    "URLs": [
-    "https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Data-Analyst-Intern_145487"
+    "https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Data-Analyst-Intern_145487",
+    "https://bloomberg.wd1.myworkdayjobs.com/en-US/bloombergindustrygroup_external_career_site/job/Arlington-VA---1801-S-Bell-INDG/Data-Analyst-Intern_145487"
+   ],
+   "FirstSeen": "2026-11-17",
+   "New": false
+  },
+  {
+   "Company": "PTC",
+   "Category": "Enterprise & Consumer Tech",
+   "Tier": 10,
+   "Track": "Software",
+   "Title": "Onshape Performance Engineering Intern",
+   "Location": "Boston, MA",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated; 10-week program",
+   "Weeks": "10 wks",
+   "Evidence": "",
+   "Pay": "$32-36/hr",
+   "PayMin": 32,
+   "Python": "no (rust)",
+   "Undergrad": "",
+   "DegreeEvidence": "",
+   "EducationNote": "· Must be enrolled in some type of degree program in one of the following or related fields: Software Engineering, Computer Engineering, Computer Science.",
+   "URL": "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Onshape-Performance-Engineering-Intern--Summer-2027-_JR112929",
+   "CanonicalURL": "https://go.vansh.nyc/1Bl",
+   "Sources": [
+    "vanshb03"
+   ],
+   "PostedAt": "2026-11-16T19:09:10.000Z",
+   "Terms": "Summer",
+   "DetailStatus": "workday",
+   "Key": "ptc|onshape performance engineering intern",
+   "Locations": [
+    "Boston, MA"
+   ],
+   "URLs": [
+    "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Onshape-Performance-Engineering-Intern--Summer-2027-_JR112929"
+   ],
+   "FirstSeen": "2026-11-17",
+   "New": true
+  },
+  {
+   "Company": "Anduril",
+   "Category": "AI & ML",
+   "Tier": 1,
+   "Track": "Data",
+   "Title": "Machine Learning Engineer Intern",
+   "Location": "Santa Ana, CA; Santa Ana, California, United States",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October",
+   "Weeks": "12 wks",
+   "Evidence": "",
+   "Pay": "$42-60/hr",
+   "PayMin": 42,
+   "Python": "yes",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Must be pursuing a bachelor’s or master’s degree in Computer Science, Computer Engineering, Data Science, Mathematics, Statistics, Electrical Engineering, or a related field.",
+   "EducationNote": "",
+   "URL": "https://job-boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007",
+   "CanonicalURL": "https://go.vansh.nyc/1Bo",
+   "Sources": [
+    "vanshb03",
+    "ATS Greenhouse:andurilindustries"
+   ],
+   "PostedAt": "2026-11-17T19:17:45.000Z",
+   "Terms": "Summer",
+   "DetailStatus": "greenhouse",
+   "Key": "anduril|machine learning engineer intern",
+   "Locations": [
+    "Santa Ana, CA",
+    "Santa Ana, California, United States"
+   ],
+   "URLs": [
+    "https://job-boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007",
+    "https://boards.greenhouse.io/andurilindustries/jobs/5274037007?gh_jid=5274037007"
    ],
    "FirstSeen": "2026-11-17",
    "New": true
@@ -12540,7 +12384,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-06T16:38:36.405Z",
+   "PostedAt": "2026-11-05T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "eightfold",
    "Key": "microsoft|software engineer security identity intern opportunities for university students redmond",
@@ -12577,7 +12421,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-24T16:38:36.405Z",
+   "PostedAt": "2026-10-23T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "rivian|software engineering intern connected systems summer",
@@ -12614,7 +12458,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-24T16:38:36.405Z",
+   "PostedAt": "2026-10-23T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "rivian|software engineering intern applications summer",
@@ -12651,7 +12495,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-24T16:38:36.405Z",
+   "PostedAt": "2026-10-23T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "rivian|software engineering intern vehicle controls summer",
@@ -12688,7 +12532,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-23T16:38:36.405Z",
+   "PostedAt": "2026-10-22T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "eightfold",
    "Key": "microsoft|software engineer security identity intern opportunities for university students cambridge",
@@ -12725,7 +12569,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-20T16:38:36.405Z",
+   "PostedAt": "2026-10-19T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "salesforce|summer intern software engineer security government",
@@ -12762,7 +12606,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-08-20T16:38:36.405Z",
+   "PostedAt": "2026-08-19T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nvidia|nvidia internships software engineering",
@@ -12800,7 +12644,7 @@
     "speedyapply SWE",
     "ATS Workday:nvidia/NVIDIAExternalCareerSite"
    ],
-   "PostedAt": "2026-10-30T16:41:16.485Z",
+   "PostedAt": "2026-10-30T20:57:29.064Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nvidia|nvidia internships systems software engineering",
@@ -12814,6 +12658,43 @@
    ],
    "FirstSeen": "2026-11-03",
    "New": false
+  },
+  {
+   "Company": "RTX",
+   "Category": "Fortune 500",
+   "Tier": 12,
+   "Track": "Software",
+   "Title": "2027 Summer Intern - Software Engineering - Onsite",
+   "Location": "El Segundo, CA",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "yes",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Must be pursuing a Bachelor’s degree or higher in a Science, Technology, Engineering, or Mathematics (STEM) discipline and actively enrolled through the completion of the internship/co-op session.",
+   "EducationNote": "",
+   "URL": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E04--2006-E-El-Segundo-Blvd--BLDG-E04/XMLNAME-2027-Summer-Intern---Software-Engineering---Onsite_01885225",
+   "CanonicalURL": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E04--2006-E-El-Segundo-Blvd--BLDG-E04/XMLNAME-2027-Summer-Intern---Software-Engineering---Onsite_01885225",
+   "Sources": [
+    "speedyapply SWE"
+   ],
+   "PostedAt": "2026-11-15T20:55:17.516Z",
+   "Terms": "",
+   "DetailStatus": "workday",
+   "Key": "rtx|summer intern software engineering onsite",
+   "Locations": [
+    "El Segundo, CA"
+   ],
+   "URLs": [
+    "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CA-EL-SEGUNDO-E04--2006-E-El-Segundo-Blvd--BLDG-E04/XMLNAME-2027-Summer-Intern---Software-Engineering---Onsite_01885225"
+   ],
+   "FirstSeen": "2026-11-17",
+   "New": true
   },
   {
    "Company": "General Dynamics",
@@ -12839,7 +12720,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-13T16:38:36.405Z",
+   "PostedAt": "2026-11-12T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "jsonld",
    "Key": "general dynamics|software systems engineering intern summer",
@@ -12876,7 +12757,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-13T16:38:36.405Z",
+   "PostedAt": "2026-11-12T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "jsonld",
    "Key": "general dynamics|software asset management intern administrative",
@@ -12887,43 +12768,6 @@
     "https://careers-gdms.icims.com/jobs/76780/software-asset-management-intern-administrative/job"
    ],
    "FirstSeen": "2026-11-14",
-   "New": false
-  },
-  {
-   "Company": "Micron",
-   "Category": "Enterprise & Consumer Tech",
-   "Tier": 10,
-   "Track": "Software",
-   "Title": "Intern - IT Software Engineer",
-   "Location": "Boise, ID",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR111582",
-   "CanonicalURL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR111582",
-   "Sources": [
-    "speedyapply SWE"
-   ],
-   "PostedAt": "2026-11-13T16:38:36.405Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "micron|intern it software engineer",
-   "Locations": [
-    "Boise, ID"
-   ],
-   "URLs": [
-    "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR111582"
-   ],
-   "FirstSeen": "2026-11-03",
    "New": false
   },
   {
@@ -12950,7 +12794,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-13T16:38:36.405Z",
+   "PostedAt": "2026-11-12T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "ptc|onshape site reliability engineering intern summer",
@@ -12987,7 +12831,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-13T16:38:36.405Z",
+   "PostedAt": "2026-11-12T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "smartrecruiters",
    "Key": "servicenow|assoc ai engineering cloud security automation intern",
@@ -13024,7 +12868,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-12T16:38:36.405Z",
+   "PostedAt": "2026-11-11T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|software engineering intern summer internship",
@@ -13035,80 +12879,6 @@
     "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Schaumburg-IL/Software-Engineering-Intern---2027-Summer-Internship_R70179"
    ],
    "FirstSeen": "2026-11-13",
-   "New": false
-  },
-  {
-   "Company": "RTX",
-   "Category": "Fortune 500",
-   "Tier": 12,
-   "Track": "Software",
-   "Title": "Software Engineering Intern - Summer 2027",
-   "Location": "Cedar Rapids, IA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055",
-   "CanonicalURL": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055",
-   "Sources": [
-    "speedyapply SWE"
-   ],
-   "PostedAt": "2026-11-12T16:38:36.405Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "rtx|software engineering intern summer",
-   "Locations": [
-    "Cedar Rapids, IA"
-   ],
-   "URLs": [
-    "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IA-CEDAR-RAPIDS-143--855-35Th-St-NE--BLDG-143/Software-Engineering-Intern--Summer-2027-_01888055"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "RTX",
-   "Category": "Fortune 500",
-   "Tier": 12,
-   "Track": "Software",
-   "Title": "Software Engineering Intern - ISET-IN-2",
-   "Location": "Sterling, VA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--ISET-IN-2-_01888017",
-   "CanonicalURL": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--ISET-IN-2-_01888017",
-   "Sources": [
-    "speedyapply SWE"
-   ],
-   "PostedAt": "2026-11-12T16:38:36.405Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "rtx|software engineering intern iset in 2",
-   "Locations": [
-    "Sterling, VA"
-   ],
-   "URLs": [
-    "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-VA-STERLING-291--22640-Davis-Dr--DAVIS/Software-Engineering-Intern--ISET-IN-2-_01888017"
-   ],
-   "FirstSeen": "2026-11-16",
    "New": false
   },
   {
@@ -13130,12 +12900,12 @@
    "Undergrad": "yes",
    "DegreeEvidence": "Must be pursuing a bachelor's or advanced degree from an accredited college or university.",
    "EducationNote": "",
-   "URL": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-1",
-   "CanonicalURL": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-1",
+   "URL": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2",
+   "CanonicalURL": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2",
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-12T16:38:36.405Z",
+   "PostedAt": "2026-11-11T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "rockwell automation|intern software developer engineering",
@@ -13143,8 +12913,8 @@
     "Mequon, WI"
    ],
    "URLs": [
-    "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-1",
-    "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2"
+    "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2",
+    "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-1"
    ],
    "FirstSeen": "2026-11-13",
    "New": false
@@ -13173,7 +12943,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-12T16:38:36.405Z",
+   "PostedAt": "2026-11-11T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "smartrecruiters",
    "Key": "western digital|summer intern software engineering",
@@ -13184,193 +12954,6 @@
     "https://jobs.smartrecruiters.com/WesternDigital/744000160975819-summer-2027-intern-software-engineering?oga=true"
    ],
    "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "T-Mobile",
-   "Category": "Enterprise & Consumer Tech",
-   "Tier": 10,
-   "Track": "Software",
-   "Title": "Summer 2027 T-Ads Software Engineering Internship",
-   "Location": "Philadelphia, PA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225",
-   "CanonicalURL": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225",
-   "Sources": [
-    "speedyapply SWE"
-   ],
-   "PostedAt": "2026-11-11T16:38:36.405Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "t mobile|summer t ads software engineering internship",
-   "Locations": [
-    "Philadelphia, PA"
-   ],
-   "URLs": [
-    "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381225",
-    "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Philadelphia-Pennsylvania/Summer-2027-T-Ads-Software-Engineering-Internship_REQ381219"
-   ],
-   "FirstSeen": "2026-11-17",
-   "New": true
-  },
-  {
-   "Company": "T-Mobile",
-   "Category": "Enterprise & Consumer Tech",
-   "Tier": 10,
-   "Track": "Software",
-   "Title": "Summer 2027 Site Reliability Engineering Internship",
-   "Location": "Frisco, TX +1",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Frisco-Texas/Summer-2027-Site-Reliability-Engineering-Internship_REQ381393",
-   "CanonicalURL": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Frisco-Texas/Summer-2027-Site-Reliability-Engineering-Internship_REQ381393",
-   "Sources": [
-    "speedyapply SWE"
-   ],
-   "PostedAt": "2026-11-11T16:38:36.405Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "t mobile|summer site reliability engineering internship",
-   "Locations": [
-    "Frisco, TX +1"
-   ],
-   "URLs": [
-    "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Frisco-Texas/Summer-2027-Site-Reliability-Engineering-Internship_REQ381393"
-   ],
-   "FirstSeen": "2026-11-17",
-   "New": true
-  },
-  {
-   "Company": "Cisco",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Software",
-   "Title": "Software Engineer Full-Stack / Backend I - Intern - United States",
-   "Location": "San Jose, CA +2",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Intern----United-States_2024647-1",
-   "CanonicalURL": "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Intern----United-States_2024647-1",
-   "Sources": [
-    "speedyapply SWE"
-   ],
-   "PostedAt": "2026-11-10T16:38:36.405Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "cisco|software engineer full stack backend i intern united states",
-   "Locations": [
-    "San Jose, CA +2"
-   ],
-   "URLs": [
-    "https://cisco.wd5.myworkdayjobs.com/en-US/cisco_careers/job/San-Jose-California-US/Software-Engineer-Full-Stack---Backend-I--Intern----United-States_2024647-1"
-   ],
-   "FirstSeen": "2026-11-10",
-   "New": false
-  },
-  {
-   "Company": "Northrop Grumman",
-   "Category": "Fortune 500",
-   "Tier": 12,
-   "Track": "Software",
-   "Title": "2027 Software Testing Engineering Intern - Apopka FL",
-   "Location": "Apopka, FL",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Apopka/XMLNAME-2027-Software-Testing-Engineering-Intern---Apopka-FL_R10259820-1",
-   "CanonicalURL": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Apopka/XMLNAME-2027-Software-Testing-Engineering-Intern---Apopka-FL_R10259820-1",
-   "Sources": [
-    "speedyapply SWE"
-   ],
-   "PostedAt": "2026-11-10T16:38:36.405Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "northrop grumman|software testing engineering intern apopka fl",
-   "Locations": [
-    "Apopka, FL"
-   ],
-   "URLs": [
-    "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Florida-Apopka/XMLNAME-2027-Software-Testing-Engineering-Intern---Apopka-FL_R10259820-1"
-   ],
-   "FirstSeen": "2026-11-10",
-   "New": false
-  },
-  {
-   "Company": "T-Mobile",
-   "Category": "Enterprise & Consumer Tech",
-   "Tier": 10,
-   "Track": "Software",
-   "Title": "Summer 2027 Software Engineering Internship",
-   "Location": "Overland Park, KS",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739",
-   "CanonicalURL": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739",
-   "Sources": [
-    "speedyapply SWE"
-   ],
-   "PostedAt": "2026-11-07T16:38:36.405Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "t mobile|summer software engineering internship",
-   "Locations": [
-    "Overland Park, KS"
-   ],
-   "URLs": [
-    "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380739",
-    "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Overland-Park-Kansas/Summer-2027-Software-Engineering-Internship_REQ380734"
-   ],
-   "FirstSeen": "2026-11-04",
    "New": false
   },
   {
@@ -13398,7 +12981,7 @@
     "speedyapply SWE",
     "ATS Workday:paypal/jobs"
    ],
-   "PostedAt": "2026-11-06T16:38:36.405Z",
+   "PostedAt": "2026-11-05T20:57:29.065Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "paypal|software engineer intern summer",
@@ -13441,7 +13024,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-03T16:38:36.405Z",
+   "PostedAt": "2026-11-02T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "caci|software development intern summer",
@@ -13450,44 +13033,6 @@
    ],
    "URLs": [
     "https://caci.wd1.myworkdayjobs.com/en-US/external/job/Ashburn-VA-US/Software-Development-Intern---Summer-2027_333051"
-   ],
-   "FirstSeen": "2026-11-04",
-   "New": false
-  },
-  {
-   "Company": "KLA",
-   "Category": "Enterprise & Consumer Tech",
-   "Tier": 10,
-   "Track": "Software",
-   "Title": "Software Engineer - AI/ML Intern",
-   "Location": "Austin, TX +1",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$22-43/hr",
-   "PayMin": 22,
-   "Python": "yes",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Base Pay Range: $22.10 - $42.50 per hour based on pursuit of a Bachelor’s, Master’s, or Ph.D. Primary Location: USA-TX-Austin-KLA",
-   "EducationNote": "",
-   "URL": "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Austin-TX/Software-Engineer--AI-ML--Intern_2642125-1",
-   "CanonicalURL": "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Austin-TX/Software-Engineer--AI-ML--Intern_2642125-1",
-   "Sources": [
-    "speedyapply SWE"
-   ],
-   "PostedAt": "2026-11-03T16:38:36.405Z",
-   "Terms": "",
-   "DetailStatus": "workday",
-   "Key": "kla|software engineer ai ml intern",
-   "Locations": [
-    "Austin, TX +1"
-   ],
-   "URLs": [
-    "https://kla.wd1.myworkdayjobs.com/en-US/search/job/Austin-TX/Software-Engineer--AI-ML--Intern_2642125-1",
-    "https://kla.wd1.myworkdayjobs.com/en-US/ur/job/Austin-TX/Software-Engineer--AI-ML--Intern_2642125"
    ],
    "FirstSeen": "2026-11-04",
    "New": false
@@ -13516,7 +13061,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-03T16:38:36.405Z",
+   "PostedAt": "2026-11-02T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "micron|intern front end materials category supplier manager csm",
@@ -13527,44 +13072,6 @@
     "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---North-Office/Intern---Front-End-Materials-Category-Supplier-Manager--CSM-_JR116161"
    ],
    "FirstSeen": "2026-11-04",
-   "New": false
-  },
-  {
-   "Company": "Northrop Grumman",
-   "Category": "Fortune 500",
-   "Tier": 12,
-   "Track": "Software",
-   "Title": "2027 Software Engineering Intern - Colorado Springs",
-   "Location": "Colorado Springs, CO",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256259",
-   "CanonicalURL": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256259",
-   "Sources": [
-    "speedyapply SWE"
-   ],
-   "PostedAt": "2026-11-03T16:38:36.405Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "northrop grumman|software engineering intern colorado springs",
-   "Locations": [
-    "Colorado Springs, CO"
-   ],
-   "URLs": [
-    "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256259",
-    "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10257803"
-   ],
-   "FirstSeen": "2026-11-03",
    "New": false
   },
   {
@@ -13591,7 +13098,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-30T16:38:36.405Z",
+   "PostedAt": "2026-10-29T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "danaher|intern application integration developer",
@@ -13628,7 +13135,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-29T16:38:36.405Z",
+   "PostedAt": "2026-10-28T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "asml|internship software development engineer in test",
@@ -13665,7 +13172,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-28T16:38:36.405Z",
+   "PostedAt": "2026-10-27T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "micron|intern product yield software engineer",
@@ -13702,7 +13209,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-28T16:38:36.405Z",
+   "PostedAt": "2026-10-27T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "ptc|onshape software engineer intern summer",
@@ -13739,7 +13246,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-27T16:38:36.405Z",
+   "PostedAt": "2026-10-26T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "cohesity|software engineering intern summer",
@@ -13776,7 +13283,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-24T16:38:36.405Z",
+   "PostedAt": "2026-10-23T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "asml|platform software engineer in test internship",
@@ -13813,7 +13320,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-24T16:38:36.405Z",
+   "PostedAt": "2026-10-23T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "caci|cleared software engineer intern summer",
@@ -13850,7 +13357,7 @@
    "Sources": [
     "speedyapply SWE"
    ],
-   "PostedAt": "2026-10-24T16:38:36.405Z",
+   "PostedAt": "2026-10-23T20:55:17.516Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "copart|software engineering intern",
@@ -13859,46 +13366,47 @@
    ],
    "URLs": [
     "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR111861",
-    "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079"
+    "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR110079",
+    "https://copart.wd12.myworkdayjobs.com/en-US/copart/job/Dallas-TX---Headquarters/Software-Engineering-Intern_JR109964"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
   },
   {
-   "Company": "Salesforce",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Summer 2027 Intern - Applied AI Strategy & Research",
-   "Location": "San Francisco, CA",
+   "Company": "Micron",
+   "Category": "Enterprise & Consumer Tech",
+   "Tier": 10,
+   "Track": "Software",
+   "Title": "Intern - IT Software Engineer",
+   "Location": "Boise, ID",
    "US": "us",
    "Bucket": "ask",
    "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
+   "DateNote": "term dates not stated",
    "Weeks": "",
    "Evidence": "",
-   "Pay": "$54/hr",
-   "PayMin": 54,
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "yes",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Currently pursuing a Bachelor’s degree in Computer Science, Software Engineering, or a related field.",
    "EducationNote": "",
-   "URL": "https://salesforce.wd12.myworkdayjobs.com/en-US/futureforce_newgradroles/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-3",
-   "CanonicalURL": "https://salesforce.wd12.myworkdayjobs.com/en-US/futureforce_newgradroles/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-3",
+   "URL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR113941",
+   "CanonicalURL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR113941",
    "Sources": [
-    "speedyapply AI"
+    "speedyapply SWE"
    ],
-   "PostedAt": "2026-11-11T16:38:36.376Z",
+   "PostedAt": "2026-10-20T20:55:17.516Z",
    "Terms": "",
-   "DetailStatus": "html",
-   "Key": "salesforce|summer intern applied ai strategy research",
+   "DetailStatus": "workday",
+   "Key": "micron|intern it software engineer",
    "Locations": [
-    "San Francisco, CA"
+    "Boise, ID"
    ],
    "URLs": [
-    "https://salesforce.wd12.myworkdayjobs.com/en-US/futureforce_newgradroles/job/California---San-Francisco/Summer-2027-Intern---Applied-AI-Strategy---Research_JR367516-3"
+    "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---IT-Software-Engineer_JR113941"
    ],
-   "FirstSeen": "2026-11-06",
+   "FirstSeen": "2026-11-03",
    "New": false
   },
   {
@@ -13925,7 +13433,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-07T16:38:36.376Z",
+   "PostedAt": "2026-11-06T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "jsonld",
    "Key": "rivian|uiuc research park intern ml ai motor controls algorithm",
@@ -13962,7 +13470,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-24T16:38:36.376Z",
+   "PostedAt": "2026-10-23T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "rivian|data engineering intern ai analytics summer",
@@ -13971,43 +13479,6 @@
    ],
    "URLs": [
     "https://jobs.ashbyhq.com/rivianvw.tech/7967cd44-5469-48b8-b69f-f036e4098464"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Adobe",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "2027 Intern - Data - AI & Innovation",
-   "Location": "San Jose, CA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$55/hr",
-   "PayMin": 55,
-   "Python": "",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Currently enrolled full-time and pursuing a bachelor’s or master’s degree or equivalent experience in computer science, information systems, design, human-computer interaction, data science, business,",
-   "EducationNote": "",
-   "URL": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997",
-   "CanonicalURL": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997",
-   "Sources": [
-    "speedyapply AI"
-   ],
-   "PostedAt": "2026-10-20T16:38:36.376Z",
-   "Terms": "",
-   "DetailStatus": "workday",
-   "Key": "adobe|intern data ai innovation",
-   "Locations": [
-    "San Jose, CA"
-   ],
-   "URLs": [
-    "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -14036,7 +13507,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-20T16:38:36.376Z",
+   "PostedAt": "2026-10-19T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "adobe|intern ai architecture",
@@ -14045,6 +13516,43 @@
    ],
    "URLs": [
     "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---AI---Architecture_R172998"
+   ],
+   "FirstSeen": "2026-11-03",
+   "New": false
+  },
+  {
+   "Company": "Adobe",
+   "Category": "Big Tech",
+   "Tier": 0,
+   "Track": "Data",
+   "Title": "2027 Intern - Data - AI & Innovation",
+   "Location": "San Jose, CA",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "term dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "$55/hr",
+   "PayMin": 55,
+   "Python": "",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Currently enrolled full-time and pursuing a bachelor’s or master’s degree or equivalent experience in computer science, information systems, design, human-computer interaction, data science, business,",
+   "EducationNote": "",
+   "URL": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997",
+   "CanonicalURL": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997",
+   "Sources": [
+    "speedyapply AI"
+   ],
+   "PostedAt": "2026-10-19T20:55:17.494Z",
+   "Terms": "",
+   "DetailStatus": "workday",
+   "Key": "adobe|intern data ai innovation",
+   "Locations": [
+    "San Jose, CA"
+   ],
+   "URLs": [
+    "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Data--AI---Innovation_R172997"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -14074,7 +13582,7 @@
     "speedyapply AI",
     "ATS Workday:adobe/external_experienced"
    ],
-   "PostedAt": "2026-10-20T16:41:16.486Z",
+   "PostedAt": "2026-10-20T20:57:29.065Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "adobe|intern applied and research scientist engineer",
@@ -14119,7 +13627,7 @@
     "speedyapply AI",
     "ATS Workday:nvidia/NVIDIAExternalCareerSite"
    ],
-   "PostedAt": "2026-10-30T16:41:16.485Z",
+   "PostedAt": "2026-10-30T20:57:29.064Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nvidia|nvidia internships deep learning",
@@ -14159,7 +13667,7 @@
     "speedyapply AI",
     "ATS Workday:nvidia/NVIDIAExternalCareerSite"
    ],
-   "PostedAt": "2026-10-30T16:41:16.485Z",
+   "PostedAt": "2026-10-30T20:57:29.064Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nvidia|nvidia internships deep learning computer architecture",
@@ -14172,6 +13680,158 @@
     "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491"
    ],
    "FirstSeen": "2026-11-03",
+   "New": false
+  },
+  {
+   "Company": "ASML",
+   "Category": "Enterprise & Consumer Tech",
+   "Tier": 10,
+   "Track": "Data",
+   "Title": "Internship - Integrate GUI and LLM",
+   "Location": "San Jose, CA",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "term dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "yes",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Currently pursuing a bachelor's degree or master's degree in Computer Science, Software Engineering, Artificial Intelligence, Data Science, or a related technical field.",
+   "EducationNote": "",
+   "URL": "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Integrate-GUI-and-LLM_J-00357014",
+   "CanonicalURL": "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Integrate-GUI-and-LLM_J-00357014",
+   "Sources": [
+    "speedyapply AI"
+   ],
+   "PostedAt": "2026-11-16T20:55:17.494Z",
+   "Terms": "",
+   "DetailStatus": "workday",
+   "Key": "asml|internship integrate gui and llm",
+   "Locations": [
+    "San Jose, CA"
+   ],
+   "URLs": [
+    "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Internship---Integrate-GUI-and-LLM_J-00357014"
+   ],
+   "FirstSeen": "2026-11-17",
+   "New": true
+  },
+  {
+   "Company": "AstraZeneca",
+   "Category": "Fortune 500",
+   "Tier": 12,
+   "Track": "Data",
+   "Title": "Finance AI & Data Analytics Intern - Undergraduate - LIFT Program",
+   "Location": "Wilmington, DE",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "term dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "yes",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Finance AI & Data Analytics Intern - Undergraduate - LIFT Program",
+   "EducationNote": "",
+   "URL": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/careers/job/US---Wilmington---DE/Finance-AI---Data-Analytics-Intern--Undergraduate---LIFT-Program_R-264458",
+   "CanonicalURL": "https://astrazeneca.wd3.myworkdayjobs.com/en-US/careers/job/US---Wilmington---DE/Finance-AI---Data-Analytics-Intern--Undergraduate---LIFT-Program_R-264458",
+   "Sources": [
+    "speedyapply AI"
+   ],
+   "PostedAt": "2026-11-16T20:55:17.494Z",
+   "Terms": "",
+   "DetailStatus": "workday",
+   "Key": "astrazeneca|finance ai data analytics intern undergraduate lift program",
+   "Locations": [
+    "Wilmington, DE"
+   ],
+   "URLs": [
+    "https://astrazeneca.wd3.myworkdayjobs.com/en-US/careers/job/US---Wilmington---DE/Finance-AI---Data-Analytics-Intern--Undergraduate---LIFT-Program_R-264458"
+   ],
+   "FirstSeen": "2026-11-17",
+   "New": true
+  },
+  {
+   "Company": "Micron",
+   "Category": "Enterprise & Consumer Tech",
+   "Tier": 10,
+   "Track": "Data",
+   "Title": "Intern - Data Science - SMAI",
+   "Location": "Boise, ID",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "term dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "yes",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Currently pursuing a Bachelor’s degree in Statistics, Mathematics, Computer Science, Data Science, Engineering, Applied Mathematics, Physics, or a related quantitative field, with plans to pursue a Ma",
+   "EducationNote": "",
+   "URL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---Data-Science--SMAI_JR117444",
+   "CanonicalURL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---Data-Science--SMAI_JR117444",
+   "Sources": [
+    "speedyapply AI"
+   ],
+   "PostedAt": "2026-11-16T20:55:17.494Z",
+   "Terms": "",
+   "DetailStatus": "workday",
+   "Key": "micron|intern data science smai",
+   "Locations": [
+    "Boise, ID"
+   ],
+   "URLs": [
+    "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern---Data-Science--SMAI_JR117444"
+   ],
+   "FirstSeen": "2026-11-17",
+   "New": true
+  },
+  {
+   "Company": "S&P Global",
+   "Category": "Banks & Financial Services",
+   "Tier": 5,
+   "Track": "Data",
+   "Title": "Machine Learning Engineer - Summer Intern 2027",
+   "Location": "Cambridge, MA +1; Cambridge, MA; New York, NY",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "yes",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Pursuing a bachelor's degree or higher with relevant classwork or internships in Machine Learning",
+   "EducationNote": "",
+   "URL": "https://spgi.wd5.myworkdayjobs.com/en-US/spgi_careers/job/Cambridge-MA/Machine-Learning-Engineer---Summer-Intern-2027_331714-1",
+   "CanonicalURL": "https://spgi.wd5.myworkdayjobs.com/en-US/spgi_careers/job/Cambridge-MA/Machine-Learning-Engineer---Summer-Intern-2027_331714-1",
+   "Sources": [
+    "speedyapply AI",
+    "ATS Workday:spgi/SPGI_Careers"
+   ],
+   "PostedAt": "2026-11-16T20:57:29.073Z",
+   "Terms": "",
+   "DetailStatus": "workday",
+   "Key": "s and p|machine learning engineer summer intern",
+   "Locations": [
+    "Cambridge, MA +1",
+    "Cambridge, MA",
+    "New York, NY"
+   ],
+   "URLs": [
+    "https://spgi.wd5.myworkdayjobs.com/en-US/spgi_careers/job/Cambridge-MA/Machine-Learning-Engineer---Summer-Intern-2027_331714-1",
+    "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Cambridge-MA/Machine-Learning-Engineer---Summer-Intern-2027_331714-1"
+   ],
+   "FirstSeen": "2026-11-16",
    "New": false
   },
   {
@@ -14198,7 +13858,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-15T16:38:36.376Z",
+   "PostedAt": "2026-11-14T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "smartrecruiters",
    "Key": "servicenow|ai identity intern",
@@ -14210,6 +13870,43 @@
    ],
    "FirstSeen": "2026-11-14",
    "New": false
+  },
+  {
+   "Company": "Micron",
+   "Category": "Enterprise & Consumer Tech",
+   "Tier": 10,
+   "Track": "Data",
+   "Title": "Intern - AI Engineer Platform",
+   "Location": "Boise, ID",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "term dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "yes",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Currently pursuing a Bachelor's or Master's degree in Computer Science, Computer Engineering, Data Science, Information Technology, or a related technical field.",
+   "EducationNote": "",
+   "URL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern----AI-Engineer-Platform_JR115934",
+   "CanonicalURL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern----AI-Engineer-Platform_JR115934",
+   "Sources": [
+    "speedyapply AI"
+   ],
+   "PostedAt": "2026-11-13T20:55:17.494Z",
+   "Terms": "",
+   "DetailStatus": "workday",
+   "Key": "micron|intern ai engineer platform",
+   "Locations": [
+    "Boise, ID"
+   ],
+   "URLs": [
+    "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Boise-ID---Main-Site/Intern----AI-Engineer-Platform_JR115934"
+   ],
+   "FirstSeen": "2026-11-17",
+   "New": true
   },
   {
    "Company": "ServiceNow",
@@ -14235,7 +13932,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-14T16:38:36.376Z",
+   "PostedAt": "2026-11-13T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "smartrecruiters",
    "Key": "servicenow|ai security engineer intern",
@@ -14249,78 +13946,41 @@
    "New": false
   },
   {
-   "Company": "Visa",
-   "Category": "Fintech & Payments",
-   "Tier": 8,
-   "Track": "Data",
-   "Title": "Data Science Intern - Data and AI Team - Summer 2027",
-   "Location": "Foster City, CA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://visa.wd5.myworkdayjobs.com/en-US/visa_talent_portal/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-3",
-   "CanonicalURL": "https://visa.wd5.myworkdayjobs.com/en-US/visa_talent_portal/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-3",
-   "Sources": [
-    "speedyapply AI"
-   ],
-   "PostedAt": "2026-11-13T16:38:36.376Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "visa|data science intern data and ai team summer",
-   "Locations": [
-    "Foster City, CA"
-   ],
-   "URLs": [
-    "https://visa.wd5.myworkdayjobs.com/en-US/visa_talent_portal/job/US---Foster-City-CA/Data-Science-Intern--Data-and-AI-Team---Summer-2027_REF089883W-3"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Bristol Myers Squibb",
+   "Company": "Walmart",
    "Category": "Fortune 500",
    "Tier": 12,
-   "Track": "Finance",
-   "Title": "Data & Quantitative Sciences Intern-Summer 2027",
-   "Location": "Princeton, NJ +5",
+   "Track": "Data",
+   "Title": "Summer 2027 Corporate Intern: Last Mile Delivery Data Science Intern",
+   "Location": "USA",
    "US": "us",
    "Bucket": "ask",
    "Dates": "",
    "DateNote": "Summer 2027 dates not stated",
    "Weeks": "",
    "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
+   "Pay": "$21-40/hr",
+   "PayMin": 21,
+   "Python": "yes",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Basic Qualifications Currently pursuing a Bachelor’s or Master’s degree in Data Science, Computer Science, Statistics, Mathematics, Engineering, Operations Research, or a related quantitative field.",
    "EducationNote": "",
-   "URL": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/bms/job/Princeton---NJ---US/Data---Quantitative-Sciences-Intern-Summer-2027_R1608215",
-   "CanonicalURL": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/bms/job/Princeton---NJ---US/Data---Quantitative-Sciences-Intern-Summer-2027_R1608215",
+   "URL": "https://walmart.wd504.myworkdayjobs.com/en-US/walmartexternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--Last-Mile-Delivery-Data-Science-Intern_R-2686435",
+   "CanonicalURL": "https://walmart.wd504.myworkdayjobs.com/en-US/walmartexternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--Last-Mile-Delivery-Data-Science-Intern_R-2686435",
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-12T16:38:36.376Z",
+   "PostedAt": "2026-11-13T20:55:17.494Z",
    "Terms": "",
-   "DetailStatus": "html",
-   "Key": "bristol myers squibb|data quantitative sciences intern summer",
+   "DetailStatus": "workday",
+   "Key": "walmart|summer corporate intern last mile delivery data science intern",
    "Locations": [
-    "Princeton, NJ +5"
+    "USA"
    ],
    "URLs": [
-    "https://bristolmyerssquibb.wd5.myworkdayjobs.com/en-US/bms/job/Princeton---NJ---US/Data---Quantitative-Sciences-Intern-Summer-2027_R1608215"
+    "https://walmart.wd504.myworkdayjobs.com/en-US/walmartexternal/job/USA-Together-Building-AR-Bentonville-Home-Office/Summer-2027-Corporate-Intern--Last-Mile-Delivery-Data-Science-Intern_R-2686435"
    ],
-   "FirstSeen": "2026-11-16",
-   "New": false
+   "FirstSeen": "2026-11-17",
+   "New": true
   },
   {
    "Company": "Walmart",
@@ -14346,7 +14006,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-11T16:38:36.376Z",
+   "PostedAt": "2026-11-10T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "walmart|summer corporate intern data science data analytics last mile delivery",
@@ -14383,7 +14043,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-07T16:38:36.376Z",
+   "PostedAt": "2026-11-06T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "samsung|samsung care ai data analytic intern",
@@ -14394,83 +14054,6 @@
     "https://sec.wd3.myworkdayjobs.com/en-US/samsung_careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1"
    ],
    "FirstSeen": "2026-11-08",
-   "New": false
-  },
-  {
-   "Company": "T-Mobile",
-   "Category": "Enterprise & Consumer Tech",
-   "Tier": 10,
-   "Track": "Data",
-   "Title": "Summer 2027 AI Strategist Internship",
-   "Location": "Bellevue, WA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Bellevue-Washington/Summer-2027-AI-Strategist-Internship_REQ381279",
-   "CanonicalURL": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Bellevue-Washington/Summer-2027-AI-Strategist-Internship_REQ381279",
-   "Sources": [
-    "speedyapply AI"
-   ],
-   "PostedAt": "2026-11-07T16:38:36.376Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "t mobile|summer ai strategist internship",
-   "Locations": [
-    "Bellevue, WA"
-   ],
-   "URLs": [
-    "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Bellevue-Washington/Summer-2027-AI-Strategist-Internship_REQ381279"
-   ],
-   "FirstSeen": "2026-11-13",
-   "New": false
-  },
-  {
-   "Company": "PayPal",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Machine Learning Engineer Intern - Summer 2027",
-   "Location": "San Jose, CA; San Jose, California, United States of America",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "$50-59/hr",
-   "PayMin": 50,
-   "Python": "yes",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Currently pursuing a bachelor's or master's degree in computer science, machine learning, data science, computer engineering, or a related technical field at an accredited college or university.",
-   "EducationNote": "",
-   "URL": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581",
-   "CanonicalURL": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581",
-   "Sources": [
-    "speedyapply AI",
-    "ATS Workday:paypal/jobs"
-   ],
-   "PostedAt": "2026-11-06T16:38:36.376Z",
-   "Terms": "",
-   "DetailStatus": "workday",
-   "Key": "paypal|machine learning engineer intern summer",
-   "Locations": [
-    "San Jose, CA",
-    "San Jose, California, United States of America"
-   ],
-   "URLs": [
-    "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581",
-    "https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581"
-   ],
-   "FirstSeen": "2026-11-05",
    "New": false
   },
   {
@@ -14498,7 +14081,7 @@
     "speedyapply AI",
     "ATS Workday:paypal/jobs"
    ],
-   "PostedAt": "2026-11-06T16:38:36.376Z",
+   "PostedAt": "2026-11-05T20:57:29.065Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "paypal|data scientist intern summer",
@@ -14509,6 +14092,46 @@
    "URLs": [
     "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Data-Scientist-Intern---Summer-2027_R0138582",
     "https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Data-Scientist-Intern---Summer-2027_R0138582"
+   ],
+   "FirstSeen": "2026-11-05",
+   "New": false
+  },
+  {
+   "Company": "PayPal",
+   "Category": "Big Tech",
+   "Tier": 0,
+   "Track": "Data",
+   "Title": "Machine Learning Engineer Intern - Summer 2027",
+   "Location": "San Jose, CA; San Jose, California, United States of America",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "$50-59/hr",
+   "PayMin": 50,
+   "Python": "yes",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Currently pursuing a bachelor's or master's degree in computer science, machine learning, data science, computer engineering, or a related technical field at an accredited college or university.",
+   "EducationNote": "",
+   "URL": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581",
+   "CanonicalURL": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581",
+   "Sources": [
+    "speedyapply AI",
+    "ATS Workday:paypal/jobs"
+   ],
+   "PostedAt": "2026-11-05T20:57:29.065Z",
+   "Terms": "",
+   "DetailStatus": "workday",
+   "Key": "paypal|machine learning engineer intern summer",
+   "Locations": [
+    "San Jose, CA",
+    "San Jose, California, United States of America"
+   ],
+   "URLs": [
+    "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581",
+    "https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-Intern---Summer-2027_R0138581"
    ],
    "FirstSeen": "2026-11-05",
    "New": false
@@ -14537,7 +14160,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-06T16:38:36.376Z",
+   "PostedAt": "2026-11-05T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "walmart|usa summer corporate intern last mile delivery data science intern",
@@ -14574,7 +14197,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-11-03T16:38:36.376Z",
+   "PostedAt": "2026-11-02T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "booz allen hamilton|university summer games data scientist intern royal oak mi",
@@ -14611,7 +14234,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-30T16:38:36.376Z",
+   "PostedAt": "2026-10-29T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "general motors|summer intern ai ml engineer autonomous vehicles",
@@ -14648,7 +14271,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-29T16:38:36.376Z",
+   "PostedAt": "2026-10-28T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "applied materials|summer data scientist intern bachelor s austin tx",
@@ -14657,43 +14280,6 @@
    ],
    "URLs": [
     "https://amat.wd1.myworkdayjobs.com/en-US/external/job/AustinTX/Summer-2027-Data-Scientist-Intern--Bachelor-s--Austin--TX-_R2627409"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Applied Materials",
-   "Category": "Enterprise & Consumer Tech",
-   "Tier": 10,
-   "Track": "Data",
-   "Title": "Summer 2027 Data Science Intern- Bachelor's/Master's - Santa Clara - CA",
-   "Location": "Santa Clara, CA",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Summer 2027 Data Science Intern- Bachelor's/Master's - Santa Clara - CA",
-   "EducationNote": "",
-   "URL": "https://amat.wd1.myworkdayjobs.com/en-US/external/job/Santa-ClaraCA/Summer-2027-Data-Science-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2627525",
-   "CanonicalURL": "https://amat.wd1.myworkdayjobs.com/en-US/external/job/Santa-ClaraCA/Summer-2027-Data-Science-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2627525",
-   "Sources": [
-    "speedyapply AI"
-   ],
-   "PostedAt": "2026-10-29T16:38:36.376Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "applied materials|summer data science intern bachelor s master s santa clara ca",
-   "Locations": [
-    "Santa Clara, CA"
-   ],
-   "URLs": [
-    "https://amat.wd1.myworkdayjobs.com/en-US/external/job/Santa-ClaraCA/Summer-2027-Data-Science-Intern--Bachelor-s-Master-s--Santa-Clara--CA-_R2627525"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -14722,7 +14308,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-29T16:38:36.376Z",
+   "PostedAt": "2026-10-28T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "booz allen hamilton|university summer games data scientist intern colorado springs co",
@@ -14731,43 +14317,6 @@
    ],
    "URLs": [
     "https://bah.wd1.myworkdayjobs.com/en-US/bah_jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Micron",
-   "Category": "Enterprise & Consumer Tech",
-   "Tier": 10,
-   "Track": "Data",
-   "Title": "Intern - HBM Data Scientist",
-   "Location": "Richardson, TX",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson-TX/Intern---HBM-Data-Scientist_JR115127",
-   "CanonicalURL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson-TX/Intern---HBM-Data-Scientist_JR115127",
-   "Sources": [
-    "speedyapply AI"
-   ],
-   "PostedAt": "2026-10-28T16:38:36.376Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "micron|intern hbm data scientist",
-   "Locations": [
-    "Richardson, TX"
-   ],
-   "URLs": [
-    "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson-TX/Intern---HBM-Data-Scientist_JR115127"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -14796,7 +14345,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-27T16:38:36.376Z",
+   "PostedAt": "2026-10-26T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "booz allen hamilton|university summer games data scientist intern lexington ma",
@@ -14834,7 +14383,7 @@
     "speedyapply AI",
     "ATS Ashby:skydio"
    ],
-   "PostedAt": "2026-10-27T16:38:36.376Z",
+   "PostedAt": "2026-10-26T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "ashby",
    "Key": "skydio|autonomy engineer intern autonomy infrastructure systems and tools hq",
@@ -14843,43 +14392,6 @@
    ],
    "URLs": [
     "https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb"
-   ],
-   "FirstSeen": "2026-11-03",
-   "New": false
-  },
-  {
-   "Company": "Micron",
-   "Category": "Enterprise & Consumer Tech",
-   "Tier": 10,
-   "Track": "Data",
-   "Title": "Intern - Machine Learning Engineering",
-   "Location": "Richardson, TX",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "",
-   "Undergrad": "unverified",
-   "DegreeEvidence": "",
-   "EducationNote": "",
-   "URL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750",
-   "CanonicalURL": "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750",
-   "Sources": [
-    "speedyapply AI"
-   ],
-   "PostedAt": "2026-10-21T16:38:36.376Z",
-   "Terms": "",
-   "DetailStatus": "html",
-   "Key": "micron|intern machine learning engineering",
-   "Locations": [
-    "Richardson, TX"
-   ],
-   "URLs": [
-    "https://micron.wd1.myworkdayjobs.com/en-US/external/job/Richardson-TX/Intern---Machine-Learning-Engineering_JR114750"
    ],
    "FirstSeen": "2026-11-03",
    "New": false
@@ -14908,7 +14420,7 @@
    "Sources": [
     "speedyapply AI"
    ],
-   "PostedAt": "2026-10-21T16:38:36.376Z",
+   "PostedAt": "2026-10-20T20:55:17.494Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "micron|intern smai probe ai engineer",
@@ -15021,7 +14533,7 @@
    "Sources": [
     "ATS Workday:nvidia/NVIDIAExternalCareerSite"
    ],
-   "PostedAt": "2026-10-29T16:41:16.486Z",
+   "PostedAt": "2026-10-29T20:57:29.065Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "nvidia|performance testing engineering intern",
@@ -15058,7 +14570,7 @@
    "Sources": [
     "ATS Workday:adobe/external_experienced"
    ],
-   "PostedAt": "2026-10-21T16:41:16.486Z",
+   "PostedAt": "2026-10-21T20:57:29.065Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "adobe|intern emerging technology innovation",
@@ -15095,7 +14607,7 @@
    "Sources": [
     "ATS Workday:paypal/jobs"
    ],
-   "PostedAt": "2026-11-05T16:41:16.487Z",
+   "PostedAt": "2026-11-05T20:57:29.065Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "paypal|cybersecurity intern summer",
@@ -15132,7 +14644,7 @@
    "Sources": [
     "ATS Workday:bloomberg/Bloombergindustrygroup_External_Career_Site"
    ],
-   "PostedAt": "2026-11-13T16:41:16.488Z",
+   "PostedAt": "2026-11-13T20:57:29.066Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "bloomberg|engineering intern",
@@ -15143,43 +14655,6 @@
     "https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Engineering-Intern_145704"
    ],
    "FirstSeen": "2026-11-13",
-   "New": false
-  },
-  {
-   "Company": "Bloomberg",
-   "Category": "Big Tech",
-   "Tier": 0,
-   "Track": "Data",
-   "Title": "Data Analyst Intern",
-   "Location": "Arlington, VA - 1801 S Bell (INDG)",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "term dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "yes",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Studying for a bachelor’s degree in data analytics, statistics, computer science, or a related field",
-   "EducationNote": "",
-   "URL": "https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Data-Analyst-Intern_145487",
-   "CanonicalURL": "https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Data-Analyst-Intern_145487",
-   "Sources": [
-    "ATS Workday:bloomberg/Bloombergindustrygroup_External_Career_Site"
-   ],
-   "PostedAt": "2026-11-16T16:41:16.488Z",
-   "Terms": "",
-   "DetailStatus": "workday",
-   "Key": "bloomberg|data analyst intern",
-   "Locations": [
-    "Arlington, VA - 1801 S Bell (INDG)"
-   ],
-   "URLs": [
-    "https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Data-Analyst-Intern_145487"
-   ],
-   "FirstSeen": "2026-11-16",
    "New": false
   },
   {
@@ -15365,7 +14840,7 @@
     "https://jobs.ashbyhq.com/shield/af061c1a-f291-4540-be30-2df5adc22cc5"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "Shield AI",
@@ -15476,6 +14951,43 @@
     "https://jobs.ashbyhq.com/skydio/33f1f123-8cec-4e6a-b125-e8831603a62a"
    ],
    "FirstSeen": "2026-11-17",
+   "New": false
+  },
+  {
+   "Company": "Hudson River Trading",
+   "Category": "Quant & Trading",
+   "Tier": 2,
+   "Track": "Product",
+   "Title": "Internship Program Manager",
+   "Location": "New York, NY, United States",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "term dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "",
+   "Undergrad": "",
+   "DegreeEvidence": "",
+   "EducationNote": "",
+   "URL": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8268234",
+   "CanonicalURL": "https://hudsonrivertrading.com/careers/job/?gh_jid=8268234",
+   "Sources": [
+    "ATS Greenhouse:wehrtyou"
+   ],
+   "PostedAt": "2026-10-21T21:39:11.000Z",
+   "Terms": "",
+   "DetailStatus": "greenhouse",
+   "Key": "hudson river trading|internship program manager",
+   "Locations": [
+    "New York, NY, United States"
+   ],
+   "URLs": [
+    "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8268234"
+   ],
+   "FirstSeen": "2026-11-17",
    "New": true
   },
   {
@@ -15539,7 +15051,7 @@
    "Sources": [
     "ATS Workday:arrowstreetcapital/Campus_Careers"
    ],
-   "PostedAt": "2026-11-11T16:41:16.495Z",
+   "PostedAt": "2026-11-11T20:57:29.070Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "arrowstreet capital|quantitative developer intern summer",
@@ -15613,7 +15125,7 @@
    "Sources": [
     "ATS Workday:barclays/External_Career_Site_Barclays"
    ],
-   "PostedAt": "2026-10-22T16:41:16.502Z",
+   "PostedAt": "2026-10-22T20:57:29.071Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "barclays|private bank and wealth management summer internship programme jersey",
@@ -15650,7 +15162,7 @@
    "Sources": [
     "ATS Workday:synchronyfinancial/careers"
    ],
-   "PostedAt": "2026-11-17T16:41:16.503Z",
+   "PostedAt": "2026-11-17T20:57:29.071Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "synchrony|intern analytics",
@@ -15661,7 +15173,44 @@
     "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Central-Region-Engagement-Hub-IN/Intern--Analytics_2603082"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
+  },
+  {
+   "Company": "Fifth Third",
+   "Category": "Banks & Financial Services",
+   "Tier": 5,
+   "Track": "Finance",
+   "Title": "Summer 2027 Commercial Middle Market Internship - San Jose",
+   "Location": "San Jose, CA",
+   "US": "us",
+   "Bucket": "ask",
+   "Dates": "",
+   "DateNote": "Summer 2027 dates not stated",
+   "Weeks": "",
+   "Evidence": "",
+   "Pay": "",
+   "PayMin": "",
+   "Python": "",
+   "Undergrad": "yes",
+   "DegreeEvidence": "Must be a rising senior (December 2027 or May/June 2028 grad)",
+   "EducationNote": "",
+   "URL": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/San-Jose-CA/Summer-2027-Commercial-Middle-Market-Internship---San-Jose_R72043",
+   "CanonicalURL": "https://fifththird.wd5.myworkdayjobs.com/53careers/job/San-Jose-CA/Summer-2027-Commercial-Middle-Market-Internship---San-Jose_R72043",
+   "Sources": [
+    "ATS Workday:fifththird/53careers"
+   ],
+   "PostedAt": "2026-11-17T20:57:29.071Z",
+   "Terms": "",
+   "DetailStatus": "workday",
+   "Key": "fifth third|summer commercial middle market internship san jose",
+   "Locations": [
+    "San Jose, CA"
+   ],
+   "URLs": [
+    "https://fifththird.wd5.myworkdayjobs.com/53careers/job/San-Jose-CA/Summer-2027-Commercial-Middle-Market-Internship---San-Jose_R72043"
+   ],
+   "FirstSeen": "2026-11-10",
+   "New": false
   },
   {
    "Company": "KeyBank",
@@ -15687,7 +15236,7 @@
    "Sources": [
     "ATS Workday:keybank/External_Career_Site"
    ],
-   "PostedAt": "2026-11-04T16:41:16.503Z",
+   "PostedAt": "2026-11-04T20:57:29.071Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "keybank|summer risk management internship program cleveland",
@@ -15724,7 +15273,7 @@
    "Sources": [
     "ATS Workday:statestreet/Global"
    ],
-   "PostedAt": "2026-11-03T16:41:16.503Z",
+   "PostedAt": "2026-11-03T20:57:29.072Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "state street|state street investment management us wealth summer internship",
@@ -15761,7 +15310,7 @@
    "Sources": [
     "ATS Workday:statestreet/Global"
    ],
-   "PostedAt": "2026-11-04T16:41:16.503Z",
+   "PostedAt": "2026-11-04T20:57:29.072Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "state street|state street investment management us cash client service team summer internship",
@@ -15798,7 +15347,7 @@
    "Sources": [
     "ATS Workday:statestreet/Global"
    ],
-   "PostedAt": "2026-11-04T16:41:16.503Z",
+   "PostedAt": "2026-11-04T20:57:29.072Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "state street|state street investment management credit research summer internship",
@@ -15835,7 +15384,7 @@
    "Sources": [
     "ATS Workday:statestreet/Global"
    ],
-   "PostedAt": "2026-11-04T16:41:16.503Z",
+   "PostedAt": "2026-11-04T20:57:29.072Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "state street|state street investment management global leveraged finance intern summer",
@@ -15872,7 +15421,7 @@
    "Sources": [
     "ATS Workday:statestreet/Global"
    ],
-   "PostedAt": "2026-11-17T16:41:16.503Z",
+   "PostedAt": "2026-11-17T20:57:29.072Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "state street|state street investment management data scientist summer internship",
@@ -15883,7 +15432,7 @@
     "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Data-Scientist---Summer-Internship-2027_R-801213"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "State Street",
@@ -15909,7 +15458,7 @@
    "Sources": [
     "ATS Workday:statestreet/Global"
    ],
-   "PostedAt": "2026-11-17T16:41:16.503Z",
+   "PostedAt": "2026-11-17T20:57:29.072Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "state street|state street global credit finance client strategy summer internship",
@@ -15920,7 +15469,7 @@
     "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Global-Credit-Finance---Client-Strategy---2027-Summer-Internship_R-801224"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "State Street",
@@ -15946,7 +15495,7 @@
    "Sources": [
     "ATS Workday:statestreet/Global"
    ],
-   "PostedAt": "2026-11-17T16:41:16.503Z",
+   "PostedAt": "2026-11-17T20:57:29.072Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "state street|state street investment management client portfolio management summer internship",
@@ -15957,7 +15506,7 @@
     "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management--Client-Portfolio-Management---2027-Summer-Internship_R-801215-1"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "State Street",
@@ -15983,7 +15532,7 @@
    "Sources": [
     "ATS Workday:statestreet/Global"
    ],
-   "PostedAt": "2026-11-17T16:41:16.503Z",
+   "PostedAt": "2026-11-17T20:57:29.072Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "state street|state street investment management investment solutions group summer internship",
@@ -15994,7 +15543,7 @@
     "https://statestreet.wd1.myworkdayjobs.com/Global/job/Boston-Massachusetts/State-Street-Investment-Management---Investment-Solutions-Group---2027-Summer-Internship_R-801219-1"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "Federal Reserve",
@@ -16020,7 +15569,7 @@
    "Sources": [
     "ATS Workday:rb/FRS"
    ],
-   "PostedAt": "2026-11-06T16:41:16.503Z",
+   "PostedAt": "2026-11-06T20:57:29.072Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "federal reserve|summer internship program statistics intern",
@@ -16057,7 +15606,7 @@
    "Sources": [
     "ATS Workday:rb/FRS"
    ],
-   "PostedAt": "2026-10-27T16:41:16.504Z",
+   "PostedAt": "2026-10-27T20:57:29.072Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "federal reserve|summer internship program rein data intern",
@@ -16094,7 +15643,7 @@
    "Sources": [
     "ATS Workday:rb/FRS"
    ],
-   "PostedAt": "2026-11-05T16:41:16.504Z",
+   "PostedAt": "2026-11-05T20:57:29.073Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "federal reserve|summer internship program information security intern",
@@ -16131,7 +15680,7 @@
    "Sources": [
     "ATS Workday:rb/FRS"
    ],
-   "PostedAt": "2026-11-16T16:41:16.504Z",
+   "PostedAt": "2026-11-16T20:57:29.073Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "federal reserve|summer internship program it portfolio analyst intern",
@@ -16168,7 +15717,7 @@
    "Sources": [
     "ATS Workday:rb/FRS"
    ],
-   "PostedAt": "2026-11-17T16:41:16.504Z",
+   "PostedAt": "2026-11-17T20:57:29.073Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "federal reserve|summer internship program business of it analyst intern",
@@ -16179,7 +15728,7 @@
     "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Business-of-IT-Analyst-Intern_R-0000034091"
    ],
    "FirstSeen": "2026-11-17",
-   "New": true
+   "New": false
   },
   {
    "Company": "Federal Reserve",
@@ -16205,7 +15754,7 @@
    "Sources": [
     "ATS Workday:rb/FRS"
    ],
-   "PostedAt": "2026-11-06T16:41:16.504Z",
+   "PostedAt": "2026-11-06T20:57:29.073Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "federal reserve|summer internship program supervision regulation core risk team",
@@ -16216,43 +15765,6 @@
     "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Supervision---Regulation--CORE-Risk-Team-_R-0000033859"
    ],
    "FirstSeen": "2026-11-06",
-   "New": false
-  },
-  {
-   "Company": "S&P Global",
-   "Category": "Banks & Financial Services",
-   "Tier": 5,
-   "Track": "Data",
-   "Title": "Machine Learning Engineer - Summer Intern 2027",
-   "Location": "Cambridge, MA; New York, NY",
-   "US": "us",
-   "Bucket": "ask",
-   "Dates": "",
-   "DateNote": "Summer 2027 dates not stated",
-   "Weeks": "",
-   "Evidence": "",
-   "Pay": "",
-   "PayMin": "",
-   "Python": "yes",
-   "Undergrad": "yes",
-   "DegreeEvidence": "Pursuing a bachelor's degree or higher with relevant classwork or internships in Machine Learning",
-   "EducationNote": "",
-   "URL": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Cambridge-MA/Machine-Learning-Engineer---Summer-Intern-2027_331714-1",
-   "CanonicalURL": "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Cambridge-MA/Machine-Learning-Engineer---Summer-Intern-2027_331714-1",
-   "Sources": [
-    "ATS Workday:spgi/SPGI_Careers"
-   ],
-   "PostedAt": "2026-11-16T16:41:16.504Z",
-   "Terms": "",
-   "DetailStatus": "workday",
-   "Key": "s and p|machine learning engineer summer intern",
-   "Locations": [
-    "Cambridge, MA; New York, NY"
-   ],
-   "URLs": [
-    "https://spgi.wd5.myworkdayjobs.com/SPGI_Careers/job/Cambridge-MA/Machine-Learning-Engineer---Summer-Intern-2027_331714-1"
-   ],
-   "FirstSeen": "2026-11-16",
    "New": false
   },
   {
@@ -16279,7 +15791,7 @@
    "Sources": [
     "ATS Workday:tsys/TSYS"
    ],
-   "PostedAt": "2026-11-16T16:41:16.504Z",
+   "PostedAt": "2026-11-16T20:57:29.073Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "global payments|investor relations and corporate development university intern",
@@ -16390,7 +15902,7 @@
    "Sources": [
     "ATS Workday:travelers/External"
    ],
-   "PostedAt": "2026-10-26T16:41:16.504Z",
+   "PostedAt": "2026-10-26T20:57:29.073Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "travelers|actuarial leadership development program aldp intern",
@@ -16427,7 +15939,7 @@
    "Sources": [
     "ATS Workday:fmr/fidelitycareers"
    ],
-   "PostedAt": "2026-11-12T16:41:16.506Z",
+   "PostedAt": "2026-11-12T20:57:29.074Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "fidelity|strategic advisers research associate summer start",
@@ -16464,7 +15976,7 @@
    "Sources": [
     "ATS Workday:invesco/IVZ"
    ],
-   "PostedAt": "2026-11-05T16:41:16.506Z",
+   "PostedAt": "2026-11-05T20:57:29.074Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "invesco|early career intern digital product management",
@@ -16649,7 +16161,7 @@
    "Sources": [
     "ATS Workday:visa/Visa"
    ],
-   "PostedAt": "2026-10-30T16:41:16.507Z",
+   "PostedAt": "2026-10-30T20:57:29.075Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "visa|risk intern",
@@ -16686,7 +16198,7 @@
    "Sources": [
     "ATS Workday:mastercard/Campus"
    ],
-   "PostedAt": "2026-10-27T16:41:16.507Z",
+   "PostedAt": "2026-10-27T20:57:29.075Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "mastercard|platform engineering intern summer st louis mo us",
@@ -16834,7 +16346,7 @@
    "Sources": [
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-11-11T16:41:16.509Z",
+   "PostedAt": "2026-11-11T20:57:29.078Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|program manager intern summer",
@@ -16871,7 +16383,7 @@
    "Sources": [
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-10-26T16:41:16.509Z",
+   "PostedAt": "2026-10-26T20:57:29.079Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|presales engineering intern summer internship",
@@ -16908,7 +16420,7 @@
    "Sources": [
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-11-06T16:41:16.509Z",
+   "PostedAt": "2026-11-06T20:57:29.079Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|software presales enablement intern summer internship",
@@ -16945,7 +16457,7 @@
    "Sources": [
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-10-20T16:41:16.509Z",
+   "PostedAt": "2026-10-20T20:57:29.079Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|presale systems engineer summer internship",
@@ -16982,7 +16494,7 @@
    "Sources": [
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-11-16T16:41:16.509Z",
+   "PostedAt": "2026-11-16T20:57:29.079Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|coee presales system engineer internship",
@@ -17019,7 +16531,7 @@
    "Sources": [
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-10-26T16:41:16.509Z",
+   "PostedAt": "2026-10-26T20:57:29.079Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|presales systems engineering summer internship",
@@ -17056,7 +16568,7 @@
    "Sources": [
     "ATS Workday:motorolasolutions/Careers"
    ],
-   "PostedAt": "2026-10-26T16:41:16.509Z",
+   "PostedAt": "2026-10-26T20:57:29.079Z",
    "Terms": "",
    "DetailStatus": "workday",
    "Key": "motorola solutions|presales systems engineer summer internship",

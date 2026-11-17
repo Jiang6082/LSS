@@ -1,5 +1,5 @@
 [0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr
-[0s] aggregators: speedyapply_ai=831, speedyapply_swe=848, vanshb03=2431, simplify=5223
+[0s] aggregators: speedyapply_ai=833, speedyapply_swe=831, vanshb03=2427, simplify=5203
 [0s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)
 ATS firms 50/743
 ATS firms 100/743
@@ -15,37 +15,37 @@ ATS firms 550/743
 ATS firms 600/743
 ATS firms 650/743
 ATS firms 700/743
-[160s] ATS: 419 firms with live boards, 647 postings
-[160s] pre-screen: 1553 candidate postings (1612 older than 30 days dropped)
-[160s] detail fetch: 1414 unique postings
-details 50/1414
-details 100/1414
-details 150/1414
-details 200/1414
-details 250/1414
-details 300/1414
-details 350/1414
-details 400/1414
-details 450/1414
-details 500/1414
-details 550/1414
-details 600/1414
-details 650/1414
-details 700/1414
-details 750/1414
-details 800/1414
-details 850/1414
-details 900/1414
-details 950/1414
-details 1000/1414
-details 1050/1414
-details 1100/1414
-details 1150/1414
-details 1200/1414
-details 1250/1414
-details 1300/1414
-details 1350/1414
-details 1400/1414
-[244s] detail results: workday=528, html=286, error=11, ashby=52, jsonld=205, greenhouse=137, eightfold=69, smartrecruiters=51, lever=40, oracle=16, closed=19
-[245s] classified: 692 kept, 268 excluded by dates, 19 closed
-[245s] done: 0 fit, 4 flexible, 444 ask-about-dates
+[132s] ATS: 418 firms with live boards, 654 postings
+[132s] pre-screen: 1548 candidate postings (1603 older than 30 days dropped)
+[132s] detail fetch: 1409 unique postings
+details 50/1409
+details 100/1409
+details 150/1409
+details 200/1409
+details 250/1409
+details 300/1409
+details 350/1409
+details 400/1409
+details 450/1409
+details 500/1409
+details 550/1409
+details 600/1409
+details 650/1409
+details 700/1409
+details 750/1409
+details 800/1409
+details 850/1409
+details 900/1409
+details 950/1409
+details 1000/1409
+details 1050/1409
+details 1100/1409
+details 1150/1409
+details 1200/1409
+details 1250/1409
+details 1300/1409
+details 1350/1409
+details 1400/1409
+[219s] detail results: workday=544, html=266, error=11, ashby=52, jsonld=200, greenhouse=141, eightfold=69, smartrecruiters=51, lever=40, oracle=16, closed=19
+[220s] classified: 671 kept, 271 excluded by dates, 19 closed
+[220s] done: 0 fit, 4 flexible, 431 ask-about-dates
