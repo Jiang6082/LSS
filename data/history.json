@@ -244,7 +244,7 @@
  },
  "tiktok|machine learning engineer intern recommendation": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern, Recommendation",
@@ -261,7 +261,7 @@
  },
  "tiktok|machine learning engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern",
@@ -278,7 +278,7 @@
  },
  "tiktok|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern",
@@ -295,7 +295,7 @@
  },
  "tiktok|machine learning engineer intern search quality": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern - Search Quality",
@@ -465,7 +465,7 @@
  },
  "microsoft|software engineer intern coreai": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Software Engineer Intern, CoreAI",
@@ -473,7 +473,7 @@
  },
  "tiktok|research engineer intern monetization technology business integrity": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Research Engineer Intern - Monetization Technology - Business Integrity",
@@ -481,7 +481,7 @@
  },
  "tiktok|research scientist intern monetization technology business integrity": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Research Scientist Intern - Monetization Technology - Business Integrity",
@@ -543,7 +543,7 @@
  },
  "tiktok|machine learning engineer intern ads signal measurement": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern - Ads Signal & Measurement",
@@ -551,7 +551,7 @@
  },
  "tiktok|machine learning engineer intern performance monetization": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern - Performance Monetization",
@@ -568,7 +568,7 @@
  },
  "tiktok|machine learning engineer intern search ads": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern - Search Ads",
@@ -589,7 +589,8 @@
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern - App Ads and Gaming",
-  "url": "https://lifeattiktok.com/search/7669709472078170373"
+  "url": "https://lifeattiktok.com/search/7669709472078170373",
+  "goneOn": "2026-11-21"
  },
  "tiktok|machine learning engineer intern data search recommendation global e commerce": {
   "firstSeen": "2026-11-03",
@@ -692,7 +693,7 @@
  },
  "tiktok|data scientist intern vod data": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Data Scientist Intern - VOD Data",
@@ -709,7 +710,7 @@
  },
  "tiktok|backend software engineer intern creation platform": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Backend Software Engineer Intern - Creation Platform",
@@ -762,7 +763,7 @@
  },
  "tiktok|software engineer intern media engine": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern - Media Engine",
@@ -788,7 +789,7 @@
  },
  "tiktok|software engineer intern foundation platform": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern - Foundation Platform",
@@ -796,7 +797,7 @@
  },
  "tiktok|fullstack software engineer intern global e commerce": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Fullstack Software Engineer Intern, Global E-Commerce",
@@ -840,7 +841,7 @@
  },
  "tiktok|frontend engineer intern ads interface": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Frontend Engineer Intern - Ads Interface",
@@ -857,7 +858,7 @@
  },
  "tiktok|data engineer intern monetization data": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Data Engineer Intern - Monetization Data",
@@ -865,7 +866,7 @@
  },
  "tiktok|software engineer intern global e commerce search": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern - Global E-commerce-Search",
@@ -963,7 +964,7 @@
  },
  "tiktok|self built engineer intern cdn platform": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Self-Built Engineer Intern - CDN Platform",
@@ -989,7 +990,7 @@
  },
  "tiktok|software engineer intern global payment infra and sre": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern - Global Payment Infra and SRE",
@@ -997,7 +998,7 @@
  },
  "tiktok|software engineer intern global traffic architecture": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern - Global Traffic Architecture",
@@ -1023,7 +1024,7 @@
  },
  "tiktok|data engineer intern data platform global live": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Data Engineer Intern - Data Platform Global Live",
@@ -1031,7 +1032,7 @@
  },
  "tiktok|software engineer intern global payment": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern - Global Payment",
@@ -1057,7 +1058,7 @@
  },
  "tiktok|software engineer intern tiktok search data infra": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern - TikTok Search Data Infra",
@@ -1074,7 +1075,7 @@
  },
  "nvidia|software engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "NVIDIA",
   "title": "Software Engineering Intern",
@@ -1100,7 +1101,7 @@
  },
  "tiktok|software engineer intern recommendation infra performance efficiency": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern - Recommendation Infra - Performance Efficiency",
@@ -1108,7 +1109,7 @@
  },
  "tiktok|software engineer intern recommendation architecture feeds infrastructure": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern - Recommendation Architecture - Feeds Infrastructure",
@@ -1449,7 +1450,7 @@
  },
  "tiktok|software engineer intern relational database": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern - Relational Database",
@@ -1475,7 +1476,7 @@
  },
  "booz allen hamilton|data scientist intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Booz Allen Hamilton",
   "title": "Data Scientist Intern",
@@ -1492,7 +1493,7 @@
  },
  "tesla|physics engine development engineer intern optimus": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Tesla",
   "title": "Physics Engine Development Engineer Intern - Optimus",
@@ -1545,7 +1546,7 @@
  },
  "tiktok|multi cloud cdn scheduling platform engineer intern cdn platform": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Multi-Cloud CDN Scheduling Platform Engineer Intern, CDN Platform",
@@ -1823,7 +1824,7 @@
  },
  "rtx|software engineer co op": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "Software Engineer Co-op",
@@ -1912,7 +1913,7 @@
  },
  "shield ai|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Shield AI",
   "title": "Software Engineer Intern",
@@ -2199,7 +2200,7 @@
  },
  "tyler|software development intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Tyler Technologies",
   "title": "Software Development Intern",
@@ -2612,7 +2613,7 @@
  },
  "keysight|r d software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Keysight",
   "title": "R&D Software Engineer Intern",
@@ -2926,7 +2927,7 @@
  },
  "micron|it software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Micron",
   "title": "IT Software Engineer Intern",
@@ -3123,7 +3124,7 @@
  },
  "kla|computer vision machine learning intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Computer Vision/Machine Learning Intern",
@@ -3203,7 +3204,7 @@
  },
  "tiktok|machine learning engineer intern e commerce recommendation mall": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Mall",
@@ -3463,7 +3464,7 @@
  },
  "microsoft|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Software Engineer Intern",
@@ -3507,7 +3508,7 @@
  },
  "l3harris|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "L3Harris",
   "title": "Software Engineer Intern",
@@ -3555,7 +3556,8 @@
   "bucket": "ask",
   "company": "EQT",
   "title": "Midstream Services Intern",
-  "url": "https://job-boards.greenhouse.io/eqtcorporation/jobs/5459572008"
+  "url": "https://job-boards.greenhouse.io/eqtcorporation/jobs/5459572008",
+  "goneOn": "2026-11-21"
  },
  "l3harris|image processing engineer intern": {
   "firstSeen": "2026-11-03",
@@ -3563,7 +3565,8 @@
   "bucket": "ask",
   "company": "L3Harris",
   "title": "Image Processing Engineer Intern",
-  "url": "https://jobs.l3harris.com/job/Tulsa-Image-Processing-Engineer-Intern-OK-74115/1442671200/?ats=successfactors"
+  "url": "https://jobs.l3harris.com/job/Tulsa-Image-Processing-Engineer-Intern-OK-74115/1442671200/?ats=successfactors",
+  "goneOn": "2026-11-21"
  },
  "meta|research scientist intern central applied science": {
   "firstSeen": "2026-11-03",
@@ -3576,7 +3579,7 @@
  },
  "skydio|frontend software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Skydio",
   "title": "Frontend Software Engineer Intern",
@@ -3584,7 +3587,7 @@
  },
  "amazon|undergrad software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Amazon",
   "title": "Undergrad Software Engineer Intern",
@@ -3655,7 +3658,7 @@
  },
  "databricks|data science intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Databricks",
   "title": "Data Science Intern",
@@ -3663,7 +3666,7 @@
  },
  "palantir|forward deployed software engineer intern warp speed": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Palantir",
   "title": "Forward Deployed Software Engineer Intern - Warp Speed",
@@ -3797,7 +3800,7 @@
  },
  "kla|software engineer intern ai ml for diagnostics calibration": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Software Engineer Intern - AI/ML for Diagnostics & Calibration",
@@ -3859,7 +3862,7 @@
  },
  "dell|data science intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Dell",
   "title": "Data Science Intern",
@@ -3867,7 +3870,7 @@
  },
  "skydio|autonomy engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Skydio",
   "title": "Autonomy Engineer Intern",
@@ -3875,7 +3878,7 @@
  },
  "skydio|autonomy engineer intern deep learning computer vision": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Skydio",
   "title": "Autonomy Engineer Intern - Deep Learning / Computer Vision",
@@ -3883,7 +3886,7 @@
  },
  "hewlett packard enterprise|ai ml developer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Hewlett Packard Enterprise",
   "title": "AI/ML Developer Intern",
@@ -3900,7 +3903,7 @@
  },
  "l3harris|software engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "L3Harris",
   "title": "Software Engineering Intern",
@@ -3944,7 +3947,7 @@
  },
  "booz allen hamilton|summer games data scientist intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Booz Allen Hamilton",
   "title": "2027 Summer Games Data Scientist Intern",
@@ -3952,7 +3955,7 @@
  },
  "cohesity|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Cohesity",
   "title": "Software Engineer Intern",
@@ -3996,7 +3999,7 @@
  },
  "eqt|ai intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "EQT",
   "title": "AI Intern",
@@ -4026,7 +4029,8 @@
   "bucket": "ask",
   "company": "Federal Reserve",
   "title": "REIN Data Intern",
-  "url": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---REIN-Data-Intern_R-0000033089"
+  "url": "https://rb.wd5.myworkdayjobs.com/en-US/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---REIN-Data-Intern_R-0000033089",
+  "goneOn": "2026-11-21"
  },
  "dominion energy|power systems time series analytics intern": {
   "firstSeen": "2026-11-03",
@@ -4075,7 +4079,7 @@
  },
  "keysight|application development intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Keysight",
   "title": "Application Development Intern",
@@ -4083,7 +4087,7 @@
  },
  "emerson|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Emerson",
   "title": "Software Engineer Intern",
@@ -4100,7 +4104,7 @@
  },
  "micron|nand storage strategic roadmap planning intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Micron",
   "title": "NAND Storage Strategic Roadmap Planning Intern",
@@ -4117,7 +4121,7 @@
  },
  "micron|cmbu product management intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Micron",
   "title": "CMBU Product Management Intern",
@@ -4161,7 +4165,7 @@
  },
  "mercor|research engineer intern multiple teams": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Mercor",
   "title": "Research Engineer Intern - Multiple Teams",
@@ -4169,7 +4173,7 @@
  },
  "mercor|research engineer intern benchmarking": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Mercor",
   "title": "Research Engineer Intern - Benchmarking",
@@ -4204,7 +4208,7 @@
  },
  "applied materials|business intelligence analyst intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Applied Materials",
   "title": "Business Intelligence Analyst Intern",
@@ -4212,7 +4216,7 @@
  },
  "applied materials|data scientist intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Applied Materials",
   "title": "Data Scientist Intern",
@@ -4265,7 +4269,7 @@
  },
  "kla|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Software Engineer Intern",
@@ -4273,7 +4277,7 @@
  },
  "tesla|data engineer intern energy": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Tesla",
   "title": "Data Engineer Intern - Energy",
@@ -4299,7 +4303,7 @@
  },
  "kla|software intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Software Intern",
@@ -4343,7 +4347,7 @@
  },
  "danaher|application integration developer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Danaher",
   "title": "Application Integration Developer Intern",
@@ -4351,7 +4355,7 @@
  },
  "general motors|ai ml engineer intern autonomous vehicles": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Motors",
   "title": "AI/ML Engineer Intern - Autonomous Vehicles",
@@ -4395,7 +4399,7 @@
  },
  "cloudflare|product manager intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "flex",
   "company": "Cloudflare",
   "title": "Product Manager Intern",
@@ -4403,7 +4407,7 @@
  },
  "microsoft|applied scientist intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Applied Scientist Intern",
@@ -4501,7 +4505,7 @@
  },
  "intercontinental exchange|software engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Software Engineering Intern",
@@ -4509,7 +4513,7 @@
  },
  "intercontinental exchange|integration intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Integration Intern",
@@ -4517,7 +4521,7 @@
  },
  "intercontinental exchange|index analyst intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Index Analyst Intern",
@@ -4534,7 +4538,7 @@
  },
  "intercontinental exchange|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Software Engineer Intern",
@@ -4578,7 +4582,7 @@
  },
  "intercontinental exchange|trading system development intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Trading System Development Intern",
@@ -4604,7 +4608,7 @@
  },
  "intercontinental exchange|regulatory products intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Regulatory Products Intern",
@@ -4684,7 +4688,7 @@
  },
  "paccar|ai driven vehicle definition intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PACCAR",
   "title": "AI-Driven Vehicle Definition Intern",
@@ -4980,7 +4984,7 @@
  },
  "microsoft|software engineer intern security identity": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Software Engineer Intern, Security & Identity",
@@ -5024,7 +5028,7 @@
  },
  "microsoft|product manager intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Product Manager Intern",
@@ -5423,7 +5427,8 @@
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Security Research Intern",
-  "url": "https://apply.careers.microsoft.com/careers/job/1970393557044769"
+  "url": "https://apply.careers.microsoft.com/careers/job/1970393557044769",
+  "goneOn": "2026-11-21"
  },
  "amazon|undergrad software engineering intern": {
   "firstSeen": "2026-11-03",
@@ -5431,11 +5436,12 @@
   "bucket": "ask",
   "company": "Amazon",
   "title": "Undergrad Software Engineering Intern",
-  "url": "https://job-boards.greenhouse.io/twitch/jobs/8886748002"
+  "url": "https://job-boards.greenhouse.io/twitch/jobs/8886748002",
+  "goneOn": "2026-11-21"
  },
  "rivian|software engineering intern vehicle controls": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rivian",
   "title": "Software Engineering Intern, Vehicle Controls",
@@ -5452,7 +5458,7 @@
  },
  "rivian|software engineering intern connected systems": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rivian",
   "title": "Software Engineering Intern, Connected Systems",
@@ -5460,7 +5466,7 @@
  },
  "rivian|data engineering intern ai analytics": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rivian",
   "title": "Data Engineering Intern, AI & Analytics",
@@ -5504,7 +5510,7 @@
  },
  "rivian|software engineering intern applications": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rivian",
   "title": "Software Engineering Intern, Applications",
@@ -5521,7 +5527,7 @@
  },
  "kla|software engineering intern ai ml for diagnostics calibration": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Software Engineering Intern, AI/ML for Diagnostics & Calibration",
@@ -5529,7 +5535,7 @@
  },
  "kla|software engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Software Engineering Intern",
@@ -5537,7 +5543,7 @@
  },
  "skydio|autonomy engineer intern computer vision deep learning": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Skydio",
   "title": "Autonomy Engineer Intern, Computer Vision / Deep Learning",
@@ -5545,7 +5551,7 @@
  },
  "skydio|process engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Skydio",
   "title": "Process Engineering Intern",
@@ -5836,7 +5842,8 @@
   "bucket": "ask",
   "company": "Skydio",
   "title": "Autonomy Engineer Intern, Autonomy Infrastructure, Systems and Tools",
-  "url": "https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb"
+  "url": "https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
+  "goneOn": "2026-11-21"
  },
  "zipline|software systems validation intern": {
   "firstSeen": "2026-11-03",
@@ -5867,7 +5874,7 @@
  },
  "cohesity|software engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Cohesity",
   "title": "Software Engineering Intern",
@@ -5893,7 +5900,7 @@
  },
  "mercor|research engineer intern environments data and post training": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Mercor",
   "title": "Research Engineer Intern, Environments, Data and Post-Training",
@@ -5928,7 +5935,7 @@
  },
  "l3harris|information security systems engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "L3Harris",
   "title": "Information Security Systems Engineer Intern",
@@ -5954,7 +5961,7 @@
  },
  "microsoft|applied scientist intern turing": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Applied Scientist Intern, Turing",
@@ -5980,7 +5987,7 @@
  },
  "nvidia|ai systems software engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "NVIDIA",
   "title": "AI Systems Software Engineering Intern",
@@ -5997,7 +6004,7 @@
  },
  "emerson|software engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Emerson",
   "title": "Software Engineering Intern",
@@ -6005,7 +6012,7 @@
  },
  "gcm grosvenor|cybersecurity intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "GCM Grosvenor",
   "title": "Cybersecurity Intern",
@@ -6031,7 +6038,7 @@
  },
  "verition|ai associate intern equity long short": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Verition",
   "title": "AI Associate Intern, Equity Long/Short",
@@ -6039,7 +6046,7 @@
  },
  "nvidia|deep learning intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "NVIDIA",
   "title": "Deep Learning Intern",
@@ -6056,7 +6063,7 @@
  },
  "general dynamics|devops engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "DevOps Engineer Intern",
@@ -6064,7 +6071,7 @@
  },
  "intercontinental exchange|software developer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Software Developer Intern",
@@ -6072,7 +6079,7 @@
  },
  "intercontinental exchange|software development engineer in test intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Software Development Engineer in Test Intern",
@@ -6080,7 +6087,7 @@
  },
  "intercontinental exchange|cybersecurity architect intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Cybersecurity Architect Intern",
@@ -6088,7 +6095,7 @@
  },
  "ziprecruiter|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ZipRecruiter",
   "title": "Software Engineer Intern",
@@ -6096,7 +6103,7 @@
  },
  "tiktok|student researcher intern seed model ai foundation model infrastructure": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Student Researcher Intern, Seed Model - AI Foundation Model Infrastructure",
@@ -6104,7 +6111,7 @@
  },
  "tiktok|student researcher intern seed model speech": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Student Researcher Intern, Seed Model - Speech",
@@ -6112,7 +6119,7 @@
  },
  "tiktok|student researcher intern seed model llm": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Student Researcher Intern, Seed Model - LLM",
@@ -6120,7 +6127,7 @@
  },
  "tiktok|machine learning engineer intern aml engine orchestration": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern, AML-Engine-Orchestration",
@@ -6128,7 +6135,7 @@
  },
  "tiktok|site reliability engineer intern data infra": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Site Reliability Engineer Intern, Data Infra",
@@ -6136,7 +6143,7 @@
  },
  "tiktok|software engineer intern traffic infrastructure": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern, Traffic Infrastructure",
@@ -6144,7 +6151,7 @@
  },
  "tiktok|visual generation multimodal evaluation machine learning engineer intern aml ark us": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern, AML-Ark-US",
@@ -6152,7 +6159,7 @@
  },
  "tiktok|agent evaluation evolution machine learning engineer intern aml ark us": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Agent Evaluation & Evolution Machine Learning Engineer Intern, AML-Ark-US",
@@ -6160,7 +6167,7 @@
  },
  "tiktok|software engineer project intern developer infrastructure": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Project Intern, Developer Infrastructure",
@@ -6168,7 +6175,7 @@
  },
  "tiktok|data lake infrastructure data analytics research engineer intern aml ark us": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Data Lake Infrastructure & Data Analytics Research Engineer Intern, AML-Ark-US",
@@ -6176,7 +6183,7 @@
  },
  "tiktok|software engineer intern aml engine orchestration": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern, AML-Engine-Orchestration",
@@ -6184,7 +6191,7 @@
  },
  "tiktok|software engineer intern global payment risk compliance": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern, Global Payment - Risk & Compliance",
@@ -6192,7 +6199,7 @@
  },
  "tiktok|ai infrastructure engineer intern compute efficiency scheduling": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "AI Infrastructure Engineer Intern, Compute Efficiency & Scheduling",
@@ -6200,7 +6207,7 @@
  },
  "tiktok|network software development engineer intern network observation": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Network Software Development Engineer Intern, Network Observation",
@@ -6208,7 +6215,7 @@
  },
  "tiktok|network software development engineer intern network switch": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Network Software Development Engineer Intern, Network Switch",
@@ -6216,7 +6223,7 @@
  },
  "tiktok|machine learning engineer project intern security data": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Project Intern, Security-Data",
@@ -6224,7 +6231,7 @@
  },
  "tiktok|security software engineer project intern network security": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Security Software Engineer Project Intern, Network Security",
@@ -6232,7 +6239,7 @@
  },
  "tiktok|software engineer project intern security data": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Project Intern, Security-Data",
@@ -6276,7 +6283,7 @@
  },
  "intuit|software engineering intern full stack": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intuit",
   "title": "Software Engineering Intern, Full Stack",
@@ -6284,7 +6291,7 @@
  },
  "tiktok|student researcher intern seed model multimodal interaction world model": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Student Researcher Intern, Seed Model: Multimodal Interaction & World Model",
@@ -6292,7 +6299,7 @@
  },
  "tiktok|backend development engineer intern infrastructure platform delivery": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Backend Development Engineer Intern, Infrastructure Platform Delivery",
@@ -6300,7 +6307,7 @@
  },
  "tiktok|software development engineer intern network automation": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Development Engineer Intern, Network Automation",
@@ -6317,7 +6324,7 @@
  },
  "tiktok|data science intern tiktok integrity and safety": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Data Science Intern, TikTok Integrity and Safety",
@@ -6325,7 +6332,7 @@
  },
  "tiktok|machine learning mlops intern global sre": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning MLOps Intern, Global SRE",
@@ -6333,7 +6340,7 @@
  },
  "tiktok|research engineer intern agentic systems ai infrastructure tiktok generalized arch": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Research Engineer Intern, Agentic Systems & AI Infrastructure - TikTok-Generalized Arch",
@@ -6341,7 +6348,7 @@
  },
  "tiktok|ml infra engineer intern ads infra": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "ML Infra Engineer Intern, Ads Infra",
@@ -6349,7 +6356,7 @@
  },
  "tiktok|machine learning engineer intern commerce ads": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern, Commerce Ads",
@@ -6357,7 +6364,7 @@
  },
  "tiktok|software engineer intern tiktok ai search visual search infra team": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern, TikTok AI Search & Visual Search Infra Team",
@@ -6365,7 +6372,7 @@
  },
  "tiktok|data engineering project intern ads targeting": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Data Engineering Project Intern, Ads Targeting",
@@ -6373,7 +6380,7 @@
  },
  "tiktok|machine learning engineer intern tiktok data search local service": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern, TikTok-Data-Search-Local Service",
@@ -6381,7 +6388,7 @@
  },
  "tiktok|data engineer intern data platform tiktok bp": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Data Engineer Intern, Data Platform TikTok BP",
@@ -6389,7 +6396,7 @@
  },
  "tiktok|data scientist project intern tiktok integrity and safety": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Data Scientist Project Intern, TikTok Integrity and Safety",
@@ -6397,7 +6404,7 @@
  },
  "tiktok|machine learning engineer intern tiktok data search basic ranking": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern, TikTok-Data-Search-Basic Ranking",
@@ -6405,7 +6412,7 @@
  },
  "tiktok|recommendation architecture ai ml infrastructure engineer intern data arch tiktok live": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Recommendation Architecture AI/ML Infrastructure Engineer Intern, Data-Arch-TikTok Live",
@@ -6422,7 +6429,7 @@
  },
  "tiktok|data science project intern advertisement": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Data Science Project Intern, Advertisement",
@@ -6430,7 +6437,7 @@
  },
  "tiktok|machine learning engineer intern recommendation global e commerce": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern, Recommendation Global E-Commerce",
@@ -6438,7 +6445,7 @@
  },
  "tiktok|software engineer intern ads infrastructure": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Intern, Ads Infrastructure",
@@ -6446,7 +6453,7 @@
  },
  "tiktok|machine learning engineer intern global e commerce search": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern, Global E-Commerce Search",
@@ -6458,7 +6465,8 @@
   "bucket": "ask",
   "company": "TikTok",
   "title": "AI Software Engineer Project Intern, Transaction Platform",
-  "url": "https://lifeattiktok.com/search/7646621925436131637"
+  "url": "https://lifeattiktok.com/search/7646621925436131637",
+  "goneOn": "2026-11-21"
  },
  "tiktok|software engineer project intern recommendation infrastructure video social": {
   "firstSeen": "2026-11-03",
@@ -6471,7 +6479,7 @@
  },
  "tiktok|software engineer project intern content ai infrastructure": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Software Engineer Project Intern, Content AI Infrastructure",
@@ -6479,7 +6487,7 @@
  },
  "siemens|strategic student program digital enterprise software applications intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Siemens",
   "title": "Strategic Student Program Digital Enterprise Software Applications Intern",
@@ -6487,7 +6495,7 @@
  },
  "tiktok|student researcher intern seed model vision": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Student Researcher Intern, Seed Model - Vision",
@@ -6549,7 +6557,7 @@
  },
  "tesla|software engineering intern people products": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Tesla",
   "title": "Software Engineering Intern, People Products",
@@ -6557,7 +6565,7 @@
  },
  "micron|system engineer intern hbm": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Micron",
   "title": "System Engineer Intern, HBM",
@@ -6565,7 +6573,7 @@
  },
  "rtx|software engineering co op ags": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "Software Engineering Co-op, AGS",
@@ -6573,7 +6581,7 @@
  },
  "rtx|cyber research intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "Cyber Research Intern",
@@ -6581,7 +6589,7 @@
  },
  "rtx|software engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "Software Engineering Intern",
@@ -6589,7 +6597,7 @@
  },
  "rtx|systems engineer intern mission sensor manager": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "Systems Engineer Intern, Mission Sensor Manager",
@@ -6597,7 +6605,7 @@
  },
  "rtx|systems engineer co op": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "Systems Engineer Co-op",
@@ -6632,7 +6640,7 @@
  },
  "microsoft|software engineer security identity intern opportunities for university students redmond": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond",
@@ -6649,7 +6657,7 @@
  },
  "rivian|software engineering intern applications summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rivian",
   "title": "Software Engineering Intern - Applications - Summer 2027",
@@ -6657,7 +6665,7 @@
  },
  "rivian|software engineering intern vehicle controls summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rivian",
   "title": "Software Engineering Intern - Vehicle Controls - Summer 2027",
@@ -6674,7 +6682,7 @@
  },
  "rivian|software engineering intern connected systems summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rivian",
   "title": "Software Engineering Intern - Connected Systems - Summer 2027",
@@ -6686,11 +6694,12 @@
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Cambridge",
-  "url": "https://apply.careers.microsoft.com/careers/job/1970393557044765"
+  "url": "https://apply.careers.microsoft.com/careers/job/1970393557044765",
+  "goneOn": "2026-11-21"
  },
  "salesforce|summer intern software engineer security government": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Salesforce",
   "title": "Summer 2027 Intern - Software Engineer - Security/Government",
@@ -6734,7 +6743,7 @@
  },
  "nvidia|nvidia internships software engineering": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "NVIDIA",
   "title": "NVIDIA 2027 Internships: Software Engineering",
@@ -6742,7 +6751,7 @@
  },
  "nvidia|nvidia internships systems software engineering": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "NVIDIA",
   "title": "NVIDIA 2027 Internships: Systems Software Engineering",
@@ -6822,7 +6831,7 @@
  },
  "danaher|intern application integration developer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Danaher",
   "title": "Intern - Application Integration Developer",
@@ -6830,7 +6839,7 @@
  },
  "rtx|software engineering intern summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "Software Engineering Intern - Summer 2027",
@@ -6919,7 +6928,7 @@
  },
  "cohesity|software engineering intern summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Cohesity",
   "title": "Software Engineering Intern - Summer 2027",
@@ -6945,7 +6954,7 @@
  },
  "trimble|hardware software testing intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Trimble",
   "title": "Hardware/Software Testing Intern",
@@ -6953,11 +6962,11 @@
  },
  "trimble|software engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Trimble",
   "title": "Software Engineering Intern",
-  "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---TN-Knoxville/Software-Engineering-Intern_R58120"
+  "url": "https://trimble.wd1.myworkdayjobs.com/en-US/trimblecareers/job/US---CO-Westminster/Software-Engineering-Intern_R57676"
  },
  "point72|summer internship software engineer": {
   "firstSeen": "2026-11-03",
@@ -7186,7 +7195,7 @@
  },
  "western digital|summer intern software engineering": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Western Digital",
   "title": "Summer 2027 Intern - Software Engineering",
@@ -7212,7 +7221,7 @@
  },
  "rivian|data engineering intern ai analytics summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rivian",
   "title": "Data Engineering Intern - AI & Analytics - Summer 2027",
@@ -7310,7 +7319,7 @@
  },
  "nvidia|nvidia internships deep learning computer architecture": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "NVIDIA",
   "title": "NVIDIA 2027 Internships: Deep Learning Computer Architecture",
@@ -7318,7 +7327,7 @@
  },
  "nvidia|nvidia internships deep learning": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "NVIDIA",
   "title": "NVIDIA 2027 Internships: Deep Learning",
@@ -7461,7 +7470,7 @@
  },
  "general motors|summer intern ai ml engineer autonomous vehicles": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Motors",
   "title": "2027 Summer Intern - AI/ML Engineer - Autonomous Vehicles",
@@ -7478,7 +7487,7 @@
  },
  "applied materials|summer data scientist intern bachelor s austin tx": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Applied Materials",
   "title": "Summer 2027 Data Scientist Intern -Bachelor's - Austin - TX",
@@ -7486,7 +7495,7 @@
  },
  "booz allen hamilton|university summer games data scientist intern colorado springs co": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Booz Allen Hamilton",
   "title": "University - 2027 Summer Games Data Scientist Intern - Colorado Springs - CO",
@@ -7539,7 +7548,7 @@
  },
  "booz allen hamilton|university summer games data scientist intern lexington ma": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Booz Allen Hamilton",
   "title": "University - 2027 Summer Games Data Scientist Intern - Lexington - MA",
@@ -7551,7 +7560,8 @@
   "bucket": "ask",
   "company": "Skydio",
   "title": "Autonomy Engineer Intern - Autonomy Infrastructure - Systems and Tools - 2027 - HQ",
-  "url": "https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb"
+  "url": "https://jobs.ashbyhq.com/skydio/ec82eb16-a5b4-46e7-827a-326b33d7d2cb",
+  "goneOn": "2026-11-21"
  },
  "anduril|finance data analyst intern": {
   "firstSeen": "2026-11-03",
@@ -7780,7 +7790,7 @@
  },
  "amazon|network development engineer intern summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "flex",
   "company": "Amazon",
   "title": "Network Development Engineer Intern, 2027 Summer",
@@ -7788,7 +7798,7 @@
  },
  "amazon|associate engagement manager intern national security aws professional services": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Amazon",
   "title": "Associate Engagement Manager Intern- National Security, AWS Professional Services",
@@ -7850,7 +7860,7 @@
  },
  "nvidia|performance testing engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "NVIDIA",
   "title": "Performance Testing Engineering Intern - 2027",
@@ -8245,7 +8255,7 @@
  },
  "man|systematic fast trading intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Man Group",
   "title": "Systematic Fast Trading Intern",
@@ -8437,7 +8447,8 @@
   "bucket": "ask",
   "company": "Barclays",
   "title": "Private Bank and Wealth Management Summer Internship Programme 2027 Jersey",
-  "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Jersey-5-6-Esplanade/Private-Bank-and-Wealth-Management-Summer-Internship-Programme-2027-Jersey_JR-0000125565"
+  "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Jersey-5-6-Esplanade/Private-Bank-and-Wealth-Management-Summer-Internship-Programme-2027-Jersey_JR-0000125565",
+  "goneOn": "2026-11-21"
  },
  "william blair|working in technology wit platform engineering summer": {
   "firstSeen": "2026-11-03",
@@ -8490,7 +8501,8 @@
   "bucket": "ask",
   "company": "Federal Reserve",
   "title": "2027 Summer Internship Program - REIN Data Intern",
-  "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---REIN-Data-Intern_R-0000033089"
+  "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---REIN-Data-Intern_R-0000033089",
+  "goneOn": "2026-11-21"
  },
  "federal reserve|summer internship program it asset management intern": {
   "firstSeen": "2026-11-03",
@@ -8647,7 +8659,7 @@
  },
  "gcm grosvenor|cybersecurity summer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "GCM Grosvenor",
   "title": "2027 Cybersecurity Summer Intern",
@@ -8655,7 +8667,7 @@
  },
  "visa|risk intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Visa",
   "title": "Risk Intern",
@@ -8726,7 +8738,7 @@
  },
  "cloudflare|product manager intern austin tx": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "flex",
   "company": "Cloudflare",
   "title": "Product Manager Intern (2027) - Austin, TX",
@@ -8752,7 +8764,7 @@
  },
  "motorola solutions|program manager intern summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Motorola Solutions",
   "title": "Program Manager Intern - Summer 2027",
@@ -8823,7 +8835,7 @@
  },
  "motorola solutions|coee presales system engineer internship": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Motorola Solutions",
   "title": "COEE Presales System Engineer (2027 Internship)",
@@ -8840,7 +8852,7 @@
  },
  "motorola solutions|presales systems engineer summer internship": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Motorola Solutions",
   "title": "Presales Systems Engineer - Summer 2027 Internship",
@@ -9064,7 +9076,7 @@
  },
  "navy federal|data analytics intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Navy Federal",
   "title": "Data Analytics Intern",
@@ -9072,7 +9084,7 @@
  },
  "copart|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Copart",
   "title": "Software Engineer Intern",
@@ -9080,7 +9092,7 @@
  },
  "ptc|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PTC",
   "title": "Software Engineer Intern",
@@ -9097,7 +9109,7 @@
  },
  "asml|imaging product engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ASML",
   "title": "Imaging Product Engineer Intern",
@@ -9123,7 +9135,7 @@
  },
  "ptc|arena engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PTC",
   "title": "Arena Engineering Intern",
@@ -9158,7 +9170,7 @@
  },
  "asml|application software qa engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ASML",
   "title": "Application Software QA Engineer Intern",
@@ -9166,7 +9178,7 @@
  },
  "asml|platform software engineer in test intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ASML",
   "title": "Platform Software Engineer In Test Intern",
@@ -9210,7 +9222,7 @@
  },
  "copart|vulnerability management engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Copart",
   "title": "Vulnerability Management Engineering Intern",
@@ -9218,7 +9230,7 @@
  },
  "paccar|data engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PACCAR",
   "title": "Data Engineer Intern",
@@ -9226,7 +9238,7 @@
  },
  "asml|software development engineer in test intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ASML",
   "title": "Software Development Engineer in Test Intern",
@@ -9234,7 +9246,7 @@
  },
  "nintendo|software engineer intern graphics": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nintendo",
   "title": "Software Engineer Intern - Graphics",
@@ -9242,7 +9254,7 @@
  },
  "nintendo|software engineer intern cpu debugger": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nintendo",
   "title": "Software Engineer Intern, CPU Debugger",
@@ -9250,7 +9262,7 @@
  },
  "nintendo|software engineer intern cpu profiler": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nintendo",
   "title": "Software Engineer Intern - CPU Profiler",
@@ -9258,7 +9270,7 @@
  },
  "nintendo|software engineer intern devops": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nintendo",
   "title": "Software Engineer Intern, DevOps",
@@ -9266,7 +9278,7 @@
  },
  "nintendo|software engineer intern audio": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nintendo",
   "title": "Software Engineer Intern - Audio",
@@ -9274,7 +9286,7 @@
  },
  "nintendo|software engineer intern platform security": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nintendo",
   "title": "Software Engineer Intern - Platform Security",
@@ -9282,7 +9294,7 @@
  },
  "nintendo|software engineer intern connectivity": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nintendo",
   "title": "Software Engineer Intern - Connectivity",
@@ -9290,7 +9302,7 @@
  },
  "nintendo|software engineer intern performance tools": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nintendo",
   "title": "Software Engineer Intern - Performance Tools",
@@ -9298,7 +9310,7 @@
  },
  "arrowstreet capital|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Arrowstreet Capital",
   "title": "Software Engineer Intern",
@@ -9351,7 +9363,7 @@
  },
  "asml|internship software development engineer in test": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ASML",
   "title": "Internship- Software Development Engineer in Test",
@@ -9359,7 +9371,7 @@
  },
  "ptc|onshape software engineer intern summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PTC",
   "title": "Onshape Software Engineer Intern - Summer 2027",
@@ -9376,7 +9388,7 @@
  },
  "copart|software engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Copart",
   "title": "Software Engineering Intern",
@@ -9492,7 +9504,7 @@
  },
  "nintendo|intern software engineer devops ntd": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nintendo",
   "title": "Intern - Software Engineer, DevOps (NTD)",
@@ -9747,7 +9759,8 @@
   "bucket": "ask",
   "company": "John Deere",
   "title": "Software Engineer Student Intern - Product Engineering",
-  "url": "https://johndeere.eightfold.ai/careers/job/137483990019"
+  "url": "https://johndeere.eightfold.ai/careers/job/137483990019",
+  "goneOn": "2026-11-21"
  },
  "abb|power bi intern": {
   "firstSeen": "2026-11-03",
@@ -9805,7 +9818,7 @@
  },
  "siemens|python backend developer intern energy flexibility platform": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Siemens",
   "title": "Python Backend Developer Intern - Energy Flexibility Platform",
@@ -9813,7 +9826,7 @@
  },
  "zebra|product management intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Zebra Technologies",
   "title": "Product Management Intern",
@@ -9875,7 +9888,7 @@
  },
  "kla|software engineer intern ai ml": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Software Engineer Intern - AI/ML",
@@ -9883,7 +9896,7 @@
  },
  "samsung|ai application engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsung",
   "title": "AI Application Engineer Intern",
@@ -9954,7 +9967,7 @@
  },
  "crowe|cybersecurity intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Crowe",
   "title": "Cybersecurity Intern",
@@ -9962,7 +9975,7 @@
  },
  "lockheed martin|software engineer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lockheed Martin",
   "title": "Software Engineer Intern",
@@ -9979,7 +9992,7 @@
  },
  "mitre|trustworthy ai intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "MITRE",
   "title": "Trustworthy AI Intern",
@@ -9987,7 +10000,7 @@
  },
  "chubb|technology intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Chubb",
   "title": "Technology Intern",
@@ -10004,7 +10017,7 @@
  },
  "microsoft|first year explore program engineering intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Microsoft",
   "title": "First-Year Explore Program Engineering Intern",
@@ -10093,7 +10106,7 @@
  },
  "caci|cleared software engineer intern summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "CACI",
   "title": "Cleared Software Engineer Intern - Summer 2027",
@@ -10110,7 +10123,7 @@
  },
  "lawrence livermore national laboratory|computing undergraduate student intern devops internship program summer": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lawrence Livermore National Laboratory",
   "title": "Computing Undergraduate Student Intern: DevOps Internship Program - Summer 2027",
@@ -10352,7 +10365,7 @@
  },
  "state street|state street investment management us wealth summer internship": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street Investment Management - US Wealth - 2027 Summer Internship",
@@ -10432,7 +10445,7 @@
  },
  "travelers|actuarial leadership development program aldp intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Travelers",
   "title": "Actuarial Leadership Development Program (ALDP) Intern",
@@ -10458,7 +10471,7 @@
  },
  "mastercard|platform engineering intern summer st louis mo us": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Mastercard",
   "title": "Platform Engineering Intern, Summer 2027 – St. Louis, MO, US",
@@ -10475,7 +10488,7 @@
  },
  "trimble|ai developer intern": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Trimble",
   "title": "AI Developer Intern",
@@ -10483,7 +10496,7 @@
  },
  "dell|software engineering undergraduate intern csg": {
   "firstSeen": "2026-11-03",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Dell",
   "title": "Software Engineering Undergraduate Intern, CSG",
@@ -10545,7 +10558,7 @@
  },
  "trimble|software engineer intern": {
   "firstSeen": "2026-11-04",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Trimble",
   "title": "Software Engineer Intern",
@@ -10607,7 +10620,7 @@
  },
  "amazon|product manager intern ala": {
   "firstSeen": "2026-11-04",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Amazon",
   "title": "Product Manager Intern - ALA",
@@ -10619,7 +10632,8 @@
   "bucket": "ask",
   "company": "Skydio",
   "title": "Autonomy Engineer Intern - Reinforcement Learning",
-  "url": "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048/application?embed=true"
+  "url": "https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048/application?embed=true",
+  "goneOn": "2026-11-21"
  },
  "allen|research intern open ecosystem": {
   "firstSeen": "2026-11-04",
@@ -10686,7 +10700,7 @@
  },
  "electronic arts|anticheat engineer intern": {
   "firstSeen": "2026-11-04",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Electronic Arts",
   "title": "Anticheat Engineer Intern",
@@ -10784,7 +10798,7 @@
  },
  "microsoft|software engineer intern teamwork experiences": {
   "firstSeen": "2026-11-04",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Microsoft",
   "title": "Software Engineer Intern, Teamwork Experiences",
@@ -10801,7 +10815,7 @@
  },
  "caci|software development intern summer": {
   "firstSeen": "2026-11-04",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "CACI",
   "title": "Software Development Intern - Summer 2027",
@@ -10818,7 +10832,7 @@
  },
  "micron|intern front end materials category supplier manager csm": {
   "firstSeen": "2026-11-04",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Micron",
   "title": "Intern - Front End Materials Category Supplier Manager - CSM",
@@ -10925,7 +10939,7 @@
  },
  "booz allen hamilton|university summer games data scientist intern royal oak mi": {
   "firstSeen": "2026-11-04",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Booz Allen Hamilton",
   "title": "University - 2027 Summer Games Data Scientist Intern - Royal Oak - MI",
@@ -11014,7 +11028,7 @@
  },
  "gcm grosvenor|treasury summer intern": {
   "firstSeen": "2026-11-04",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "GCM Grosvenor",
   "title": "2027 Treasury Summer Intern",
@@ -11022,7 +11036,7 @@
  },
  "gcm grosvenor|valuation summer intern": {
   "firstSeen": "2026-11-04",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "GCM Grosvenor",
   "title": "2027 Valuation Summer Intern",
@@ -11228,7 +11242,7 @@
  },
  "john deere|product engineering student intern product engineering": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "John Deere",
   "title": "Product Engineering Student Intern - Product Engineering",
@@ -11236,7 +11250,7 @@
  },
  "kla|applications engineer intern": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Applications Engineer Intern",
@@ -11244,7 +11258,7 @@
  },
  "paypal|machine learning engineer intern": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PayPal",
   "title": "Machine Learning Engineer Intern",
@@ -11252,7 +11266,7 @@
  },
  "paypal|software engineer intern": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PayPal",
   "title": "Software Engineer Intern",
@@ -11260,7 +11274,7 @@
  },
  "paypal|data scientist intern": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PayPal",
   "title": "Data Scientist Intern",
@@ -11277,7 +11291,7 @@
  },
  "constellation energy|load forecasting analytics intern": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Constellation Energy",
   "title": "Load Forecasting & Analytics Intern",
@@ -11321,7 +11335,7 @@
  },
  "asml|machine learning and image based euv system setup intern": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ASML",
   "title": "Machine Learning and Image-Based EUV System Setup Intern",
@@ -11329,7 +11343,7 @@
  },
  "john deere|product engineering student intern": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "John Deere",
   "title": "Product Engineering Student Intern",
@@ -11337,7 +11351,7 @@
  },
  "draftkings|software engineer intern": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "DraftKings",
   "title": "Software Engineer Intern",
@@ -11345,7 +11359,7 @@
  },
  "paypal|cybersecurity intern": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PayPal",
   "title": "Cybersecurity Intern",
@@ -11353,7 +11367,7 @@
  },
  "federal reserve|information security intern": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Federal Reserve",
   "title": "Information Security Intern",
@@ -11379,7 +11393,7 @@
  },
  "palantir|software engineer intern sovereign ai systems": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Palantir",
   "title": "Software Engineer Intern - Sovereign AI Systems",
@@ -11423,12 +11437,11 @@
  },
  "asml|platform software engineer in test internship": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-18",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ASML",
   "title": "Platform Software Engineer In Test - Internship",
-  "url": "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558",
-  "goneOn": "2026-11-19"
+  "url": "https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Jose-CA-USA/Platform-Software-Engineer-In-Test---Internship-_J-00354558"
  },
  "mckesson|software engineer intern summer": {
   "firstSeen": "2026-11-05",
@@ -11450,7 +11463,7 @@
  },
  "paypal|data scientist intern summer": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PayPal",
   "title": "Data Scientist Intern - Summer 2027",
@@ -11458,7 +11471,7 @@
  },
  "paypal|software engineer intern summer": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PayPal",
   "title": "Software Engineer Intern - Summer 2027",
@@ -11466,7 +11479,7 @@
  },
  "paypal|machine learning engineer intern summer": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PayPal",
   "title": "Machine Learning Engineer Intern - Summer 2027",
@@ -11474,7 +11487,7 @@
  },
  "paypal|cybersecurity intern summer": {
   "firstSeen": "2026-11-05",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PayPal",
   "title": "Cybersecurity Intern - Summer 2027",
@@ -11495,7 +11508,8 @@
   "bucket": "ask",
   "company": "Federal Reserve",
   "title": "2027 Summer Internship Program - Information Security Intern",
-  "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Information-Security-Intern_R-0000033910"
+  "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Information-Security-Intern_R-0000033910",
+  "goneOn": "2026-11-21"
  },
  "booz allen hamilton|systems engineer intern summer games": {
   "firstSeen": "2026-11-06",
@@ -11517,7 +11531,7 @@
  },
  "kla|algorithm engineering intern": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Algorithm Engineering Intern",
@@ -11543,7 +11557,7 @@
  },
  "shield ai|software engineer intern co op": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Shield AI",
   "title": "Software Engineer Intern Co-op",
@@ -11560,7 +11574,7 @@
  },
  "invesco|digital product management intern": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Invesco",
   "title": "Digital Product Management Intern",
@@ -11577,7 +11591,7 @@
  },
  "garmin|it devops administrator intern": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Garmin",
   "title": "IT DevOps Administrator Intern",
@@ -11585,7 +11599,7 @@
  },
  "walmart|data science intern last mile delivery": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Walmart",
   "title": "Data Science Intern, Last Mile Delivery",
@@ -11593,7 +11607,7 @@
  },
  "intercontinental exchange|infrastructure observability intern": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Infrastructure Observability Intern",
@@ -11601,7 +11615,7 @@
  },
  "intercontinental exchange|application security intern": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Application Security Intern",
@@ -11640,11 +11654,12 @@
   "bucket": "ask",
   "company": "DocuSign",
   "title": "Software Engineering Intern, Self-Service Directory Diagnostics",
-  "url": "https://uscareers-docusign.icims.com/jobs/30464/software-engineering-intern-%e2%80%93-self-service-directory-diagnostics/job"
+  "url": "https://uscareers-docusign.icims.com/jobs/30464/software-engineering-intern-%e2%80%93-self-service-directory-diagnostics/job",
+  "goneOn": "2026-11-21"
  },
  "rivian|ml ai motor controls algorithm intern": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rivian",
   "title": "ML AI Motor Controls Algorithm Intern",
@@ -11688,7 +11703,7 @@
  },
  "walmart|usa summer corporate intern last mile delivery data science intern": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Walmart",
   "title": "USA Summer 2027 Corporate Intern: Last Mile Delivery Data Science Intern",
@@ -11727,7 +11742,8 @@
   "bucket": "ask",
   "company": "Federal Reserve",
   "title": "2027 Summer Internship Program - Statistics Intern",
-  "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Statistics-Intern_R-0000033876"
+  "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Statistics-Intern_R-0000033876",
+  "goneOn": "2026-11-21"
  },
  "federal reserve|summer internship program supervision regulation core risk team": {
   "firstSeen": "2026-11-06",
@@ -11735,11 +11751,12 @@
   "bucket": "ask",
   "company": "Federal Reserve",
   "title": "2027 Summer Internship Program - Supervision & Regulation (CORE Risk Team)",
-  "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Supervision---Regulation--CORE-Risk-Team-_R-0000033859"
+  "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Atlanta-GA/XMLNAME-2027-Summer-Internship-Program---Supervision---Regulation--CORE-Risk-Team-_R-0000033859",
+  "goneOn": "2026-11-21"
  },
  "invesco|early career intern digital product management": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Invesco",
   "title": "Early Career Intern - Digital Product Management",
@@ -11747,7 +11764,7 @@
  },
  "motorola solutions|software presales enablement intern summer internship": {
   "firstSeen": "2026-11-06",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Motorola Solutions",
   "title": "Software Presales Enablement Intern - Summer Internship 2027",
@@ -11755,7 +11772,7 @@
  },
  "federal reserve|statistics intern": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Federal Reserve",
   "title": "Statistics Intern",
@@ -11763,7 +11780,7 @@
  },
  "l3harris|data architect intern": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "L3Harris",
   "title": "Data Architect Intern",
@@ -11771,7 +11788,7 @@
  },
  "docusign|product manager intern": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "DocuSign",
   "title": "Product Manager Intern",
@@ -11779,7 +11796,7 @@
  },
  "docusign|agentic ai engineer intern": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "DocuSign",
   "title": "Agentic AI Engineer Intern",
@@ -11787,7 +11804,7 @@
  },
  "samsung|ai data analyst intern": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsung",
   "title": "AI Data Analyst Intern",
@@ -11795,7 +11812,7 @@
  },
  "samsara|software engineer intern": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsara",
   "title": "Software Engineer Intern",
@@ -11812,7 +11829,7 @@
  },
  "tesla|software engineer intern si reinforcement learning": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Tesla",
   "title": "Software Engineer Intern - SI Reinforcement Learning",
@@ -11829,7 +11846,7 @@
  },
  "samsung|care ai data analytic intern": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsung",
   "title": "Care AI Data Analytic Intern",
@@ -11846,7 +11863,7 @@
  },
  "intercontinental exchange|release engineering intern": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Release Engineering Intern",
@@ -11854,7 +11871,7 @@
  },
  "intercontinental exchange|infrastructure development automation intern": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intercontinental Exchange",
   "title": "Infrastructure Development & Automation Intern",
@@ -11862,7 +11879,7 @@
  },
  "samsung|business intelligence data analytics intern": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsung",
   "title": "Business Intelligence & Data Analytics Intern",
@@ -11897,7 +11914,7 @@
  },
  "shield ai|summer intern supplier development engineer 6463": {
   "firstSeen": "2026-11-07",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Shield AI",
   "title": "2027 Summer Intern - Supplier Development Engineer - 6463",
@@ -11914,7 +11931,7 @@
  },
  "samsung|samsung care ai data analytic intern": {
   "firstSeen": "2026-11-08",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsung",
   "title": "Samsung Care AI Data Analytic Intern",
@@ -11931,7 +11948,7 @@
  },
  "samsung|epro business data analyst intern": {
   "firstSeen": "2026-11-09",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsung",
   "title": "ePro Business & Data Analyst Intern",
@@ -11975,7 +11992,7 @@
  },
  "nationwide|summer state product analyst intern personal lines": {
   "firstSeen": "2026-11-09",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nationwide",
   "title": "Summer 2027 State Product Analyst Intern - Personal Lines",
@@ -11992,7 +12009,7 @@
  },
  "paccar|data analyst intern": {
   "firstSeen": "2026-11-09",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PACCAR",
   "title": "Data Analyst Intern",
@@ -12000,7 +12017,7 @@
  },
  "general dynamics|full stack software engineer intern": {
   "firstSeen": "2026-11-09",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Full-Stack Software Engineer Intern",
@@ -12008,7 +12025,7 @@
  },
  "general dynamics|full stack application development intern": {
   "firstSeen": "2026-11-09",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Full-Stack Application Development Intern",
@@ -12043,7 +12060,7 @@
  },
  "seatgeek|software engineer intern": {
   "firstSeen": "2026-11-09",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "SeatGeek",
   "title": "Software Engineer Intern",
@@ -12078,7 +12095,7 @@
  },
  "waymo|software engineer intern": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Waymo",
   "title": "Software Engineer Intern",
@@ -12086,7 +12103,7 @@
  },
  "epic games|ai programmer intern": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "flex",
   "company": "Epic Games",
   "title": "AI Programmer Intern",
@@ -12103,7 +12120,7 @@
  },
  "micron|hig hbm dtpco intern": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Micron",
   "title": "Hig Hbm Dtpco Intern",
@@ -12111,7 +12128,7 @@
  },
  "general dynamics|software engineer intern": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Software Engineer Intern",
@@ -12128,7 +12145,7 @@
  },
  "general dynamics|ontology and semantic engineering intern": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Ontology and Semantic Engineering Intern",
@@ -12145,7 +12162,7 @@
  },
  "lockheed martin|software development intern": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lockheed Martin",
   "title": "Software Development Intern",
@@ -12189,7 +12206,7 @@
  },
  "booz allen hamilton|quantum computing research intern": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Booz Allen Hamilton",
   "title": "Quantum Computing Research Intern",
@@ -12197,7 +12214,7 @@
  },
  "general dynamics|systems and software development intern": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Systems and Software Development Intern",
@@ -12205,7 +12222,7 @@
  },
  "waymo|software engineer intern multiverse": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Waymo",
   "title": "Software Engineer Intern, Multiverse",
@@ -12222,7 +12239,7 @@
  },
  "palantir|software engineer intern connectivity platform and product": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Palantir",
   "title": "Software Engineer Intern - Connectivity Platform and Product",
@@ -12230,7 +12247,7 @@
  },
  "general dynamics|systems intern cybersecurity and linux administration": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Systems Intern, Cybersecurity and Linux Administration",
@@ -12247,7 +12264,7 @@
  },
  "palantir|software engineer intern data connectors": {
   "firstSeen": "2026-11-10",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Palantir",
   "title": "Software Engineer Intern - Data Connectors",
@@ -12381,7 +12398,7 @@
  },
  "palantir|software engineer intern connectivity platform product": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Palantir",
   "title": "Software Engineer Intern - Connectivity Platform - Product",
@@ -12398,7 +12415,7 @@
  },
  "skydio|middleware software engineer intern": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Skydio",
   "title": "Middleware Software Engineer Intern",
@@ -12415,7 +12432,7 @@
  },
  "rockwell automation|software developer engineering intern": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rockwell Automation",
   "title": "Software Developer/Engineering Intern",
@@ -12423,7 +12440,7 @@
  },
  "global payments|cybersecurity intern": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Global Payments",
   "title": "CyberSecurity Intern",
@@ -12431,7 +12448,7 @@
  },
  "tiktok|site reliability engineer intern data platform computer platform": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Site Reliability Engineer Intern, Data Platform, Computer Platform",
@@ -12439,7 +12456,7 @@
  },
  "western digital|software engineering intern": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Western Digital",
   "title": "Software Engineering Intern",
@@ -12447,7 +12464,7 @@
  },
  "walmart|data science data analytics intern last mile delivery": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Walmart",
   "title": "Data Science & Data Analytics Intern, Last Mile Delivery",
@@ -12491,7 +12508,7 @@
  },
  "7 eleven|enterprise technology intern": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "7-Eleven",
   "title": "Enterprise Technology Intern",
@@ -12535,7 +12552,7 @@
  },
  "keysight|r d software engineering intern": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Keysight",
   "title": "R&D Software Engineering Intern",
@@ -12561,7 +12578,7 @@
  },
  "rivian|uiuc research park intern ml ai motor controls algorithm": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rivian",
   "title": "UIUC Research Park Intern - ML AI Motor Controls Algorithm",
@@ -12605,7 +12622,7 @@
  },
  "tower research capital|finance intern": {
   "firstSeen": "2026-11-11",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Tower Research Capital",
   "title": "Finance Intern",
@@ -12640,7 +12657,7 @@
  },
  "ptc|creo core geometry intern": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PTC",
   "title": "Creo Core Geometry Intern",
@@ -12648,7 +12665,7 @@
  },
  "ptc|creo graphics engineering intern": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PTC",
   "title": "Creo Graphics Engineering Intern",
@@ -12656,7 +12673,7 @@
  },
  "stepstone|ai quant summer analyst intern": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "StepStone",
   "title": "AI Quant Summer Analyst Intern",
@@ -12664,7 +12681,7 @@
  },
  "hewlett packard enterprise|systems architecture research associate intern systems architecture lab": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Hewlett Packard Enterprise",
   "title": "Systems Architecture Research Associate Intern - Systems Architecture Lab",
@@ -12672,7 +12689,7 @@
  },
  "nintendo|software engineer intern cpu debugger ntd": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Nintendo",
   "title": "Software Engineer Intern - CPU Debugger - NTD",
@@ -12689,7 +12706,7 @@
  },
  "stepstone|ai quant analyst intern": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "StepStone",
   "title": "AI Quant Analyst Intern",
@@ -12697,7 +12714,7 @@
  },
  "servicenow|associate security engineering automation intern": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ServiceNow",
   "title": "Associate Security Engineering & Automation Intern",
@@ -12705,7 +12722,7 @@
  },
  "servicenow|associate information security engineer intern": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ServiceNow",
   "title": "Associate Information Security Engineer Intern",
@@ -12713,7 +12730,7 @@
  },
  "servicenow|associate ai engineering intern cloud security automation": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ServiceNow",
   "title": "Associate AI Engineering Intern, Cloud Security Automation",
@@ -12721,7 +12738,7 @@
  },
  "servicenow|associate detection engineering intern": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ServiceNow",
   "title": "Associate Detection Engineering Intern",
@@ -12729,7 +12746,7 @@
  },
  "hewlett packard enterprise|research associate intern systems architecture lab": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Hewlett Packard Enterprise",
   "title": "Research Associate Intern, Systems Architecture Lab",
@@ -12746,7 +12763,7 @@
  },
  "ptc|site reliability engineering intern onshape": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PTC",
   "title": "Site Reliability Engineering Intern, Onshape",
@@ -12817,7 +12834,7 @@
  },
  "stepstone|ai quant summer analyst": {
   "firstSeen": "2026-11-12",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "StepStone",
   "title": "2027 AI Quant Summer Analyst",
@@ -12870,7 +12887,7 @@
  },
  "wolters kluwer|product software engineer intern": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Wolters Kluwer",
   "title": "Product Software Engineer Intern",
@@ -12896,7 +12913,7 @@
  },
  "general dynamics|software systems engineering intern": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Software/Systems Engineering Intern",
@@ -12913,7 +12930,7 @@
  },
  "tesla|software engineer intern energy engineering": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Tesla",
   "title": "Software Engineer Intern - Energy Engineering",
@@ -12939,7 +12956,7 @@
  },
  "paccar|data engineering intern": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PACCAR",
   "title": "Data Engineering Intern",
@@ -12947,7 +12964,7 @@
  },
  "general dynamics|professional programmer intern": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Professional Programmer Intern",
@@ -12955,7 +12972,7 @@
  },
  "keysight|software development intern": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Keysight",
   "title": "Software Development Intern",
@@ -12963,7 +12980,7 @@
  },
  "tiktok|machine learning engineer intern data global e commerce search": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "TikTok",
   "title": "Machine Learning Engineer Intern, Data-Global E-Commerce-Search",
@@ -12971,7 +12988,7 @@
  },
  "bloomberg industry|engineering intern": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Bloomberg Industry Group",
   "title": "Engineering Intern",
@@ -12979,7 +12996,7 @@
  },
  "ptc|onshape site reliability engineering intern summer": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PTC",
   "title": "Onshape Site Reliability Engineering Intern - Summer 2027",
@@ -12987,7 +13004,7 @@
  },
  "servicenow|assoc ai engineering cloud security automation intern": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ServiceNow",
   "title": "Assoc AI Engineering - Cloud Security Automation Intern",
@@ -13004,15 +13021,15 @@
  },
  "rockwell automation|intern software developer engineering": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Rockwell Automation",
   "title": "Intern - Software Developer/Engineering",
-  "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external-rockwell-automation-early-careers/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-1"
+  "url": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/external_rockwell_automation/job/Mequon-Wisconsin-United-States/Intern--Software-Developer-Engineering_R26-8666-2"
  },
  "walmart|summer corporate intern data science data analytics last mile delivery": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Walmart",
   "title": "Summer 2027 Corporate Intern: Data Science & Data Analytics - Last Mile Delivery",
@@ -13038,7 +13055,7 @@
  },
  "bloomberg|engineering intern": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Bloomberg",
   "title": "Engineering Intern",
@@ -13046,7 +13063,7 @@
  },
  "shield ai|summer intern solution systems engineer 6537 6540 6541": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Shield AI",
   "title": "2027 Summer Intern - Solution Systems Engineer (6537, 6540, 6541)",
@@ -13063,7 +13080,7 @@
  },
  "ramp|risk strategy intern": {
   "firstSeen": "2026-11-13",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Ramp",
   "title": "Risk Strategy Intern",
@@ -13233,7 +13250,7 @@
  },
  "micron|ai engineer platform intern": {
   "firstSeen": "2026-11-14",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Micron",
   "title": "AI Engineer Platform Intern",
@@ -13241,7 +13258,7 @@
  },
  "crowdstrike|insider risk engineering intern": {
   "firstSeen": "2026-11-14",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "CrowdStrike",
   "title": "Insider Risk Engineering Intern",
@@ -13249,7 +13266,7 @@
  },
  "rtx|software engineering co op": {
   "firstSeen": "2026-11-14",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "Software Engineering Co-op",
@@ -13261,11 +13278,12 @@
   "bucket": "ask",
   "company": "Capital Group",
   "title": "Global Technology Associate Intern",
-  "url": "https://capgroup.wd1.myworkdayjobs.com/en-US/capitalgroupcareers/job/Irvine/CAMPUS-Global-Technology-Summer-Associate--2027-_JR7798"
+  "url": "https://capgroup.wd1.myworkdayjobs.com/en-US/capitalgroupcareers/job/Irvine/CAMPUS-Global-Technology-Summer-Associate--2027-_JR7798",
+  "goneOn": "2026-11-21"
  },
  "general dynamics|software systems engineering intern summer": {
   "firstSeen": "2026-11-14",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Software/Systems Engineering Intern - Summer 2027",
@@ -13273,7 +13291,7 @@
  },
  "general dynamics|software asset management intern administrative": {
   "firstSeen": "2026-11-14",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Software Asset Management Intern Administrative",
@@ -13317,7 +13335,7 @@
  },
  "servicenow|ai security engineer intern": {
   "firstSeen": "2026-11-14",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ServiceNow",
   "title": "AI Security Engineer Intern",
@@ -13325,7 +13343,7 @@
  },
  "servicenow|ai identity intern": {
   "firstSeen": "2026-11-14",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ServiceNow",
   "title": "AI Identity Intern",
@@ -13369,7 +13387,7 @@
  },
  "robinhood|corporate finance intern summer": {
   "firstSeen": "2026-11-14",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Robinhood",
   "title": "Corporate Finance Intern (Summer 2027)",
@@ -13395,7 +13413,7 @@
  },
  "arrowstreet capital|quantitative developer intern summer": {
   "firstSeen": "2026-11-15",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Arrowstreet Capital",
   "title": "Quantitative Developer Intern, Summer 2027",
@@ -13403,7 +13421,7 @@
  },
  "usaa|technology intern": {
   "firstSeen": "2026-11-16",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "USAA",
   "title": "Technology Intern",
@@ -13429,7 +13447,7 @@
  },
  "micron|data science intern smai": {
   "firstSeen": "2026-11-16",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Micron",
   "title": "Data Science Intern, SMAI",
@@ -13464,7 +13482,7 @@
  },
  "federal reserve|summer internship program it portfolio analyst intern": {
   "firstSeen": "2026-11-16",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Federal Reserve",
   "title": "2027 Summer Internship Program - IT Portfolio Analyst Intern",
@@ -13481,7 +13499,7 @@
  },
  "global payments|investor relations and corporate development university intern": {
   "firstSeen": "2026-11-16",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Global Payments",
   "title": "Investor Relations and Corporate Development University Intern",
@@ -13489,7 +13507,7 @@
  },
  "servicenow|associate forward deployed solution engineer intern": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ServiceNow",
   "title": "Associate Forward Deployed Solution Engineer Intern",
@@ -13524,7 +13542,7 @@
  },
  "t mobile|software engineer intern": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "T-Mobile",
   "title": "Software Engineer Intern",
@@ -13541,7 +13559,7 @@
  },
  "schonfeld|platform engineering intern": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Schonfeld",
   "title": "Platform Engineering Intern",
@@ -13549,7 +13567,7 @@
  },
  "bloomberg industry|data analyst intern": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Bloomberg Industry Group",
   "title": "Data Analyst Intern",
@@ -13566,16 +13584,15 @@
  },
  "t mobile|summer site reliability engineering internship": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-17",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "T-Mobile",
   "title": "Summer 2027 Site Reliability Engineering Internship",
-  "url": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Frisco-Texas/Summer-2027-Site-Reliability-Engineering-Internship_REQ381393",
-  "goneOn": "2026-11-18"
+  "url": "https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Frisco-Texas/Summer-2027-Site-Reliability-Engineering-Internship_REQ381393"
  },
  "shield ai|program manager intern experience": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Shield AI",
   "title": "Program Manager, Intern Experience",
@@ -13583,7 +13600,7 @@
  },
  "skydio|systems engineering intern": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Skydio",
   "title": "Systems Engineering Intern",
@@ -13595,11 +13612,12 @@
   "bucket": "ask",
   "company": "Synchrony",
   "title": "Intern, Analytics",
-  "url": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Central-Region-Engagement-Hub-IN/Intern--Analytics_2603082"
+  "url": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Central-Region-Engagement-Hub-IN/Intern--Analytics_2603082",
+  "goneOn": "2026-11-21"
  },
  "state street|state street investment management data scientist summer internship": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street Investment Management - Data Scientist - Summer Internship 2027",
@@ -13607,7 +13625,7 @@
  },
  "state street|state street global credit finance client strategy summer internship": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street Global Credit Finance - Client Strategy - 2027 Summer Internship",
@@ -13615,7 +13633,7 @@
  },
  "state street|state street investment management client portfolio management summer internship": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street Investment Management- Client Portfolio Management - 2027 Summer Internship",
@@ -13632,7 +13650,7 @@
  },
  "federal reserve|summer internship program business of it analyst intern": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Federal Reserve",
   "title": "2027 Summer Internship Program - Business of IT Analyst Intern",
@@ -13640,7 +13658,7 @@
  },
  "ptc|onshape performance engineering intern": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PTC",
   "title": "Onshape Performance Engineering Intern",
@@ -13648,7 +13666,7 @@
  },
  "anduril|machine learning engineer intern": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Anduril",
   "title": "Machine Learning Engineer Intern",
@@ -13656,7 +13674,7 @@
  },
  "rtx|summer intern software engineering onsite": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "2027 Summer Intern - Software Engineering - Onsite",
@@ -13664,7 +13682,7 @@
  },
  "asml|internship integrate gui and llm": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "ASML",
   "title": "Internship - Integrate GUI and LLM",
@@ -13672,7 +13690,7 @@
  },
  "astrazeneca|finance ai data analytics intern undergraduate lift program": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "AstraZeneca",
   "title": "Finance AI & Data Analytics Intern - Undergraduate - LIFT Program",
@@ -13680,7 +13698,7 @@
  },
  "micron|intern data science smai": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Micron",
   "title": "Intern - Data Science - SMAI",
@@ -13688,7 +13706,7 @@
  },
  "micron|intern ai engineer platform": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Micron",
   "title": "Intern - AI Engineer Platform",
@@ -13696,7 +13714,7 @@
  },
  "walmart|summer corporate intern last mile delivery data science intern": {
   "firstSeen": "2026-11-17",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Walmart",
   "title": "Summer 2027 Corporate Intern: Last Mile Delivery Data Science Intern",
@@ -13708,7 +13726,8 @@
   "bucket": "ask",
   "company": "Hudson River Trading",
   "title": "Internship Program Manager",
-  "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8268234"
+  "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8268234",
+  "goneOn": "2026-11-21"
  },
  "citi|technology analyst intern application development": {
   "firstSeen": "2026-11-18",
@@ -13734,7 +13753,8 @@
   "bucket": "ask",
   "company": "Amazon",
   "title": "Software Engineer Intern - Autonomy Software",
-  "url": "https://jobs.lever.co/zoox/7b20b929-d9a4-4995-a472-16cd4925a877/apply"
+  "url": "https://jobs.lever.co/zoox/7b20b929-d9a4-4995-a472-16cd4925a877/apply",
+  "goneOn": "2026-11-21"
  },
  "match|backend engineer intern": {
   "firstSeen": "2026-11-18",
@@ -13765,7 +13785,7 @@
  },
  "paccar|data scientist intern": {
   "firstSeen": "2026-11-18",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PACCAR",
   "title": "Data Scientist Intern",
@@ -13818,7 +13838,7 @@
  },
  "crowdstrike|ai research launch intern": {
   "firstSeen": "2026-11-18",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "CrowdStrike",
   "title": "AI Research Launch Intern",
@@ -13826,7 +13846,7 @@
  },
  "state street|data scientist intern": {
   "firstSeen": "2026-11-18",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "Data Scientist Intern",
@@ -13843,7 +13863,7 @@
  },
  "caci|cybersecurity intern": {
   "firstSeen": "2026-11-18",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "CACI",
   "title": "Cybersecurity Intern",
@@ -13851,7 +13871,7 @@
  },
  "samsung|architecture research engineer intern moe placement for serving at scale": {
   "firstSeen": "2026-11-18",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsung",
   "title": "Architecture Research Engineer Intern - MoE Placement for Serving at Scale",
@@ -13868,7 +13888,7 @@
  },
  "oracle|oci intern conversion undergrad software engineer full time nashville tn february": {
   "firstSeen": "2026-11-18",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Oracle",
   "title": "OCI Intern Conversion - Undergrad Software Engineer Full-Time - Nashville - TN - February 2027",
@@ -13894,7 +13914,7 @@
  },
  "general dynamics|ai engineering intern summer": {
   "firstSeen": "2026-11-18",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "AI Engineering Intern- Summer 2027",
@@ -13902,7 +13922,7 @@
  },
  "anduril|business systems engineer intern": {
   "firstSeen": "2026-11-18",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Anduril",
   "title": "Business Systems Engineer Intern",
@@ -13910,7 +13930,7 @@
  },
  "lucid software|product management intern": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lucid Software",
   "title": "Product Management Intern",
@@ -13918,7 +13938,7 @@
  },
  "goldman sachs|summer analyst intern multiple teams": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Goldman Sachs",
   "title": "Summer Analyst Intern - Multiple Teams",
@@ -13930,11 +13950,12 @@
   "bucket": "ask",
   "company": "General Dynamics",
   "title": "Cybersecurity Associate Intern",
-  "url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Cybersecurity-Associate-Internship_RQ228929-2"
+  "url": "https://gdit.wd5.myworkdayjobs.com/gdit_earlytalent/job/USA-LA-Bossier-City/GDIT-Summer-Internship-Program---Summer-2027-Cybersecurity-Associate-Internship_RQ228929-2",
+  "goneOn": "2026-11-21"
  },
  "t mobile|data product intern": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "T-Mobile",
   "title": "Data Product Intern",
@@ -13942,7 +13963,7 @@
  },
  "samsung|llm inference acceleration architecture intern distributed memory centric accelerators": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsung",
   "title": "LLM Inference Acceleration Architecture Intern, Distributed Memory-Centric Accelerators",
@@ -13950,7 +13971,7 @@
  },
  "rtx|software security intern": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "Software Security Intern",
@@ -13958,7 +13979,7 @@
  },
  "docusign|product data science intern": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "DocuSign",
   "title": "Product Data Science Intern",
@@ -13966,7 +13987,7 @@
  },
  "galaxy|site reliability engineer intern afton texas": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Galaxy",
   "title": "2027 Site Reliability Engineer Intern-Afton - Texas",
@@ -13974,7 +13995,7 @@
  },
  "kla|software applications engineering intern": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Software Applications Engineering Intern",
@@ -13982,7 +14003,7 @@
  },
  "samsung|intern architecture research engineer agentic ai workload characterization": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsung",
   "title": "Intern - Architecture Research Engineer - Agentic AI Workload Characterization",
@@ -13990,7 +14011,7 @@
  },
  "samsung|intern llm inference acceleration architecture distributed memory centric accelerators": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Samsung",
   "title": "Intern - LLM Inference Acceleration Architecture - Distributed Memory-Centric Accelerators",
@@ -14016,7 +14037,7 @@
  },
  "anduril|engineering systems intern": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Anduril",
   "title": "2027 Engineering Systems Intern",
@@ -14024,7 +14045,7 @@
  },
  "shield ai|summer intern aerostructures intern 6472 6427 6415": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Shield AI",
   "title": "2027 Summer Intern - Aerostructures Intern - 6472 - 6427 - 6415",
@@ -14032,7 +14053,7 @@
  },
  "s and p|summer intern fixed income pricing": {
   "firstSeen": "2026-11-19",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "S&P Global",
   "title": "Summer Intern, Fixed Income Pricing",
@@ -14040,7 +14061,7 @@
  },
  "lucid motors|infotainment software intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lucid Motors",
   "title": "Infotainment Software Intern",
@@ -14048,7 +14069,7 @@
  },
  "lucid motors|ai data intern applied ai machine learning": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lucid Motors",
   "title": "AI & Data Intern - Applied AI/Machine Learning",
@@ -14056,7 +14077,7 @@
  },
  "honeywell|software engineer intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Honeywell",
   "title": "Software Engineer Intern",
@@ -14064,7 +14085,7 @@
  },
  "bread financial|software engineering intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Bread Financial",
   "title": "Software Engineering Intern",
@@ -14072,7 +14093,7 @@
  },
  "lucid motors|software engineer intern sdet": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lucid Motors",
   "title": "Software Engineer Intern, SDET",
@@ -14080,7 +14101,7 @@
  },
  "lucid motors|software qa engineer intern infotainment": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lucid Motors",
   "title": "Software QA Engineer Intern, Infotainment",
@@ -14088,7 +14109,7 @@
  },
  "lawrence livermore national laboratory|computing undergraduate student intern devops": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lawrence Livermore National Laboratory",
   "title": "Computing Undergraduate Student Intern, DevOps",
@@ -14100,11 +14121,12 @@
   "bucket": "ask",
   "company": "Centene",
   "title": "Undergraduate Analytics Engineering Intern",
-  "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Analytics-Engineering-Intern--Undergraduate-Summer-2027-_1667721"
+  "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-MO/Analytics-Engineering-Intern--Undergraduate-Summer-2027-_1667721",
+  "goneOn": "2026-11-21"
  },
  "cisco|ai researcher ii intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Cisco",
   "title": "AI Researcher II Intern",
@@ -14112,7 +14134,7 @@
  },
  "nvidia|finance ai engineering intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "NVIDIA",
   "title": "Finance AI Engineering Intern",
@@ -14120,7 +14142,7 @@
  },
  "cadence|software engineering intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Cadence",
   "title": "Software Engineering Intern",
@@ -14128,7 +14150,7 @@
  },
  "draftkings|data engineer intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "DraftKings",
   "title": "Data Engineer Intern",
@@ -14136,7 +14158,7 @@
  },
  "illinois tool works|software engineering intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Illinois Tool Works",
   "title": "Software Engineering Intern",
@@ -14144,7 +14166,7 @@
  },
  "lucid motors|ai ml intern vehicle infotainment": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lucid Motors",
   "title": "AI/ML Intern, Vehicle Infotainment",
@@ -14152,7 +14174,7 @@
  },
  "gusto|insights intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Gusto",
   "title": "Insights Intern",
@@ -14160,7 +14182,7 @@
  },
  "cadence|software engineering intern circuit simulation infrastructure": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Cadence",
   "title": "Software Engineering Intern, Circuit Simulation Infrastructure",
@@ -14168,7 +14190,7 @@
  },
  "hewlett packard enterprise|ai engineering technical intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Hewlett Packard Enterprise",
   "title": "AI Engineering Technical Intern",
@@ -14176,7 +14198,7 @@
  },
  "lucid motors|intern software qa engineer infotainment summer": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lucid Motors",
   "title": "Intern - Software QA Engineer - Infotainment - Summer 2027",
@@ -14184,7 +14206,7 @@
  },
  "caci|aws cloud engineering intern summer": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "CACI",
   "title": "AWS Cloud Engineering Intern - Summer 2027",
@@ -14192,7 +14214,7 @@
  },
  "kla|software application engineer intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "KLA",
   "title": "Software Application Engineer Intern",
@@ -14200,15 +14222,15 @@
  },
  "ptc|full stack engineering intern cloud data management cad": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "PTC",
-  "title": "Full-Stack Engineering Intern - Cloud Data Management - CAD",
-  "url": "https://ptc.wd1.myworkdayjobs.com/en-US/ptc/job/Boston-MA-USA/Creo-Software-Engineering-Intern--Summer-2027-_JR113015"
+  "title": "Full-Stack Engineering Intern, Cloud Data Management (CAD)",
+  "url": "https://ptc.wd1.myworkdayjobs.com/ptc/job/Boston-MA-USA/Creo-Software-Engineering-Intern--Summer-2027-_JR113015"
  },
  "rtx|software security intern summer": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "RTX",
   "title": "Software Security Intern - Summer 2027",
@@ -14216,7 +14238,7 @@
  },
  "bread financial|intern software engineering": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Bread Financial",
   "title": "Intern - Software Engineering",
@@ -14224,7 +14246,7 @@
  },
  "nvidia|finance ai engineering intern summer": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "NVIDIA",
   "title": "Finance AI Engineering Intern - Summer 2027",
@@ -14232,7 +14254,7 @@
  },
  "state street|state street model risk management quantitative analyst summer internship": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street Model Risk Management - Quantitative Analyst - 2027 Summer Internship",
@@ -14240,7 +14262,7 @@
  },
  "state street|state street s model risk management quantitative analyst summer internship": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street’s Model Risk Management - Quantitative Analyst - 2027 Summer Internship",
@@ -14248,7 +14270,7 @@
  },
  "cisco|ai researcher ii intern united states": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Cisco",
   "title": "AI Researcher II - Intern - United States",
@@ -14256,7 +14278,7 @@
  },
  "draftkings|data engineer intern summer": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "DraftKings",
   "title": "Data Engineer Intern - Summer 2027",
@@ -14264,7 +14286,7 @@
  },
  "northrop grumman|ai ml engineering intern morrisville nc": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Northrop Grumman",
   "title": "2027 AI/ML Engineering Intern - Morrisville NC",
@@ -14272,7 +14294,7 @@
  },
  "intel|signal integrity engineering intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Intel",
   "title": "Signal Integrity Engineering Intern",
@@ -14280,7 +14302,7 @@
  },
  "raymond james|investment banking summer analyst private capital advisory new york ny": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Raymond James",
   "title": "2027 Investment Banking Summer Analyst Private Capital Advisory New York, NY",
@@ -14288,7 +14310,7 @@
  },
  "state street|state street product team data intelligence summer internship": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street Product Team - Data Intelligence - 2027 Summer Internship",
@@ -14296,7 +14318,7 @@
  },
  "state street|state street investment management fixed income technology summer internship": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street Investment Management - Fixed Income Technology - 2027 Summer Internship",
@@ -14304,7 +14326,7 @@
  },
  "state street|state street investment management business architecture summer internship": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street Investment Management - Business Architecture - 2027 Summer Internship",
@@ -14312,7 +14334,7 @@
  },
  "state street|state street product management team business analyst summer internship": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street Product Management Team - Business Analyst - Summer Internship 2027",
@@ -14320,7 +14342,7 @@
  },
  "state street|state street enterprise risk management quantitative risk internship summer internship": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "State Street",
   "title": "State Street Enterprise Risk Management - Quantitative Risk Internship - 2027 Summer Internship",
@@ -14328,7 +14350,7 @@
  },
  "federal reserve|summer internship program credit risk management intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Federal Reserve",
   "title": "2027 Summer Internship Program - Credit Risk Management Intern",
@@ -14336,7 +14358,7 @@
  },
  "gcm grosvenor|credit summer intern": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "GCM Grosvenor",
   "title": "2027 Credit Summer Intern",
@@ -14348,11 +14370,12 @@
   "bucket": "ask",
   "company": "Gusto",
   "title": "Gusto Insights Intern",
-  "url": "https://job-boards.greenhouse.io/gusto/jobs/8400148"
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/8400148",
+  "goneOn": "2026-11-21"
  },
  "lucid motors|intern adas systems summer": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lucid Motors",
   "title": "Intern, ADAS Systems, Summer 2027",
@@ -14364,11 +14387,12 @@
   "bucket": "ask",
   "company": "Lucid Motors",
   "title": "Intern, AI/ML, Vehicle Infotainment, Summer 2027",
-  "url": "https://lucidmotors.com/careers/search/5290923007?gh_jid=5290923007"
+  "url": "https://lucidmotors.com/careers/search/5290923007?gh_jid=5290923007",
+  "goneOn": "2026-11-21"
  },
  "lucid motors|intern software engineer sdet summer": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lucid Motors",
   "title": "Intern, Software Engineer, SDET, Summer 2027",
@@ -14376,10 +14400,138 @@
  },
  "lucid motors|intern vehicle motion controls engineer summer": {
   "firstSeen": "2026-11-20",
-  "lastSeen": "2026-11-20",
+  "lastSeen": "2026-11-21",
   "bucket": "ask",
   "company": "Lucid Motors",
   "title": "Intern, Vehicle Motion Controls Engineer, Summer 2027",
   "url": "https://lucidmotors.com/careers/search/5290899007?gh_jid=5290899007"
+ },
+ "lucid motors|ai ml intern vehicle infotainment summer": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Lucid Motors",
+  "title": "AI/ML Intern - Vehicle Infotainment - Summer 2027",
+  "url": "https://lucidmotors.com/careers/search/5290923007?gh_jid=5290923007"
+ },
+ "shield ai|operational analysis intern operational analysis": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Shield AI",
+  "title": "Operational Analysis Intern - Operational Analysis",
+  "url": "https://jobs.ashbyhq.com/shield/683deced-ddc9-4857-8783-323994263f2a/application?embed=true"
+ },
+ "gusto|economics research intern": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Gusto",
+  "title": "Economics Research Intern",
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/8400148"
+ },
+ "john deere|data analytics student intern data and analytics": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "John Deere",
+  "title": "Data Analytics Student Intern - Data and Analytics",
+  "url": "https://johndeere.eightfold.ai/careers/job/137484575742"
+ },
+ "calamos|information technology research development intern": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Calamos",
+  "title": "Information Technology Research Development Intern",
+  "url": "https://recruiting2.ultipro.com/cal1001cala/JobBoard/46b96419-fba6-4dd0-a5fa-715bdfcf845b/OpportunityDetail?opportunityId=8ba1e4ff-1ee1-46ab-b93f-9a4e4b6eb487"
+ },
+ "cadence|software engineer intern circuit simulation infrastructure": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Cadence",
+  "title": "Software Engineer Intern - Circuit Simulation infrastructure",
+  "url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Software-Engineering-Intern---Circuit-Simulation-infrastructure_R57254"
+ },
+ "cisco|data science analyst ii intern": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Cisco",
+  "title": "Data Science Analyst II Intern",
+  "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Data-Science-Analyst-II--Intern----Untied-States_2032691"
+ },
+ "rivian|software engineering intern ai platform autonomy": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Rivian",
+  "title": "Software Engineering Intern, AI Platform, Autonomy",
+  "url": "https://us-careers-rivian.icims.com/jobs/37339/login"
+ },
+ "john deere|data analytics student intern": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "John Deere",
+  "title": "Data Analytics Student Intern",
+  "url": "https://johndeere.eightfold.ai/careers/job/137484575742"
+ },
+ "calamos|information security intern": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Calamos",
+  "title": "Information Security Intern",
+  "url": "https://recruiting2.ultipro.com/cal1001cala/JobBoard/46b96419-fba6-4dd0-a5fa-715bdfcf845b/OpportunityDetail?opportunityId=596deb25-de20-4419-8dc8-4d025c65b5f0"
+ },
+ "calamos|cloud engineer intern": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Calamos",
+  "title": "Cloud Engineer Intern",
+  "url": "https://recruiting2.ultipro.com/cal1001cala/JobBoard/46b96419-fba6-4dd0-a5fa-715bdfcf845b/OpportunityDetail?opportunityId=f8490955-c876-418d-9722-254f4c7306d9"
+ },
+ "calamos|data engineering intern": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Calamos",
+  "title": "Data Engineering Intern",
+  "url": "https://recruiting2.ultipro.com/cal1001cala/JobBoard/46b96419-fba6-4dd0-a5fa-715bdfcf845b/OpportunityDetail?opportunityId=fcc43164-f08a-4252-aa1b-4707337a92d4"
+ },
+ "trimble|qa engineer intern": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Trimble",
+  "title": "QA Engineer Intern",
+  "url": "https://trimble.wd1.myworkdayjobs.com/TrimbleCareers/job/US---NH-Portsmouth/QA-Engineer-Intern_R57945"
+ },
+ "cisco|ai cybersecurity engineer i intern": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Cisco",
+  "title": "AI Cybersecurity Engineer I Intern",
+  "url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2030295EXTERNALENGLOBAL/AI-Cybersecurity-Engineer-I-Intern-United-States"
+ },
+ "rockwell automation|ism cyber security and ai intern": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Rockwell Automation",
+  "title": "ISM, Cyber Security and AI Intern",
+  "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External-Rockwell-Automation-Early-Careers/job/Mayfield-Heights-Ohio-United-States/Intern---ISM--Cyber-Security-and-AI_R26-5040-1"
+ },
+ "salesforce|summer intern product management": {
+  "firstSeen": "2026-11-21",
+  "lastSeen": "2026-11-21",
+  "bucket": "ask",
+  "company": "Salesforce",
+  "title": "Summer 2027 Intern - Product Management",
+  "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/Summer-2027-Intern---Product-Management_JR367659-1"
  }
 }
