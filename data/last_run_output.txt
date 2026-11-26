@@ -1,5 +1,5 @@
 [0s] known firms: 1121; window 2027-07-13 -> 2027-09-30; min pay $30/hr
-[1s] aggregators: speedyapply_swe=840, speedyapply_ai=860, vanshb03=2479, simplify=5051
+[1s] aggregators: speedyapply_swe=850, speedyapply_ai=855, vanshb03=2513, simplify=5079
 [1s] ATS: scanning 743 firms (220 seeded; PTS seeds loaded 233 firms)
 ATS firms 50/743
 ATS firms 100/743
@@ -15,33 +15,33 @@ ATS firms 550/743
 ATS firms 600/743
 ATS firms 650/743
 ATS firms 700/743
-[142s] ATS: 416 firms with live boards, 638 postings
-[142s] pre-screen: 1337 candidate postings (1735 older than 30 days dropped)
-[142s] detail fetch: 1205 unique postings
-details 50/1205
-details 100/1205
-details 150/1205
-details 200/1205
-details 250/1205
-details 300/1205
-details 350/1205
-details 400/1205
-details 450/1205
-details 500/1205
-details 550/1205
-details 600/1205
-details 650/1205
-details 700/1205
-details 750/1205
-details 800/1205
-details 850/1205
-details 900/1205
-details 950/1205
-details 1000/1205
-details 1050/1205
-details 1100/1205
-details 1150/1205
-details 1200/1205
-[205s] detail results: html=246, workday=426, ashby=39, jsonld=148, greenhouse=153, eightfold=65, oracle=19, error=12, lever=37, smartrecruiters=47, embedded=1, closed=12
-[206s] classified: 610 kept, 210 excluded by dates, 12 closed
-[206s] done: 1 fit, 4 flexible, 417 ask-about-dates
+[137s] ATS: 416 firms with live boards, 641 postings
+[138s] pre-screen: 1333 candidate postings (1736 older than 30 days dropped)
+[138s] detail fetch: 1203 unique postings
+details 50/1203
+details 100/1203
+details 150/1203
+details 200/1203
+details 250/1203
+details 300/1203
+details 350/1203
+details 400/1203
+details 450/1203
+details 500/1203
+details 550/1203
+details 600/1203
+details 650/1203
+details 700/1203
+details 750/1203
+details 800/1203
+details 850/1203
+details 900/1203
+details 950/1203
+details 1000/1203
+details 1050/1203
+details 1100/1203
+details 1150/1203
+details 1200/1203
+[205s] detail results: html=244, workday=431, ashby=40, jsonld=143, greenhouse=152, eightfold=66, error=12, oracle=18, lever=41, smartrecruiters=47, embedded=1, closed=8
+[206s] classified: 614 kept, 214 excluded by dates, 8 closed
+[206s] done: 1 fit, 3 flexible, 409 ask-about-dates
