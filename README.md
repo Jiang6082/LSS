@@ -4,7 +4,7 @@ Scans for **US internships at well-known firms** in **software engineering, prod
 
 **Filters:** US only (incl. US-remote) · known firms only ([list](inputs/known_firms.json)) · pay ≥ $30/hr when the posting states pay · undergrad roles (PhD / MBA / master's-only excluded) · titles naming C++, Java, iOS/Android, embedded or hardware skipped (Python-friendly) · posted in the last 30 days (undated postings kept) · window 2027-07-13 → 2027-09-30 ([config](inputs/config.json))
 
-> **Last scan:** 2026-11-26 &nbsp;•&nbsp; **1 dates fit** &nbsp;•&nbsp; **3 flexible / near miss** &nbsp;•&nbsp; **409 summer, dates not stated** &nbsp;•&nbsp; **9 new** &nbsp;•&nbsp; 8 closed postings dropped
+> **Last scan:** 2026-11-27 &nbsp;•&nbsp; **1 dates fit** &nbsp;•&nbsp; **3 flexible / near miss** &nbsp;•&nbsp; **394 summer, dates not stated** &nbsp;•&nbsp; **9 new** &nbsp;•&nbsp; 7 closed postings dropped
 
 **Jump to:** [✅ Dates fit](#-dates-fit) · [🟡 Flexible](#-flexible-start--near-miss) · [⚪ Dates not stated](#-summer-2027--dates-not-stated) · [🆕 New](#-new-since-last-scan) · [How it works](#how-it-works) · [How to run](#how-to-run) · [CSV of everything](reports/roles.csv)
 
@@ -55,16 +55,16 @@ Posted: the most recent date the role was posted on any board. Py: ✓ = posting
 
 ## ⚪ Summer 2027 — dates not stated
 
-409 roles. The first 60 per track are below; the full list is in [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md).
+394 roles. The first 60 per track are below; the full list is in [reports/summer_dates_not_stated.md](reports/summer_dates_not_stated.md).
 
 <details>
-<summary><strong>💻 Software Engineering</strong> (248)</summary>
+<summary><strong>💻 Software Engineering</strong> (237)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
 | **Amazon** | Associate Engagement Manager Intern- National Security, AWS Professional Services | Arlington, Virginia, USA | term dates not stated; 12+ weeks, so a late-July start would run into October |  |  | ✓ | 2026-11-02 | [Apply](https://www.amazon.jobs/en/jobs/10594714/associate-engagement-manager-intern-national-security-aws-professional-services) |
 | **Bloomberg** | Engineering Intern | Arlington, VA - 1801 S Bell (INDG) | term dates not stated |  |  | ✓ | 2026-11-13 | [Apply](https://bloomberg.wd1.myworkdayjobs.com/Bloombergindustrygroup_External_Career_Site/job/Arlington-VA---1801-S-Bell-INDG/Engineering-Intern_145704) |
-| **Cisco** | Security Engineer I Intern 🆕 | Research Triangle Park, NC | Summer 2027 dates not stated | $89/hr | ✓ | ✓ | 2026-11-25 | [Apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885) |
+| **Cisco** | Security Engineer I Intern | Research Triangle Park, NC | Summer 2027 dates not stated | $89/hr | ✓ | ✓ | 2026-11-25 | [Apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885) |
 | **Electronic Arts** | Anticheat Engineer Intern | Austin, TX | Summer 2027 dates not stated |  |  |  | 2026-11-03 | [Apply](https://jobs.ea.com/en_US/careers/SearchJobs) |
 | **Intel** | Signal Integrity Engineering Intern | US, Arizona, Phoenix | term dates not stated | $41/hr | ✓ | ✓ | 2026-11-20 | [Apply](https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Signal-Integrity-Engineering-Intern_JR0289449) |
 | **Intuit** | Software Engineering Intern, Full Stack | United States | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $36-79/hr |  | ✓ | 2026-10-30 | [Apply](https://jobs.intuit.com/job/mountain-view/summer-2027-software-engineering-intern-full-stack/27595/100620927520) |
@@ -72,7 +72,6 @@ Posted: the most recent date the role was posted on any board. Py: ✓ = posting
 | **Microsoft** | Software Engineer Intern | Redmond, WA; Aliso Viejo, CA | Summer 2027 dates not stated | $52/hr | ✓ | ✓ | 2026-11-03 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557037859) |
 | **Microsoft** | Software Engineer Intern, CoreAI | Multiple Locations, United States; Redmond, WA | Summer 2027 dates not stated | $33/hr |  | ✓ | 2026-11-02 | [Apply](https://apply.careers.microsoft.com/careers?query=intern&start=0&location=untied+states&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0) |
 | **Microsoft** | Software Engineer Intern, Teamwork Experiences | Redmond, WA | Summer 2027 dates not stated | $33/hr | ✓ | ✓ | 2026-11-03 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557037859) |
-| **Microsoft** | Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond | Redmond, WA | term dates not stated | $52/hr | ✓ | ✓ | 2026-11-05 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556922930) |
 | **Nintendo** | Intern - Software Engineer, DevOps (NTD) | Redmond, WA | term dates not stated | $45/hr | ✓ | ✓ | 2026-10-28 | [Apply](https://careers.nintendo.com/?gh_jid=4472002009) |
 | **Nintendo** | Software Engineer Intern - Audio | Redmond, WA | Summer 2027 dates not stated | $45/hr |  | ✓ | 2026-10-29 | [Apply](https://careers.nintendo.com/?gh_jid=4470048009) |
 | **Nintendo** | Software Engineer Intern - Connectivity | Redmond, WA | Summer 2027 dates not stated | $45/hr |  | ✓ | 2026-10-29 | [Apply](https://careers.nintendo.com/?gh_jid=4472147009) |
@@ -103,7 +102,7 @@ Posted: the most recent date the role was posted on any board. Py: ✓ = posting
 | **Salesforce** | Summer 2027 Intern - Software Engineer - Security/Government | California, USA +2; California - San Francisco +1 | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $54/hr | ✗ java |  | 2026-10-30 | [Apply](https://salesforce.wd12.myworkdayjobs.com/en-US/external_career_site/job/California---San-Francisco/Summer-2027-Intern---Software-Engineer--Security-Government-_JR364911-1) |
 | **Samsung** | AI Application Engineer Intern | San Jose, CA; Folsom, CA | term dates not stated | $28-68/hr | ✓ |  | 2026-11-02 | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003) |
 | **Samsung** | Architecture Research Engineer Intern - MoE Placement for Serving at Scale | San Jose, CA | term dates not stated | $28-68/hr |  |  | 2026-11-18 | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208494003) |
-| **Samsung** | Software Development Engineer - Intern | Mountain View, CA | term dates not stated |  | ✓ | ✓ | 2026-11-23 | [Apply](https://sec.wd3.myworkdayjobs.com/en-US/samsung_careers/job/645-Clyde-Avenue-Mountain-View-CA-USA/Software-Development-Engineer---Intern_R122018) |
+| **Samsung** | Software Development Engineer Intern | Mountain View, CA | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-11-24 | [Apply](https://sec.wd3.myworkdayjobs.com/samsung_careers/job/645-clyde-avenue-mountain-view-ca-usa/software-development-engineer---intern_r122018) |
 | **ServiceNow** | AI Security Engineer Intern | San Diego, CA | term dates not stated |  |  | ✓ | 2026-11-13 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161548289-ai-security-engineer-intern?oga=true) |
 | **ServiceNow** | Associate Detection Engineering Intern | Kirkland, WA | Summer 2027 dates not stated |  |  | ✓ | 2026-11-12 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161210069) |
 | **ServiceNow** | Associate Information Security Engineer Intern | San Diego, CA | Summer 2027 dates not stated |  |  | ✓ | 2026-11-12 | [Apply](https://jobs.smartrecruiters.com/ServiceNow/744000161204235) |
@@ -122,8 +121,9 @@ Posted: the most recent date the role was posted on any board. Py: ✓ = posting
 | **TikTok** | Network Software Development Engineer Intern, Network Observation | San Jose, CA | Summer 2027 dates not stated | $45/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://joinbytedance.com/search/7670772641439041797) |
 | **TikTok** | Network Software Development Engineer Intern, Network Switch | San Jose, CA | Summer 2027 dates not stated | $45/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://joinbytedance.com/search/7670778018960542005) |
 | **TikTok** | Recommendation Architecture AI/ML Infrastructure Engineer Intern, Data-Arch-TikTok Live | San Jose, CA | Summer 2027 dates not stated | $45/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7670876223732762933) |
+| **TikTok** | Research Engineer Intern - Monetization Technology - Business Integrity | San Jose, CA | Summer 2027 dates not stated | $45/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7668202602270951733) |
 
-_+188 more in the full list._
+_+177 more in the full list._
 
 </details>
 
@@ -145,12 +145,11 @@ _+188 more in the full list._
 </details>
 
 <details>
-<summary><strong>📊 Data / Analytics / ML</strong> (130)</summary>
+<summary><strong>📊 Data / Analytics / ML</strong> (126)</summary>
 
 | Company | Role | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|
 | **Adobe** | 2027 Intern - Applied and Research Scientist/Engineer | College, AK +3; San Jose +5 | term dates not stated | $55/hr |  | ✓ | 2026-11-23 | [Apply](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Applied-and-Research-Scientist-Engineer_R172064) |
-| **Cisco** | Data Science Analyst II Intern | San Jose, CA | Summer 2027 dates not stated |  |  | ? | 2026-11-20 | [Apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Data-Science-Analyst-II--Intern----Untied-States_2032691) |
 | **Microsoft** | Applied Scientist Intern | Redmond, WA | term dates not stated | $33/hr |  | ✓ | 2026-10-29 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556986141) |
 | **Microsoft** | Applied Scientist Intern, Turing | Redmond, WA | Summer 2027 dates not stated | $33/hr |  | ✓ | 2026-10-29 | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557050150) |
 | **NVIDIA** | Deep Learning Intern | Santa Clara, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October |  | ✓ | ✓ | 2026-10-31 | [Apply](https://jobs.nvidia.com/careers/job/893397026418) |
@@ -165,7 +164,7 @@ _+188 more in the full list._
 | **Samsung** | AI Data Analyst Intern | Plano, TX | term dates not stated |  | ✓ | ✓ | 2026-11-06 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1) |
 | **Samsung** | Business Intelligence & Data Analytics Intern | Plano, TX | Summer 2027 dates not stated; 10-week program |  | ✓ |  | 2026-11-06 | [Apply](https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Business-Intelligence---Data-Analytics-Intern_R121949) |
 | **Samsung** | Care AI Data Analytic Intern | Plano, TX | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-11-06 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/Samsung-Care-AI-Data-Analytic-Intern_R121971-1) |
-| **Samsung** | Data Engineer Intern | Plano, TX | term dates not stated |  | ✓ | ✓ | 2026-11-23 | [Apply](https://sec.wd3.myworkdayjobs.com/en-US/samsung_careers/job/6555-Excellence-Way-Plano-TX-USA/Data-Engineer-Intern_R122374) |
+| **Samsung** | Data Engineer Intern | Plano, TX | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-11-24 | [Apply](https://sec.wd3.myworkdayjobs.com/samsung_careers/job/6555-excellence-way-plano-tx-usa/data-engineer-intern_r122374) |
 | **Samsung** | ePro Business & Data Analyst Intern | Plano, TX | term dates not stated |  |  | ✓ | 2026-11-08 | [Apply](https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/6625-Excellence-Way-Plano-TX-USA/ePro-Business---Data-Analyst-Intern_R121996) |
 | **Samsung** | Intern - Architecture Research Engineer - Agentic AI Workload Characterization | San Jose, CA | term dates not stated | $28-68/hr |  |  | 2026-11-19 | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208600003) |
 | **Samsung** | Intern - LLM Inference Acceleration Architecture - Distributed Memory-Centric Accelerators | San Jose, CA | term dates not stated | $28-68/hr | ✓ |  | 2026-11-19 | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208641003) |
@@ -197,7 +196,6 @@ _+188 more in the full list._
 | **TikTok** | Machine Learning Engineer Intern, Global E-Commerce Search | Seattle, WA | Summer 2027 dates not stated | $43-57/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7668396597746862341) |
 | **TikTok** | Machine Learning Engineer Intern, Recommendation | San Jose, CA | Summer 2027 dates not stated | $45-60/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7667346576033777925) |
 | **TikTok** | Machine Learning Engineer Intern, Recommendation Global E-Commerce | Seattle, WA | Summer 2027 dates not stated | $43/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7668383643375257909) |
-| **TikTok** | Machine Learning Engineer Intern, TikTok-Data-Search-Local Service | San Jose, CA | Summer 2027 dates not stated | $45-60/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7668379675467761925) |
 | **TikTok** | Machine Learning Engineer Project Intern, Security-Data | San Jose, CA | Summer 2027 dates not stated; 13+ weeks, so a late-July start would run into October | $45/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://joinbytedance.com/search/7641703558211586309) |
 | **TikTok** | ML Infra Engineer Intern, Ads Infra | San Jose, CA | Summer 2027 dates not stated | $45-60/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7668881813744191749) |
 | **TikTok** | Research Engineer Intern, Agentic Systems & AI Infrastructure - TikTok-Generalized Arch | Seattle, WA | Summer 2027 dates not stated | $43/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://lifeattiktok.com/search/7667934792727906565) |
@@ -209,8 +207,10 @@ _+188 more in the full list._
 | **TikTok** | Student Researcher Intern, Seed Model: Multimodal Interaction & World Model | San Jose, CA | Summer 2027 dates not stated | $55/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://joinbytedance.com/search/7623548747208739077) |
 | **TikTok** | Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern, AML-Ark-US | Seattle, WA; San Jose, CA | Summer 2027 dates not stated | $43/hr | ✓ | ✓ | 2026-11-01 | [Apply](https://joinbytedance.com/search/7672392998231050549) |
 | **Anduril** | Machine Learning Engineer Intern | Santa Ana, CA | Summer 2027 dates not stated; 12+ weeks, so a late-July start would run into October | $42-60/hr | ✓ | ✓ | 2026-11-17 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5274037007) |
+| **SambaNova** | AI Performance Engineer Intern | Austin, TX; San Jose, CA +1 | Summer 2027 dates not stated |  |  |  | 2026-11-25 | [Apply](https://sambanova.ai/company/careers/job-openings?gh_jid=6271183004) |
+| **SambaNova** | Machine Learning Engineer Intern | Austin, TX; San Jose, CA +1 | Summer 2027 dates not stated |  |  |  | 2026-11-25 | [Apply](https://sambanova.ai/company/careers/job-openings?gh_jid=6271395004) |
 
-_+70 more in the full list._
+_+66 more in the full list._
 
 </details>
 
@@ -250,39 +250,45 @@ _+70 more in the full list._
 
 | Company | Role | Track | Location | Dates / note | Pay | Py | UG | Posted | Link |
 |---|---|---|---|---|---|---|---|---|---|
-| **Cisco** | Security Engineer I Intern 🆕 | Software | Research Triangle Park, NC | Summer 2027 dates not stated | $89/hr | ✓ | ✓ | 2026-11-25 | [Apply](https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Security-Engineer-I--Intern----United-States_2025885) |
-| **SambaNova** | Cloud Platform Engineer Intern - San Jose 🆕 | Software | San Jose, CA | term dates not stated |  |  |  | 2026-11-25 | [Apply](https://sambanova.ai/sambanova-available-positions/?gh_jid=6271352004) |
-| **SambaNova** | DFT Engineer Intern 🆕 | Software | Austin, TX; San Jose, CA | Summer 2027 dates not stated |  |  |  | 2026-11-25 | [Apply](https://sambanova.ai/company/careers/job-openings?gh_jid=6271345004) |
-| **Shield AI** | 2027 Summer Intern - X-BAT Engineering Avionics - 5923 🆕 | Software | Dallas, TX, US | Summer 2027 dates not stated | $35-75/hr |  |  | 2026-11-25 | [Apply](https://jobs.ashbyhq.com/shield/aa894b5e-8101-4980-a716-785ce34e1286) |
-| **Veeva** | Software Engineer Intern 🆕 | Software | Pleasanton, CA; Boston, MA | Summer 2027 dates not stated | $40/hr | ✓ | ✓ | 2026-11-25 | [Apply](https://jobs.lever.co/veeva/f277bc52-1dd6-4447-ac3b-a6127e625ec7/apply) |
-| **ASML** | Internship - Software Engineer 🆕 | Software | San Diego, CA | term dates not stated | $18-56/hr | ✓ |  | 2026-11-25 | [Apply](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Diego-CA-USA/Internship---Software-Engineer_J-00357859) |
-| **ASML** | Internship-Timing and Energy Software 🆕 | Software | San Diego, CA | term dates not stated | $18-48/hr | ✓ | ✓ | 2026-11-25 | [Apply](https://asml.wd3.myworkdayjobs.com/en-US/asmlext1/job/San-Diego-CA-USA/Internship-Timing-and-Energy-Software_J-00358478) |
-| **Roche** | 2027 Summer Intern - Software Applications and Pipelines - R&D Internal Solutions - Computational Science and Informatics 🆕 | Software | Santa Clara, CA | Summer 2027 dates not stated |  |  | ? | 2026-11-19 | [Apply](https://roche.wd3.myworkdayjobs.com/en-US/roche-ext/job/Santa-Clara/XMLNAME-2027-Summer-Intern---Software-Applications-and-Pipelines--R-D-Internal-Solutions--Computational-Science-and-Informatics-_202611-128312) |
-| **Northrop Grumman** | 2027 Configuration Management Data Analyst Intern - Falls Church VA 🆕 | Data | Falls Church, VA | term dates not stated; 10-week program | $27-33/hr |  | ✓ | 2026-11-25 | [Apply](https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Virginia-Falls-Church/XMLNAME-2027-Configuration-Management-Data-Analyst-Intern---Falls-Church-VA_R10262117) |
+| **ASML** | Software Engineer Intern 🆕 | Software | San Diego, CA | Summer 2027 dates not stated | $18-56/hr | ✓ |  | 2026-11-26 | [Apply](https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship---Software-Engineer_J-00357859) |
+| **ASML** | Timing and Energy Software Intern 🆕 | Software | San Diego, CA | Summer 2027 dates not stated | $18-48/hr | ✓ | ✓ | 2026-11-26 | [Apply](https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Timing-and-Energy-Software_J-00358478) |
+| **PwC** | Software Engineering Intern, Tax Innovation Delivery Experience (TIDE) 🆕 | Software | United States | Summer 2027 dates not stated | $29-48/hr |  | ✓ | 2026-11-24 | [Apply](https://pwc.wd3.myworkdayjobs.com/nonpublic_postings/job/IL-Rosemont/Tax-Innovation-Delivery-Experience--TIDE----Software-Engineering---Intern---Summer-2027_756410WD-1) |
+| **Lockheed Martin** | Software Engineering Intern 🆕 | Software | Marietta, GA | term dates not stated |  | ✗ java | ✓ | 2026-11-17 | [Apply](https://lockheedmartin.eightfold.ai/careers/job/996477990205) |
+| **Northrop Grumman** | Cybersecurity Intern 🆕 | Software | Linthicum, MD | Summer 2027 dates not stated; 10-week program | $26-31/hr |  | ✓ | 2026-11-25 | [Apply](https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Linthicum/XMLNAME-2027-Cybersecurity-Intern---Linthicum-MD_R10261960) |
+| **ASML** | Data & AI Intern, Controls 🆕 | Data | San Diego, CA | Summer 2027 dates not stated |  | ✓ | ✓ | 2026-11-23 | [Apply](https://asml.wd3.myworkdayjobs.com/asmlext1/job/San-Diego-CA-USA/Internship-Data---AI--Controls_J-00357861) |
+| **ASML** | EUV Data Science and Analytics Intern 🆕 | Data | Austin, TX | term dates not stated |  |  | ? | 2026-11-13 | [Apply](https://asml.wd3.myworkdayjobs.com/asmlext1/job/Austin-TX-USA/Internship---EUV-Data-Science-and-Analytics_J-00357717) |
+| **T-Mobile** | Summer 2027 Data Analyst Internship 🆕 | Data | Bellevue, WA | Summer 2027 dates not stated |  |  | ? | 2026-11-20 | [Apply](https://tmobile.wd1.myworkdayjobs.com/en-US/external/job/Bellevue-Washington/Summer-2027-Data-Analyst-Internship_REQ383587) |
+| **Sanofi** | NCES Statistician Expert Intern, AI 🆕 | Data | Cambridge, MA | Summer 2027 dates not stated; 10-week program | $38-47/hr | ✓ | ✓ | 2026-11-25 | [Apply](https://sanofi.wd3.myworkdayjobs.com/sanoficareers/job/cambridge-ma/xmlname-2027-summer-intern-nces-statistician-expert-in-ai-cambridge-ma_r2865668) |
 
 
 <details>
-<summary>19 roles no longer found this scan</summary>
+<summary>25 roles no longer found this scan</summary>
 
-- EQT — AI Intern (ask; first seen 2026-11-03)
-- Keysight — Application Development Intern (ask; first seen 2026-11-03)
-- Micron — NAND Storage Strategic Roadmap Planning Intern (ask; first seen 2026-11-03)
-- Micron — CMBU Product Management Intern (ask; first seen 2026-11-03)
-- Mercor — Research Engineer Intern - Multiple Teams (ask; first seen 2026-11-03)
-- Cohesity — Software Engineering Intern (ask; first seen 2026-11-03)
-- Amazon — Network Development Engineer Intern, 2027 Summer (flex; first seen 2026-11-03)
-- Motorola Solutions — Presales Systems Engineer - Summer 2027 Internship (ask; first seen 2026-11-03)
-- ASML — Imaging Product Engineer Intern (ask; first seen 2026-11-03)
-- PTC — Onshape Software Engineer Intern - Summer 2027 (ask; first seen 2026-11-03)
-- Mastercard — Platform Engineering Intern, Summer 2027 – St. Louis, MO, US (ask; first seen 2026-11-03)
-- Global Payments — CyberSecurity Intern (ask; first seen 2026-11-11)
-- CACI — AWS Cloud Engineering Intern - Summer 2027 (ask; first seen 2026-11-20)
-- KLA — Software Application Engineer Intern (ask; first seen 2026-11-20)
-- DraftKings — Data Engineer Intern - Summer 2027 (ask; first seen 2026-11-20)
-- Cisco — AI Cybersecurity Engineer I Intern (ask; first seen 2026-11-21)
-- Cisco — AI Cybersecurity Engineer I - Intern - United States (ask; first seen 2026-11-22)
-- Bristol Myers Squibb — Data Science Intern - Undergrad-Summer 2027 (ask; first seen 2026-11-25)
-- Bristol Myers Squibb — Data & Quantitative Sciences Statistical Programming Intern - Summer 2027 (ask; first seen 2026-11-25)
+- Micron — IT Software Engineer Intern (ask; first seen 2026-11-03)
+- Mercor — Research Engineer Intern - Benchmarking (ask; first seen 2026-11-03)
+- Applied Materials — Business Intelligence Analyst Intern (ask; first seen 2026-11-03)
+- Applied Materials — Data Scientist Intern (ask; first seen 2026-11-03)
+- Mercor — Research Engineer Intern, Environments, Data and Post-Training (ask; first seen 2026-11-03)
+- L3Harris — Information Security Systems Engineer Intern (ask; first seen 2026-11-03)
+- Verition — AI Associate Intern, Equity Long/Short (ask; first seen 2026-11-03)
+- TikTok — Machine Learning Engineer Intern, TikTok-Data-Search-Local Service (ask; first seen 2026-11-03)
+- Microsoft — Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond (ask; first seen 2026-11-03)
+- Applied Materials — Summer 2027 Data Scientist Intern -Bachelor's - Austin - TX (ask; first seen 2026-11-03)
+- Booz Allen Hamilton — University - 2027 Summer Games Data Scientist Intern - Colorado Springs - CO (ask; first seen 2026-11-03)
+- ASML — Internship- Software Development Engineer in Test (ask; first seen 2026-11-03)
+- ASML — Machine Learning and Image-Based EUV System Setup Intern (ask; first seen 2026-11-05)
+- Wolters Kluwer — Product Software Engineer Intern (ask; first seen 2026-11-13)
+- HP — Software Systems Intern - IQ (ask; first seen 2026-11-14)
+- HP — Software Quality Assurance Intern (ask; first seen 2026-11-14)
+- HP — Software Engineer Intern (ask; first seen 2026-11-14)
+- T-Mobile — Software Engineer Intern (ask; first seen 2026-11-17)
+- Cisco — Data Science Analyst II Intern (ask; first seen 2026-11-21)
+- Booz Allen Hamilton — Cyber Security Intern (ask; first seen 2026-11-23)
+- T-Mobile — Software Engineering AI Intern (ask; first seen 2026-11-23)
+- General Dynamics — AI/ML Software Development and Engineering Intern (ask; first seen 2026-11-24)
+- Baird — Software Developer Intern (ask; first seen 2026-11-25)
+- Bread Financial — Cybersecurity Intern (ask; first seen 2026-11-25)
+- Roche — 2027 Summer Intern - Software Applications and Pipelines - R&D Internal Solutions - Computational Science and Informatics (ask; first seen 2026-11-26)
 
 </details>
 
